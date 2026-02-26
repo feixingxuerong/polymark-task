@@ -3,6 +3,9 @@
 ## Process
 - [Daily market discovery + watchlist](./market-discovery.md)
 
+## Mission
+- [Mission charter + roadmap](./mission-charter-roadmap.md)
+
 ## Research Backlog
 - Official Polymarket docs deep dive (issue #3)
 - Profit methodologies & case studies (issue #4)
