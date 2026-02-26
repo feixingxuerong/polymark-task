@@ -1,72 +1,79 @@
-# Mission Charter + Roadmap (Polymarket)
+# 使命宣言与路线图（Polymarket）
 
-## Mission
-**Net profit: +$1,000 USD** from Polymarket trading.
+## 使命（Mission）
 
-## Non-goals / Constraints
-- No leverage or off-platform derivatives as a substitute for edge.
-- No “YOLO” sizing; preserve capital to keep playing.
-- Avoid markets with ambiguous resolution criteria.
-- Any funding/trading action requires explicit human approval.
+在 Polymarket 交易实现：**净利润 +$1,000 USD**。
 
-## Risk posture (initial)
-- **Medium risk** preference.
-- Target: many small, positive-EV trades rather than a few big bets.
+## 非目标 / 约束（Non-goals / Constraints）
 
-## Key assumptions (to validate)
-1. We can find repeatable edges in a small subset of categories (initially 1–2 domains).
-2. Execution costs (fees + spread + slippage) won’t eat the edge.
-3. Resolution rules are reliable enough to avoid frequent disputes.
+- 不使用杠杆或“平台外衍生品”来伪造优势（edge）。
+- 不做“梭哈式”仓位；首要目标是**活得久**，才能持续验证优势。
+- 避免结算口径含糊、争议概率高的市场。
+- 任何入金/交易动作都必须获得用户明确授权。
 
-Validation plan:
-- Run a **paper-trade / small-size** phase to measure realized edge net of costs.
-- Maintain a log of every trade idea: thesis, FV, entry, exit, costs, outcome.
+## 风险姿态（初始）
 
-## Strategy focus (starting hypothesis)
-We prioritize markets with:
-- Clear catalysts and short time-to-resolution (days to a few weeks)
-- Adequate liquidity (tight spread + depth)
-- A thesis grounded in **verifiable data**
+- 风险偏好：**中等（medium）**。
+- 目标：多笔小的正期望交易，而不是少数几笔大赌注。
 
-We avoid:
-- Long-dated, narrative-only markets
-- Thin books that appear mispriced but are untradeable
+## 关键假设（需要验证）
 
-## Milestones
+1. 我们能在少数品类中找到可重复、可解释的优势（初期先聚焦 1 个领域）。
+2. 执行成本（费用 + 点差 + 滑点）不会吞噬优势。
+3. 结算规则足够可靠，争议频率可控。
 
-### M0 — Setup (Done when tools/process exist)
-- Knowledge base structure in `poly-knowledge/`
-- Daily discovery + watchlist process documented
-- Templates for watchlist + trade log
+验证计划：
+- 先做「纸面交易 / 微小规模验证」阶段，衡量扣除成本后的真实优势。
+- 建立交易想法日志：论点、合理价值（FV）、入场、出场、成本、结果。
 
-**Acceptance:** daily routine can be executed in 15 minutes with a consistent output (top candidates).
+## 策略关注方向（起始假设）
 
-### M1 — Domain selection + baseline research
-- Pick 1–2 categories where we can evaluate truth quickly (e.g., crypto regulatory, major sports).
-- Document data sources and “falsifiers” for theses.
+优先选择具备：
+- 清晰催化剂、短时间结算（几天到几周）的市场
+- 足够流动性（点差小 + 深度够）
+- 基于**可验证数据**的论证
 
-**Acceptance:** at least 10 scored markets in watchlist with clear catalysts + FV notes.
+避免：
+- 超长周期、纯叙事型市场
+- 看似错价但薄到无法成交的盘口
 
-### M2 — Paper trades / micro-size validation
-- Track hypothetical entries/exits (or very small trades) for 2–4 weeks.
-- Measure edge net of fees/spread.
+## 里程碑（Milestones）
 
-**Acceptance:** evidence of positive expectancy (even if small) AND a clear explanation of where edge comes from.
+### M0：搭建（流程与工具就绪）
+- 知识库结构就绪（`poly-knowledge/`）
+- 每日 discovery + watchlist 流程有文档
+- watchlist 模板与交易日志模板
 
-### M3 — Scale cautiously
-- Increase sizing only when M2 is satisfied.
-- Add risk limits and position sizing rules.
+验收：能在 15 分钟内执行每日例行流程并产出一致输出（候选列表）。
 
-**Acceptance:** sustain profitability and avoid large drawdowns; follow rules.
+### M1：领域选择 + 基线研究
+- 选择 1 个可快速判真伪的领域/品类（例如：天气、加密监管、重大体育等）
+- 文档化数据源与“证伪条件”（falsifiers）
 
-### M4 — Hit +$1,000 net profit
-- Continue disciplined execution and review.
+验收：watchlist 中至少 10 个评分过的市场，且每个有催化剂 + FV 备注。
 
-## Operating cadence
-- **Daily (15 min):** discovery → filter → score → update watchlist → pick 1–2 deep dives.
-- **Weekly (60 min):** performance review, post-mortems, rubric tuning.
+### M2：纸面交易 / 微仓验证
+- 跟踪假设入场/出场（或极小仓位）持续 2–4 周
+- 量化扣除费用/点差后的优势
 
-## Deliverables checklist
-- [ ] `poly-knowledge/mission-charter-roadmap.md` (this document)
-- [ ] Watchlist template + trade log template (next)
+验收：有正期望证据（哪怕很小）且能清晰解释优势来源。
+
+### M3：谨慎放大
+- 仅当 M2 满足后才增加规模
+- 加入明确的风险限制与执行规则
+
+验收：持续盈利且避免大回撤；能遵守规则。
+
+### M4：实现 +$1,000 净利润
+- 持续纪律化执行与复盘
+
+## 运行节奏（Operating cadence）
+
+- 每日（15 分钟）：发现 → 过滤 → 评分 → 更新 watchlist → 选 1–3 个深挖
+- 每周（60 分钟）：绩效回顾、复盘、规则/评分表微调
+
+## 交付物检查清单
+
+- [ ] `poly-knowledge/mission-charter-roadmap.md`（本文档）
+- [ ] watchlist 模板 + trade log 模板（待补）
 

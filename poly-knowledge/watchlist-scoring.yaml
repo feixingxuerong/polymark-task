@@ -1,4 +1,5 @@
-# Polymarket Market Scoring Template
+# Polymarket 市场评分模板（yaml）
+# 说明：字段名保持英文便于脚本/接口对接；注释与说明使用中文。
 # 用于程序化评分的市场评分卡
 
 scoring_weights:
