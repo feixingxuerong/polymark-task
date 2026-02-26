@@ -226,6 +226,79 @@
 
 ---
 
+## 只读 API 端点 (2026-02-27 新增)
+
+| # | 来源 | 用途 | 可信度 |
+|---|------|------|--------|
+| 24 | **Polymarket API 笔记** | 只读 API 完整端点文档 | 高 |
+| 25 | **Rate Limits** | API 速率限制详细 | 高 |
+| 24 | **Gamma API - Markets** | 市场列表筛选端点 | 高 |
+| 25 | **Gamma API - Events** | 事件列表端点 | 高 |
+| 26 | **CLOB API - Orderbook** | 订单簿实时数据 | 高 |
+| 27 | **CLOB API - Health** | 服务健康检查 | 高 |
+
+#### 24. Polymarket 只读 API 技术笔记
+
+- **URL**: `poly-knowledge/notes/polymarket-api-readonly.md`
+- **类型**: 本地技术笔记
+- **用途**: 覆盖 Gamma/CLOB 只读端点、请求示例、watchlist 评分应用
+- **可信度**: 高
+- **更新频率**: 按需
+- **备注**: 基于官方 docs.polymarket.com 整理
+- **验证日期**: 2026-02-27
+
+#### 25. Rate Limits
+
+- **URL**: https://docs.polymarket.com/api-reference/rate-limits.md
+- **类型**: API文档
+- **用途**: 了解各端点的速率限制
+- **可信度**: 高
+- **更新频率**: 低
+- **备注**: Gamma: 4k/10s, CLOB: 9k/10s, Data: 1k/10s
+- **验证日期**: 2026-02-27
+
+#### 26. Gamma API - Markets
+
+- **URL**: https://gamma-api.polymarket.com/markets
+- **类型**: API端点
+- **用途**: 获取市场列表，支持 liquidity_num_min, volume_num_min 等筛选
+- **可信度**: 高
+- **更新频率**: 实时
+- **备注**: 核心只读端点，无需认证
+- **验证日期**: 2026-02-27
+
+#### 27. Gamma API - Events
+
+- **URL**: https://gamma-api.polymarket.com/events
+- **类型**: API端点
+- **用途**: 获取事件列表和关联市场
+- **可信度**: 高
+- **更新频率**: 实时
+- **备注**: 用于获取即将到期的事件
+- **验证日期**: 2026-02-27
+
+#### 28. CLOB API - Orderbook
+
+- **URL**: https://clob.polymarket.com/orderbook
+- **类型**: API端点
+- **用途**: 获取订单簿，计算点差
+- **可信度**: 高
+- **更新频率**: 实时
+- **备注**: 核心只读端点，无需认证
+- **验证日期**: 2026-02-27
+
+#### 29. CLOB API - Health
+
+- **URL**: https://clob.polymarket.com/health
+- **类型**: API端点
+- **用途**: 服务健康检查
+- **可信度**: 高
+- **更新频率**: 实时
+- **备注**: 可用于监控服务可用性
+- **验证日期**: 2026-02-27
+
+---
+
 ## 结算与争议
 
 | # | 来源 | 用途 | 可信度 |
