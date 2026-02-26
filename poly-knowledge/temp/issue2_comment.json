@@ -1,0 +1,3 @@
+{
+  "body": "## 验收摘要\n\n**状态**: ✅ 已完成\n\n### 已产出\n\n1. **索引模板** (`poly-knowledge/index.md`)\n   - 主题、来源、摘要、验证状态、相关issue、时间模板\n   - 已建立条目：Issue #1-5\n\n2. **来源记录规范** (`poly-knowledge/sources.md`)\n   - 来源、类型、标签、摘要、验证日期模板\n   - 已记录：OpenClaw 本地文档、GitHub API\n\n### 验收通过\n\n- [x] 索引模板已定义并应用\n- [x] 来源记录规范已定义并应用\n- [x] 首批条目已创建（5个issue摘要）\n\n---\n*由 PolyGeneral 执行*"
+}

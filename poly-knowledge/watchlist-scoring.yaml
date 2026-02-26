@@ -1,0 +1,93 @@
+# Polymarket Market Scoring Template
+# 用于程序化评分的市场评分卡
+
+scoring_weights:
+  liquidity: 0.20
+  spread: 0.15
+  volatility: 0.15
+  settlement_clarity: 0.15
+  event_calendar: 0.10
+  hedgeability: 0.10
+  risk_level: 0.15
+
+scoring_rules:
+  liquidity_score:
+    - condition: "liquidity >= 50000"
+      score: 10
+    - condition: "liquidity >= 10000"
+      score: 7
+    - condition: "liquidity >= 1000"
+      score: 4
+    - condition: "liquidity < 1000"
+      score: 1
+
+  spread_score:
+    - condition: "spread_pct <= 1"
+      score: 10
+    - condition: "spread_pct <= 3"
+      score: 7
+    - condition: "spread_pct <= 5"
+      score: 4
+    - condition: "spread_pct > 5"
+      score: 1
+
+  volatility_score:
+    - condition: "volatility_level == 'medium'"
+      score: 10
+    - condition: "volatility_level == 'high'"
+      score: 7
+    - condition: "volatility_level == 'low'"
+      score: 3
+
+  settlement_clarity_score:
+    - condition: "uma_resolution_status == 'resolved'"
+      score: 10
+    - condition: "resolution_source == 'official'"
+      score: 8
+    - condition: "community_voted"
+      score: 5
+    - condition: "disputed_or_unclear"
+      score: 1
+
+  event_calendar_score:
+    - condition: "days_to_event <= 7"
+      score: 10
+    - condition: "days_to_event <= 30"
+      score: 6
+    - condition: "days_to_event > 30"
+      score: 3
+
+  hedgeability_score:
+    - condition: "has_correlated_markets >= 3"
+      score: 10
+    - condition: "has_correlated_markets >= 1"
+      score: 5
+    - condition: "no_correlated_markets"
+      score: 1
+
+  risk_level_score:
+    - condition: "risk == 'low'"
+      score: 10
+    - condition: "risk == 'medium'"
+      score: 6
+    - condition: "risk == 'high'"
+      score: 2
+
+# 决策阈值
+decision_thresholds:
+  watchlist_entry: 7.0   # >=7.0 入池
+  strong_buy: 8.5         # >=8.5 重点关注
+  skip: 4.0               # <4.0 跳过
+
+# API 端点配置
+api:
+  base_url: "https://gamma-api.polymarket.com"
+  clob_url: "https://clob.polymarket.com"
+  
+  endpoints:
+    markets: "/markets"
+    events: "/events"
+    orderbook: "/orderbook"
+    midpoints: "/midpoints"
+    last_trade_price: "/last-trade-price"
+    fee_rate: "/fee-rate"
