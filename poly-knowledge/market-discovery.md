@@ -1,88 +1,105 @@
-# Daily market discovery + watchlist process
+# 每日市场发现 + Watchlist 流程
 
-Purpose: a repeatable workflow to generate a short list of Polymarket markets that are (a) tradable today and (b) plausibly mispriced.
+目的：建立一套**可重复**的工作流，每天产出一个短名单：这些 Polymarket 市场 (a) 今天就“能交易”（可进可出），(b) 存在“可能错价”的研究价值。
 
-## 1) Inputs / sources (check in this order)
+> 备注：本文档强调流程与可执行性；不涉及资金配置与仓位（按你当前要求走“理论路线”）。
 
-### A. Polymarket first-party
-- **Polymarket Browse/New/Trending**: identify newly listed markets, sudden volume spikes, or narrative-driven flow.
-- **Category pages** (Politics, Crypto, Sports, etc.): stay within domains you can actually evaluate.
-- **Market pages**: look for
-  - liquidity / depth (can you enter/exit without huge slippage?)
-  - spread / implied probability stability
-  - resolution criteria clarity
-  - time to resolution
+---
 
-Notes:
-- If an official public API is available, prefer it; otherwise rely on the UI plus any allowable endpoints surfaced in the web app.
+## 1）输入 / 信息源（按顺序检查）
 
-### B. News + catalysts
-- A quick scan of **top headlines** in the domains you trade (politics/crypto/macrosports). The goal is not “read everything”—it’s to detect catalysts.
-- For politics: debate dates, court deadlines, primaries, major legislative votes.
-- For crypto: ETF decisions, major unlocks, large protocol upgrades, regulatory rulings.
+### A. Polymarket 官方侧（第一优先级）
 
-### C. Social signal (only as a lead generator)
-- Twitter/X lists of domain experts, journalists, and on-chain analysts.
-- Treat social as *idea generation*, not proof.
+- **Browse / New / Trending**：识别新上架市场、突然放量、或叙事驱动的资金流。
+- **分类页**（Politics / Crypto / Sports 等）：优先停留在你“真的能评估真假”的领域。
+- **市场详情页**：重点看
+  - 流动性 / 深度（能否在不产生巨大滑点的情况下进出）
+  - 点差 / 隐含概率是否稳定
+  - 结算口径是否清晰
+  - 距离结算时间（time to resolution）
 
-## 2) Filter: what’s even worth scoring?
+注意：
+- 如果存在公开 API，优先用 API；否则用网页 UI + 允许公开访问的端点做辅助。
 
-Hard filters (skip if any fail):
-1. **Resolution is objective and unambiguous** (clear source + criteria).
-2. **Time to resolution fits strategy** (avoid ultra-long unless you want capital tied up).
-3. **You can size in/out** (liquidity + depth adequate; spreads not insane).
-4. **No obvious “gotcha”** (weird wording, dependent sub-conditions, likely disputes).
+### B. 新闻 + 催化剂（catalysts）
 
-## 3) Scoring rubric (0–5 each)
+快速扫一遍你关注领域的头条（政治/加密/宏观/体育）。目标不是“把新闻读完”，而是识别**会改变概率**的催化剂。
 
-Score each candidate market; keep only top 3–10 on the watchlist.
+- 政治：辩论日期、法院截止日、初选、关键法案投票等
+- 加密：ETF 决策、重大解锁、协议升级、监管裁决等
 
-1. **Edge clarity (0–5)**
-   - 0: pure vibes
-   - 3: you can state a falsifiable thesis + key indicators
-   - 5: strong model/forecast or hard data advantage
+### C. 社交信号（仅作线索生成）
 
-2. **Liquidity & depth (0–5)**
-   - 0: illiquid; cannot exit
-   - 5: can enter/exit near mid with modest slippage
+- Twitter/X 领域专家、记者、链上分析师列表
+- 只当作“点子来源”，不要当作证据
 
-3. **Spread / execution cost (0–5)**
-   - 0: huge spread, thin book
-   - 5: tight spread; efficient execution possible
+---
 
-4. **Catalyst quality (0–5)**
-   - 0: no clear catalyst
-   - 5: defined date/event where info resolves uncertainty
+## 2）过滤：哪些市场值得进入打分？
 
-5. **Manipulability / whale risk (0–5; reverse)**
-   - 0: easily pushed around
-   - 5: hard to manipulate; diversified flow
+硬过滤（任意一条不满足 → 直接跳过）：
 
-6. **Rule / settlement risk (0–5; reverse)**
-   - 0: ambiguous; high dispute probability
-   - 5: crystal clear
+1. **结算口径客观且无歧义**（明确来源 + 明确判定标准）
+2. **结算时间结构匹配策略**（避免把资金/注意力长期锁死在超长周期）
+3. **可进可出**（流动性/深度够，点差不离谱）
+4. **没有明显“坑”**（奇怪措辞、隐含附加条件、争议概率高）
 
-**Total /30**. Optional: add a “confidence” tag (Low/Med/High).
+---
 
-## 4) Watchlist template (copy/paste)
+## 3）评分量表（每项 0–5）
 
-Create a table or YAML block per market.
+对每个候选市场打分，只保留总分靠前的 3–10 个进入 watchlist。
 
-### Minimal table fields
-- Market name + URL
-- Category
-- Current price (Yes/No)
-- Your fair value (FV)
-- Edge (FV - price)
-- Liquidity notes (depth/spread)
-- Key catalyst + date
-- Resolution criteria notes
-- Thesis (2–3 bullets)
-- What would change your mind?
-- Risk notes
-- Action: Watch / Small test / Build position / Avoid
+1. **优势清晰度（0–5）**
+   - 0：纯感觉
+   - 3：能写出可证伪的论点 + 关键指标
+   - 5：有强模型/预报/硬数据优势
 
-### YAML template
+2. **流动性与深度（0–5）**
+   - 0：极薄，无法退出
+   - 5：接近 mid 成交，滑点可控
+
+3. **点差 / 执行成本（0–5）**
+   - 0：点差巨大、盘口很薄
+   - 5：点差紧，执行效率高
+
+4. **催化剂质量（0–5）**
+   - 0：没有明确催化剂
+   - 5：存在明确时间点/事件，会集中释放信息并让不确定性收敛
+
+5. **可操纵性 / 大户风险（0–5，反向）**
+   - 0：很容易被推来推去
+   - 5：不易操纵，资金流更分散
+
+6. **规则 / 结算争议风险（0–5，反向）**
+   - 0：口径含糊，争议概率高
+   - 5：结算极清晰
+
+总分：**/30**。可选：再标一个“信心等级”（低/中/高）。
+
+---
+
+## 4）Watchlist 模板（可直接复制使用）
+
+你可以用表格或 YAML 记录每个市场。
+
+### 最小字段（表格版）
+
+- 市场名称 + URL
+- 分类
+- 当前价格（Yes/No）
+- 你的合理价值（FV）
+- 错价幅度（FV - price）
+- 流动性备注（深度/点差）
+- 关键催化剂 + 时间
+- 结算口径备注
+- 核心论点（2–3 条）
+- 什么会让我改变主意？（证伪条件）
+- 风险备注
+- 动作：Watch / Small test / Build position / Avoid
+
+### YAML 模板
+
 ```yaml
 market:
   name: ""
@@ -118,22 +135,29 @@ market:
   next_action: "watch"
 ```
 
-## 5) Routine
+---
 
-### Daily (15 minutes)
-1. **5 min**: scan Polymarket Trending + New.
-2. **5 min**: open 5–10 candidate markets; apply hard filters.
-3. **5 min**: score 3–5 survivors; update watchlist; pick top 1–2 to research deeper.
+## 5）例行节奏（Routine）
 
-### Weekly (60 minutes)
-1. Review watchlist performance: did catalysts behave as expected?
-2. Post-mortem any bad thesis: was it data, rules, or execution?
-3. Update scoring weights and “auto-skip” rules.
+### 每日（15 分钟）
 
-## 6) Execution notes (practical)
-- Prefer markets where you can state **why the crowd is wrong** (not just why you are right).
-- Be wary of:
-  - vague settlement language
-  - “by date X” wording traps
-  - low-liquidity markets that look mispriced but are untradeable
-- Track fees/slippage explicitly; many “edges” disappear after costs.
+1. **5 分钟**：扫 Trending + New
+2. **5 分钟**：打开 5–10 个候选市场，做硬过滤
+3. **5 分钟**：对 3–5 个“幸存者”打分，更新 watchlist；挑 top 1–2 深挖
+
+### 每周（60 分钟）
+
+1. 复盘 watchlist 表现：催化剂是否按预期推动定价？
+2. 复盘失败论点：问题出在数据、规则，还是执行？
+3. 调整评分权重与自动跳过规则
+
+---
+
+## 6）实战注记（Execution notes）
+
+- 优先选择你能解释清楚“**为什么群众错了**”的市场（而不只是“你为什么对”）。
+- 警惕：
+  - 模糊的结算语言
+  - “截至日期 X”类措辞陷阱
+  - 低流动性市场：看似错价但无法成交
+- 显式记录费用/滑点：很多“优势”会在成本后消失。
