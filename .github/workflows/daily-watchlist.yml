@@ -18,6 +18,9 @@ on:
       - 'poly-knowledge/watchlist-*.md'
       - 'poly-knowledge/watchlist-scoring.yaml'
 
+permissions:
+  contents: write
+
 env:
   NODE_VERSION: '20'
 
