@@ -1,0 +1,143 @@
+name: Daily Watchlist Generator
+
+on:
+  schedule:
+    # Run daily at 8:00 AM Asia/Shanghai (UTC 0:00)
+    - cron: '0 0 * * *'
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: 'Target date (YYYY-MM-DD), defaults to today'
+        required: false
+        type: string
+  # Also run on push to relevant files
+  push:
+    paths:
+      - 'scripts/generate-watchlist.mjs'
+      - 'poly-knowledge/watchlist-*.md'
+      - 'poly-knowledge/watchlist-scoring.yaml'
+
+env:
+  NODE_VERSION: '20'
+
+jobs:
+  generate-watchlist:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+      
+      - name: Ensure outputs directory exists
+        run: mkdir -p poly-knowledge/outputs
+      
+      - name: Generate watchlist
+        id: generate
+        env:
+          TARGET_DATE: ${{ github.event.inputs.target_date }}
+        run: |
+          # Get target date (from input or default to today)
+          if [ -z "$TARGET_DATE" ]; then
+            TARGET_DATE=$(date +%Y-%m-%d)
+          fi
+          echo "target_date=$TARGET_DATE" >> $GITHUB_OUTPUT
+          echo "Running watchlist generator for date: $TARGET_DATE"
+          
+          # Run the generator
+          node scripts/generate-watchlist.mjs
+      
+      - name: Check outputs
+        id: check
+        run: |
+          # Get the date from previous step
+          TARGET_DATE=${{ steps.generate.outputs.target_date }}
+          if [ -z "$TARGET_DATE" ]; then
+            TARGET_DATE=$(date +%Y-%m-%d)
+          fi
+          
+          JSON_FILE="poly-knowledge/outputs/watchlist-${TARGET_DATE}.json"
+          MD_FILE="poly-knowledge/outputs/watchlist-${TARGET_DATE}.md"
+          
+          if [ -f "$JSON_FILE" ] && [ -f "$MD_FILE" ]; then
+            echo "json_exists=true" >> $GITHUB_OUTPUT
+            echo "json_lines=$(wc -l < $JSON_FILE)" >> $GITHUB_OUTPUT
+            echo "md_lines=$(wc -l < $MD_FILE)" >> $GITHUB_OUTPUT
+            echo "Outputs generated successfully"
+            cat $MD_FILE
+          else
+            echo "json_exists=false" >> $GITHUB_OUTPUT
+            echo "::warning::Output files not found"
+            exit 1
+          fi
+      
+      - name: Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+      
+      - name: Commit and push outputs
+        run: |
+          # Get the date from previous step
+          TARGET_DATE=${{ steps.generate.outputs.target_date }}
+          if [ -z "$TARGET_DATE" ]; then
+            TARGET_DATE=$(date +%Y-%m-%d)
+          fi
+          
+          # Stage the output files
+          git add "poly-knowledge/outputs/watchlist-${TARGET_DATE}.json"
+          git add "poly-knowledge/outputs/watchlist-${TARGET_DATE}.md"
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No new outputs to commit"
+          else
+            # Commit with date
+            git commit -m "docs: add watchlist outputs for ${TARGET_DATE}
+            
+            - Generated via GitHub Actions
+            - Auto-committed watchlist data for knowledge base sync"
+            
+            # Push changes
+            git push
+            echo "Committed and pushed watchlist outputs for ${TARGET_DATE}"
+          fi
+      
+      - name: Upload artifacts (backup)
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: watchlist-outputs
+          path: |
+            poly-knowledge/outputs/watchlist-*.json
+            poly-knowledge/outputs/watchlist-*.md
+          retention-days: 7
+          if-no-files-found: ignore
+
+  # Summary job
+  summary:
+    needs: generate-watchlist
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate summary
+        run: |
+          if [ "${{ needs.generate-watchlist.result }}" == "success" ]; then
+            echo "✅ Watchlist generation completed successfully"
+            echo "Date: ${{ needs.generate-watchlist.outputs.target_date }}"
+            echo "JSON lines: ${{ needs.generate-watchlist.outputs.json_lines }}"
+            echo "MD lines: ${{ needs.generate-watchlist.outputs.md_lines }}"
+          else
+            echo "❌ Watchlist generation failed"
+            echo "Check workflow logs for details"
+          fi

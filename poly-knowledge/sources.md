@@ -374,6 +374,68 @@
 
 ---
 
+## Watchlist 生成器使用的端点
+
+| # | 端点 | 用途 | 可信度 |
+|---|------|------|--------|
+| 30 | **Gamma API - Markets** | 获取市场列表、筛选 | 高 |
+| 31 | **CLOB API - Orderbook** | 订单簿数据、计算点差/深度 | 高 |
+| 32 | **CLOB API - Midpoints** | 中间价 | 高 |
+| 33 | **CLOB API - Last Trade Price** | 最新成交价 | 高 |
+| 34 | **CLOB API - Fee Rate** | 交易费率 | 高 |
+
+#### 30. Gamma API - Markets
+
+- **URL**: https://gamma-api.polymarket.com/markets
+- **类型**: API端点
+- **用途**: 获取市场列表，支持 liquidity_num_min, volume_num_min 等筛选
+- **可信度**: 高
+- **更新频率**: 实时
+- **备注**: 核心只读端点，无需认证。用于 watchlist 候选筛选
+- **验证日期**: 2026-02-27
+
+#### 31. CLOB API - Orderbook
+
+- **URL**: https://clob.polymarket.com/orderbook
+- **类型**: API端点
+- **用途**: 获取订单簿，计算点差 (spread = ask - bid)
+- **可信度**: 高
+- **更新频率**: 实时
+- **备注**: 核心只读端点，无需认证
+- **验证日期**: 2026-02-27
+
+#### 32. CLOB API - Midpoints
+
+- **URL**: https://clob.polymarket.com/midpoints
+- **类型**: API端点
+- **用途**: 获取中间价 (best_bid + best_ask) / 2
+- **可信度**: 高
+- **更新频率**: 实时
+- **备注**: 用于计算隐含概率
+- **验证日期**: 2026-02-27
+
+#### 33. CLOB API - Last Trade Price
+
+- **URL**: https://clob.polymarket.com/last-trade-price
+- **类型**: API端点
+- **用途**: 获取最新成交价和交易方向
+- **可信度**: 高
+- **更新频率**: 实时
+- **备注**: 用于获取当前隐含概率
+- **验证日期**: 2026-02-27
+
+#### 34. CLOB API - Fee Rate
+
+- **URL**: https://clob.polymarket.com/fee-rate
+- **类型**: API端点
+- **用途**: 获取特定市场的交易费率
+- **可信度**: 高
+- **更新频率**: 实时
+- **备注**: 用于计算净预期收益
+- **验证日期**: 2026-02-27
+
+---
+
 ## 来源更新优先级
 
 ### 当前优先补充
@@ -402,5 +464,6 @@
 - 新增市场数据API来源 (9-11)
 - 新增结算争议来源 (12-13)
 - 新增第三方工具来源 (17-18)
+- 新增 watchlist 生成器使用的 API 端点 (30-34)
 - 标记待获取来源 (策略书籍、社区)
 - 更新人: Subagent-B (kb)
