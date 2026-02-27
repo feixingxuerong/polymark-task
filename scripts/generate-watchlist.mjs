@@ -31,7 +31,7 @@ const CLOB_API = 'https://clob.polymarket.com';
 const DEFAULT_LIMIT = 50;
 const DEFAULT_MIN_LIQUIDITY = 1000;
 const TOP_N = 30;
-const WEATHER_QUOTA = 5; // 天气/航空席位数
+const WEATHER_QUOTA = 5; // 主 watchlist 中保留的天气席位数（仅 weather，不含 aviation）
 
 // === SCORING RULES (from watchlist-scoring.yaml) ===
 const SCORING_WEIGHTS = {
@@ -1175,12 +1175,12 @@ async function main() {
   }
   
   // === SEPARATE AND SORT ===
-  // Separate weather/aviation from other categories
-  const weatherAviation = results.filter(r => r.category === 'weather' || r.category === 'aviation');
-  const otherMarkets = results.filter(r => r.category !== 'weather' && r.category !== 'aviation');
+  // Separate weather from other categories
+  const weatherOnly = results.filter(r => r.category === 'weather');
+  const otherMarkets = results.filter(r => r.category !== 'weather');
   
-  // Sort weather/aviation: research_priority + weather_signal_score
-  weatherAviation.sort((a, b) => {
+  // Sort weather: research action label + weather_signal_score
+  weatherOnly.sort((a, b) => {
     const priorityDiff = getResearchPriorityScore(b) - getResearchPriorityScore(a);
     if (priorityDiff !== 0) return priorityDiff;
     
@@ -1216,9 +1216,9 @@ async function main() {
   });
   
   // === MERGE WITH WEATHER QUOTA ===
-  // Take top (N - WEATHER_QUOTA) from others + top WEATHER_QUOTA from weather/aviation
-  const otherTop = otherMarkets.slice(0, TOP_N - WEATHER_QUOTA);
-  const weatherTop = weatherAviation.slice(0, WEATHER_QUOTA);
+  // Take top (N - WEATHER_QUOTA) from others + top WEATHER_QUOTA from weather
+  const otherTop = otherMarkets.slice(0, Math.max(0, TOP_N - WEATHER_QUOTA));
+  const weatherTop = weatherOnly.slice(0, WEATHER_QUOTA);
   
   // Merge and re-rank
   const mergedResults = [...otherTop, ...weatherTop];
@@ -1259,8 +1259,8 @@ async function main() {
   // JSON output
   const jsonPath = join(outputDir, `watchlist-${today}.json`);
   
-  // Count weather/aviation in top results
-  const weatherCount = topResults.filter(r => r.category === 'weather' || r.category === 'aviation').length;
+  // Count weather in top results
+  const weatherCount = topResults.filter(r => r.category === 'weather').length;
   const aviationCount = topResults.filter(r => r.category === 'aviation').length;
   
   const jsonOutput = {
@@ -1288,7 +1288,7 @@ async function main() {
   md += `> Generated: ${new Date().toISOString()}\n`;
   md += `> Total candidates: ${markets.length}\n`;
   md += `> TopN: ${TOP_N} (weather quota: ${WEATHER_QUOTA})\n`;
-  md += `> Weather/Aviation in Top${TOP_N}: ${weatherCount} (aviation: ${aviationCount})\n`;
+  md += `> Weather in Top${TOP_N}: ${weatherCount} (aviation: ${aviationCount})\n`;
   md += `> Scoring weights: liquidity=${SCORING_WEIGHTS.liquidity}, spread=${SCORING_WEIGHTS.spread}, ...\n`;
   if (sources) {
     md += `> Sources integrated: ${sources.summary?.weather_stations || 0} weather stations, ${sources.summary?.aviation_airports || 0} aviation airports\n`;
