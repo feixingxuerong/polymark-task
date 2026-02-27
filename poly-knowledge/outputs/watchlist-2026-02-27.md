@@ -1,6 +1,6 @@
 # Daily Watchlist - 2026-02-27
 
-> Generated: 2026-02-27T22:53:34.655Z
+> Generated: 2026-02-27T23:19:54.698Z
 > Total candidates: 69
 > TopN: 30 (weather quota: 5)
 > Weather/Aviation in Top30: 5 (aviation: 0)
@@ -17,41 +17,41 @@
 | 4 | Bitcoin Up or Down -... | N/A | N/A | $15k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
 | 5 | Bitcoin Up or Down -... | N/A | N/A | $15k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
 | 6 | Bitcoin Up or Down -... | N/A | N/A | $15k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 7 | Ethereum Up or Down ... | N/A | N/A | $14k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 8 | Ethereum Up or Down ... | N/A | N/A | $13k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
+| 7 | Bitcoin Up or Down -... | N/A | N/A | $15k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
+| 8 | Ethereum Up or Down ... | N/A | N/A | $14k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
 | 9 | Ethereum Up or Down ... | N/A | N/A | $13k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
 | 10 | Ethereum Up or Down ... | N/A | N/A | $13k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 11 | Ethereum Up or Down ... | N/A | N/A | $13k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 12 | Ethereum Up or Down ... | N/A | N/A | $13k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
+| 11 | Ethereum Up or Down ... | N/A | N/A | $13k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
+| 12 | Ethereum Up or Down ... | N/A | N/A | $13k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
 | 13 | Ethereum Up or Down ... | N/A | N/A | $13k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 14 | Solana Up or Down - ... | N/A | N/A | $13k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
+| 14 | Ethereum Up or Down ... | N/A | N/A | $13k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
 | 15 | Solana Up or Down - ... | N/A | N/A | $13k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
 | 16 | Solana Up or Down - ... | N/A | N/A | $13k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
 | 17 | Solana Up or Down - ... | N/A | N/A | $13k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 18 | XRP Up or Down - Feb... | N/A | N/A | $13k | 1d | **5.8** | - | unknown | 观察 - 需进一步研究 | ok |
+| 18 | Solana Up or Down - ... | N/A | N/A | $13k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
 | 19 | XRP Up or Down - Feb... | N/A | N/A | $13k | 1d | **5.8** | - | unknown | 观察 - 需进一步研究 | ok |
-| 20 | XRP Up or Down - Feb... | N/A | N/A | $11k | 1d | **5.8** | - | unknown | 观察 - 需进一步研究 | ok |
-| 21 | Solana Up or Down - ... | N/A | N/A | $11k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
+| 20 | XRP Up or Down - Feb... | N/A | N/A | $13k | 1d | **5.8** | - | unknown | 观察 - 需进一步研究 | ok |
+| 21 | XRP Up or Down - Feb... | N/A | N/A | $11k | 1d | **5.8** | - | unknown | 观察 - 需进一步研究 | ok |
 | 22 | Solana Up or Down - ... | N/A | N/A | $11k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 23 | Spread: FC København... | N/A | N/A | $4k | 2d | **5.2** | - | unknown | 观察 - 需进一步研究 | poor |
-| 24 | Providence Friars vs... | N/A | N/A | $3k | 1d | **5.2** | - | sports | 观察 - 等待比赛结果 | poor |
-| 25 | Spread: West Ham Uni... | N/A | N/A | $3k | 5d | **5.2** | - | unknown | 观察 - 需进一步研究 | poor |
-| 26 | Will the highest tem... | N/A | N/A | $4k | 1d | **4.6** | 7.1 | weather | 避免 | poor |
-| 27 | Will the highest tem... | N/A | N/A | $3k | 1d | **4.6** | 7.1 | weather | 避免 | poor |
-| 28 | Will the highest tem... | N/A | N/A | $2k | 1d | **4.6** | 7.1 | weather | 避免 | poor |
-| 29 | Will the highest tem... | N/A | N/A | $2k | 1d | **4.6** | 7.1 | weather | 避免 | poor |
-| 30 | Will the highest tem... | N/A | N/A | $1k | 2d | **4.0** | 7.1 | weather | 避免 | poor |
+| 23 | XRP Up or Down - Feb... | N/A | N/A | $11k | 1d | **5.8** | - | unknown | 观察 - 需进一步研究 | ok |
+| 24 | Spread: FC København... | N/A | N/A | $4k | 2d | **5.2** | - | unknown | 观察 - 需进一步研究 | poor |
+| 25 | Providence Friars vs... | N/A | N/A | $3k | 1d | **5.2** | - | sports | 观察 - 等待比赛结果 | poor |
+| 26 | Will the highest tem... | N/A | N/A | $4k | 1d | **4.6** | 7.9 | weather | 研究-跟踪 | poor |
+| 27 | Will the highest tem... | N/A | N/A | $3k | 1d | **4.6** | 7.9 | weather | 研究-跟踪 | poor |
+| 28 | Will the highest tem... | N/A | N/A | $2k | 1d | **4.6** | 7.9 | weather | 研究-跟踪 | poor |
+| 29 | Will the highest tem... | N/A | N/A | $2k | 1d | **4.6** | 7.9 | weather | 研究-跟踪 | poor |
+| 30 | Will the highest tem... | N/A | N/A | $1k | 2d | **4.0** | 7.9 | weather | 研究-跟踪 | poor |
 
 ---
 
 ## 可执行清单 (Executable Checklist)
 
-### #1 Bitcoin Up or Down - February 28, 2:30PM-2:35PM ET
+### #1 Bitcoin Up or Down - February 28, 1:00PM-1:05PM ET
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $15,188 |
+| **流动性** | $15,169 |
 | **到期时间** | 1天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -61,14 +61,14 @@
 | **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
 | **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
-| **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772307000) |
+| **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772301600) |
 
 ### #2 Bitcoin Up or Down - February 28, 11:55AM-12:00PM ET
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $15,187 |
+| **流动性** | $15,166 |
 | **到期时间** | 1天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -80,29 +80,12 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772297700) |
 
-### #3 Bitcoin Up or Down - February 28, 3:35PM-3:40PM ET
+### #3 Bitcoin Up or Down - February 28, 2:40PM-2:45PM ET
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $15,183 |
-| **到期时间** | 1天 |
-| **类别** | crypto |
-| **评分** | 5.8/10 |
-| **行动** | 观察 - 等待价格信号 |
-| **交易可行性** | ok |
-| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
-| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
-| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
-| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
-| **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772310900) |
-
-### #4 Bitcoin Up or Down - February 28, 2:40PM-2:45PM ET
-
-| Field | Value |
-|-------|-------|
-| **概率** | N/A |
-| **流动性** | $15,182 |
+| **流动性** | $15,165 |
 | **到期时间** | 1天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -114,12 +97,46 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772307600) |
 
-### #5 Bitcoin Up or Down - February 28, 7:20AM-7:25AM ET
+### #4 Bitcoin Up or Down - February 28, 2:30PM-2:35PM ET
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $15,153 |
+| **流动性** | $15,150 |
+| **到期时间** | 1天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **交易可行性** | ok |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772307000) |
+
+### #5 Bitcoin Up or Down - February 28, 3:35PM-3:40PM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $15,146 |
+| **到期时间** | 1天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **交易可行性** | ok |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772310900) |
+
+### #6 Bitcoin Up or Down - February 28, 7:20AM-7:25AM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $15,116 |
 | **到期时间** | 1天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -131,12 +148,12 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772281200) |
 
-### #6 Bitcoin Up or Down - February 28, 12:40PM-12:45PM ET
+### #7 Bitcoin Up or Down - February 28, 12:40PM-12:45PM ET
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $15,083 |
+| **流动性** | $15,044 |
 | **到期时间** | 1天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -148,7 +165,7 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772300400) |
 
-### #7 Ethereum Up or Down - February 27, 11:30PM-11:45PM ET
+### #8 Ethereum Up or Down - February 27, 11:30PM-11:45PM ET
 
 | Field | Value |
 |-------|-------|
@@ -164,23 +181,6 @@
 | **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/eth-updown-15m-1772253000) |
-
-### #8 Ethereum Up or Down - February 28, 2:35PM-2:40PM ET
-
-| Field | Value |
-|-------|-------|
-| **概率** | N/A |
-| **流动性** | $13,497 |
-| **到期时间** | 1天 |
-| **类别** | crypto |
-| **评分** | 5.8/10 |
-| **行动** | 观察 - 等待价格信号 |
-| **交易可行性** | ok |
-| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
-| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
-| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
-| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
-| **链接** | [Polymarket](https://polymarket.com/market/eth-updown-5m-1772307300) |
 
 ### #9 Ethereum Up or Down - February 28, 3:20AM-3:25AM ET
 
@@ -216,24 +216,7 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/eth-updown-5m-1772270100) |
 
-### #11 Ethereum Up or Down - February 28, 2:25PM-2:30PM ET
-
-| Field | Value |
-|-------|-------|
-| **概率** | N/A |
-| **流动性** | $13,490 |
-| **到期时间** | 1天 |
-| **类别** | crypto |
-| **评分** | 5.8/10 |
-| **行动** | 观察 - 等待价格信号 |
-| **交易可行性** | ok |
-| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
-| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
-| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
-| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
-| **链接** | [Polymarket](https://polymarket.com/market/eth-updown-5m-1772306700) |
-
-### #12 Ethereum Up or Down - February 28, 3:35AM-3:40AM ET
+### #11 Ethereum Up or Down - February 28, 3:35AM-3:40AM ET
 
 | Field | Value |
 |-------|-------|
@@ -250,12 +233,46 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/eth-updown-5m-1772267700) |
 
-### #13 Ethereum Up or Down - February 28, 1:55PM-2:00PM ET
+### #12 Ethereum Up or Down - February 28, 2:35PM-2:40PM ET
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $13,439 |
+| **流动性** | $13,458 |
+| **到期时间** | 1天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **交易可行性** | ok |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/eth-updown-5m-1772307300) |
+
+### #13 Ethereum Up or Down - February 28, 2:25PM-2:30PM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $13,451 |
+| **到期时间** | 1天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **交易可行性** | ok |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/eth-updown-5m-1772306700) |
+
+### #14 Ethereum Up or Down - February 28, 1:55PM-2:00PM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $13,400 |
 | **到期时间** | 1天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -267,12 +284,12 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/eth-updown-5m-1772304900) |
 
-### #14 Solana Up or Down - February 28, 9:35AM-9:40AM ET
+### #15 Solana Up or Down - February 28, 9:35AM-9:40AM ET
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $12,837 |
+| **流动性** | $12,797 |
 | **到期时间** | 1天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -284,12 +301,12 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/sol-updown-5m-1772289300) |
 
-### #15 Solana Up or Down - February 28, 7:25AM-7:30AM ET
+### #16 Solana Up or Down - February 28, 7:25AM-7:30AM ET
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $12,824 |
+| **流动性** | $12,785 |
 | **到期时间** | 1天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -301,29 +318,12 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/sol-updown-5m-1772281500) |
 
-### #16 Solana Up or Down - February 28, 2:35PM-2:40PM ET
-
-| Field | Value |
-|-------|-------|
-| **概率** | N/A |
-| **流动性** | $12,779 |
-| **到期时间** | 1天 |
-| **类别** | crypto |
-| **评分** | 5.8/10 |
-| **行动** | 观察 - 等待价格信号 |
-| **交易可行性** | ok |
-| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
-| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
-| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
-| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
-| **链接** | [Polymarket](https://polymarket.com/market/sol-updown-5m-1772307300) |
-
 ### #17 Solana Up or Down - February 28, 2:40PM-2:45PM ET
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $12,779 |
+| **流动性** | $12,760 |
 | **到期时间** | 1天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -335,12 +335,29 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/sol-updown-5m-1772307600) |
 
-### #18 XRP Up or Down - February 28, 2:25PM-2:30PM ET
+### #18 Solana Up or Down - February 28, 2:35PM-2:40PM ET
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $12,744 |
+| **流动性** | $12,740 |
+| **到期时间** | 1天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **交易可行性** | ok |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/sol-updown-5m-1772307300) |
+
+### #19 XRP Up or Down - February 28, 2:25PM-2:30PM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $12,705 |
 | **到期时间** | 1天 |
 | **类别** | unknown |
 | **评分** | 5.8/10 |
@@ -352,12 +369,12 @@
 | **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/xrp-updown-5m-1772306700) |
 
-### #19 XRP Up or Down - February 28, 2:35PM-2:40PM ET
+### #20 XRP Up or Down - February 28, 2:35PM-2:40PM ET
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $12,738 |
+| **流动性** | $12,698 |
 | **到期时间** | 1天 |
 | **类别** | unknown |
 | **评分** | 5.8/10 |
@@ -369,7 +386,7 @@
 | **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/xrp-updown-5m-1772307300) |
 
-### #20 XRP Up or Down - February 28, 2:00PM-2:15PM ET
+### #21 XRP Up or Down - February 28, 2:00PM-2:15PM ET
 
 | Field | Value |
 |-------|-------|
@@ -386,7 +403,7 @@
 | **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/xrp-updown-15m-1772305200) |
 
-### #21 Solana Up or Down - February 28, 2:15PM-2:30PM ET
+### #22 Solana Up or Down - February 28, 2:15PM-2:30PM ET
 
 | Field | Value |
 |-------|-------|
@@ -403,24 +420,24 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/sol-updown-15m-1772306100) |
 
-### #22 Solana Up or Down - February 28, 8:00AM-12:00PM ET
+### #23 XRP Up or Down - February 28, 11AM ET
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $10,841 |
+| **流动性** | $10,803 |
 | **到期时间** | 1天 |
-| **类别** | crypto |
+| **类别** | unknown |
 | **评分** | 5.8/10 |
-| **行动** | 观察 - 等待价格信号 |
+| **行动** | 观察 - 需进一步研究 |
 | **交易可行性** | ok |
-| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
-| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
-| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
-| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
-| **链接** | [Polymarket](https://polymarket.com/market/sol-updown-4h-1772283600) |
+| **入场计划** | 评分≥7.0且流动性允许时可小额测试，设定5%止损线 |
+| **理由** | 通用候选市场，1天后到期。需自行验证结算规则和监控源。 |
+| **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件 |
+| **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/xrp-up-or-down-february-28-11am-et) |
 
-### #23 Spread: FC København (-2.5)
+### #24 Spread: FC København (-2.5)
 
 | Field | Value |
 |-------|-------|
@@ -437,12 +454,12 @@
 | **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/den-kob-ran-2026-03-01-spread-home-2pt5) |
 
-### #24 Providence Friars vs. Creighton Bluejays
+### #25 Providence Friars vs. Creighton Bluejays
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $3,308 |
+| **流动性** | $3,342 |
 | **到期时间** | 1天 |
 | **类别** | sports |
 | **评分** | 5.2/10 |
@@ -454,23 +471,6 @@
 | **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
 | **链接** | [Polymarket](https://polymarket.com/market/cbb-prov-creigh-2026-02-28) |
 
-### #25 Spread: West Ham United FC (-1.5)
-
-| Field | Value |
-|-------|-------|
-| **概率** | N/A |
-| **流动性** | $2,903 |
-| **到期时间** | 5天 |
-| **类别** | unknown |
-| **评分** | 5.2/10 |
-| **行动** | 观察 - 需进一步研究 |
-| **交易可行性** | poor |
-| **入场计划** | 评分≥7.0且流动性允许时可小额测试，设定5%止损线 |
-| **理由** | 通用候选市场，5天后到期。需自行验证结算规则和监控源。 |
-| **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件 |
-| **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
-| **链接** | [Polymarket](https://polymarket.com/market/epl-ful-wes-2026-03-04-spread-away-1pt5) |
-
 ### #26 Will the highest temperature in Wellington be 19°C on February 28?
 
 | Field | Value |
@@ -480,11 +480,11 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.6/10 |
-| **天气信号评分** | 7.1/10 (recency:7.7, agree:5, vol:6.4, gap:10) |
-| **行动** | 避免 |
-| **研究优先级** | 避免 |
+| **天气信号评分** | 7.9/10 (recency:10, agree:5, vol:7.1, gap:10) |
+| **行动** | 研究-跟踪 |
+| **研究优先级** | medium |
 | **交易可行性** | poor |
-| **入场计划** | T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛。数据更新: 2026/2/28 00:36:41。流动性 较低(<$5k)，建议先做研究，spread=N/A% 可接受时再入场。 |
+| **入场计划** | T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛。数据更新: 2026/2/28 06:54:46。流动性 较低(<$5k)，建议先做研究，spread=N/A% 可接受时再入场。 |
 | **理由** | 天气类市场依赖气象数据结算，1天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。 |
 | **Key Risks** | ⚠️ 模型漂移：数值预报随时间剧烈调整, ⚠️ 结算口径：部分市场按站点平均，部分按特定站点, ⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用, ⚠️ 黑天鹅：极端天气事件超出模型预测范围, ⚠️ Neg Risk 市场 - 风险较高 |
 | **监控源** | === 实时数据源 (已接入 weather-aviation-sources) ===, • Central Park, NY (KNYC): https://api.weather.gov/gridpoints/OKX/34,38/forecast, • JFK Airport, NY (KJFK): https://api.weather.gov/gridpoints/OKX/42,33/forecast, • Dallas/Fort Worth, TX (KDFW): https://api.weather.gov/gridpoints/FWD/80,109/forecast, • Seattle, WA (KSEA): https://api.weather.gov/gridpoints/SEW/124,61/forecast, • Denver, CO (KDEN): https://api.weather.gov/gridpoints/BOU/74,66/forecast, === 备用/验证源 ===, NOAA/NWS weather.gov - 官方预报, ECMWF europepm.eu - 欧洲中期预报, GFS NCEP - 美国全球预报系统, Weather.com / AccuWeather - 辅助验证 |
@@ -499,11 +499,11 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.6/10 |
-| **天气信号评分** | 7.1/10 (recency:7.7, agree:5, vol:6.4, gap:10) |
-| **行动** | 避免 |
-| **研究优先级** | 避免 |
+| **天气信号评分** | 7.9/10 (recency:10, agree:5, vol:7.1, gap:10) |
+| **行动** | 研究-跟踪 |
+| **研究优先级** | medium |
 | **交易可行性** | poor |
-| **入场计划** | T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛。数据更新: 2026/2/28 00:36:41。流动性 较低(<$5k)，建议先做研究，spread=N/A% 可接受时再入场。 |
+| **入场计划** | T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛。数据更新: 2026/2/28 06:54:46。流动性 较低(<$5k)，建议先做研究，spread=N/A% 可接受时再入场。 |
 | **理由** | 天气类市场依赖气象数据结算，1天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。 |
 | **Key Risks** | ⚠️ 模型漂移：数值预报随时间剧烈调整, ⚠️ 结算口径：部分市场按站点平均，部分按特定站点, ⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用, ⚠️ 黑天鹅：极端天气事件超出模型预测范围, ⚠️ Neg Risk 市场 - 风险较高 |
 | **监控源** | === 实时数据源 (已接入 weather-aviation-sources) ===, • Central Park, NY (KNYC): https://api.weather.gov/gridpoints/OKX/34,38/forecast, • JFK Airport, NY (KJFK): https://api.weather.gov/gridpoints/OKX/42,33/forecast, • Dallas/Fort Worth, TX (KDFW): https://api.weather.gov/gridpoints/FWD/80,109/forecast, • Seattle, WA (KSEA): https://api.weather.gov/gridpoints/SEW/124,61/forecast, • Denver, CO (KDEN): https://api.weather.gov/gridpoints/BOU/74,66/forecast, === 备用/验证源 ===, NOAA/NWS weather.gov - 官方预报, ECMWF europepm.eu - 欧洲中期预报, GFS NCEP - 美国全球预报系统, Weather.com / AccuWeather - 辅助验证 |
@@ -518,11 +518,11 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.6/10 |
-| **天气信号评分** | 7.1/10 (recency:7.7, agree:5, vol:6.4, gap:10) |
-| **行动** | 避免 |
-| **研究优先级** | 避免 |
+| **天气信号评分** | 7.9/10 (recency:10, agree:5, vol:7.1, gap:10) |
+| **行动** | 研究-跟踪 |
+| **研究优先级** | medium |
 | **交易可行性** | poor |
-| **入场计划** | T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛。数据更新: 2026/2/28 00:36:41。流动性 较低(<$5k)，建议先做研究，spread=N/A% 可接受时再入场。 |
+| **入场计划** | T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛。数据更新: 2026/2/28 06:54:46。流动性 较低(<$5k)，建议先做研究，spread=N/A% 可接受时再入场。 |
 | **理由** | 天气类市场依赖气象数据结算，1天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。 |
 | **Key Risks** | ⚠️ 模型漂移：数值预报随时间剧烈调整, ⚠️ 结算口径：部分市场按站点平均，部分按特定站点, ⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用, ⚠️ 黑天鹅：极端天气事件超出模型预测范围, ⚠️ Neg Risk 市场 - 风险较高 |
 | **监控源** | === 实时数据源 (已接入 weather-aviation-sources) ===, • Central Park, NY (KNYC): https://api.weather.gov/gridpoints/OKX/34,38/forecast, • JFK Airport, NY (KJFK): https://api.weather.gov/gridpoints/OKX/42,33/forecast, • Dallas/Fort Worth, TX (KDFW): https://api.weather.gov/gridpoints/FWD/80,109/forecast, • Seattle, WA (KSEA): https://api.weather.gov/gridpoints/SEW/124,61/forecast, • Denver, CO (KDEN): https://api.weather.gov/gridpoints/BOU/74,66/forecast, === 备用/验证源 ===, NOAA/NWS weather.gov - 官方预报, ECMWF europepm.eu - 欧洲中期预报, GFS NCEP - 美国全球预报系统, Weather.com / AccuWeather - 辅助验证 |
@@ -537,11 +537,11 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.6/10 |
-| **天气信号评分** | 7.1/10 (recency:7.7, agree:5, vol:6.4, gap:10) |
-| **行动** | 避免 |
-| **研究优先级** | 避免 |
+| **天气信号评分** | 7.9/10 (recency:10, agree:5, vol:7.1, gap:10) |
+| **行动** | 研究-跟踪 |
+| **研究优先级** | medium |
 | **交易可行性** | poor |
-| **入场计划** | T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛。数据更新: 2026/2/28 00:36:41。流动性 较低(<$5k)，建议先做研究，spread=N/A% 可接受时再入场。 |
+| **入场计划** | T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛。数据更新: 2026/2/28 06:54:46。流动性 较低(<$5k)，建议先做研究，spread=N/A% 可接受时再入场。 |
 | **理由** | 天气类市场依赖气象数据结算，1天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。 |
 | **Key Risks** | ⚠️ 模型漂移：数值预报随时间剧烈调整, ⚠️ 结算口径：部分市场按站点平均，部分按特定站点, ⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用, ⚠️ 黑天鹅：极端天气事件超出模型预测范围, ⚠️ Neg Risk 市场 - 风险较高 |
 | **监控源** | === 实时数据源 (已接入 weather-aviation-sources) ===, • Central Park, NY (KNYC): https://api.weather.gov/gridpoints/OKX/34,38/forecast, • JFK Airport, NY (KJFK): https://api.weather.gov/gridpoints/OKX/42,33/forecast, • Dallas/Fort Worth, TX (KDFW): https://api.weather.gov/gridpoints/FWD/80,109/forecast, • Seattle, WA (KSEA): https://api.weather.gov/gridpoints/SEW/124,61/forecast, • Denver, CO (KDEN): https://api.weather.gov/gridpoints/BOU/74,66/forecast, === 备用/验证源 ===, NOAA/NWS weather.gov - 官方预报, ECMWF europepm.eu - 欧洲中期预报, GFS NCEP - 美国全球预报系统, Weather.com / AccuWeather - 辅助验证 |
@@ -556,11 +556,11 @@
 | **到期时间** | 2天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 7.1/10 (recency:7.7, agree:5, vol:6.4, gap:10) |
-| **行动** | 避免 |
-| **研究优先级** | 避免 |
+| **天气信号评分** | 7.9/10 (recency:10, agree:5, vol:7.1, gap:10) |
+| **行动** | 研究-跟踪 |
+| **研究优先级** | medium |
 | **交易可行性** | poor |
-| **入场计划** | T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛。数据更新: 2026/2/28 00:36:41。流动性 较低(<$5k)，建议先做研究，spread=N/A% 可接受时再入场。 |
+| **入场计划** | T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛。数据更新: 2026/2/28 06:54:46。流动性 较低(<$5k)，建议先做研究，spread=N/A% 可接受时再入场。 |
 | **理由** | 天气类市场依赖气象数据结算，2天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。 |
 | **Key Risks** | ⚠️ 模型漂移：数值预报随时间剧烈调整, ⚠️ 结算口径：部分市场按站点平均，部分按特定站点, ⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用, ⚠️ 黑天鹅：极端天气事件超出模型预测范围, ⚠️ Neg Risk 市场 - 风险较高 |
 | **监控源** | === 实时数据源 (已接入 weather-aviation-sources) ===, • Central Park, NY (KNYC): https://api.weather.gov/gridpoints/OKX/34,38/forecast, • JFK Airport, NY (KJFK): https://api.weather.gov/gridpoints/OKX/42,33/forecast, • Dallas/Fort Worth, TX (KDFW): https://api.weather.gov/gridpoints/FWD/80,109/forecast, • Seattle, WA (KSEA): https://api.weather.gov/gridpoints/SEW/124,61/forecast, • Denver, CO (KDEN): https://api.weather.gov/gridpoints/BOU/74,66/forecast, === 备用/验证源 ===, NOAA/NWS weather.gov - 官方预报, ECMWF europepm.eu - 欧洲中期预报, GFS NCEP - 美国全球预报系统, Weather.com / AccuWeather - 辅助验证 |
