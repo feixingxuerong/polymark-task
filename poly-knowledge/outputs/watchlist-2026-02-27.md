@@ -1,82 +1,534 @@
 # Daily Watchlist - 2026-02-27
 
-> Generated: 2026-02-27T08:19:39.513Z
+> Generated: 2026-02-27T16:00:11.454Z
 > Total candidates: 50
 > Scoring weights: liquidity=0.2, spread=0.15, ...
 
-## Top 30 Candidates
+## Top 30 Candidates (Overview)
 
-| # | Question | Probability | Spread | Liquidity | Days to Event | Score | Reason |
-|---|----------|-------------|--------|-----------|---------------|-------|--------|
-| 1 | Paris FC vs. OGC Nice: O/U 1.5... | N/A | N/A | $76,446 | 2d | **7.0** | 高流动性 $76,446 | 2天后到期 | 低风险 |
-| 2 | Stade Rennais FC 1901 vs. Toulouse FC: O... | N/A | N/A | $165,275 | 1d | **7.0** | 高流动性 $165,275 | 1天后到期 | 低风险 |
-| 3 | Heart of Midlothian FC vs. Aberdeen FC: ... | N/A | N/A | $77,844 | 1d | **7.0** | 高流动性 $77,844 | 1天后到期 | 低风险 |
-| 4 | Will Göztepe SK vs. Eyüpspor end in a dr... | N/A | N/A | $56,225 | 1d | **5.8** | 高流动性 $56,225 | 1天后到期 | Neg Risk市场 |
-| 5 | Will CD Castellón vs. Real Racing Club e... | N/A | N/A | $50,005 | 1d | **5.8** | 高流动性 $50,005 | 1天后到期 | Neg Risk市场 |
-| 6 | Ethereum Up or Down - February 27, 4:00P... | N/A | N/A | $12,123 | 1d | **5.8** | 高流动性 $12,123 | 1天后到期 | 低风险 |
-| 7 | Map Handicap: SHIN (-1.5) vs Bounty Hunt... | N/A | N/A | $20,204 | -0d | **5.8** | 高流动性 $20,204 | -0天后到期 | 低风险 |
-| 8 | Bitcoin Up or Down - February 27, 6AM ET... | N/A | N/A | $17,909 | 0d | **5.8** | 高流动性 $17,909 | 0天后到期 | 低风险 |
-| 9 | Bitcoin Up or Down - February 27, 4:00PM... | N/A | N/A | $14,803 | 1d | **5.8** | 高流动性 $14,803 | 1天后到期 | 低风险 |
-| 10 | Bitcoin Up or Down - February 27, 9:55AM... | N/A | N/A | $16,275 | 0d | **5.8** | 高流动性 $16,275 | 0天后到期 | 低风险 |
-| 11 | Bitcoin Up or Down - February 27, 6:55PM... | N/A | N/A | $14,885 | 1d | **5.8** | 高流动性 $14,885 | 1天后到期 | 低风险 |
-| 12 | RCD Mallorca vs. Real Sociedad de Fútbol... | N/A | N/A | $27,059 | 1d | **5.8** | 高流动性 $27,059 | 1天后到期 | 低风险 |
-| 13 | Bitcoin Up or Down on February 28?... | N/A | N/A | $10,754 | 1d | **5.8** | 高流动性 $10,754 | 1天后到期 | 低风险 |
-| 14 | San Jose Earthquakes vs. Atlanta United ... | N/A | N/A | $19,342 | 2d | **5.8** | 高流动性 $19,342 | 2天后到期 | 低风险 |
-| 15 | KHL: Admiral Vladivostok vs. Salavat Yul... | N/A | N/A | $1,398 | 2d | **5.2** | 2天后到期 | 低风险 |
-| 16 | Spread: West Ham United FC (-1.5)... | N/A | N/A | $3,370 | 5d | **5.2** | 5天后到期 | 低风险 |
-| 17 | Will Jasmine Crockett win the Texas Demo... | N/A | N/A | $1,881 | 4d | **4.6** | 4天后到期 | Neg Risk市场 |
-| 18 | Will FC Petrolul Ploieşti win on 2026-03... | N/A | N/A | $2,597 | 2d | **4.6** | 2天后到期 | Neg Risk市场 |
-| 19 | Will Gwangju FC win on 2026-03-01?... | N/A | N/A | $2,679 | 2d | **4.6** | 2天后到期 | Neg Risk市场 |
-| 20 | Will Trump say "N Word" in March?... | N/A | N/A | $4,640 | 32d | **4.5** | 低风险 |
-| 21 | Will Cincinnati Reds win the 2026 Nation... | N/A | N/A | $14,600 | 247d | **4.5** | 高流动性 $14,600 | Neg Risk市场 |
-| 22 | Will New York Mets win the 2026 National... | N/A | N/A | $14,791 | 247d | **4.5** | 高流动性 $14,791 | Neg Risk市场 |
-| 23 | Will Washington Nationals win the 2026 N... | N/A | N/A | $14,743 | 247d | **4.5** | 高流动性 $14,743 | Neg Risk市场 |
-| 24 | Will Miami Marlins win the 2026 National... | N/A | N/A | $14,819 | 247d | **4.5** | 高流动性 $14,819 | Neg Risk市场 |
-| 25 | Will Milwaukee Brewers win the 2026 Nati... | N/A | N/A | $15,050 | 247d | **4.5** | 高流动性 $15,050 | Neg Risk市场 |
-| 26 | Will Atlanta Braves win the 2026 Nationa... | N/A | N/A | $16,800 | 247d | **4.5** | 高流动性 $16,800 | Neg Risk市场 |
-| 27 | Will Philadelphia Phillies win the 2026 ... | N/A | N/A | $16,643 | 247d | **4.5** | 高流动性 $16,643 | Neg Risk市场 |
-| 28 | Will Chicago Cubs win the 2026 National ... | N/A | N/A | $14,502 | 247d | **4.5** | 高流动性 $14,502 | Neg Risk市场 |
-| 29 | Will San Francisco Giants win the 2026 N... | N/A | N/A | $14,618 | 247d | **4.5** | 高流动性 $14,618 | Neg Risk市场 |
-| 30 | Will Colorado Rockies win the 2026 Natio... | N/A | N/A | $14,728 | 247d | **4.5** | 高流动性 $14,728 | Neg Risk市场 |
+| # | Question | Prob | Spread | Liq | Days | Score | Category | Action |
+|---|----------|------|--------|-----|------|-------|----------|--------|
+| 1 | Ethereum Up or Down - Feb... | N/A | N/A | $14k | 0d | **5.8** | crypto | 观察 - 等待价格信号 |
+| 2 | Bitcoin Up or Down - Febr... | N/A | N/A | $15k | 1d | **5.8** | crypto | 观察 - 等待价格信号 |
+| 3 | Solana Up or Down - Febru... | N/A | N/A | $13k | 1d | **5.8** | crypto | 观察 - 等待价格信号 |
+| 4 | Bitcoin Up or Down - Febr... | N/A | N/A | $15k | 1d | **5.8** | crypto | 观察 - 等待价格信号 |
+| 5 | Solana Up or Down - Febru... | N/A | N/A | $13k | 1d | **5.8** | crypto | 观察 - 等待价格信号 |
+| 6 | Ethereum Up or Down - Feb... | N/A | N/A | $13k | 1d | **5.8** | crypto | 观察 - 等待价格信号 |
+| 7 | Bitcoin Up or Down - Febr... | N/A | N/A | $15k | 1d | **5.8** | crypto | 观察 - 等待价格信号 |
+| 8 | Bitcoin Up or Down - Febr... | N/A | N/A | $15k | 1d | **5.8** | crypto | 观察 - 等待价格信号 |
+| 9 | Ethereum Up or Down - Feb... | N/A | N/A | $13k | 1d | **5.8** | crypto | 观察 - 等待价格信号 |
+| 10 | Solana Up or Down - Febru... | N/A | N/A | $15k | 0d | **5.8** | crypto | 观察 - 等待价格信号 |
+| 11 | Ethereum Up or Down - Feb... | N/A | N/A | $13k | 1d | **5.8** | crypto | 观察 - 等待价格信号 |
+| 12 | Zeynep Sonmez vs. Cristin... | N/A | N/A | $12k | 7d | **5.4** | sports | 观察 - 等待比赛结果 |
+| 13 | Kimberly Birrell vs. Ajla... | N/A | N/A | $12k | 7d | **5.4** | sports | 观察 - 等待比赛结果 |
+| 14 | Spread: West Ham United F... | N/A | N/A | $6k | 5d | **5.2** | unknown | 观察 - 需进一步研究 |
+| 15 | Myles Turner: Points O/U ... | N/A | N/A | $3k | 0d | **5.2** | unknown | 观察 - 需进一步研究 |
+| 16 | Herbert vs. Droguet: Matc... | N/A | N/A | $3k | 7d | **5.2** | sports | 观察 - 等待比赛结果 |
+| 17 | Ball State Cardinals vs. ... | N/A | N/A | $5k | 1d | **5.2** | sports | 观察 - 等待比赛结果 |
+| 18 | Appalachian State Mountai... | N/A | N/A | $2k | 0d | **5.2** | sports | 观察 - 等待比赛结果 |
+| 19 | South Dakota State Jackra... | N/A | N/A | $6k | 1d | **5.2** | sports | 观察 - 等待比赛结果 |
+| 20 | KHL: Admiral Vladivostok ... | N/A | N/A | $1k | 2d | **5.2** | sports | 观察 - 等待比赛结果 |
+| 21 | Will Macy Chiasson win by... | N/A | N/A | $1k | 2d | **5.2** | unknown | 观察 - 需进一步研究 |
+| 22 | Spread: Fairfield Stags (... | N/A | N/A | $2k | 0d | **5.2** | unknown | 观察 - 需进一步研究 |
+| 23 | TCU Horned Frogs vs. Kans... | N/A | N/A | $1k | 1d | **5.2** | sports | 观察 - 等待比赛结果 |
+| 24 | O/U 2.5 Rounds... | N/A | N/A | $1k | 2d | **5.2** | unknown | 观察 - 需进一步研究 |
+| 25 | William & Mary Tribe vs. ... | N/A | N/A | $5k | 1d | **5.2** | sports | 观察 - 等待比赛结果 |
+| 26 | Manhattan Jaspers vs. Sai... | N/A | N/A | $1k | 0d | **5.2** | sports | 观察 - 等待比赛结果 |
+| 27 | Mount St. Mary's Mountain... | N/A | N/A | $2k | 0d | **5.2** | sports | 观察 - 等待比赛结果 |
+| 28 | Will Jasmine Crockett win... | N/A | N/A | $2k | 3d | **4.6** | unknown |  低优先级 - 建议跳过 |
+| 29 | Will FC Petrolul Ploieşti... | N/A | N/A | $2k | 2d | **4.6** | unknown |  低优先级 - 建议跳过 |
+| 30 | Will Gwangju FC win on 20... | N/A | N/A | $2k | 2d | **4.6** | unknown |  低优先级 - 建议跳过 |
 
-## Score Breakdown
+---
 
-| Rank | Liquidity | Spread | Volatility | Settlement | Calendar | Hedgeability | Risk | Total |
-|------|-----------|--------|------------|------------|----------|--------------|------|-------|
-| 1 | 10 | 1 | 10 | 5 | 10 | 1 | 10 | **7.0** |
-| 2 | 10 | 1 | 10 | 5 | 10 | 1 | 10 | **7.0** |
-| 3 | 10 | 1 | 10 | 5 | 10 | 1 | 10 | **7.0** |
-| 4 | 10 | 1 | 10 | 5 | 10 | 1 | 2 | **5.8** |
-| 5 | 10 | 1 | 10 | 5 | 10 | 1 | 2 | **5.8** |
-| 6 | 7 | 1 | 10 | 5 | 10 | 1 | 6 | **5.8** |
-| 7 | 7 | 1 | 10 | 5 | 10 | 1 | 6 | **5.8** |
-| 8 | 7 | 1 | 10 | 5 | 10 | 1 | 6 | **5.8** |
-| 9 | 7 | 1 | 10 | 5 | 10 | 1 | 6 | **5.8** |
-| 10 | 7 | 1 | 10 | 5 | 10 | 1 | 6 | **5.8** |
-| 11 | 7 | 1 | 10 | 5 | 10 | 1 | 6 | **5.8** |
-| 12 | 7 | 1 | 10 | 5 | 10 | 1 | 6 | **5.8** |
-| 13 | 7 | 1 | 10 | 5 | 10 | 1 | 6 | **5.8** |
-| 14 | 7 | 1 | 10 | 5 | 10 | 1 | 6 | **5.8** |
-| 15 | 4 | 1 | 10 | 5 | 10 | 1 | 6 | **5.2** |
-| 16 | 4 | 1 | 10 | 5 | 10 | 1 | 6 | **5.2** |
-| 17 | 4 | 1 | 10 | 5 | 10 | 1 | 2 | **4.6** |
-| 18 | 4 | 1 | 10 | 5 | 10 | 1 | 2 | **4.6** |
-| 19 | 4 | 1 | 10 | 5 | 10 | 1 | 2 | **4.6** |
-| 20 | 4 | 1 | 10 | 5 | 3 | 1 | 6 | **4.5** |
-| 21 | 7 | 1 | 10 | 5 | 3 | 1 | 2 | **4.5** |
-| 22 | 7 | 1 | 10 | 5 | 3 | 1 | 2 | **4.5** |
-| 23 | 7 | 1 | 10 | 5 | 3 | 1 | 2 | **4.5** |
-| 24 | 7 | 1 | 10 | 5 | 3 | 1 | 2 | **4.5** |
-| 25 | 7 | 1 | 10 | 5 | 3 | 1 | 2 | **4.5** |
-| 26 | 7 | 1 | 10 | 5 | 3 | 1 | 2 | **4.5** |
-| 27 | 7 | 1 | 10 | 5 | 3 | 1 | 2 | **4.5** |
-| 28 | 7 | 1 | 10 | 5 | 3 | 1 | 2 | **4.5** |
-| 29 | 7 | 1 | 10 | 5 | 3 | 1 | 2 | **4.5** |
-| 30 | 7 | 1 | 10 | 5 | 3 | 1 | 2 | **4.5** |
+## 可执行清单 (Executable Checklist)
+
+### #1 Ethereum Up or Down - February 27, 2:15PM-2:30PM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $14,012 |
+| **到期时间** | 0天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，0天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/eth-updown-15m-1772219700) |
+
+### #2 Bitcoin Up or Down - February 28, 6AM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $15,128 |
+| **到期时间** | 1天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/bitcoin-up-or-down-february-28-6am-et) |
+
+### #3 Solana Up or Down - February 28, 7:25AM-7:30AM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $12,768 |
+| **到期时间** | 1天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/sol-updown-5m-1772281500) |
+
+### #4 Bitcoin Up or Down - February 28, 7:20AM-7:25AM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $15,100 |
+| **到期时间** | 1天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772281200) |
+
+### #5 Solana Up or Down - February 28, 9:35AM-9:40AM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $12,746 |
+| **到期时间** | 1天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/sol-updown-5m-1772289300) |
+
+### #6 Ethereum Up or Down - February 28, 3:20AM-3:25AM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $13,439 |
+| **到期时间** | 1天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/eth-updown-5m-1772266800) |
+
+### #7 Bitcoin Up or Down - February 28, 3:15AM-3:20AM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $15,335 |
+| **到期时间** | 1天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772266500) |
+
+### #8 Bitcoin Up or Down - February 28, 7AM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $15,131 |
+| **到期时间** | 1天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/bitcoin-up-or-down-february-28-7am-et) |
+
+### #9 Ethereum Up or Down - February 28, 4:15AM-4:20AM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $13,436 |
+| **到期时间** | 1天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/eth-updown-5m-1772270100) |
+
+### #10 Solana Up or Down - February 27, 11:00AM-11:15AM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $14,806 |
+| **到期时间** | 0天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，0天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/sol-updown-15m-1772208000) |
+
+### #11 Ethereum Up or Down - February 28, 3:35AM-3:40AM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $13,432 |
+| **到期时间** | 1天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/eth-updown-5m-1772267700) |
+
+### #12 Zeynep Sonmez vs. Cristina Bucsa: Total Sets O/U 2.5
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $11,651 |
+| **到期时间** | 7天 |
+| **类别** | sports |
+| **评分** | 5.4/10 |
+| **行动** | 观察 - 等待比赛结果 |
+| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
+| **理由** | 体育类市场结算清晰，7天后到期。需关注比赛实际结果和潜在中断。 |
+| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
+| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
+| **链接** | [Polymarket](https://polymarket.com/market/wta-sonmez-bucsa-2026-02-27-set-totals-2pt5) |
+
+### #13 Kimberly Birrell vs. Ajla Tomljanovic: Total Sets O/U 2.5
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $11,795 |
+| **到期时间** | 7天 |
+| **类别** | sports |
+| **评分** | 5.4/10 |
+| **行动** | 观察 - 等待比赛结果 |
+| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
+| **理由** | 体育类市场结算清晰，7天后到期。需关注比赛实际结果和潜在中断。 |
+| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
+| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
+| **链接** | [Polymarket](https://polymarket.com/market/wta-birrell-tomljan-2026-02-27-set-totals-2pt5) |
+
+### #14 Spread: West Ham United FC (-1.5)
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $6,321 |
+| **到期时间** | 5天 |
+| **类别** | unknown |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 需进一步研究 |
+| **入场计划** | 评分≥7.0且流动性允许时可小额测试，设定5%止损线 |
+| **理由** | 通用候选市场，5天后到期。需自行验证结算规则和监控源。 |
+| **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件 |
+| **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/epl-ful-wes-2026-03-04-spread-away-1pt5) |
+
+### #15 Myles Turner: Points O/U 10.5
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $2,725 |
+| **到期时间** | 0天 |
+| **类别** | unknown |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 需进一步研究 |
+| **入场计划** | 评分≥7.0且流动性允许时可小额测试，设定5%止损线 |
+| **理由** | 通用候选市场，0天后到期。需自行验证结算规则和监控源。 |
+| **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件 |
+| **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/nba-nyk-mil-2026-02-27-points-myles-turner-10pt5) |
+
+### #16 Herbert vs. Droguet: Match O/U 23.5
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $2,619 |
+| **到期时间** | 7天 |
+| **类别** | sports |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 等待比赛结果 |
+| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
+| **理由** | 体育类市场结算清晰，7天后到期。需关注比赛实际结果和潜在中断。 |
+| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
+| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
+| **链接** | [Polymarket](https://polymarket.com/market/atp-herbert-droguet-2026-02-27-match-total-23pt5) |
+
+### #17 Ball State Cardinals vs. Northern Illinois Huskies
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $5,145 |
+| **到期时间** | 1天 |
+| **类别** | sports |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 等待比赛结果 |
+| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
+| **理由** | 体育类市场结算清晰，1天后到期。需关注比赛实际结果和潜在中断。 |
+| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
+| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
+| **链接** | [Polymarket](https://polymarket.com/market/cbb-ballst-nill-2026-02-28) |
+
+### #18 Appalachian State Mountaineers vs. Texas State Bobcats: O/U 133.5
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $2,281 |
+| **到期时间** | 0天 |
+| **类别** | sports |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 等待比赛结果 |
+| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
+| **理由** | 体育类市场结算清晰，0天后到期。需关注比赛实际结果和潜在中断。 |
+| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
+| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
+| **链接** | [Polymarket](https://polymarket.com/market/cbb-applst-txst-2026-02-27-total-133pt5) |
+
+### #19 South Dakota State Jackrabbits vs. South Dakota Coyotes
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $5,862 |
+| **到期时间** | 1天 |
+| **类别** | sports |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 等待比赛结果 |
+| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
+| **理由** | 体育类市场结算清晰，1天后到期。需关注比赛实际结果和潜在中断。 |
+| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
+| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
+| **链接** | [Polymarket](https://polymarket.com/market/cbb-sdkst-sdak-2026-02-28) |
+
+### #20 KHL: Admiral Vladivostok vs. Salavat Yulaev Ufa
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $1,376 |
+| **到期时间** | 2天 |
+| **类别** | sports |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 等待比赛结果 |
+| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
+| **理由** | 体育类市场结算清晰，2天后到期。需关注比赛实际结果和潜在中断。 |
+| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
+| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
+| **链接** | [Polymarket](https://polymarket.com/market/khl-adm-sal-2026-03-01) |
+
+### #21 Will Macy Chiasson win by KO or TKO?
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $1,119 |
+| **到期时间** | 2天 |
+| **类别** | unknown |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 需进一步研究 |
+| **入场计划** | 评分≥7.0且流动性允许时可小额测试，设定5%止损线 |
+| **理由** | 通用候选市场，2天后到期。需自行验证结算规则和监控源。 |
+| **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件 |
+| **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/ufc-mac-ail1-2026-02-28-chiasson-win-by-ko-tko) |
+
+### #22 Spread: Fairfield Stags (-1.5)
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $1,541 |
+| **到期时间** | 0天 |
+| **类别** | unknown |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 需进一步研究 |
+| **入场计划** | 评分≥7.0且流动性允许时可小额测试，设定5%止损线 |
+| **理由** | 通用候选市场，0天后到期。需自行验证结算规则和监控源。 |
+| **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件 |
+| **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/cbb-siena-fair-2026-02-27-spread-home-1pt5) |
+
+### #23 TCU Horned Frogs vs. Kansas State Wildcats
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $1,054 |
+| **到期时间** | 1天 |
+| **类别** | sports |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 等待比赛结果 |
+| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
+| **理由** | 体育类市场结算清晰，1天后到期。需关注比赛实际结果和潜在中断。 |
+| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
+| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
+| **链接** | [Polymarket](https://polymarket.com/market/cbb-tcu-kanst-2026-02-28) |
+
+### #24 O/U 2.5 Rounds
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $1,097 |
+| **到期时间** | 2天 |
+| **类别** | unknown |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 需进一步研究 |
+| **入场计划** | 评分≥7.0且流动性允许时可小额测试，设定5%止损线 |
+| **理由** | 通用候选市场，2天后到期。需自行验证结算规则和监控源。 |
+| **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件 |
+| **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/ufc-mac-ail1-2026-02-28-totals-2pt5) |
+
+### #25 William & Mary Tribe vs. North Carolina A&T Aggies
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $4,649 |
+| **到期时间** | 1天 |
+| **类别** | sports |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 等待比赛结果 |
+| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
+| **理由** | 体育类市场结算清晰，1天后到期。需关注比赛实际结果和潜在中断。 |
+| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
+| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
+| **链接** | [Polymarket](https://polymarket.com/market/cbb-wm-ncat-2026-02-28) |
+
+### #26 Manhattan Jaspers vs. Saint Peter's Peacocks: O/U 145.5
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $1,487 |
+| **到期时间** | 0天 |
+| **类别** | sports |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 等待比赛结果 |
+| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
+| **理由** | 体育类市场结算清晰，0天后到期。需关注比赛实际结果和潜在中断。 |
+| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
+| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
+| **链接** | [Polymarket](https://polymarket.com/market/cbb-manh-stpete-2026-02-27-total-145pt5) |
+
+### #27 Mount St. Mary's Mountaineers vs. Sacred Heart Pioneers: O/U 149.5
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $1,533 |
+| **到期时间** | 0天 |
+| **类别** | sports |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 等待比赛结果 |
+| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
+| **理由** | 体育类市场结算清晰，0天后到期。需关注比赛实际结果和潜在中断。 |
+| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
+| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
+| **链接** | [Polymarket](https://polymarket.com/market/cbb-mstm-sacred-2026-02-27-total-149pt5) |
+
+### #28 Will Jasmine Crockett win the Texas Democratic Senate Primary by 5% or more?
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $2,237 |
+| **到期时间** | 3天 |
+| **类别** | unknown |
+| **评分** | 4.6/10 |
+| **行动** | ⚠️ 低优先级 - 建议跳过 |
+| **入场计划** | 评分≥7.0且流动性允许时可小额测试，设定5%止损线 |
+| **理由** | 通用候选市场，3天后到期。需自行验证结算规则和监控源。 |
+| **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件, ⚠️ Neg Risk 市场 - 风险较高 |
+| **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/will-jasmine-crockett-win-the-texas-democratic-senate-primary-by-5-or-more) |
+
+### #29 Will FC Petrolul Ploieşti win on 2026-03-01?
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $2,491 |
+| **到期时间** | 2天 |
+| **类别** | unknown |
+| **评分** | 4.6/10 |
+| **行动** | ⚠️ 低优先级 - 建议跳过 |
+| **入场计划** | 评分≥7.0且流动性允许时可小额测试，设定5%止损线 |
+| **理由** | 通用候选市场，2天后到期。需自行验证结算规则和监控源。 |
+| **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件, ⚠️ Neg Risk 市场 - 风险较高 |
+| **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/rou1-fpp-fcm-2026-03-01-fpp) |
+
+### #30 Will Gwangju FC win on 2026-03-01?
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $2,181 |
+| **到期时间** | 2天 |
+| **类别** | unknown |
+| **评分** | 4.6/10 |
+| **行动** | ⚠️ 低优先级 - 建议跳过 |
+| **入场计划** | 评分≥7.0且流动性允许时可小额测试，设定5%止损线 |
+| **理由** | 通用候选市场，2天后到期。需自行验证结算规则和监控源。 |
+| **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件, ⚠️ Neg Risk 市场 - 风险较高 |
+| **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/kor-jej-gwa-2026-03-01-gwa) |
+
+---
 
 ## Methodology
 
 - Data source: Gamma API (markets) + CLOB API (orderbook, midpoints, last-trade, fee-rate)
 - Metrics: implied_probability, spread (bid-ask), depth_proxy, days_to_event, fee_rate
 - Scoring: weights from watchlist-scoring.yaml
+- Executable card: auto-generated based on category (weather/politics/crypto/sports/economy/unknown)
 - Read-only, no trading, no signatures
