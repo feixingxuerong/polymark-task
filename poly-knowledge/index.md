@@ -75,6 +75,7 @@ poly-knowledge/
 
 | #14 | Polymarket 结算机制 | ✅ 已完成 | `notes/polymarket-settlement.md` |
 | #15 | Polymarket 赔率心理学 | ✅ 已完成 | `notes/polymarket-odds-psychology.md` |
+| #19 | Watchlist 可执行清单升级 | ✅ 已完成 | `scripts/generate-watchlist.mjs` + `watchlist-process.md` |
 
 ---
 
@@ -149,3 +150,11 @@ poly-knowledge/
 - [新增] 赔率心理学 - 价格形成机制、信息反映效率、行为偏差
 - 来源: Wikipedia, 预测市场文献, 行为金融学
 - 更新人: Subagent-Poly-Odds-Psych
+
+### 2026-02-27
+
+- [新增] Watchlist 可执行清单 - 每日 watchlist 升级为可执行清单
+- 改动: 新增 action, entry_plan, key_risks[], monitor_sources[], thesis 字段
+- 类别模板: weather/aviation, macro/politics, crypto, sports, entertainment, economy
+- 来源: scripts/generate-watchlist.mjs
+- 更新人: Subagent-Watchlist-Executable

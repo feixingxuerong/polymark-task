@@ -375,6 +375,188 @@ function generateReason(metrics, scores) {
   return reasons.join(' | ');
 }
 
+// === 可执行清单生成 ===
+// 基于市场类别生成模板化的 action, entry_plan, key_risks, monitor_sources, thesis
+
+// 类别关键词匹配
+const CATEGORY_PATTERNS = {
+  weather: /天气|weather|温度|temperature|降雨|rain|雪|snow|风暴|storm|台风|hurricane|飓风|typhoon|地震|earthquake|洪水|flood|干旱|drought|aviation|航班|flight|航空/i,
+  politics: /选举|election|总统|president|首相|minister|国会|congress|parliament|公投|referendum|政策|policy|法案|bill|协议|treaty|战争|war|冲突|conflict|制裁|sanction|外交|diplomacy|官员|official|政府|government|民调|poll|候选人|candidate|投票|vote/i,
+  crypto: /比特币|bitcoin|btc|以太坊|ethereum|eth|加密|crypto|币安|binance|coinbase|以太|ether|token|区块链|blockchain|sec|fda|批准|approval|etf|现货|spot|dogecoin|solana|bnb/i,
+  sports: /足球|football|soccer|篮球|basketball|nba|网球|tennis|棒球|baseball|高尔夫|golf|赛车|racing|f1|nfl|冰球|hockey|比赛|match|game|联赛|league|赛季|season|冠军|champion|ufc|mma|boxing|拳击|排球|volleyball|橄榄球|rugby|cricket|板球|khl|nhl|mlb|温网|djokovic|federer|nadal|选手|team|队|vs|对|得分|得分|进球|goal|进球/i,
+  entertainment: /电影|movie|奥斯卡|oscar|金球奖|grammy|艾美奖|emmys|音乐|music|奖项|award|综艺|show|剧集|series|netflix|票房|box office|演唱会|concert|Bruno Mars|明星|celebrity/i,
+  economy: /gdp|cpi|ppi|失业率|unemployment|利率|interest rate|美联储|fed|央行|central bank|通胀|inflation|非农|nonfarm|零售|sales|经济|economy|pce|房价|housing|消费者|consumer/i
+};
+
+function detectCategory(question) {
+  for (const [category, pattern] of Object.entries(CATEGORY_PATTERNS)) {
+    if (pattern.test(question)) {
+      return category;
+    }
+  }
+  return 'unknown';
+}
+
+function generateExecutableCard(metrics, scores) {
+  const question = metrics.question || '';
+  const category = detectCategory(question);
+  
+  // 风险等级
+  const riskLevel = metrics.risk === 'low' ? '低风险' : metrics.risk === 'medium' ? '中等风险' : '高风险';
+  
+  // 临近结算时间
+  const settlementTime = metrics.days_to_event !== null 
+    ? `${metrics.days_to_event.toFixed(0)}天后` 
+    : '未知';
+  
+  // 模板化内容
+  let action, entry_plan, key_risks, monitor_sources, thesis;
+  
+  switch (category) {
+    case 'weather':
+    case 'aviation':
+      action = '观察 - 等待数据源确认';
+      entry_plan = `临近结算前30分钟检查数据源（气象局/航空公司官网），流动性充足时可小额测试`;
+      key_risks = [
+        '气象数据源延迟或不可用',
+        '航班取消/延误导致结算不确定性',
+        '极端天气黑天鹅事件'
+      ];
+      monitor_sources = [
+        'NOAA weather.gov',
+        'FlightAware / Flightradar24',
+        '航空公司官方公告',
+        '当地气象局预警'
+      ];
+      thesis = `天气/航空类事件依赖权威数据源结算，${settlementTime}到期。关注数据可验证性和结算时间窗口。`;
+      break;
+      
+    case 'politics':
+      action = '观察 - 等待新闻催化剂';
+      entry_plan = `等待官方声明/新闻发布，评分≥8.5且流动性充足时可考虑`;
+      key_risks = [
+        '政策黑天鹅 - 突发公告逆转市场',
+        '结算规则不明确引发争议',
+        '民调与结果背离'
+      ];
+      monitor_sources = [
+        'Reuters / AP News',
+        'Bloomberg Politics',
+        '官方政府网站',
+        'Twitter/X 实时新闻'
+      ];
+      thesis = `政治类市场受新闻催化剂驱动，${settlementTime}到期。注意结算规则和潜在黑天鹅。`;
+      break;
+      
+    case 'crypto':
+      action = '观察 - 等待价格信号';
+      entry_plan = `设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时`;
+      key_risks = [
+        'SEC/FDA 等机构突发审批决定',
+        '巨鲸操作导致价格剧烈波动',
+        '交易所技术故障',
+        '波动性过高导致点差扩大'
+      ];
+      monitor_sources = [
+        'CoinGecko / CoinMarketCap 实时价格',
+        'TradingView 技术分析',
+        'SEC/FDA 官方公告',
+        'Twitter/X 加密社区'
+      ];
+      thesis = `加密市场波动性高，${settlementTime}到期。需关注价格源和时间窗口，防止极端波动。`;
+      break;
+      
+    case 'sports':
+      action = '观察 - 等待比赛结果';
+      entry_plan = `比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲`;
+      key_risks = [
+        '比赛推迟/取消',
+        '球员伤病突发',
+        '裁判判罚争议',
+        '加时赛/点球决胜'
+      ];
+      monitor_sources = [
+        'ESPN / 官方联赛网站',
+        'Flashscore 实时比分',
+        'Twitter 体育记者',
+        '赔率对比（Oddschecker）'
+      ];
+      thesis = `体育类市场结算清晰，${settlementTime}到期。需关注比赛实际结果和潜在中断。`;
+      break;
+      
+    case 'entertainment':
+      action = '观察 - 等待颁奖/发布';
+      entry_plan = `颁奖典礼前24小时关注赔率走势，流动性充足时可适度参与`;
+      key_risks = [
+        '奖项结果与市场预期不符',
+        '颁奖典礼延期',
+        '投票舞弊争议'
+      ];
+      monitor_sources = [
+        'IMDb 官方信息',
+        'Deadline / Hollywood Reporter',
+        'Twitter 实时讨论',
+        '预测网站共识'
+      ];
+      thesis = `娱乐类市场依赖评委/观众投票，${settlementTime}到期。关注市场共识与实际结果偏离。`;
+      break;
+      
+    case 'economy':
+      action = '观察 - 等待数据发布';
+      entry_plan = `数据发布前30分钟检查市场流动性，数据公布后快速反应`;
+      key_risks = [
+        '数据大幅超出/低于预期',
+        '美联储官员讲话鹰鸽意外',
+        '市场已定价导致买盘衰竭',
+        '数据修正'
+      ];
+      monitor_sources = [
+        'Bloomberg Economic Calendar',
+        '美联储官方声明',
+        'Trading Economics',
+        'Reuters 经济数据'
+      ];
+      thesis = `经济数据市场受宏观事件驱动，${settlementTime}到期。需关注数据发布时间和预期差。`;
+      break;
+      
+    default:
+      action = '观察 - 需进一步研究';
+      entry_plan = `评分≥7.0且流动性允许时可小额测试，设定5%止损线`;
+      key_risks = [
+        '结算规则不明确',
+        '流动性枯竭',
+        '未知黑天鹅事件'
+      ];
+      monitor_sources = [
+        'Polymarket 市场讨论',
+        'Google 新闻搜索',
+        'Reddit 相关社区'
+      ];
+      thesis = `通用候选市场，${settlementTime}到期。需自行验证结算规则和监控源。`;
+  }
+  
+  // 根据评分调整建议
+  if (scores.total >= 8.5) {
+    action = '⭐ 重点关注 - 可考虑入场';
+  } else if (scores.total < 5) {
+    action = '⚠️ 低优先级 - 建议跳过';
+  }
+  
+  // 如果风险高，提醒
+  if (metrics.negRisk || metrics.risk === 'high') {
+    key_risks.push('⚠️ Neg Risk 市场 - 风险较高');
+  }
+  
+  return {
+    category,
+    action,
+    entry_plan,
+    key_risks,
+    monitor_sources,
+    thesis
+  };
+}
+
 // === MAIN ===
 async function main() {
   console.log('=== Daily Watchlist Generator ===');
@@ -431,11 +613,15 @@ async function main() {
     // Generate reason
     const reason = generateReason(metrics, scores);
     
+    // Generate executable card (可执行清单)
+    const executable_card = generateExecutableCard(metrics, scores);
+    
     results.push({
       rank: 0, // will be assigned after sorting
       ...metrics,
       scores,
-      reason
+      reason,
+      ...executable_card
     });
   }
   
@@ -477,32 +663,58 @@ async function main() {
   md += `> Total candidates: ${markets.length}\n`;
   md += `> Scoring weights: liquidity=${SCORING_WEIGHTS.liquidity}, spread=${SCORING_WEIGHTS.spread}, ...\n\n`;
   
-  md += `## Top ${topResults.length} Candidates\n\n`;
-  md += `| # | Question | Probability | Spread | Liquidity | Days to Event | Score | Reason |\n`;
-  md += `|---|----------|-------------|--------|-----------|---------------|-------|--------|\n`;
+  // 简表
+  md += `## Top ${topResults.length} Candidates (Overview)\n\n`;
+  md += `| # | Question | Prob | Spread | Liq | Days | Score | Category | Action |\n`;
+  md += `|---|----------|------|--------|-----|------|-------|----------|--------|\n`;
   
   for (const item of topResults) {
     const prob = item.implied_probability ? `${(item.implied_probability * 100).toFixed(1)}%` : 'N/A';
     const spread = item.spread_pct !== null ? `${item.spread_pct.toFixed(1)}%` : 'N/A';
-    const liq = item.liquidity ? `$${Math.round(item.liquidity).toLocaleString()}` : 'N/A';
+    const liq = item.liquidity ? `$${Math.round(item.liquidity / 1000).toFixed(0)}k` : 'N/A';
     const days = item.days_to_event !== null ? `${item.days_to_event.toFixed(0)}d` : 'N/A';
-    const question = item.question?.substring(0, 40) || 'N/A';
+    const question = item.question?.substring(0, 25) || 'N/A';
+    const category = item.category || 'unknown';
+    const action = item.action ? item.action.replace(/⭐|⚠️/g, '').substring(0, 15) : 'N/A';
     
-    md += `| ${item.rank} | ${question}... | ${prob} | ${spread} | ${liq} | ${days} | **${item.scores.total.toFixed(1)}** | ${item.reason} |\n`;
+    md += `| ${item.rank} | ${question}... | ${prob} | ${spread} | ${liq} | ${days} | **${item.scores.total.toFixed(1)}** | ${category} | ${action} |\n`;
   }
   
-  md += `\n## Score Breakdown\n\n`;
-  md += `| Rank | Liquidity | Spread | Volatility | Settlement | Calendar | Hedgeability | Risk | Total |\n`;
-  md += `|------|-----------|--------|------------|------------|----------|--------------|------|-------|\n`;
+  // 详细可执行清单
+  md += `\n---\n\n## 可执行清单 (Executable Checklist)\n\n`;
   
   for (const item of topResults) {
-    md += `| ${item.rank} | ${item.scores.liquidity_score} | ${item.scores.spread_score} | ${item.scores.volatility_score} | ${item.scores.settlement_clarity_score} | ${item.scores.event_calendar_score} | ${item.scores.hedgeability_score} | ${item.scores.risk_level_score} | **${item.scores.total.toFixed(1)}** |\n`;
+    const question = item.question || 'N/A';
+    const prob = item.implied_probability ? `${(item.implied_probability * 100).toFixed(1)}%` : 'N/A';
+    const liq = item.liquidity ? `$${Math.round(item.liquidity).toLocaleString()}` : 'N/A';
+    const days = item.days_to_event !== null ? `${item.days_to_event.toFixed(0)}天` : '未知';
+    const category = item.category || 'unknown';
+    
+    md += `### #${item.rank} ${question}\n\n`;
+    md += `| Field | Value |\n`;
+    md += `|-------|-------|\n`;
+    md += `| **概率** | ${prob} |\n`;
+    md += `| **流动性** | ${liq} |\n`;
+    md += `| **到期时间** | ${days} |\n`;
+    md += `| **类别** | ${category} |\n`;
+    md += `| **评分** | ${item.scores.total.toFixed(1)}/10 |\n`;
+    md += `| **行动** | ${item.action || 'N/A'} |\n`;
+    md += `| **入场计划** | ${item.entry_plan || 'N/A'} |\n`;
+    md += `| **理由** | ${item.thesis || item.reason || 'N/A'} |\n`;
+    md += `| **Key Risks** | ${item.key_risks ? item.key_risks.join(', ') : 'N/A'} |\n`;
+    md += `| **监控源** | ${item.monitor_sources ? item.monitor_sources.join(', ') : 'N/A'} |\n`;
+    
+    if (item.url) {
+      md += `| **链接** | [Polymarket](${item.url}) |\n`;
+    }
+    md += `\n`;
   }
   
-  md += `\n## Methodology\n\n`;
+  md += `---\n\n## Methodology\n\n`;
   md += `- Data source: Gamma API (markets) + CLOB API (orderbook, midpoints, last-trade, fee-rate)\n`;
   md += `- Metrics: implied_probability, spread (bid-ask), depth_proxy, days_to_event, fee_rate\n`;
   md += `- Scoring: weights from watchlist-scoring.yaml\n`;
+  md += `- Executable card: auto-generated based on category (weather/politics/crypto/sports/economy/unknown)\n`;
   md += `- Read-only, no trading, no signatures\n`;
   
   writeFileSync(mdPath, md);
