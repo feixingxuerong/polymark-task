@@ -1,5 +1,10 @@
 # Sources
 
+## 项目文档
+
+- Index: [index.md](./index.md)
+- 案例研究: [notes/polymarket-event-case-studies.md](./notes/polymarket-event-case-studies.md)
+
 Polymarket 官方文档与示例（只读部分）
 
 - Polymarket Docs index: https://docs.polymarket.com/
@@ -14,7 +19,19 @@ Live endpoint sanity check (public):
 
 ---
 
-## 航空数据源 (Issue #11)
+## 资金管理研究 (Issue #17)
+
+### Kelly Criterion 核心资源
+
+- Kelly Criterion 详解: https://www.investopedia.com/terms/k/kellycriterion.asp
+- Kelly Criterion 实战应用: https://www.investopedia.com/articles/trading/04/091504.asp
+- 维基百科: https://en.wikipedia.org/wiki/Kelly_criterion
+
+### 仓位管理原则
+
+- 单市场最大仓位建议: 20-25% 资金
+- 推荐使用 Quarter-Kelly (1/4 凯利) 降低方差
+- 预测市场特殊考虑：流动性、手续费、事件风险
 
 ### 实时航班数据
 
