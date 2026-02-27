@@ -363,6 +363,136 @@ function calculateScore(metrics) {
   return scores;
 }
 
+// === WEATHER SIGNAL SCORING (imported from score-weather-signals.mjs logic) ===
+const WEATHER_SIGNAL_WEIGHTS = {
+  recency: 0.30,
+  model_agreement: 0.30,
+  volatility: 0.20,
+  data_gap_risk: 0.20
+};
+
+const RECENCY_THRESHOLDS = {
+  max: 24,
+  optimal: 1
+};
+
+function calculateWeatherSignalScore(item, sources) {
+  // Only score weather/aviation categories
+  if (item.category !== 'weather' && item.category !== 'aviation') {
+    return null;
+  }
+  
+  const now = new Date();
+  
+  // Get stations data from sources
+  const weatherStations = sources?.data?.weather?.stations || [];
+  const aviationAirports = sources?.data?.aviation?.airports || [];
+  
+  // Determine relevant stations based on category
+  const relevantStations = item.category === 'weather' ? weatherStations : aviationAirports;
+  
+  if (relevantStations.length === 0) {
+    return null;
+  }
+  
+  // 1. Recency score - based on sources generated_at
+  let observationTime = now;
+  if (sources?.generated_at) {
+    observationTime = new Date(sources.generated_at);
+  }
+  
+  const hoursDiff = (now - observationTime) / (1000 * 60 * 60);
+  let recencyScore;
+  if (hoursDiff <= RECENCY_THRESHOLDS.optimal) {
+    recencyScore = 10;
+  } else if (hoursDiff >= RECENCY_THRESHOLDS.max) {
+    recencyScore = 0;
+  } else {
+    recencyScore = 10 * (1 - (hoursDiff - RECENCY_THRESHOLDS.optimal) / 
+      (RECENCY_THRESHOLDS.max - RECENCY_THRESHOLDS.optimal));
+  }
+  recencyScore = Math.round(recencyScore * 10) / 10;
+  
+  // 2. Model agreement score - temperature stdDev across stations
+  let modelAgreementScore = 5;
+  if (item.category === 'weather' && relevantStations.length >= 2) {
+    const temps = [];
+    for (const s of relevantStations) {
+      const obs = s.observations?.[0];
+      if (obs?.temperature?.value_f !== undefined) {
+        temps.push(obs.temperature.value_f);
+      }
+    }
+    
+    if (temps.length >= 2) {
+      const mean = temps.reduce((a, b) => a + b, 0) / temps.length;
+      const variance = temps.reduce((sum, t) => sum + Math.pow(t - mean, 2), 0) / temps.length;
+      const stdDev = Math.sqrt(variance);
+      
+      if (stdDev <= 2) modelAgreementScore = 10;
+      else if (stdDev >= 15) modelAgreementScore = 0;
+      else modelAgreementScore = 10 * (1 - (stdDev - 2) / 13);
+      modelAgreementScore = Math.round(modelAgreementScore * 10) / 10;
+    }
+  }
+  
+  // 3. Volatility score - forecast diversity
+  let volatilityScore = 5;
+  if (item.category === 'weather' && relevantStations.length >= 2) {
+    const forecasts = [];
+    for (const s of relevantStations) {
+      if (s.forecast && s.forecast.length > 0) {
+        forecasts.push(...s.forecast.slice(0, 6).map(f => f.shortForecast));
+      }
+    }
+    
+    if (forecasts.length > 0) {
+      const unique = new Set(forecasts).size;
+      const diversity = unique / forecasts.length;
+      
+      if (diversity <= 0.2) volatilityScore = 10;
+      else if (diversity >= 0.8) volatilityScore = 0;
+      else volatilityScore = 10 * (1 - (diversity - 0.2) / 0.6);
+      volatilityScore = Math.round(volatilityScore * 10) / 10;
+    }
+  }
+  
+  // 4. Data gap risk score
+  let dataGapRiskScore = 10;
+  const stationsWithData = relevantStations.filter(s => 
+    (s.observations && s.observations.length > 0) || 
+    (s.forecast && s.forecast.length > 0)
+  ).length;
+  
+  const coverageRatio = stationsWithData / relevantStations.length;
+  dataGapRiskScore = Math.round(coverageScore * 10) / 10;
+  
+  function coverageScore(ratio) {
+    if (ratio >= 1) return 10;
+    if (ratio <= 0.5) return 5;
+    return 5 + (ratio - 0.5) * 10;
+  }
+  
+  // Calculate total
+  const totalScore = 
+    recencyScore * WEATHER_SIGNAL_WEIGHTS.recency +
+    modelAgreementScore * WEATHER_SIGNAL_WEIGHTS.model_agreement +
+    volatilityScore * WEATHER_SIGNAL_WEIGHTS.volatility +
+    dataGapRiskScore * WEATHER_SIGNAL_WEIGHTS.data_gap_risk;
+  
+  const weatherSignalScore = Math.round(totalScore * 10) / 10;
+  
+  return {
+    weather_signal_score: weatherSignalScore,
+    weather_signal_components: {
+      recency: { score: recencyScore, hours_ago: Math.round(hoursDiff * 10) / 10 },
+      model_agreement: { score: modelAgreementScore },
+      volatility: { score: volatilityScore },
+      data_gap_risk: { score: dataGapRiskScore }
+    }
+  };
+}
+
 function generateReason(metrics, scores) {
   const reasons = [];
   
@@ -832,17 +962,42 @@ async function main() {
     // Generate executable card (可执行清单) - pass sources for weather/aviation enhancement
     const executable_card = generateExecutableCard(metrics, scores, sources);
     
+    // Calculate weather signal score for weather/aviation categories
+    const weatherSignalResult = calculateWeatherSignalScore(
+      { category: executable_card.category, question: metrics.question },
+      sources
+    );
+    
     results.push({
       rank: 0, // will be assigned after sorting
       ...metrics,
       scores,
       reason,
-      ...executable_card
+      ...executable_card,
+      ...(weatherSignalResult || {})
     });
   }
   
-  // Sort by total score descending
-  results.sort((a, b) => b.scores.total - a.scores.total);
+  // Sort by total score descending, with weather_signal_score as tie-breaker for |Δscore|<0.3
+  results.sort((a, b) => {
+    const scoreDiff = b.scores.total - a.scores.total;
+    
+    // If score difference is significant (>0.3), use primary score
+    if (Math.abs(scoreDiff) >= 0.3) {
+      return scoreDiff;
+    }
+    
+    // Tie-breaker: use weather_signal_score if available
+    const aWeatherScore = a.weather_signal_score || 0;
+    const bWeatherScore = b.weather_signal_score || 0;
+    
+    if (aWeatherScore !== bWeatherScore) {
+      return bWeatherScore - aWeatherScore; // Higher weather signal score wins
+    }
+    
+    // Fallback to original order or liquidity
+    return (b.liquidity || 0) - (a.liquidity || 0);
+  });
   
   // Assign ranks
   results.forEach((r, i) => r.rank = i + 1);
@@ -893,19 +1048,20 @@ async function main() {
   
   // 简表
   md += `## Top ${topResults.length} Candidates (Overview)\n\n`;
-  md += `| # | Question | Prob | Spread | Liq | Days | Score | Category | Action |\n`;
-  md += `|---|----------|------|--------|-----|------|-------|----------|--------|\n`;
+  md += `| # | Question | Prob | Spread | Liq | Days | Score | Weather Sig | Category | Action |\n`;
+  md += `|---|----------|------|--------|-----|------|-------|-------------|----------|--------|\n`;
   
   for (const item of topResults) {
     const prob = item.implied_probability ? `${(item.implied_probability * 100).toFixed(1)}%` : 'N/A';
     const spread = item.spread_pct !== null ? `${item.spread_pct.toFixed(1)}%` : 'N/A';
     const liq = item.liquidity ? `$${Math.round(item.liquidity / 1000).toFixed(0)}k` : 'N/A';
     const days = item.days_to_event !== null ? `${item.days_to_event.toFixed(0)}d` : 'N/A';
-    const question = item.question?.substring(0, 25) || 'N/A';
+    const question = item.question?.substring(0, 20) || 'N/A';
     const category = item.category || 'unknown';
-    const action = item.action ? item.action.replace(/⭐|⚠️/g, '').substring(0, 15) : 'N/A';
+    const action = item.action ? item.action.replace(/⭐|⚠️/g, '').substring(0, 12) : 'N/A';
+    const weatherSig = item.weather_signal_score !== undefined ? `${item.weather_signal_score}` : '-';
     
-    md += `| ${item.rank} | ${question}... | ${prob} | ${spread} | ${liq} | ${days} | **${item.scores.total.toFixed(1)}** | ${category} | ${action} |\n`;
+    md += `| ${item.rank} | ${question}... | ${prob} | ${spread} | ${liq} | ${days} | **${item.scores.total.toFixed(1)}** | ${weatherSig} | ${category} | ${action} |\n`;
   }
   
   // 详细可执行清单
@@ -926,6 +1082,13 @@ async function main() {
     md += `| **到期时间** | ${days} |\n`;
     md += `| **类别** | ${category} |\n`;
     md += `| **评分** | ${item.scores.total.toFixed(1)}/10 |\n`;
+    
+    // Add weather signal score for weather/aviation
+    if (item.weather_signal_score !== undefined) {
+      const comp = item.weather_signal_components;
+      md += `| **天气信号评分** | ${item.weather_signal_score}/10 (recency:${comp?.recency?.score || '-'}, agree:${comp?.model_agreement?.score || '-'}, vol:${comp?.volatility?.score || '-'}, gap:${comp?.data_gap_risk?.score || '-'}) |\n`;
+    }
+    
     md += `| **行动** | ${item.action || 'N/A'} |\n`;
     md += `| **入场计划** | ${item.entry_plan || 'N/A'} |\n`;
     md += `| **理由** | ${item.thesis || item.reason || 'N/A'} |\n`;

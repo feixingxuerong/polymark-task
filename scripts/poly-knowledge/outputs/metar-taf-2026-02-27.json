@@ -1,0 +1,81 @@
+# METAR/TAF Aviation Data Summary
+
+Generated: 2026-02-27T16:36:41.150Z
+Source: NWS Aviation Weather API
+
+## Airports
+
+| ICAO | Airport | METAR | TAF | Flight Category |
+|------|---------|-------|-----|-----------------|
+| KJFK | New York | Yes | No | VFR |
+| KLAX | Los Angeles | Yes | No | VFR |
+| KORD | Chicago | Yes | No | VFR |
+| KDFW | Dallas | Yes | No | VFR |
+| KDEN | Denver | Yes | No | VFR |
+| KSEA | Seattle | Yes | No | VFR |
+| KMIA | Miami | Yes | No | VFR |
+| EGLL | London | No | No | - |
+| LFPG | Paris | No | No | - |
+| RJTT | Tokyo | No | No | - |
+
+### KJFK - John F. Kennedy International
+
+- Temperature: 3°C (37.4°F)
+- Dewpoint: -7°C
+- Wind: 11kt ESE
+- Visibility: 10.0 SM
+- Clouds: undefined 12500ft
+- Pressure: 30.16 inHg
+
+### KLAX - Los Angeles International
+
+- Temperature: 23°C (73.4°F)
+- Dewpoint: 11°C
+- Wind: 18kt NE
+- Visibility: 10.0 SM
+- Clouds: undefined 12500ft
+- Pressure: 29.99 inHg
+
+### KORD - O'Hare International
+
+- Temperature: 9°C (48.2°F)
+- Dewpoint: -1°C
+- Wind: 36kt SSW
+- Visibility: 10.0 SM
+- Clouds: undefined 12500ft
+- Pressure: 29.88 inHg
+
+### KDFW - Dallas/Fort Worth International
+
+- Temperature: 21°C (69.8°F)
+- Dewpoint: 3°C
+- Wind: 22kt E
+- Visibility: 10.0 SM
+- Clouds: undefined 12500ft
+- Pressure: 30.05 inHg
+
+### KDEN - Denver International
+
+- Temperature: 14°C (57.2°F)
+- Dewpoint: -10°C
+- Wind: 32kt WSW
+- Visibility: 10.0 SM
+- Clouds: undefined 9000ft
+
+### KSEA - Seattle-Tacoma International
+
+- Temperature: 7°C (44.6°F)
+- Dewpoint: 3°C
+- Wind: 40kt S
+- Visibility: 10.0 SM
+- Clouds: undefined 2300ft
+- Pressure: 30.31 inHg
+
+### KMIA - Miami International
+
+- Temperature: 27°C (80.6°F)
+- Dewpoint: 21°C
+- Wind: 43kt SE
+- Visibility: 10.0 SM
+- Clouds: undefined 2100ft
+- Pressure: 30.04 inHg

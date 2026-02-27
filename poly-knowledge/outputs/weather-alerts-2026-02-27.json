@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-02-27T17:20:42.311Z",
+  "date": "2026-02-27",
+  "version": "1.0.0",
+  "summary": {
+    "total_alerts": 3,
+    "trigger_types": {
+      "t_minus_24h": 2,
+      "t_minus_6h": 0,
+      "source_updated": 0,
+      "near_settlement": 1
+    },
+    "markets_filtered": 30,
+    "alerts_sent": 3
+  },
+  "alerts": [
+    {
+      "rank": 1,
+      "market_id": "1386664",
+      "slug": "us-strikes-iran-by-february-27-2026",
+      "question": "US strikes Iran by February 27, 2026?",
+      "url": "https://polymarket.com/market/us-strikes-iran-by-february-27-2026",
+      "category": "unknown",
+      "trigger": {
+        "type": "near_settlement",
+        "reason": "已过期或结算时间不明确",
+        "timestamp": "2026-02-27T17:20:42.311Z",
+        "details": "endDate: 2026-01-31T00:00:00Z"
+      },
+      "market_data": {
+        "end_date": "2026-01-31T00:00:00Z",
+        "days_to_event": -27.722532986111112,
+        "hours_to_event": -665.3,
+        "liquidity": 197433.43765,
+        "action": "观察 - 需进一步研究",
+        "entry_plan": "评分≥7.0且流动性允许时可小额测试，设定5%止损线",
+        "stations": []
+      },
+      "next_steps": [
+        "检查最新天气预报",
+        "确认流动性充足",
+        "验证结算规则"
+      ],
+      "kb_link": "/weather/today"
+    },
+    {
+      "rank": 2,
+      "market_id": "1380201",
+      "slug": "fl1-ren-tou-2026-02-28-total-1pt5",
+      "question": "Stade Rennais FC 1901 vs. Toulouse FC: O/U 1.5",
+      "url": "https://polymarket.com/market/fl1-ren-tou-2026-02-28-total-1pt5",
+      "category": "sports",
+      "trigger": {
+        "type": "t_minus_24h",
+        "reason": "24小时倒计时",
+        "timestamp": "2026-02-27T17:20:42.311Z",
+        "details": "endDate: 2026-02-28T16:00:00Z"
+      },
+      "market_data": {
+        "end_date": "2026-02-28T16:00:00Z",
+        "days_to_event": 0.9444867361111111,
+        "hours_to_event": 22.7,
+        "liquidity": 105083.8336,
+        "action": "观察 - 等待比赛结果",
+        "entry_plan": "比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲",
+        "stations": []
+      },
+      "next_steps": [
+        "检查最新天气预报",
+        "确认流动性充足",
+        "验证结算规则"
+      ],
+      "kb_link": "/weather/today"
+    },
+    {
+      "rank": 4,
+      "market_id": "1383640",
+      "slug": "scop-hmi-abe-2026-02-28-total-2pt5",
+      "question": "Heart of Midlothian FC vs. Aberdeen FC: O/U 2.5",
+      "url": "https://polymarket.com/market/scop-hmi-abe-2026-02-28-total-2pt5",
+      "category": "sports",
+      "trigger": {
+        "type": "t_minus_24h",
+        "reason": "24小时倒计时",
+        "timestamp": "2026-02-27T17:20:42.311Z",
+        "details": "endDate: 2026-02-28T15:00:00Z"
+      },
+      "market_data": {
+        "end_date": "2026-02-28T15:00:00Z",
+        "days_to_event": 0.9027662152777778,
+        "hours_to_event": 21.7,
+        "liquidity": 44614.6993,
+        "action": "观察 - 等待比赛结果",
+        "entry_plan": "比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲",
+        "stations": []
+      },
+      "next_steps": [
+        "检查最新天气预报",
+        "确认流动性充足",
+        "验证结算规则"
+      ],
+      "kb_link": "/weather/today"
+    }
+  ],
+  "sources": {
+    "watchlist": "watchlist-2026-02-27.json",
+    "watchlist_diff": null,
+    "weather_sources": "weather-aviation-sources-2026-02-28.json"
+  },
+  "config": {
+    "top_n": 5,
+    "trigger_lookahead_hours": 48,
+    "min_liquidity": 500
+  }
+}
