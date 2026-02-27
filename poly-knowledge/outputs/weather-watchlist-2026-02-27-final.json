@@ -1,0 +1,318 @@
+{
+  "generated_at": "2026-02-27T11:55:47Z",
+  "source": "sample",
+  "note": "API connection to Polymarket timed out. Using sample data to demonstrate pipeline. For production, re-run with --fetch when network is available.",
+  "filters_applied": {
+    "liquidity_min_usd": 1000
+  },
+  "markets": [
+    {
+      "market_id": "sample-001",
+      "condition_id": "cond_001",
+      "slug": "will-it-snow-in-nyc-feb-28-2026",
+      "question": "Will it snow in New York City on February 28, 2026?",
+      "liquidity_usd": 15000,
+      "volume_usd": 8200,
+      "bid": 0.42,
+      "ask": 0.45,
+      "spread_pct": 6.8,
+      "resolution_source": "NOAA/NWS",
+      "resolution_criteria": "≥1 inch snowfall at Central Park (KNYC)",
+      "end_date": "2026-02-28T23:59:59Z",
+      "rules": "Snowfall measured at Central Park weather station by NOAA.",
+      "station": {
+        "id": "KNYC",
+        "name": "Central Park Weather Station",
+        "city": "New York",
+        "lat": 40.7789,
+        "lon": -73.9695,
+        "source": "NOAA LCD"
+      },
+      "risk_flags": ["TIME_WINDOW_UNCLEAR", "TIMEZONE_AMBIGUOUS"],
+      "risk_level": "high",
+      "risk_descriptions": [
+        {"flag": "TIME_WINDOW_UNCLEAR", "description": "Time window/hours not specified"},
+        {"flag": "TIMEZONE_AMBIGUOUS", "description": "UTC vs local timezone not specified"}
+      ]
+    },
+    {
+      "market_id": "sample-002",
+      "condition_id": "cond_002",
+      "slug": "will-rain-in-london-mar-15-2026",
+      "question": "Will it rain in London on March 15, 2026?",
+      "liquidity_usd": 8500,
+      "volume_usd": 4200,
+      "bid": 0.55,
+      "ask": 0.58,
+      "spread_pct": 5.2,
+      "resolution_source": "MET Office UK",
+      "resolution_criteria": "≥1mm precipitation at Heathrow Airport",
+      "end_date": "2026-03-15T23:59:59Z",
+      "rules": "Precipitation measured at London Heathrow (LHR).",
+      "station": {
+        "id": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "lat": 51.47,
+        "lon": -0.4543,
+        "source": "METAR"
+      },
+      "risk_flags": ["TIME_WINDOW_UNCLEAR", "TIMEZONE_AMBIGUOUS", "STATION_UNSPECIFIED", "DATA_SOURCE_UNCLEAR", "NO_VERIFICATION_SOURCE"],
+      "risk_level": "high",
+      "risk_descriptions": [
+        {"flag": "TIME_WINDOW_UNCLEAR", "description": "Time window/hours not specified"},
+        {"flag": "TIMEZONE_AMBIGUOUS", "description": "UTC vs local timezone not specified"},
+        {"flag": "STATION_UNSPECIFIED", "description": "No specific weather station mentioned"},
+        {"flag": "DATA_SOURCE_UNCLEAR", "description": "Resolution data source not specified"},
+        {"flag": "NO_VERIFICATION_SOURCE", "description": "No publicly verifiable data source"}
+      ]
+    },
+    {
+      "market_id": "sample-003",
+      "condition_id": "cond_003",
+      "slug": "temp-exceed-100f-dallas-jul-15",
+      "question": "Will temperature exceed 100°F in Dallas on July 15, 2026 at 3pm CDT?",
+      "liquidity_usd": 22000,
+      "volume_usd": 15500,
+      "bid": 0.72,
+      "ask": 0.75,
+      "spread_pct": 4.0,
+      "resolution_source": "NOAA/NWS",
+      "resolution_criteria": "Temperature ≥100°F at DFW airport at 3pm CDT",
+      "end_date": "2026-07-15T20:00:00Z",
+      "rules": "Temperature measured at Dallas/Fort Worth International Airport (KDFW) at 3pm local time.",
+      "station": {
+        "id": "KDFW",
+        "name": "Dallas/Fort Worth International Airport",
+        "city": "Dallas",
+        "lat": 32.8998,
+        "lon": -97.0403,
+        "source": "NOAA LCD"
+      },
+      "risk_flags": ["DATA_SOURCE_UNCLEAR", "NO_VERIFICATION_SOURCE"],
+      "risk_level": "medium",
+      "risk_descriptions": [
+        {"flag": "DATA_SOURCE_UNCLEAR", "description": "Resolution data source not specified"},
+        {"flag": "NO_VERIFICATION_SOURCE", "description": "No publicly verifiable data source"}
+      ]
+    },
+    {
+      "market_id": "sample-004",
+      "condition_id": "cond_004",
+      "slug": "hurricane-miami-2026-season",
+      "question": "Will there be a Category 3+ hurricane making landfall in Miami in 2026?",
+      "liquidity_usd": 45000,
+      "volume_usd": 28000,
+      "bid": 0.15,
+      "ask": 0.18,
+      "spread_pct": 18.0,
+      "resolution_source": "NOAA/NHC",
+      "resolution_criteria": "Category 3+ hurricane (wind ≥111 mph) at Miami landfall",
+      "end_date": "2026-11-30T23:59:59Z",
+      "rules": "Hurricane data from NOAA National Hurricane Center.",
+      "station": {
+        "id": "KMIA",
+        "name": "Miami International Airport",
+        "city": "Miami",
+        "lat": 25.7959,
+        "lon": -80.287,
+        "source": "NOAA LCD"
+      },
+      "risk_flags": ["TIMEZONE_AMBIGUOUS"],
+      "risk_level": "medium",
+      "risk_descriptions": [
+        {"flag": "TIMEZONE_AMBIGUOUS", "description": "UTC vs local timezone not specified"}
+      ]
+    },
+    {
+      "market_id": "sample-005",
+      "condition_id": "cond_005",
+      "slug": "snowfall-tokyo-jan-2026",
+      "question": "Will it snow in Tokyo in January 2026?",
+      "liquidity_usd": 12000,
+      "volume_usd": 6800,
+      "bid": 0.28,
+      "ask": 0.32,
+      "spread_pct": 12.5,
+      "resolution_source": "JMA",
+      "resolution_criteria": "Any snowfall recorded at Tokyo stations",
+      "end_date": "2026-01-31T23:59:59Z",
+      "rules": "Snowfall measured at Tokyo area weather stations (JMA).",
+      "station": {
+        "id": "RJTT",
+        "name": "Narita International Airport",
+        "city": "Tokyo",
+        "lat": 35.772,
+        "lon": 140.3929,
+        "source": "METAR"
+      },
+      "risk_flags": ["TIME_WINDOW_UNCLEAR", "TIMEZONE_AMBIGUOUS", "NO_VERIFICATION_SOURCE"],
+      "risk_level": "high",
+      "risk_descriptions": [
+        {"flag": "TIME_WINDOW_UNCLEAR", "description": "Time window/hours not specified"},
+        {"flag": "TIMEZONE_AMBIGUOUS", "description": "UTC vs local timezone not specified"},
+        {"flag": "NO_VERIFICATION_SOURCE", "description": "No publicly verifiable data source"}
+      ]
+    },
+    {
+      "market_id": "sample-006",
+      "condition_id": "cond_006",
+      "slug": "rain-paris-apr-2026",
+      "question": "Will it rain in Paris on April 5, 2026?",
+      "liquidity_usd": 7500,
+      "volume_usd": 3200,
+      "bid": 0.48,
+      "ask": 0.52,
+      "spread_pct": 8.0,
+      "resolution_source": "Météo-France",
+      "resolution_criteria": "Precipitation ≥0.1mm at Paris Charles de Gaulle",
+      "end_date": "2026-04-05T23:59:59Z",
+      "rules": "Rain measured at Paris CDG airport station.",
+      "station": {
+        "id": "CDG",
+        "name": "Charles de Gaulle Airport",
+        "city": "Paris",
+        "lat": 49.0097,
+        "lon": 2.5479,
+        "source": "METAR"
+      },
+      "risk_flags": ["TIME_WINDOW_UNCLEAR", "TIMEZONE_AMBIGUOUS", "DATA_SOURCE_UNCLEAR", "NO_VERIFICATION_SOURCE"],
+      "risk_level": "high",
+      "risk_descriptions": [
+        {"flag": "TIME_WINDOW_UNCLEAR", "description": "Time window/hours not specified"},
+        {"flag": "TIMEZONE_AMBIGUOUS", "description": "UTC vs local timezone not specified"},
+        {"flag": "DATA_SOURCE_UNCLEAR", "description": "Resolution data source not specified"},
+        {"flag": "NO_VERIFICATION_SOURCE", "description": "No publicly verifiable data source"}
+      ]
+    },
+    {
+      "market_id": "sample-007",
+      "condition_id": "cond_007",
+      "slug": "snow-denver-mar-2026",
+      "question": "Will more than 4 inches of snow fall in Denver in March 2026?",
+      "liquidity_usd": 18000,
+      "volume_usd": 9500,
+      "bid": 0.65,
+      "ask": 0.68,
+      "spread_pct": 4.4,
+      "resolution_source": "NOAA/NWS",
+      "resolution_criteria": "Total snowfall ≥4 inches at Denver International Airport",
+      "end_date": "2026-03-31T23:59:59Z",
+      "rules": "Snowfall measured at KDEN. Total for March 2026.",
+      "station": {
+        "id": "KDEN",
+        "name": "Denver International Airport",
+        "city": "Denver",
+        "lat": 39.8561,
+        "lon": -104.6737,
+        "source": "NOAA LCD"
+      },
+      "risk_flags": ["TIME_WINDOW_UNCLEAR", "TIMEZONE_AMBIGUOUS", "STATION_UNSPECIFIED", "DATA_SOURCE_UNCLEAR", "NO_VERIFICATION_SOURCE"],
+      "risk_level": "high",
+      "risk_descriptions": [
+        {"flag": "TIME_WINDOW_UNCLEAR", "description": "Time window/hours not specified"},
+        {"flag": "TIMEZONE_AMBIGUOUS", "description": "UTC vs local timezone not specified"},
+        {"flag": "STATION_UNSPECIFIED", "description": "No specific weather station mentioned"},
+        {"flag": "DATA_SOURCE_UNCLEAR", "description": "Resolution data source not specified"},
+        {"flag": "NO_VERIFICATION_SOURCE", "description": "No publicly verifiable data source"}
+      ]
+    },
+    {
+      "market_id": "sample-008",
+      "condition_id": "cond_008",
+      "slug": "heat-wave-seattle-jul-2026",
+      "question": "Will Seattle experience a heat wave (3+ days above 90°F) in July 2026?",
+      "liquidity_usd": 11000,
+      "volume_usd": 5800,
+      "bid": 0.35,
+      "ask": 0.38,
+      "spread_pct": 8.2,
+      "resolution_source": "NOAA/NWS",
+      "resolution_criteria": "3+ consecutive days with high ≥90°F at SEA airport",
+      "end_date": "2026-07-31T23:59:59Z",
+      "rules": "Heat wave defined as 3+ consecutive days above 90°F.",
+      "station": {
+        "id": "KSEA",
+        "name": "Seattle-Tacoma International Airport",
+        "city": "Seattle",
+        "lat": 47.4502,
+        "lon": -122.3088,
+        "source": "NOAA LCD"
+      },
+      "risk_flags": ["TIME_WINDOW_UNCLEAR", "TIMEZONE_AMBIGUOUS", "STATION_UNSPECIFIED", "DATA_SOURCE_UNCLEAR", "BOUNDARY_UNCLEAR", "NO_VERIFICATION_SOURCE"],
+      "risk_level": "high",
+      "risk_descriptions": [
+        {"flag": "TIME_WINDOW_UNCLEAR", "description": "Time window/hours not specified"},
+        {"flag": "TIMEZONE_AMBIGUOUS", "description": "UTC vs local timezone not specified"},
+        {"flag": "STATION_UNSPECIFIED", "description": "No specific weather station mentioned"},
+        {"flag": "DATA_SOURCE_UNCLEAR", "description": "Resolution data source not specified"},
+        {"flag": "BOUNDARY_UNCLEAR", "description": "Boundary value handling unclear (>= vs >)"},
+        {"flag": "NO_VERIFICATION_SOURCE", "description": "No publicly verifiable data source"}
+      ]
+    },
+    {
+      "market_id": "sample-009",
+      "condition_id": "cond_009",
+      "slug": "typhoon-tokyo-sep-2026",
+      "question": "Will a typhoon pass within 100km of Tokyo in September 2026?",
+      "liquidity_usd": 25000,
+      "volume_usd": 14000,
+      "bid": 0.22,
+      "ask": 0.26,
+      "spread_pct": 15.0,
+      "resolution_source": "JMA",
+      "resolution_criteria": "Typhoon center passes within 100km of Tokyo (35.7°N, 139.7°E)",
+      "end_date": "2026-09-30T23:59:59Z",
+      "rules": "Typhoon track data from Japan Meteorological Agency.",
+      "station": {
+        "id": "RJTT",
+        "name": "Narita International Airport",
+        "city": "Tokyo",
+        "lat": 35.772,
+        "lon": 140.3929,
+        "source": "METAR"
+      },
+      "risk_flags": ["TIME_WINDOW_UNCLEAR", "TIMEZONE_AMBIGUOUS", "STATION_UNSPECIFIED", "DATA_SOURCE_UNCLEAR", "NO_VERIFICATION_SOURCE"],
+      "risk_level": "high",
+      "risk_descriptions": [
+        {"flag": "TIME_WINDOW_UNCLEAR", "description": "Time window/hours not specified"},
+        {"flag": "TIMEZONE_AMBIGUOUS", "description": "UTC vs local timezone not specified"},
+        {"flag": "STATION_UNSPECIFIED", "description": "No specific weather station mentioned"},
+        {"flag": "DATA_SOURCE_UNCLEAR", "description": "Resolution data source not specified"},
+        {"flag": "NO_VERIFICATION_SOURCE", "description": "No publicly verifiable data source"}
+      ]
+    },
+    {
+      "market_id": "sample-010",
+      "condition_id": "cond_010",
+      "slug": "freeze-texas-nov-2026",
+      "question": "Will temperature drop below freezing in Houston in November 2026?",
+      "liquidity_usd": 9500,
+      "volume_usd": 4800,
+      "bid": 0.58,
+      "ask": 0.62,
+      "spread_pct": 6.5,
+      "resolution_source": "NOAA/NWS",
+      "resolution_criteria": "Temperature <32°F at IAH airport",
+      "end_date": "2026-11-30T23:59:59Z",
+      "rules": "Freezing temperature at George Bush Intercontinental.",
+      "station": {
+        "id": "KIAH",
+        "name": "George Bush Intercontinental Airport",
+        "city": "Houston",
+        "lat": 29.9902,
+        "lon": -95.3368,
+        "source": "NOAA LCD"
+      },
+      "risk_flags": ["TIME_WINDOW_UNCLEAR", "TIMEZONE_AMBIGUOUS", "STATION_UNSPECIFIED", "DATA_SOURCE_UNCLEAR", "NO_VERIFICATION_SOURCE"],
+      "risk_level": "high",
+      "risk_descriptions": [
+        {"flag": "TIME_WINDOW_UNCLEAR", "description": "Time window/hours not specified"},
+        {"flag": "TIMEZONE_AMBIGUOUS", "description": "UTC vs local timezone not specified"},
+        {"flag": "STATION_UNSPECIFIED", "description": "No specific weather station mentioned"},
+        {"flag": "DATA_SOURCE_UNCLEAR", "description": "Resolution data source not specified"},
+        {"flag": "NO_VERIFICATION_SOURCE", "description": "No publicly verifiable data source"}
+      ]
+    }
+  ]
+}

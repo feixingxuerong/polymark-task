@@ -1,0 +1,70 @@
+# NOAA/NWS Weather Data Summary
+
+Generated: 2026-02-27T16:35:45.148Z
+Source: NOAA/NWS API
+
+## Stations
+
+### KNYC - Central Park, NY
+
+- Coordinates: 40.7789, -73.9695
+- Grid: OKX
+- Current: 3.9F
+- Wind: 7.56 knots from 160°
+- Forecast periods: 14
+
+### KJFK - JFK Airport, NY
+
+- Coordinates: 40.6413, -73.7781
+- Grid: OKX
+- Current: 3F
+- Wind: 5.544 knots from 120°
+- Forecast periods: 14
+
+### KDFW - Dallas/Fort Worth, TX
+
+- Coordinates: 32.8998, -97.0403
+- Grid: FWD
+- Current: 21F
+- Wind: 11.124 knots from 100°
+- Forecast periods: 14
+
+### KSEA - Seattle, WA
+
+- Coordinates: 47.4502, -122.3088
+- Grid: SEW
+- Current: 7F
+- Wind: 24.084 knots from 170°
+- Forecast periods: 14
+
+### KDEN - Denver, CO
+
+- Coordinates: 39.8561, -104.6737
+- Grid: BOU
+- Current: 14F
+- Wind: 16.668 knots from 240°
+- Forecast periods: 14
+
+### KMIA - Miami, FL
+
+- Coordinates: 25.7959, -80.287
+- Grid: MFL
+- Current: 27F
+- Wind: 22.212 knots from 140°
+- Forecast periods: 14
+
+### KORD - Chicago, IL
+
+- Coordinates: 41.9742, -87.9073
+- Grid: LOT
+- Current: 9F
+- Wind: 18.504 knots from 200°
+- Forecast periods: 14
+
+### KLAX - Los Angeles, CA
+
+- Coordinates: 33.9425, -118.4081
+- Grid: LOX
+- Current: 23F
+- Wind: 9.252 knots from 40°
+- Forecast periods: 14
