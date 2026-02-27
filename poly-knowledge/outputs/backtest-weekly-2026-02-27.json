@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-02-27T16:31:31.431Z",
+  "config": {
+    "topN": 10,
+    "days": 7,
+    "dateRange": {
+      "start": "2026-02-27",
+      "end": "2026-02-27"
+    }
+  },
+  "summary": {
+    "totalDays": 1,
+    "totalSignals": 10,
+    "uniqueMarkets": 10,
+    "avgSignalsPerDay": "10.0",
+    "consistencyScore": "0.00"
+  },
+  "coverage": [
+    {
+      "date": "2026-02-27",
+      "count": 10
+    }
+  ],
+  "categories": {
+    "crypto": 10
+  },
+  "riskDistribution": {
+    "medium": 10
+  },
+  "actionDistribution": {
+    "观察 - 等待价格信号": 10
+  },
+  "liquidityStats": {
+    "sum": 140715.2996,
+    "count": 10,
+    "avg": 14071.52996,
+    "max": 15334.5249
+  },
+  "scoreStats": {
+    "sum": 57.99999999999998,
+    "count": 10,
+    "avg": 5.799999999999998,
+    "max": 5.799999999999999
+  },
+  "topMovers": [
+    {
+      "market_id": "1449623",
+      "slug": "eth-updown-15m-1772219700",
+      "question": "Ethereum Up or Down - February 27, 2:15PM-2:30PM ET...",
+      "frequency": "100.0",
+      "daysAppeared": 1,
+      "avgLiquidity": "14199.97",
+      "avgScore": "5.80"
+    },
+    {
+      "market_id": "1453140",
+      "slug": "eth-updown-5m-1772267700",
+      "question": "Ethereum Up or Down - February 28, 3:35AM-3:40AM ET...",
+      "frequency": "100.0",
+      "daysAppeared": 1,
+      "avgLiquidity": "13432.05",
+      "avgScore": "5.80"
+    },
+    {
+      "market_id": "1444153",
+      "slug": "bitcoin-up-or-down-february-28-6am-et",
+      "question": "Bitcoin Up or Down - February 28, 6AM ET...",
+      "frequency": "100.0",
+      "daysAppeared": 1,
+      "avgLiquidity": "15127.60",
+      "avgScore": "5.80"
+    },
+    {
+      "market_id": "1453098",
+      "slug": "btc-updown-5m-1772266500",
+      "question": "Bitcoin Up or Down - February 28, 3:15AM-3:20AM ET...",
+      "frequency": "100.0",
+      "daysAppeared": 1,
+      "avgLiquidity": "15334.52",
+      "avgScore": "5.80"
+    },
+    {
+      "market_id": "1453244",
+      "slug": "eth-updown-5m-1772270100",
+      "question": "Ethereum Up or Down - February 28, 4:15AM-4:20AM ET...",
+      "frequency": "100.0",
+      "daysAppeared": 1,
+      "avgLiquidity": "13436.05",
+      "avgScore": "5.80"
+    },
+    {
+      "market_id": "1453986",
+      "slug": "btc-updown-5m-1772281200",
+      "question": "Bitcoin Up or Down - February 28, 7:20AM-7:25AM ET...",
+      "frequency": "100.0",
+      "daysAppeared": 1,
+      "avgLiquidity": "15099.67",
+      "avgScore": "5.80"
+    },
+    {
+      "market_id": "1444528",
+      "slug": "bitcoin-up-or-down-february-28-7am-et",
+      "question": "Bitcoin Up or Down - February 28, 7AM ET...",
+      "frequency": "100.0",
+      "daysAppeared": 1,
+      "avgLiquidity": "15132.60",
+      "avgScore": "5.80"
+    },
+    {
+      "market_id": "1453997",
+      "slug": "sol-updown-5m-1772281500",
+      "question": "Solana Up or Down - February 28, 7:25AM-7:30AM ET...",
+      "frequency": "100.0",
+      "daysAppeared": 1,
+      "avgLiquidity": "12767.81",
+      "avgScore": "5.80"
+    },
+    {
+      "market_id": "1453100",
+      "slug": "eth-updown-5m-1772266800",
+      "question": "Ethereum Up or Down - February 28, 3:20AM-3:25AM ET...",
+      "frequency": "100.0",
+      "daysAppeared": 1,
+      "avgLiquidity": "13439.14",
+      "avgScore": "5.80"
+    },
+    {
+      "market_id": "1454459",
+      "slug": "sol-updown-5m-1772289300",
+      "question": "Solana Up or Down - February 28, 9:35AM-9:40AM ET...",
+      "frequency": "100.0",
+      "daysAppeared": 1,
+      "avgLiquidity": "12745.87",
+      "avgScore": "5.80"
+    }
+  ]
+}

@@ -4,6 +4,7 @@
 
 - Index: [index.md](./index.md)
 - 案例研究: [notes/polymarket-event-case-studies.md](./notes/polymarket-event-case-studies.md)
+- 纸上回测: [notes/paper-backtest-framework.md](./notes/paper-backtest-framework.md)
 
 Polymarket 官方文档与示例（只读部分）
 

@@ -11,6 +11,7 @@
 
 ### 交易策略
 - [资金管理策略](./notes/polymarket-bankroll-management.md) - Kelly Criterion 与仓位分配
+- [纸上回测框架](./notes/paper-backtest-framework.md) - 信号稳定性与历史回测
 
 ### 数据源
 - [Sources](./sources.md) - 外部数据源汇总
@@ -19,7 +20,7 @@
 
 ## 当前目标
 
-**Issue #17**: 研究资金管理策略 - Kelly Criterion、半凯利、仓位分配模型
+**Issue #21**: 实现纸上回测框架
 
 ---
 
