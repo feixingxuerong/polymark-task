@@ -216,6 +216,17 @@ stations:
       forecastUrl: "https://api.weather.gov/gridpoints/FWD/99,70/forecast"
     tags: [temp, precip, wind, visibility, aviation]
 
+  - name: "Dallas Love Field"
+    icao: "KDAL"
+    iata: "DAL"
+    nws_station: "KDAL"
+    grid:
+      gridId: "FWD"
+      gridX: 90
+      gridY: 68
+      forecastUrl: "https://api.weather.gov/gridpoints/FWD/90,68/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
   - name: "George Bush Intercontinental Houston Airport"
     icao: "KIAH"
     iata: "IAH"
@@ -381,7 +392,7 @@ city_aliases:
   atlanta: [KATL]
   miami: [KMIA, KFLL]
   chicago: [KORD, KMDW]
-  dallas: [KDFW]
+  dallas: [KDFW, KDAL]
   houston: [KIAH]
   denver: [KDEN]
   los angeles: [KLAX]
