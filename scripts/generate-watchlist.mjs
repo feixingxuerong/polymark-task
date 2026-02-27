@@ -23,7 +23,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // 导入结算口径解析器
-import { parseResolutionRules, enhanceEntryPlan } from './parse-resolution-rules.mjs';
+import { parseRules as parseResolutionRules } from './parse-resolution-rules.mjs';
 
 // === CONFIG ===
 const GAMMA_API = 'https://gamma-api.polymarket.com';
@@ -101,6 +101,57 @@ async function getMarkets(minLiquidity = DEFAULT_MIN_LIQUIDITY, limit = DEFAULT_
   const url = `${GAMMA_API}/markets?closed=false&liquidity_num_min=${minLiquidity}&order=volume&limit=${limit}`;
   console.log(`[API] Fetching markets from Gamma: ${url}`);
   return fetchJSON(url);
+}
+
+// === WEATHER MARKETS SEED FILE LOADING ===
+function loadWeatherMarketsSeed() {
+  const seedPath = join(__dirname, '..', 'poly-knowledge', 'outputs', 'weather-markets-seed.json');
+  
+  if (!existsSync(seedPath)) {
+    console.log(`[INFO] Weather seed file not found: ${seedPath}`);
+    return null;
+  }
+  
+  try {
+    const content = readFileSync(seedPath, 'utf-8');
+    const seedData = JSON.parse(content);
+    console.log(`[INFO] Loaded ${seedData.length} weather events from seed file`);
+    
+    // Transform seed data to market format
+    const markets = [];
+    for (const event of seedData) {
+      // Add each active market from the event
+      if (event.markets) {
+        for (const market of event.markets) {
+          if (!market.closed) {
+            markets.push({
+              id: market.id,
+              question: market.question,
+              conditionId: market.conditionId,
+              slug: market.slug,
+              volume: market.volume,
+              liquidity: market.volume * 0.1, // Estimate
+              clobTokenIds: [],
+              startDate: event.startDate,
+              endDate: market.endDate,
+              acceptingOrders: !market.closed,
+              negRisk: true,
+              tags: event.tags || ['weather'],
+              _source: 'weather-seed',
+              _eventTitle: event.eventTitle,
+              _eventSlug: event.eventSlug
+            });
+          }
+        }
+      }
+    }
+    
+    console.log(`[INFO] Extracted ${markets.length} active weather markets from seed`);
+    return markets;
+  } catch (e) {
+    console.error(`[ERROR] Failed to load weather seed file: ${e.message}`);
+    return null;
+  }
 }
 
 async function getOrderbook(tokenId) {
@@ -844,16 +895,6 @@ function generateExecutableCard(metrics, scores, sources = null) {
     key_risks.push('⚠️ Neg Risk 市场 - 风险较高');
   }
 
-  // === 使用结算口径解析器增强 entry_plan ===
-  // 解析成功则增强 entry_plan（具体时间点/指标），解析失败不影响流程
-  if (resolution && resolution.success) {
-    const enhancedPlan = enhanceEntryPlan(resolution, entry_plan);
-    // 只有当解析结果有实质内容时才替换
-    if (enhancedPlan !== entry_plan) {
-      entry_plan = enhancedPlan;
-    }
-  }
-
   return {
     category,
     action,
@@ -924,9 +965,24 @@ async function main() {
   // Load weather-aviation sources (for weather/aviation category enhancement)
   const sources = getLatestSourcesFile();
   
-  // Fetch markets
-  const markets = await getMarkets(minLiquidity, limit);
-  console.log(`[INFO] Fetched ${markets.length} markets`);
+  // Fetch markets from API
+  let markets = await getMarkets(minLiquidity, limit);
+  console.log(`[INFO] Fetched ${markets.length} markets from API`);
+  
+  // Always try to supplement with weather seed data for weather category coverage
+  // This ensures weather markets are included even when API returns many markets
+  console.log(`[INFO] Checking weather seed file for weather category coverage...`);
+  const weatherSeedMarkets = loadWeatherMarketsSeed();
+  if (weatherSeedMarkets && weatherSeedMarkets.length > 0) {
+    // Add weather seed markets that aren't already in the list
+    const existingIds = new Set(markets.map(m => m.id));
+    const newWeatherMarkets = weatherSeedMarkets.filter(m => !existingIds.has(m.id));
+    
+    if (newWeatherMarkets.length > 0) {
+      markets = [...markets, ...newWeatherMarkets];
+      console.log(`[INFO] Added ${newWeatherMarkets.length} weather markets from seed file`);
+    }
+  }
   
   if (!markets || markets.length === 0) {
     console.error('[ERROR] No markets returned');
