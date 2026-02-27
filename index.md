@@ -18,12 +18,13 @@
 
 ### 天气与航空数据
 - [Weather & Aviation Data Adapters](./notes/weather-aviation-data-adapters.md) - NOAA/NWS + METAR/TAF 数据源适配器
+- [Weather Review Process](./notes/weather-review-process.md) - 每日复盘流程
 
 ---
 
 ## 当前目标
 
-**Issue #21**: 实现纸上回测框架
+**Issue #31**: 复盘闭环 - action=考虑 Top3 每日复盘产物
 
 ---
 
