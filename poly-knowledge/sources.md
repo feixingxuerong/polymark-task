@@ -531,6 +531,46 @@
 
 ---
 
+## 预测市场理论与行为金融
+
+| # | 来源 | 用途 | 可信度 |
+|---|------|------|--------|
+| 60 | **Prediction Market (Wikipedia)** | 预测市场基础概念、历史发展 | 中 |
+| 61 | **"The Wisdom of Crowds"** - James Surowiecki | 群体智慧理论框架 | 高 |
+| 62 | **"The Use of Knowledge in Society"** - Hayek | 价格作为信息聚合机制 | 高 |
+
+#### 60. Prediction Market (Wikipedia)
+
+- **URL**: https://en.wikipedia.org/wiki/Prediction_market
+- **类型**: 百科全书
+- **用途**: 预测市场基础概念、历史发展、信息效率理论基础
+- **可信度**: 中
+- **更新频率**: 低
+- **备注**: 包含 Iowa Electronic Markets、Intrade、Augur 等历史脉络
+- **验证日期**: 2026-02-27
+
+#### 61. "The Wisdom of Crowds" - James Surowiecki
+
+- **URL**: https://en.wikipedia.org/wiki/The_Wisdom_of_the_Crowds
+- **类型**: 书籍
+- **用途**: 理解群体预测优于个体的条件与机制
+- **可信度**: 高
+- **更新频率**: 不频繁
+- **备注**: 预测市场的核心理论基础之一
+- **验证日期**: 2026-02-27
+
+#### 62. "The Use of Knowledge in Society" - Friedrich Hayek
+
+- **URL**: https://en.wikipedia.org/wiki/The_Use_of_Knowledge_in_Society
+- **类型**: 经典论文
+- **用途**: 理解市场价格作为信息聚合机制的理论基础
+- **可信度**: 高
+- **更新频率**: 不频繁
+- **备注**: 1945 年经典论文，经济学必读
+- **验证日期**: 2026-02-27
+
+---
+
 ## 来源更新优先级
 
 ### 当前优先补充
