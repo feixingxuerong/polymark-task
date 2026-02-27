@@ -296,7 +296,72 @@ curl "https://clob.polymarket.com/orderbook?token_id=YOUR_TOKEN_ID" | jq '.bids[
 - `watchlist-process.md` - 本文件: 流程定义
 - `watchlist-scoring.yaml` - 评分模板 (机器可读)
 - `sources.md` - 数据源清单
+- `config/stations.yaml` - 气象站/机场选点库
 
 ---
 
-*Last updated: 2026-02-27 by Subagent-G*
+## 七、Stations 选点库与自动绑定
+
+### 7.1 stations.yaml 配置
+
+`poly-knowledge/config/stations.yaml` 包含美国主要机场/气象站的配置信息：
+
+```yaml
+stations:
+  - name: "John F. Kennedy International Airport"
+    icao: "KJFK"
+    iata: "JFK"
+    nws_station: "KJFK"
+    grid:
+      gridId: "OKX"
+      gridX: 215
+      gridY: 114
+      forecastUrl: "https://api.weather.gov/gridpoints/OKX/215,114/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+```
+
+**字段说明：**
+- `name`: 机场/城市全称
+- `icao`: 4-letter ICAO 代码 (用于 METAR/TAF)
+- `iata`: 3-letter IATA 代码 (用于航班查询)
+- `nws_station`: NWS 观测站代码
+- `grid`: NWS 预报网格 ID (用于 forecast API)
+  - `gridId`: NWS grid ID
+  - `gridX`, `gridY`: 网格坐标
+  - `forecastUrl`: 预报 API URL
+- `tags`: 适用的市场标签 (temp/precip/wind/visibility/aviation)
+
+### 7.2 自动绑定机制
+
+在 `generate-watchlist.mjs` 中实现：
+
+1. **加载配置**: 启动时自动加载 `stations.yaml`
+2. **关键词提取**: 从 market question/description 提取：
+   - ICAO 代码 (如 KJFK, KLAX)
+   - IATA 代码 (如 JFK, LAX)
+   - 城市名 (如 New York, Boston, Chicago)
+3. **匹配算法**:
+   - 优先级: ICAO > IATA > 城市名 > 别名
+   - 最大绑定数量: 3 个站点
+   - 无匹配时使用 fallback (KJFK, KORD, KLAX)
+4. **输出**: 绑定站点写入 watchlist item.stations
+
+### 7.3 绑定示例
+
+| Market Question | 绑定 Stations | 说明 |
+|-----------------|---------------|------|
+| "Will it snow in NYC on Feb 28?" | KJFK, KLGA, KEWR | NYC 匹配三个 NYC 机场 |
+| "Will there be flight delays at LAX?" | KLAX | 直接匹配 IATA |
+| "Temperature in Chicago above 80F?" | KORD, KMDW | 匹配 Chicago 两个机场 |
+| "Rain in Seattle this weekend?" | KSEA | 匹配 Seattle |
+
+### 7.4 监控源增强
+
+绑定的站点信息会自动填充到 watchlist 的：
+- `monitor_sources`: 列出绑定的站点及其预报/METAR链接
+- `entry_plan`: 引用绑定站点作为优先数据源
+- `thesis`: 说明已接入哪些站点
+
+---
+
+*Last updated: 2026-02-28 - Added stations.yaml binding feature*

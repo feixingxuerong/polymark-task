@@ -22,6 +22,9 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+// 导入结算口径解析器
+import { parseResolutionRules, enhanceEntryPlan } from './parse-resolution-rules.mjs';
+
 // === CONFIG ===
 const GAMMA_API = 'https://gamma-api.polymarket.com';
 const CLOB_API = 'https://clob.polymarket.com';
@@ -410,6 +413,7 @@ function detectCategory(question) {
 
 function generateExecutableCard(metrics, scores, sources = null) {
   const question = metrics.question || '';
+  const description = metrics.description || '';  // 结算规则文本
   const category = detectCategory(question);
   
   // 风险等级
@@ -427,6 +431,20 @@ function generateExecutableCard(metrics, scores, sources = null) {
   const daysToEvent = metrics.days_to_event;
   const liquidity = metrics.liquidity || 0;
   const hasLiquidity = liquidity >= 10000;
+
+  // === 结算口径解析 ===
+  // 尝试从 description 中解析结算规则
+  let resolution = null;
+  if (description && (category === 'weather' || category === 'aviation')) {
+    try {
+      resolution = parseResolutionRules(description);
+      if (resolution && resolution.success) {
+        console.log(`[RESOLUTION] Parsed: ${resolution.metric} @ ${resolution.station?.values?.[0] || resolution.geo?.values?.[0] || 'unknown'} = ${resolution.threshold}`);
+      }
+    } catch (e) {
+      console.warn(`[WARN] Resolution parser failed: ${e.message}`);
+    }
+  }
   
   switch (category) {
     // === WEATHER 专用模板 (使用 weather-aviation-sources) ===
@@ -695,14 +713,26 @@ function generateExecutableCard(metrics, scores, sources = null) {
   if (metrics.negRisk || metrics.risk === 'high') {
     key_risks.push('⚠️ Neg Risk 市场 - 风险较高');
   }
-  
+
+  // === 使用结算口径解析器增强 entry_plan ===
+  // 解析成功则增强 entry_plan（具体时间点/指标），解析失败不影响流程
+  if (resolution && resolution.success) {
+    const enhancedPlan = enhanceEntryPlan(resolution, entry_plan);
+    // 只有当解析结果有实质内容时才替换
+    if (enhancedPlan !== entry_plan) {
+      entry_plan = enhancedPlan;
+    }
+  }
+
   return {
     category,
     action,
     entry_plan,
     key_risks,
     monitor_sources,
-    thesis
+    thesis,
+    // 添加解析结果到返回对象，供后续使用
+    resolution_parsed: resolution || null
   };
 }
 

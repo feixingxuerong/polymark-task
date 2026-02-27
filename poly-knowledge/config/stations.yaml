@@ -1,0 +1,393 @@
+# ============================================================
+# Weather/Airport Stations Configuration
+# 
+# 用于 polymark-task 市场的气象站/机场选点库
+# 覆盖美国主要大型枢纽 + 部分区域机场
+# 
+# 字段说明:
+# - name: 机场/城市全称
+# - icao: 4-letter ICAO 代码 (用于 METAR/TAF)
+# - iata: 3-letter IATA 代码 (用于航班查询)
+# - nws_station: NWS 观测站代码 (用于实时数据)
+# - grid: NWS 预报网格 ID (用于 forecast API)
+#   - gridId: NWS grid ID (如 "OKX", "MIA", "Den")
+#   - gridX, gridY: 网格坐标
+#   - forecastUrl: 预报 API URL
+# - tags: 适用的市场标签
+# 
+# 使用方式:
+# - weather/aviation 市场自动匹配 stations.yaml
+# - 优先匹配 ICAO/IATA 代码
+# - 其次匹配城市名/州名
+# 
+# Last updated: 2026-02-28
+# ============================================================
+
+stations:
+  # === 东北地区 (Northeast) ===
+  - name: "John F. Kennedy International Airport"
+    icao: "KJFK"
+    iata: "JFK"
+    nws_station: "KJFK"
+    grid:
+      gridId: "OKX"
+      gridX: 215
+      gridY: 114
+      forecastUrl: "https://api.weather.gov/gridpoints/OKX/215,114/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "LaGuardia Airport"
+    icao: "KLGA"
+    iata: "LGA"
+    nws_station: "KLGA"
+    grid:
+      gridId: "OKX"
+      gridX: 213
+      gridY: 116
+      forecastUrl: "https://api.weather.gov/gridpoints/OKX/213,116/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Newark Liberty International Airport"
+    icao: "KEWR"
+    iata: "EWR"
+    nws_station: "KEWR"
+    grid:
+      gridId: "OKX"
+      gridX: 205
+      gridY: 112
+      forecastUrl: "https://api.weather.gov/gridpoints/OKX/205,112/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Boston Logan International Airport"
+    icao: "KBOS"
+    iata: "BOS"
+    nws_station: "KBOS"
+    grid:
+      gridId: "BOX"
+      gridX: 64
+      gridY: 53
+      forecastUrl: "https://api.weather.gov/gridpoints/BOX/64,53/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Philadelphia International Airport"
+    icao: "KPHL"
+    iata: "PHL"
+    nws_station: "KPHL"
+    grid:
+      gridId: "PHI"
+      gridX: 141
+      gridY: 85
+      forecastUrl: "https://api.weather.gov/gridpoints/PHI/141,85/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  # === 华盛顿特区 (Washington DC) ===
+  - name: "Washington Dulles International Airport"
+    icao: "KIAD"
+    iata: "IAD"
+    nws_station: "KIAD"
+    grid:
+      gridId: "LWX"
+      gridX: 118
+      gridY: 75
+      forecastUrl: "https://api.weather.gov/gridpoints/LWX/118,75/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Ronald Reagan Washington National Airport"
+    icao: "KDCA"
+    iata: "DCA"
+    nws_station: "KDCA"
+    grid:
+      gridId: "LWX"
+      gridX: 125
+      gridY: 80
+      forecastUrl: "https://api.weather.gov/gridpoints/LWX/125,80/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  # === 东南地区 (Southeast) ===
+  - name: "Hartsfield-Jackson Atlanta International Airport"
+    icao: "KATL"
+    iata: "ATL"
+    nws_station: "KATL"
+    grid:
+      gridId: "FFC"
+      gridX: 157
+      gridY: 148
+      forecastUrl: "https://api.weather.gov/gridpoints/FFC/157,148/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Miami International Airport"
+    icao: "KMIA"
+    iata: "MIA"
+    nws_station: "KMIA"
+    grid:
+      gridId: "MIA"
+      gridX: 79
+      gridY: 67
+      forecastUrl: "https://api.weather.gov/gridpoints/MIA/79,67/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Fort Lauderdale-Hollywood International Airport"
+    icao: "KFLL"
+    iata: "FLL"
+    nws_station: "KFLL"
+    grid:
+      gridId: "MIA"
+      gridX: 85
+      gridY: 71
+      forecastUrl: "https://api.weather.gov/gridpoints/MIA/85,71/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Orlando International Airport"
+    icao: "KMCO"
+    iata: "MCO"
+    nws_station: "KMCO"
+    grid:
+      gridId: "MLB"
+      gridX: 67
+      gridY: 72
+      forecastUrl: "https://api.weather.gov/gridpoints/MLB/67,72/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Charlotte Douglas International Airport"
+    icao: "KCLT"
+    iata: "CLT"
+    nws_station: "KCLT"
+    grid:
+      gridId: "GSP"
+      gridX: 87
+      gridY: 62
+      forecastUrl: "https://api.weather.gov/gridpoints/GSP/87,62/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  # === 中西部 (Midwest) ===
+  - name: "Chicago O'Hare International Airport"
+    icao: "KORD"
+    iata: "ORD"
+    nws_station: "KORD"
+    grid:
+      gridId: "LOT"
+      gridX: 76
+      gridY: 69
+      forecastUrl: "https://api.weather.gov/gridpoints/LOT/76,69/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Chicago Midway International Airport"
+    icao: "KMDW"
+    iata: "MDW"
+    nws_station: "KMDW"
+    grid:
+      gridId: "LOT"
+      gridX: 74
+      gridY: 66
+      forecastUrl: "https://api.weather.gov/gridpoints/LOT/74,66/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Minneapolis-St Paul International Airport"
+    icao: "KMSP"
+    iata: "MSP"
+    nws_station: "KMSP"
+    grid:
+      gridId: "MPX"
+      gridX: 63
+      gridY: 81
+      forecastUrl: "https://api.weather.gov/gridpoints/MPX/63,81/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Detroit Metropolitan Wayne County Airport"
+    icao: "KDTW"
+    iata: "DTW"
+    nws_station: "KDTW"
+    grid:
+      gridId: "DTX"
+      gridX: 107
+      gridY: 86
+      forecastUrl: "https://api.weather.gov/gridpoints/DTX/107,86/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  # === 德州 (Texas) ===
+  - name: "Dallas/Fort Worth International Airport"
+    icao: "KDFW"
+    iata: "DFW"
+    nws_station: "KDFW"
+    grid:
+      gridId: "FWD"
+      gridX: 99
+      gridY: 70
+      forecastUrl: "https://api.weather.gov/gridpoints/FWD/99,70/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "George Bush Intercontinental Houston Airport"
+    icao: "KIAH"
+    iata: "IAH"
+    nws_station: "KIAH"
+    grid:
+      gridId: "HGX"
+      gridX: 61
+      gridY: 84
+      forecastUrl: "https://api.weather.gov/gridpoints/HGX/61,84/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Austin-Bergstrom International Airport"
+    icao: "KAUS"
+    iata: "AUS"
+    nws_station: "KAUS"
+    grid:
+      gridId: "EWX"
+      gridX: 68
+      gridY: 70
+      forecastUrl: "https://api.weather.gov/gridpoints/EWX/68,70/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  # === 西部 (West) ===
+  - name: "Denver International Airport"
+    icao: "KDEN"
+    iata: "DEN"
+    nws_station: "KDEN"
+    grid:
+      gridId: "DEN"
+      gridX: 106
+      gridY: 103
+      forecastUrl: "https://api.weather.gov/gridpoints/DEN/106,103/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Los Angeles International Airport"
+    icao: "KLAX"
+    iata: "LAX"
+    nws_station: "KLAX"
+    grid:
+      gridId: "LOX"
+      gridX: 85
+      gridY: 71
+      forecastUrl: "https://api.weather.gov/gridpoints/LOX/85,71/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "San Francisco International Airport"
+    icao: "KSFO"
+    iata: "SFO"
+    nws_station: "KSFO"
+    grid:
+      gridId: "MTR"
+      gridX: 71
+      gridY: 79
+      forecastUrl: "https://api.weather.gov/gridpoints/MTR/71,79/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Seattle-Tacoma International Airport"
+    icao: "KSEA"
+    iata: "SEA"
+    nws_station: "KSEA"
+    grid:
+      gridId: "SEW"
+      gridX: 76
+      gridY: 82
+      forecastUrl: "https://api.weather.gov/gridpoints/SEW/76,82/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Portland International Airport"
+    icao: "KPDX"
+    iata: "PDX"
+    nws_station: "KPDX"
+    grid:
+      gridId: "PQR"
+      gridX: 74
+      gridY: 77
+      forecastUrl: "https://api.weather.gov/gridpoints/PQR/74,77/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Harry Reid International Airport (Las Vegas)"
+    icao: "KLAS"
+    iata: "LAS"
+    nws_station: "KLAS"
+    grid:
+      gridId: "VEF"
+      gridX: 176
+      gridY: 95
+      forecastUrl: "https://api.weather.gov/gridpoints/VEF/176,95/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Phoenix Sky Harbor International Airport"
+    icao: "KPHX"
+    iata: "PHX"
+    nws_station: "KPHX"
+    grid:
+      gridId: "PSR"
+      gridX: 136
+      gridY: 87
+      forecastUrl: "https://api.weather.gov/gridpoints/PSR/136,87/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Salt Lake City International Airport"
+    icao: "KSLC"
+    iata: "SLC"
+    nws_station: "KSLC"
+    grid:
+      gridId: "SLC"
+      gridX: 55
+      gridY: 46
+      forecastUrl: "https://api.weather.gov/gridpoints/SLC/55,46/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "San Diego International Airport"
+    icao: "KSAN"
+    iata: "SAN"
+    nws_station: "KSAN"
+    grid:
+      gridId: "SGX"
+      gridX: 115
+      gridY: 59
+      forecastUrl: "https://api.weather.gov/gridpoints/SGX/115,59/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+  - name: "Honolulu Daniel K. Inouye International Airport"
+    icao: "PHNL"
+    iata: "HNL"
+    nws_station: "PHNL"
+    grid:
+      gridId: "HFO"
+      gridX: 62
+      gridY: 36
+      forecastUrl: "https://api.weather.gov/gridpoints/HFO/62,36/forecast"
+    tags: [temp, precip, wind, visibility, aviation]
+
+# === 匹配规则配置 ===
+# 用于自动绑定 stations 到 watchlist items
+binding:
+  # 匹配优先级
+  priority:
+    - icao          # 最高优先级: KJFK, KLAX
+    - iata          # 次优先级: JFK, LAX
+    - name          # 城市/机场名
+    - city          # 城市名
+  
+  # 最大绑定站点数
+  max_stations: 3
+  
+  # fallback 通用站点 (当无匹配时)
+  fallback:
+    - KJFK  # JFK - 最常用 fallback
+    - KORD  # Chicago - 中西部代表
+    - KLAX  # LA - 西海岸代表
+
+# === 常用城市名映射 ===
+# 用于从 question/description 中提取城市名
+city_aliases:
+  nyc: [KJFK, KLGA, KEWR]
+  new york: [KJFK, KLGA, KEWR]
+  "new york city": [KJFK, KLGA, KEWR]
+  boston: [KBOS]
+  dc: [KIAD, KDCA]
+  washington: [KIAD, KDCA]
+  "washington dc": [KIAD, KDCA]
+  atlanta: [KATL]
+  miami: [KMIA, KFLL]
+  chicago: [KORD, KMDW]
+  dallas: [KDFW]
+  houston: [KIAH]
+  denver: [KDEN]
+  los angeles: [KLAX]
+  "san francisco": [KSFO]
+  seattle: [KSEA]
+  vegas: [KLAS]
+  las vegas: [KLAS]
+  phoenix: [KPHX]
+  phl: [KPHL]
