@@ -611,3 +611,9 @@
   - Order Book API (订单簿深度、点差计算)
   - Fee Rate API (交易费率)
 - 更新人: Subagent-Poly-Liquidity
+
+### 2026-02-27
+
+- 新增预测市场理论与行为金融来源 (60-62)
+- 新增来源: Wikipedia, The Wisdom of Crowds, Hayek 经典论文
+- 更新人: Subagent-Poly-Odds-Psych
