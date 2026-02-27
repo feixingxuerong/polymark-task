@@ -75,6 +75,7 @@ poly-knowledge/
 
 | #14 | Polymarket 结算机制 | ✅ 已完成 | `notes/polymarket-settlement.md` |
 | #15 | Polymarket 赔率心理学 | ✅ 已完成 | `notes/polymarket-odds-psychology.md` |
+| #22 | 数据源适配器: NOAA/NWS + METAR/TAF | ✅ 已完成 | `scripts/weather-adapters/` |
 | #23 | 天气/航空结算口径库 | ✅ 已完成 | `notes/weather-aviation-resolution-library.md` |
 
 ---

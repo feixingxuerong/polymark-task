@@ -529,6 +529,29 @@
 - **备注**: 美国官方天气预报，站点代码标准化
 - **验证日期**: 2026-02-27
 
+#### 45a. NWS API (api.weather.gov)
+
+- **URL**: https://www.weather.gov/documentation/services-web-api
+- **类型**: 官方API
+- **用途**: 程序化获取美国天气预报、观测、TAF/METAR数据
+- **可信度**: 高
+- **更新频率**: 实时
+- **备注**: 免费，无需API Key，需要User-Agent头，速率限制~5000次/日
+- **验证日期**: 2026-02-28
+
+#### 45b. Weather Data Adapters (本地实现)
+
+- **URL**: `scripts/fetch-noaa-forecast.mjs`, `scripts/fetch-metar-taf.mjs`
+- **类型**: 自定义脚本
+- **用途**: 从NWS API批量获取天气预报和航空天气数据
+- **可信度**: 高 (基于NWS API)
+- **更新频率**: 按需
+- **备注**: 
+  - `fetch-noaa-forecast.mjs`: 获取NWS网格预报、小时预报、实时观测
+  - `fetch-metar-taf.mjs`: 获取METAR/TAF飞行天气报告、飞行规则分类(VFR/MVFR/IFR/LIFR)
+  - 位置: `polymark-task/scripts/`
+- **验证日期**: 2026-02-28
+
 ---
 
 ## 航空数据源 (2026-02-27 新增)
@@ -644,11 +667,79 @@
 
 ---
 
-*Last updated: 2026-02-27 by Subagent-B (kb)*
+## 天气 & 航空数据适配器 (2026-02-28 新增)
+
+| # | 来源 | 用途 | 可信度 |
+|---|------|------|--------|
+| 70 | **NWS API** | 美国天气/航空数据官方 API | 高 |
+| 71 | **fetch-noaa-forecast.mjs** | NOAA 天气预报批量获取脚本 | 高 |
+| 72 | **fetch-metar-taf.mjs** | METAR/TAF 数据获取脚本 | 高 |
+| 73 | **generate-weather-aviation-sources.mjs** | 组合输出生成器 | 高 |
+
+#### 70. NWS API (api.weather.gov)
+
+- **URL**: https://www.weather.gov/documentation/services-web-api
+- **类型**: 官方 API
+- **用途**: 程序化获取美国天气预报、观测、TAF/METAR 数据
+- **可信度**: 高
+- **更新频率**: 实时
+- **备注**: 免费，无需 API Key，需要 User-Agent 头，速率限制宽松
+- **验证日期**: 2026-02-28
+
+#### 71. fetch-noaa-forecast.mjs
+
+- **URL**: `scripts/fetch-noaa-forecast.mjs`
+- **类型**: 自定义脚本
+- **用途**: 从 NWS API 批量获取天气预报、小时预报、实时观测
+- **可信度**: 高 (基于 NWS API)
+- **更新频率**: 按需
+- **备注**: 
+  - 支持重试和限速
+  - 输出 JSON + Markdown 摘要
+  - 位置: `polymark-task/scripts/`
+- **验证日期**: 2026-02-28
+
+#### 72. fetch-metar-taf.mjs
+
+- **URL**: `scripts/fetch-metar-taf.mjs`
+- **类型**: 自定义脚本
+- **用途**: 获取 METAR/TAF 飞行天气报告、飞行规则分类
+- **可信度**: 高 (基于 NWS API)
+- **更新频率**: 按需
+- **备注**: 
+  - 支持 VFR/MVFR/IFR/LIFR 分类
+  - 支持风、能见度、云高等字段
+  - 仅支持美国机场
+  - 位置: `polymark-task/scripts/`
+- **验证日期**: 2026-02-28
+
+#### 73. generate-weather-aviation-sources.mjs
+
+- **URL**: `scripts/generate-weather-aviation-sources.mjs`
+- **类型**: 组合生成器
+- **用途**: 聚合天气和航空数据，输出统一 JSON/MD
+- **可信度**: 高
+- **更新频率**: 按需
+- **备注**: 
+  - 输出到 `poly-knowledge/outputs/weather-aviation-sources-YYYY-MM-DD.json`
+  - 包含数据源信息、摘要表、详细数据
+  - 位置: `polymark-task/scripts/`
+- **验证日期**: 2026-02-28
+
+---
+
+*Last updated: 2026-02-28 by Subagent (data-adapters)*
 
 ---
 
 ## 更新日志
+
+### 2026-02-28
+
+- 新增天气/航空数据适配器 (70-73)
+- 新增 NWS API 数据源
+- 新增 fetch-noaa-forecast.mjs、fetch-metar-taf.mjs、generate-weather-aviation-sources.mjs 脚本
+- 更新人: Subagent (data-adapters)
 
 ### 2026-02-27
 

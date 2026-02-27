@@ -16,6 +16,9 @@
 ### 数据源
 - [Sources](./sources.md) - 外部数据源汇总
 
+### 天气与航空数据
+- [Weather & Aviation Data Adapters](./notes/weather-aviation-data-adapters.md) - NOAA/NWS + METAR/TAF 数据源适配器
+
 ---
 
 ## 当前目标
