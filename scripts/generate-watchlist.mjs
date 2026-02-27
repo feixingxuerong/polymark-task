@@ -145,6 +145,9 @@ function calculateMetrics(market, orderbook, midpointData, lastTradeData, feeDat
   const metrics = {
     // Basic info
     market_id: market.id,
+    conditionId: market.conditionId || null,
+    slug: market.slug || null,
+    url: market.slug ? `https://polymarket.com/market/${market.slug}` : null,
     question: market.question,
     description: market.description || '',
     
