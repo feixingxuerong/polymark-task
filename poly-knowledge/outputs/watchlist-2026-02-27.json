@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-27T23:19:54.697Z",
+  "generated_at": "2026-02-27T23:22:17.422Z",
   "total_candidates": 69,
   "top_n": 30,
   "weather_quota": 5,
@@ -43,7 +43,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7814389004629629,
+      "days_to_event": 0.7797385532407407,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -104,7 +104,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7362816782407408,
+      "days_to_event": 0.7345837962962963,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -165,7 +165,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.8508145717592592,
+      "days_to_event": 0.8491397685185185,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -226,7 +226,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.843941087962963,
+      "days_to_event": 0.8422400462962963,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -287,7 +287,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.8890632986111111,
+      "days_to_event": 0.8873661226851852,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -348,7 +348,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.5452716203703704,
+      "days_to_event": 0.5435934953703704,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -409,7 +409,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7675404050925926,
+      "days_to_event": 0.7658398611111111,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -470,7 +470,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.22584109953703704,
+      "days_to_event": 0.22415502314814814,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -531,7 +531,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.3786553009259259,
+      "days_to_event": 0.3769546296296296,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -592,7 +592,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.41681547453703705,
+      "days_to_event": 0.4151287037037037,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -653,7 +653,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.38897586805555556,
+      "days_to_event": 0.3873136111111111,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -714,7 +714,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.8474201736111111,
+      "days_to_event": 0.8457168287037037,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -775,7 +775,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.8404627430555556,
+      "days_to_event": 0.838761712962963,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -836,7 +836,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.8196036689814815,
+      "days_to_event": 0.8179094907407407,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -897,7 +897,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.6390758101851852,
+      "days_to_event": 0.6373741898148149,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -958,7 +958,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.5487774074074074,
+      "days_to_event": 0.5470791898148148,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1019,7 +1019,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.8508323032407408,
+      "days_to_event": 0.8491505092592593,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1080,7 +1080,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.8473903587962963,
+      "days_to_event": 0.8456934143518519,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1141,7 +1141,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.8404316435185185,
+      "days_to_event": 0.8387412268518518,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1200,7 +1200,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.8473041666666666,
+      "days_to_event": 0.8456438425925926,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1259,7 +1259,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.8299570601851852,
+      "days_to_event": 0.8282903703703703,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1318,7 +1318,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.8403909837962963,
+      "days_to_event": 0.8387197569444445,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1379,7 +1379,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7362293634259259,
+      "days_to_event": 0.7345546296296296,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1438,7 +1438,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.694520601851852,
+      "days_to_event": 1.6928616203703704,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1497,7 +1497,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.9653826273148148,
+      "days_to_event": 0.9637113310185185,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1558,7 +1558,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.0278391666666666,
+      "days_to_event": 1.0261872569444443,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1608,7 +1608,7 @@
       "weather_signal_components": {
         "recency": {
           "score": 10,
-          "hours_ago": 0.4
+          "hours_ago": 0.5
         },
         "model_agreement": {
           "score": 5
@@ -1643,7 +1643,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.0278391666666666,
+      "days_to_event": 1.0261872569444443,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1693,7 +1693,7 @@
       "weather_signal_components": {
         "recency": {
           "score": 10,
-          "hours_ago": 0.4
+          "hours_ago": 0.5
         },
         "model_agreement": {
           "score": 5
@@ -1728,7 +1728,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.0278391782407408,
+      "days_to_event": 1.0261872685185185,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1778,7 +1778,7 @@
       "weather_signal_components": {
         "recency": {
           "score": 10,
-          "hours_ago": 0.4
+          "hours_ago": 0.5
         },
         "model_agreement": {
           "score": 5
@@ -1813,7 +1813,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.0278391782407408,
+      "days_to_event": 1.0261872800925926,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1863,7 +1863,7 @@
       "weather_signal_components": {
         "recency": {
           "score": 10,
-          "hours_ago": 0.4
+          "hours_ago": 0.5
         },
         "model_agreement": {
           "score": 5
@@ -1898,7 +1898,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 2.027839224537037,
+      "days_to_event": 2.026187326388889,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1948,7 +1948,7 @@
       "weather_signal_components": {
         "recency": {
           "score": 10,
-          "hours_ago": 0.4
+          "hours_ago": 0.5
         },
         "model_agreement": {
           "score": 5

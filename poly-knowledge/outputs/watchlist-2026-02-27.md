@@ -1,9 +1,9 @@
 # Daily Watchlist - 2026-02-27
 
-> Generated: 2026-02-27T23:19:54.698Z
+> Generated: 2026-02-27T23:22:17.423Z
 > Total candidates: 69
 > TopN: 30 (weather quota: 5)
-> Weather/Aviation in Top30: 5 (aviation: 0)
+> Weather in Top30: 5 (aviation: 0)
 > Scoring weights: liquidity=0.2, spread=0.15, ...
 > Sources integrated: 8 weather stations, 10 aviation airports
 
