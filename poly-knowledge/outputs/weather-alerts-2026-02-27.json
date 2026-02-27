@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-02-27T17:20:42.311Z",
+  "generated_at": "2026-02-27T17:25:24.522Z",
   "date": "2026-02-27",
   "version": "1.0.0",
   "summary": {
-    "total_alerts": 3,
+    "total_alerts": 4,
     "trigger_types": {
-      "t_minus_24h": 2,
-      "t_minus_6h": 0,
+      "t_minus_24h": 3,
+      "t_minus_6h": 1,
       "source_updated": 0,
-      "near_settlement": 1
+      "near_settlement": 0
     },
-    "markets_filtered": 30,
-    "alerts_sent": 3
+    "markets_filtered": 26,
+    "alerts_sent": 4
   },
   "alerts": [
     {
       "rank": 1,
-      "market_id": "1386664",
-      "slug": "us-strikes-iran-by-february-27-2026",
-      "question": "US strikes Iran by February 27, 2026?",
-      "url": "https://polymarket.com/market/us-strikes-iran-by-february-27-2026",
-      "category": "unknown",
+      "market_id": "1378487",
+      "slug": "fr2-lav-asn-2026-02-27-total-3pt5",
+      "question": "Stade Lavallois Mayenne FC vs. AS Nancy-Lorraine: O/U 3.5",
+      "url": "https://polymarket.com/market/fr2-lav-asn-2026-02-27-total-3pt5",
+      "category": "sports",
       "trigger": {
-        "type": "near_settlement",
-        "reason": "已过期或结算时间不明确",
-        "timestamp": "2026-02-27T17:20:42.311Z",
-        "details": "endDate: 2026-01-31T00:00:00Z"
+        "type": "t_minus_6h",
+        "reason": "6小时倒计时",
+        "timestamp": "2026-02-27T17:25:24.522Z",
+        "details": "endDate: 2026-02-27T19:00:00Z"
       },
       "market_data": {
-        "end_date": "2026-01-31T00:00:00Z",
-        "days_to_event": -27.722532986111112,
-        "hours_to_event": -665.3,
-        "liquidity": 197433.43765,
-        "action": "观察 - 需进一步研究",
-        "entry_plan": "评分≥7.0且流动性允许时可小额测试，设定5%止损线",
+        "end_date": "2026-02-27T19:00:00Z",
+        "days_to_event": 0.06704722222222222,
+        "hours_to_event": 1.6,
+        "liquidity": 26092.8636,
+        "action": "观察 - 等待比赛结果",
+        "entry_plan": "比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲",
         "stations": []
       },
       "next_steps": [
@@ -44,25 +44,25 @@
       "kb_link": "/weather/today"
     },
     {
-      "rank": 2,
-      "market_id": "1380201",
-      "slug": "fl1-ren-tou-2026-02-28-total-1pt5",
-      "question": "Stade Rennais FC 1901 vs. Toulouse FC: O/U 1.5",
-      "url": "https://polymarket.com/market/fl1-ren-tou-2026-02-28-total-1pt5",
-      "category": "sports",
+      "rank": 3,
+      "market_id": "1453098",
+      "slug": "btc-updown-5m-1772266500",
+      "question": "Bitcoin Up or Down - February 28, 3:15AM-3:20AM ET",
+      "url": "https://polymarket.com/market/btc-updown-5m-1772266500",
+      "category": "crypto",
       "trigger": {
         "type": "t_minus_24h",
         "reason": "24小时倒计时",
-        "timestamp": "2026-02-27T17:20:42.311Z",
-        "details": "endDate: 2026-02-28T16:00:00Z"
+        "timestamp": "2026-02-27T17:25:24.522Z",
+        "details": "endDate: 2026-02-28T08:20:00Z"
       },
       "market_data": {
-        "end_date": "2026-02-28T16:00:00Z",
-        "days_to_event": 0.9444867361111111,
-        "hours_to_event": 22.7,
-        "liquidity": 105083.8336,
-        "action": "观察 - 等待比赛结果",
-        "entry_plan": "比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲",
+        "end_date": "2026-02-28T08:20:00Z",
+        "days_to_event": 0.6227332986111112,
+        "hours_to_event": 14.9,
+        "liquidity": 15611.9249,
+        "action": "观察 - 等待价格信号",
+        "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
         "stations": []
       },
       "next_steps": [
@@ -74,24 +74,53 @@
     },
     {
       "rank": 4,
-      "market_id": "1383640",
-      "slug": "scop-hmi-abe-2026-02-28-total-2pt5",
-      "question": "Heart of Midlothian FC vs. Aberdeen FC: O/U 2.5",
-      "url": "https://polymarket.com/market/scop-hmi-abe-2026-02-28-total-2pt5",
-      "category": "sports",
+      "market_id": "1453986",
+      "slug": "btc-updown-5m-1772281200",
+      "question": "Bitcoin Up or Down - February 28, 7:20AM-7:25AM ET",
+      "url": "https://polymarket.com/market/btc-updown-5m-1772281200",
+      "category": "crypto",
       "trigger": {
         "type": "t_minus_24h",
         "reason": "24小时倒计时",
-        "timestamp": "2026-02-27T17:20:42.311Z",
-        "details": "endDate: 2026-02-28T15:00:00Z"
+        "timestamp": "2026-02-27T17:25:24.522Z",
+        "details": "endDate: 2026-02-28T12:25:00Z"
       },
       "market_data": {
-        "end_date": "2026-02-28T15:00:00Z",
-        "days_to_event": 0.9027662152777778,
-        "hours_to_event": 21.7,
-        "liquidity": 44614.6993,
-        "action": "观察 - 等待比赛结果",
-        "entry_plan": "比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲",
+        "end_date": "2026-02-28T12:25:00Z",
+        "days_to_event": 0.7927660648148148,
+        "hours_to_event": 19,
+        "liquidity": 15283.7761,
+        "action": "观察 - 等待价格信号",
+        "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
+        "stations": []
+      },
+      "next_steps": [
+        "检查最新天气预报",
+        "确认流动性充足",
+        "验证结算规则"
+      ],
+      "kb_link": "/weather/today"
+    },
+    {
+      "rank": 5,
+      "market_id": "1444528",
+      "slug": "bitcoin-up-or-down-february-28-7am-et",
+      "question": "Bitcoin Up or Down - February 28, 7AM ET",
+      "url": "https://polymarket.com/market/bitcoin-up-or-down-february-28-7am-et",
+      "category": "crypto",
+      "trigger": {
+        "type": "t_minus_24h",
+        "reason": "24小时倒计时",
+        "timestamp": "2026-02-27T17:25:24.522Z",
+        "details": "endDate: 2026-02-28T13:00:00Z"
+      },
+      "market_data": {
+        "end_date": "2026-02-28T13:00:00Z",
+        "days_to_event": 0.8170753587962963,
+        "hours_to_event": 19.6,
+        "liquidity": 15132.598,
+        "action": "观察 - 等待价格信号",
+        "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
         "stations": []
       },
       "next_steps": [
