@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-27T18:23:16.144Z",
-  "total_candidates": 68,
+  "generated_at": "2026-02-27T18:20:32.076Z",
+  "total_candidates": 48,
   "top_n": 30,
   "scoring_weights": {
     "liquidity": 0.2,
@@ -20,65 +20,6 @@
   "watchlist": [
     {
       "rank": 1,
-      "market_id": "1380708",
-      "conditionId": "0x9df889094697469549babaa259ce38172287b7c9393409cf9969e1a1952d3d3c",
-      "slug": "lal-mal-rso-2026-02-28-total-3pt5",
-      "url": "https://polymarket.com/market/lal-mal-rso-2026-02-28-total-3pt5",
-      "question": "RCD Mallorca vs. Real Sociedad de Fútbol: O/U 3.5",
-      "description": "In the upcoming La Liga game between RCD Mallorca and Real Sociedad de Fútbol, scheduled for February 28 at 12:30 PM ET:\n\nThis market will resolve to \"Over\" if RCD Mallorca and Real Sociedad de Fútbol combine to score 4 or more goals in this game.\n\nIf the combined total is less than 4, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on laliga.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.",
-      "volume": 10,
-      "liquidity": 30028.8532,
-      "clobTokenIds": "[\"63895646957095884845352690466502204401519618376622044507461781693716942866805\", \"4452168971620020376643447920890192887701546999682580019531669646747229373593\"]",
-      "startDate": "2026-02-15T08:03:16.06027Z",
-      "endDate": "2026-02-28T17:30:00Z",
-      "acceptingOrders": true,
-      "negRisk": false,
-      "implied_probability": null,
-      "best_bid": null,
-      "best_ask": null,
-      "spread_abs": null,
-      "spread_pct": null,
-      "depth_proxy": 0,
-      "days_to_event": 0.9630078703703704,
-      "fee_rate": null,
-      "last_trade_price": null,
-      "last_trade_time": null,
-      "midpoint": null,
-      "volatility_level": "low",
-      "uma_resolution_status": "unknown",
-      "resolution_source": "unknown",
-      "risk": "medium",
-      "scores": {
-        "liquidity_score": 7,
-        "spread_score": 1,
-        "volatility_score": 10,
-        "settlement_clarity_score": 5,
-        "event_calendar_score": 10,
-        "hedgeability_score": 1,
-        "risk_level_score": 6,
-        "total": 5.799999999999999
-      },
-      "reason": "高流动性 $30,029 | 1天后到期 | 低风险",
-      "category": "sports",
-      "action": "观察 - 等待比赛结果",
-      "entry_plan": "比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲",
-      "key_risks": [
-        "比赛推迟/取消",
-        "球员伤病突发",
-        "裁判判罚争议",
-        "加时赛/点球决胜"
-      ],
-      "monitor_sources": [
-        "ESPN / 官方联赛网站",
-        "Flashscore 实时比分",
-        "Twitter 体育记者",
-        "赔率对比（Oddschecker）"
-      ],
-      "thesis": "体育类市场结算清晰，1天后到期。需关注比赛实际结果和潜在中断。",
-      "resolution_parsed": null
-    },
-    {
-      "rank": 2,
       "market_id": "1449623",
       "conditionId": "0xbf297f35b70ebe7be90fe8575c613b278042d20599cd79254bc464fa7dfcf578",
       "slug": "eth-updown-15m-1772219700",
@@ -98,7 +39,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.04652918981481481,
+      "days_to_event": 0.048393680555555554,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -137,420 +78,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 3,
-      "market_id": "1453098",
-      "conditionId": "0x005333f0656144d60b92a99703257cb71e5672c81b03f21095e01850c2fdc030",
-      "slug": "btc-updown-5m-1772266500",
-      "url": "https://polymarket.com/market/btc-updown-5m-1772266500",
-      "question": "Bitcoin Up or Down - February 28, 3:15AM-3:20AM ET",
-      "description": "This market will resolve to \"Up\" if the Bitcoin price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the BTC/USD data stream available at https://data.chain.link/streams/btc-usd.\nPlease note that this market is about the price according to Chainlink data stream BTC/USD, not according to other sources or spot markets.",
-      "volume": 10,
-      "liquidity": 15229.8232,
-      "clobTokenIds": "[\"30183780925402173100774625638020992197353412351558126628943549506176680851622\", \"92379612990390585589392773561336360952041874555805286456042052826967654278623\"]",
-      "startDate": "2026-02-27T08:23:16.080991Z",
-      "endDate": "2026-02-28T08:20:00Z",
-      "acceptingOrders": true,
-      "negRisk": false,
-      "implied_probability": null,
-      "best_bid": null,
-      "best_ask": null,
-      "spread_abs": null,
-      "spread_pct": null,
-      "depth_proxy": 0,
-      "days_to_event": 0.5811552430555555,
-      "fee_rate": null,
-      "last_trade_price": null,
-      "last_trade_time": null,
-      "midpoint": null,
-      "volatility_level": "low",
-      "uma_resolution_status": "unknown",
-      "resolution_source": "unknown",
-      "risk": "medium",
-      "scores": {
-        "liquidity_score": 7,
-        "spread_score": 1,
-        "volatility_score": 10,
-        "settlement_clarity_score": 5,
-        "event_calendar_score": 10,
-        "hedgeability_score": 1,
-        "risk_level_score": 6,
-        "total": 5.799999999999999
-      },
-      "reason": "高流动性 $15,230 | 1天后到期 | 低风险",
-      "category": "crypto",
-      "action": "观察 - 等待价格信号",
-      "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
-      "key_risks": [
-        "SEC/FDA 等机构突发审批决定",
-        "巨鲸操作导致价格剧烈波动",
-        "交易所技术故障",
-        "波动性过高导致点差扩大"
-      ],
-      "monitor_sources": [
-        "CoinGecko / CoinMarketCap 实时价格",
-        "TradingView 技术分析",
-        "SEC/FDA 官方公告",
-        "Twitter/X 加密社区"
-      ],
-      "thesis": "加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。",
-      "resolution_parsed": null
-    },
-    {
-      "rank": 4,
-      "market_id": "1444528",
-      "conditionId": "0x4cb05d250767033c847781f11b8cd3b9126a4cd5d2e45ade767dad3f7c27e155",
-      "slug": "bitcoin-up-or-down-february-28-7am-et",
-      "url": "https://polymarket.com/market/bitcoin-up-or-down-february-28-7am-et",
-      "question": "Bitcoin Up or Down - February 28, 7AM ET",
-      "description": "This market will resolve to \"Up\" if the close price is greater than or equal to the open price for the BTC/USDT 1 hour candle that begins on the time and date specified in the title. Otherwise, this market will resolve to \"Down\".\n\nThe resolution source for this market is information from Binance, specifically the BTC/USDT pair (https://www.binance.com/en/trade/BTC_USDT). The close « C » and open « O » displayed at the top of the graph for the relevant \"1H\" candle will be used once the data for that candle is finalized.\n\nPlease note that this market is about the price according to Binance BTC/USDT, not according to other sources or spot markets.",
-      "volume": 10,
-      "liquidity": 15132.498,
-      "clobTokenIds": "[\"21050952074424367501250069723795682225824713047805498610469388361217514720627\", \"12629275139713674495313925138397628742778576657991472883523607609735918116048\"]",
-      "startDate": "2026-02-26T12:02:40.552441Z",
-      "endDate": "2026-02-28T13:00:00Z",
-      "acceptingOrders": true,
-      "negRisk": false,
-      "implied_probability": null,
-      "best_bid": null,
-      "best_ask": null,
-      "spread_abs": null,
-      "spread_pct": null,
-      "depth_proxy": 0,
-      "days_to_event": 0.7755242824074075,
-      "fee_rate": null,
-      "last_trade_price": null,
-      "last_trade_time": null,
-      "midpoint": null,
-      "volatility_level": "low",
-      "uma_resolution_status": "unknown",
-      "resolution_source": "unknown",
-      "risk": "medium",
-      "scores": {
-        "liquidity_score": 7,
-        "spread_score": 1,
-        "volatility_score": 10,
-        "settlement_clarity_score": 5,
-        "event_calendar_score": 10,
-        "hedgeability_score": 1,
-        "risk_level_score": 6,
-        "total": 5.799999999999999
-      },
-      "reason": "高流动性 $15,132 | 1天后到期 | 低风险",
-      "category": "crypto",
-      "action": "观察 - 等待价格信号",
-      "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
-      "key_risks": [
-        "SEC/FDA 等机构突发审批决定",
-        "巨鲸操作导致价格剧烈波动",
-        "交易所技术故障",
-        "波动性过高导致点差扩大"
-      ],
-      "monitor_sources": [
-        "CoinGecko / CoinMarketCap 实时价格",
-        "TradingView 技术分析",
-        "SEC/FDA 官方公告",
-        "Twitter/X 加密社区"
-      ],
-      "thesis": "加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。",
-      "resolution_parsed": null
-    },
-    {
-      "rank": 5,
-      "market_id": "1444153",
-      "conditionId": "0x4f44ceae895de181e42ee839976907b881182ca0d45defef5147b64ef3ea90f0",
-      "slug": "bitcoin-up-or-down-february-28-6am-et",
-      "url": "https://polymarket.com/market/bitcoin-up-or-down-february-28-6am-et",
-      "question": "Bitcoin Up or Down - February 28, 6AM ET",
-      "description": "This market will resolve to \"Up\" if the close price is greater than or equal to the open price for the BTC/USDT 1 hour candle that begins on the time and date specified in the title. Otherwise, this market will resolve to \"Down\".\n\nThe resolution source for this market is information from Binance, specifically the BTC/USDT pair (https://www.binance.com/en/trade/BTC_USDT). The close « C » and open « O » displayed at the top of the graph for the relevant \"1H\" candle will be used once the data for that candle is finalized.\n\nPlease note that this market is about the price according to Binance BTC/USDT, not according to other sources or spot markets.",
-      "volume": 10,
-      "liquidity": 15129.496,
-      "clobTokenIds": "[\"67409572213813835907158445115869849087629269716724455841271617486209276697216\", \"50390426944296731726267961103194689930480553466088973667075258584963045569050\"]",
-      "startDate": "2026-02-26T11:02:31.328602Z",
-      "endDate": "2026-02-28T12:00:00Z",
-      "acceptingOrders": true,
-      "negRisk": false,
-      "implied_probability": null,
-      "best_bid": null,
-      "best_ask": null,
-      "spread_abs": null,
-      "spread_pct": null,
-      "depth_proxy": 0,
-      "days_to_event": 0.7340142939814814,
-      "fee_rate": null,
-      "last_trade_price": null,
-      "last_trade_time": null,
-      "midpoint": null,
-      "volatility_level": "low",
-      "uma_resolution_status": "unknown",
-      "resolution_source": "unknown",
-      "risk": "medium",
-      "scores": {
-        "liquidity_score": 7,
-        "spread_score": 1,
-        "volatility_score": 10,
-        "settlement_clarity_score": 5,
-        "event_calendar_score": 10,
-        "hedgeability_score": 1,
-        "risk_level_score": 6,
-        "total": 5.799999999999999
-      },
-      "reason": "高流动性 $15,129 | 1天后到期 | 低风险",
-      "category": "crypto",
-      "action": "观察 - 等待价格信号",
-      "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
-      "key_risks": [
-        "SEC/FDA 等机构突发审批决定",
-        "巨鲸操作导致价格剧烈波动",
-        "交易所技术故障",
-        "波动性过高导致点差扩大"
-      ],
-      "monitor_sources": [
-        "CoinGecko / CoinMarketCap 实时价格",
-        "TradingView 技术分析",
-        "SEC/FDA 官方公告",
-        "Twitter/X 加密社区"
-      ],
-      "thesis": "加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。",
-      "resolution_parsed": null
-    },
-    {
-      "rank": 6,
-      "market_id": "1453986",
-      "conditionId": "0x41b302e627f9ecf98340e29b1e6ed9de71ec23ad2c1fc7e1f36a25d46b673a17",
-      "slug": "btc-updown-5m-1772281200",
-      "url": "https://polymarket.com/market/btc-updown-5m-1772281200",
-      "question": "Bitcoin Up or Down - February 28, 7:20AM-7:25AM ET",
-      "description": "This market will resolve to \"Up\" if the Bitcoin price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the BTC/USD data stream available at https://data.chain.link/streams/btc-usd.\nPlease note that this market is about the price according to Chainlink data stream BTC/USD, not according to other sources or spot markets.",
-      "volume": 10,
-      "liquidity": 15099.7744,
-      "clobTokenIds": "[\"27445640548623023953785953318742692898256771851527098486471069559687885751646\", \"93265903249727492582786062711723772543051710654033752119570137137398439839046\"]",
-      "startDate": "2026-02-27T12:28:10.789056Z",
-      "endDate": "2026-02-28T12:25:00Z",
-      "acceptingOrders": true,
-      "negRisk": false,
-      "implied_probability": null,
-      "best_bid": null,
-      "best_ask": null,
-      "spread_abs": null,
-      "spread_pct": null,
-      "depth_proxy": 0,
-      "days_to_event": 0.751346875,
-      "fee_rate": null,
-      "last_trade_price": null,
-      "last_trade_time": null,
-      "midpoint": null,
-      "volatility_level": "low",
-      "uma_resolution_status": "unknown",
-      "resolution_source": "unknown",
-      "risk": "medium",
-      "scores": {
-        "liquidity_score": 7,
-        "spread_score": 1,
-        "volatility_score": 10,
-        "settlement_clarity_score": 5,
-        "event_calendar_score": 10,
-        "hedgeability_score": 1,
-        "risk_level_score": 6,
-        "total": 5.799999999999999
-      },
-      "reason": "高流动性 $15,100 | 1天后到期 | 低风险",
-      "category": "crypto",
-      "action": "观察 - 等待价格信号",
-      "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
-      "key_risks": [
-        "SEC/FDA 等机构突发审批决定",
-        "巨鲸操作导致价格剧烈波动",
-        "交易所技术故障",
-        "波动性过高导致点差扩大"
-      ],
-      "monitor_sources": [
-        "CoinGecko / CoinMarketCap 实时价格",
-        "TradingView 技术分析",
-        "SEC/FDA 官方公告",
-        "Twitter/X 加密社区"
-      ],
-      "thesis": "加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。",
-      "resolution_parsed": null
-    },
-    {
-      "rank": 7,
-      "market_id": "1453100",
-      "conditionId": "0x62370177e40d53226eb3466d50a40ac20664140c0e0fdd8aab14e92d22d1d07b",
-      "slug": "eth-updown-5m-1772266800",
-      "url": "https://polymarket.com/market/eth-updown-5m-1772266800",
-      "question": "Ethereum Up or Down - February 28, 3:20AM-3:25AM ET",
-      "description": "This market will resolve to \"Up\" if the Ethereum price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the ETH/USD data stream available at https://data.chain.link/streams/eth-usd.\nPlease note that this market is about the price according to Chainlink data stream ETH/USD, not according to other sources or spot markets.",
-      "volume": 10,
-      "liquidity": 13576.1415,
-      "clobTokenIds": "[\"9212634963835869107442704624077863783013594131999183442929310529734808486180\", \"3461797687987959607308413477476830012762486634538275095677540887155754467591\"]",
-      "startDate": "2026-02-27T08:28:13.647402Z",
-      "endDate": "2026-02-28T08:25:00Z",
-      "acceptingOrders": true,
-      "negRisk": false,
-      "implied_probability": null,
-      "best_bid": null,
-      "best_ask": null,
-      "spread_abs": null,
-      "spread_pct": null,
-      "depth_proxy": 0,
-      "days_to_event": 0.5846077662037037,
-      "fee_rate": null,
-      "last_trade_price": null,
-      "last_trade_time": null,
-      "midpoint": null,
-      "volatility_level": "low",
-      "uma_resolution_status": "unknown",
-      "resolution_source": "unknown",
-      "risk": "medium",
-      "scores": {
-        "liquidity_score": 7,
-        "spread_score": 1,
-        "volatility_score": 10,
-        "settlement_clarity_score": 5,
-        "event_calendar_score": 10,
-        "hedgeability_score": 1,
-        "risk_level_score": 6,
-        "total": 5.799999999999999
-      },
-      "reason": "高流动性 $13,576 | 1天后到期 | 低风险",
-      "category": "crypto",
-      "action": "观察 - 等待价格信号",
-      "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
-      "key_risks": [
-        "SEC/FDA 等机构突发审批决定",
-        "巨鲸操作导致价格剧烈波动",
-        "交易所技术故障",
-        "波动性过高导致点差扩大"
-      ],
-      "monitor_sources": [
-        "CoinGecko / CoinMarketCap 实时价格",
-        "TradingView 技术分析",
-        "SEC/FDA 官方公告",
-        "Twitter/X 加密社区"
-      ],
-      "thesis": "加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。",
-      "resolution_parsed": null
-    },
-    {
-      "rank": 8,
-      "market_id": "1453244",
-      "conditionId": "0x8058cfd94ed5da4322af49ae809dfe39d608912dda3776f1999546ad79d458e0",
-      "slug": "eth-updown-5m-1772270100",
-      "url": "https://polymarket.com/market/eth-updown-5m-1772270100",
-      "question": "Ethereum Up or Down - February 28, 4:15AM-4:20AM ET",
-      "description": "This market will resolve to \"Up\" if the Ethereum price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the ETH/USD data stream available at https://data.chain.link/streams/eth-usd.\nPlease note that this market is about the price according to Chainlink data stream ETH/USD, not according to other sources or spot markets.",
-      "volume": 10,
-      "liquidity": 13573.5512,
-      "clobTokenIds": "[\"4250604421230616318705671864441889728317237533124298182428234048855300781903\", \"36753995332715943623361656620386072947242932251218765493312492872527379103987\"]",
-      "startDate": "2026-02-27T09:23:16.990631Z",
-      "endDate": "2026-02-28T09:20:00Z",
-      "acceptingOrders": true,
-      "negRisk": false,
-      "implied_probability": null,
-      "best_bid": null,
-      "best_ask": null,
-      "spread_abs": null,
-      "spread_pct": null,
-      "depth_proxy": 0,
-      "days_to_event": 0.6228833680555556,
-      "fee_rate": null,
-      "last_trade_price": null,
-      "last_trade_time": null,
-      "midpoint": null,
-      "volatility_level": "low",
-      "uma_resolution_status": "unknown",
-      "resolution_source": "unknown",
-      "risk": "medium",
-      "scores": {
-        "liquidity_score": 7,
-        "spread_score": 1,
-        "volatility_score": 10,
-        "settlement_clarity_score": 5,
-        "event_calendar_score": 10,
-        "hedgeability_score": 1,
-        "risk_level_score": 6,
-        "total": 5.799999999999999
-      },
-      "reason": "高流动性 $13,574 | 1天后到期 | 低风险",
-      "category": "crypto",
-      "action": "观察 - 等待价格信号",
-      "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
-      "key_risks": [
-        "SEC/FDA 等机构突发审批决定",
-        "巨鲸操作导致价格剧烈波动",
-        "交易所技术故障",
-        "波动性过高导致点差扩大"
-      ],
-      "monitor_sources": [
-        "CoinGecko / CoinMarketCap 实时价格",
-        "TradingView 技术分析",
-        "SEC/FDA 官方公告",
-        "Twitter/X 加密社区"
-      ],
-      "thesis": "加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。",
-      "resolution_parsed": null
-    },
-    {
-      "rank": 9,
-      "market_id": "1453140",
-      "conditionId": "0x2d24332a891b62a5b1d32cae1032a084c5e1e6026927c72794b75a14f0240296",
-      "slug": "eth-updown-5m-1772267700",
-      "url": "https://polymarket.com/market/eth-updown-5m-1772267700",
-      "question": "Ethereum Up or Down - February 28, 3:35AM-3:40AM ET",
-      "description": "This market will resolve to \"Up\" if the Ethereum price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the ETH/USD data stream available at https://data.chain.link/streams/eth-usd.\nPlease note that this market is about the price according to Chainlink data stream ETH/USD, not according to other sources or spot markets.",
-      "volume": 10,
-      "liquidity": 13569.0512,
-      "clobTokenIds": "[\"179227609788937531097738445486158408932811081171687386138767380509302179814\", \"15956256821626723649738210123938414852478062564405354090620114211915733139676\"]",
-      "startDate": "2026-02-27T08:43:14.493525Z",
-      "endDate": "2026-02-28T08:40:00Z",
-      "acceptingOrders": true,
-      "negRisk": false,
-      "implied_probability": null,
-      "best_bid": null,
-      "best_ask": null,
-      "spread_abs": null,
-      "spread_pct": null,
-      "depth_proxy": 0,
-      "days_to_event": 0.5949587962962963,
-      "fee_rate": null,
-      "last_trade_price": null,
-      "last_trade_time": null,
-      "midpoint": null,
-      "volatility_level": "low",
-      "uma_resolution_status": "unknown",
-      "resolution_source": "unknown",
-      "risk": "medium",
-      "scores": {
-        "liquidity_score": 7,
-        "spread_score": 1,
-        "volatility_score": 10,
-        "settlement_clarity_score": 5,
-        "event_calendar_score": 10,
-        "hedgeability_score": 1,
-        "risk_level_score": 6,
-        "total": 5.799999999999999
-      },
-      "reason": "高流动性 $13,569 | 1天后到期 | 低风险",
-      "category": "crypto",
-      "action": "观察 - 等待价格信号",
-      "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
-      "key_risks": [
-        "SEC/FDA 等机构突发审批决定",
-        "巨鲸操作导致价格剧烈波动",
-        "交易所技术故障",
-        "波动性过高导致点差扩大"
-      ],
-      "monitor_sources": [
-        "CoinGecko / CoinMarketCap 实时价格",
-        "TradingView 技术分析",
-        "SEC/FDA 官方公告",
-        "Twitter/X 加密社区"
-      ],
-      "thesis": "加密市场波动性高，1天后到期。需关注价格源和时间窗口，防止极端波动。",
-      "resolution_parsed": null
-    },
-    {
-      "rank": 10,
+      "rank": 2,
       "market_id": "1453997",
       "conditionId": "0x5352b037ed28dd2e506978b30e0aeddcad5b055dd5038732c5567a80a4c5362e",
       "slug": "sol-updown-5m-1772281500",
@@ -570,7 +98,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7547853587962963,
+      "days_to_event": 0.7566509837962963,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -609,7 +137,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 11,
+      "rank": 3,
       "market_id": "1454459",
       "conditionId": "0x422083023a296d05159321fc2aa6f7781b0f2e70399dfdda544dfed467c2605b",
       "slug": "sol-updown-5m-1772289300",
@@ -629,7 +157,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.8449609722222222,
+      "days_to_event": 0.8468510648148149,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -668,7 +196,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 12,
+      "rank": 4,
       "market_id": "1453171",
       "conditionId": "0xe27e7f927ac51d17a20379ac346676fadf76c60aaaa9fa70b1c66432ac104fb5",
       "slug": "xrp-updown-4h-1772269200",
@@ -688,7 +216,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7755854513888889,
+      "days_to_event": 0.7774963310185186,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -725,7 +253,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 13,
+      "rank": 5,
       "market_id": "1452755",
       "conditionId": "0x76f590bd0e2daefe4c1e655aecfdb5ae4fa19b12a7093e2fb6376801a1580062",
       "slug": "wta-sonmez-bucsa-2026-02-27-set-totals-2pt5",
@@ -745,7 +273,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 7.129795810185185,
+      "days_to_event": 7.131702951388889,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -784,7 +312,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 14,
+      "rank": 6,
       "market_id": "1396335",
       "conditionId": "0x943c005c5749da35884961249128c9e0a28e6b191c5c475cf050c99fad8689d2",
       "slug": "epl-ful-wes-2026-03-04-spread-away-1pt5",
@@ -804,7 +332,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 5.046442928240741,
+      "days_to_event": 5.048333622685186,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -841,7 +369,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 15,
+      "rank": 7,
       "market_id": "1411312",
       "conditionId": "0x3347d1d8091d290c477249053e8a9a22f4bd468890a6ae12c4d0355f55a0ee2b",
       "slug": "cbb-ballst-nill-2026-02-28",
@@ -861,7 +389,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.1089586574074075,
+      "days_to_event": 1.1107891203703704,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -900,7 +428,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 16,
+      "rank": 8,
       "market_id": "1454318",
       "conditionId": "0xc969d4043496876d03db67a08d7c3b3c176c5924da618bdb0b5a55f001bdb134",
       "slug": "cbb-applst-txst-2026-02-27-total-133pt5",
@@ -920,7 +448,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.2755384490740741,
+      "days_to_event": 0.2774768287037037,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -959,7 +487,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 17,
+      "rank": 9,
       "market_id": "1378487",
       "conditionId": "0x2d8f9b5e41655b504cfdefde082c99e50f98528c24068a7b559ecd2d7fd3eff0",
       "slug": "fr2-lav-asn-2026-02-27-total-3pt5",
@@ -979,7 +507,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.02556429398148148,
+      "days_to_event": 0.02750403935185185,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1018,7 +546,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 18,
+      "rank": 10,
       "market_id": "1411318",
       "conditionId": "0x229ee6cb3cce3d49e79a6a903b16e06e01165f92d159109628e626a518fe9ab6",
       "slug": "cbb-sdkst-sdak-2026-02-28",
@@ -1038,7 +566,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.0255822337962963,
+      "days_to_event": 1.0274880324074074,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1077,7 +605,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 19,
+      "rank": 11,
       "market_id": "1454035",
       "conditionId": "0x6371b32cd4dba1c497bec105f97c0159c54b85d63b97d4bd7fd9d9fdf91974d3",
       "slug": "rut-up-or-down-on-march-2-2026",
@@ -1097,7 +625,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 3.1088839814814815,
+      "days_to_event": 3.110800914351852,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1134,7 +662,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 20,
+      "rank": 12,
       "market_id": "1452518",
       "conditionId": "0x883e12f9f90f0bc2cafd7c0a94f34a5f9fea0cfe4ab706f1ac477f500acf6e0c",
       "slug": "cbb-mstm-sacred-2026-02-27-total-149pt5",
@@ -1154,7 +682,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.23392552083333334,
+      "days_to_event": 0.23575528935185186,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1193,7 +721,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 21,
+      "rank": 13,
       "market_id": "1427844",
       "conditionId": "0xe32d7c0ceab7ece9cb81d323731030cdb3e4d1b48d75ddb4196277828105a994",
       "slug": "khl-adm-sal-2026-03-01",
@@ -1213,7 +741,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.5255876041666667,
+      "days_to_event": 1.5274257175925925,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1252,7 +780,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 22,
+      "rank": 14,
       "market_id": "1452511",
       "conditionId": "0xd376d5adc349b22273d53296c5534a4f513de37c505c24e7b54725be6c5dea7f",
       "slug": "cbb-siena-fair-2026-02-27-spread-home-1pt5",
@@ -1272,7 +800,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.23389502314814814,
+      "days_to_event": 0.23574391203703704,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1309,7 +837,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 23,
+      "rank": 15,
       "market_id": "1399380",
       "conditionId": "0x921253bd4fd083913072aa7f206a0967d22817d647e38abf4199326796f7dcdd",
       "slug": "us-forces-in-venezuela-again-by-march-31-2026",
@@ -1329,7 +857,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": -27.766092025462964,
+      "days_to_event": -27.76423324074074,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1366,7 +894,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 24,
+      "rank": 16,
       "market_id": "1411361",
       "conditionId": "0xa30c6afe974f6d44fb94593815370dd04a56b68e302ad39fc60b66613c2befb9",
       "slug": "cbb-tcu-kanst-2026-02-28",
@@ -1386,7 +914,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.2131845601851852,
+      "days_to_event": 1.214963611111111,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1425,7 +953,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 25,
+      "rank": 17,
       "market_id": "1382469",
       "conditionId": "0x738f655070e29d0ea3d433f99b031795dd406787b3eaa92f8f69afc9217d822e",
       "slug": "den-kob-ran-2026-03-01-spread-home-2pt5",
@@ -1445,7 +973,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.900552824074074,
+      "days_to_event": 1.9024294675925926,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1482,7 +1010,7 @@
       "resolution_parsed": null
     },
     {
-      "rank": 26,
+      "rank": 18,
       "market_id": "1434160",
       "conditionId": "0x3a3db3955ddd25854f5880843265cdf7a2d30249a37a39ce06cc6f7dca03a119",
       "slug": "highest-temperature-in-nyc-on-february-27-2026-39forbelow",
@@ -1502,7 +1030,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": -0.2661590162037037,
+      "days_to_event": -0.2642601041666667,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1551,7 +1079,7 @@
       "weather_signal_components": {
         "recency": {
           "score": 9.7,
-          "hours_ago": 1.8
+          "hours_ago": 1.7
         },
         "model_agreement": {
           "score": 5
@@ -1565,7 +1093,7 @@
       }
     },
     {
-      "rank": 27,
+      "rank": 19,
       "market_id": "1434040",
       "conditionId": "0xc240f483e69e6194594dd9d3a1c42803bdb5d276ac20949679eea438c1c07f86",
       "slug": "highest-temperature-in-london-on-february-27-2026-12c",
@@ -1585,7 +1113,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": -0.2661590046296296,
+      "days_to_event": -0.2642601041666667,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1634,7 +1162,7 @@
       "weather_signal_components": {
         "recency": {
           "score": 9.7,
-          "hours_ago": 1.8
+          "hours_ago": 1.7
         },
         "model_agreement": {
           "score": 5
@@ -1648,7 +1176,7 @@
       }
     },
     {
-      "rank": 28,
+      "rank": 20,
       "market_id": "1434207",
       "conditionId": "0xabdc13c0d50efccf057e2aa2b49535b16b1ca0f695fd215ef141b96a48b62551",
       "slug": "highest-temperature-in-ankara-on-february-27-2026-1c",
@@ -1668,7 +1196,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": -0.2661587962962963,
+      "days_to_event": -0.2642600578703704,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1717,7 +1245,7 @@
       "weather_signal_components": {
         "recency": {
           "score": 9.7,
-          "hours_ago": 1.8
+          "hours_ago": 1.7
         },
         "model_agreement": {
           "score": 5
@@ -1731,7 +1259,7 @@
       }
     },
     {
-      "rank": 29,
+      "rank": 21,
       "market_id": "1434042",
       "conditionId": "0x6d526c7f90e0224f03bcc62493075c15dd19ca7f9036e3f4ae0752cb3759cd62",
       "slug": "highest-temperature-in-london-on-february-27-2026-14c",
@@ -1751,7 +1279,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": -0.2661590046296296,
+      "days_to_event": -0.2642600925925926,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1800,7 +1328,7 @@
       "weather_signal_components": {
         "recency": {
           "score": 9.7,
-          "hours_ago": 1.8
+          "hours_ago": 1.7
         },
         "model_agreement": {
           "score": 5
@@ -1814,7 +1342,7 @@
       }
     },
     {
-      "rank": 30,
+      "rank": 22,
       "market_id": "1434183",
       "conditionId": "0x8d6f9cf9d6d6e0bbaea0b7d9bae8c4f9d5e8c7d9fae8c5d6e7f9b0a1c2d3e4f5",
       "slug": "highest-temperature-in-miami-on-february-27-2026-74-75f",
@@ -1834,7 +1362,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": -0.26615903935185187,
+      "days_to_event": -0.26426011574074076,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1883,7 +1411,671 @@
       "weather_signal_components": {
         "recency": {
           "score": 9.7,
-          "hours_ago": 1.8
+          "hours_ago": 1.7
+        },
+        "model_agreement": {
+          "score": 5
+        },
+        "volatility": {
+          "score": 6.4
+        },
+        "data_gap_risk": {
+          "score": 10
+        }
+      }
+    },
+    {
+      "rank": 23,
+      "market_id": "1434163",
+      "conditionId": "0x222edda5d1bb561fe31202f895e94fc2e1b34eabffd93182bfc41ce04f5d4221",
+      "slug": "highest-temperature-in-nyc-on-february-27-2026-44-45f",
+      "url": "https://polymarket.com/market/highest-temperature-in-nyc-on-february-27-2026-44-45f",
+      "question": "Will the highest temperature in New York City be between 44-45°F on February 27?",
+      "description": "",
+      "volume": 18841.627189,
+      "liquidity": 1884.1627189,
+      "clobTokenIds": [],
+      "startDate": null,
+      "endDate": "2026-02-27T12:00:00Z",
+      "acceptingOrders": true,
+      "negRisk": true,
+      "implied_probability": null,
+      "best_bid": null,
+      "best_ask": null,
+      "spread_abs": null,
+      "spread_pct": null,
+      "depth_proxy": 0,
+      "days_to_event": -0.2642601041666667,
+      "fee_rate": null,
+      "last_trade_price": null,
+      "last_trade_time": null,
+      "midpoint": null,
+      "volatility_level": "low",
+      "uma_resolution_status": "unknown",
+      "resolution_source": "unknown",
+      "risk": "high",
+      "scores": {
+        "liquidity_score": 4,
+        "spread_score": 1,
+        "volatility_score": 10,
+        "settlement_clarity_score": 5,
+        "event_calendar_score": 10,
+        "hedgeability_score": 1,
+        "risk_level_score": 2,
+        "total": 4.6
+      },
+      "reason": "-0天后到期 | Neg Risk市场",
+      "category": "weather",
+      "action": "⚠️ 低优先级 - 建议跳过",
+      "entry_plan": "T-6h: 检查最新预报更新；T-1h: 确认最终数据。数据更新: 2026/2/28 00:36:41。流动性一般(<$10k)，建议观望 若预测区间收敛且 spread<3% 可考虑入场。",
+      "key_risks": [
+        "⚠️ 模型漂移：数值预报随时间剧烈调整",
+        "⚠️ 结算口径：部分市场按站点平均，部分按特定站点",
+        "⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用",
+        "⚠️ 黑天鹅：极端天气事件超出模型预测范围",
+        "⚠️ Neg Risk 市场 - 风险较高"
+      ],
+      "monitor_sources": [
+        "=== 实时数据源 (已接入 weather-aviation-sources) ===",
+        "• Central Park, NY (KNYC): https://api.weather.gov/gridpoints/OKX/34,38/forecast",
+        "• JFK Airport, NY (KJFK): https://api.weather.gov/gridpoints/OKX/42,33/forecast",
+        "• Dallas/Fort Worth, TX (KDFW): https://api.weather.gov/gridpoints/FWD/80,109/forecast",
+        "• Seattle, WA (KSEA): https://api.weather.gov/gridpoints/SEW/124,61/forecast",
+        "• Denver, CO (KDEN): https://api.weather.gov/gridpoints/BOU/74,66/forecast",
+        "=== 备用/验证源 ===",
+        "NOAA/NWS weather.gov - 官方预报",
+        "ECMWF europepm.eu - 欧洲中期预报",
+        "GFS NCEP - 美国全球预报系统",
+        "Weather.com / AccuWeather - 辅助验证"
+      ],
+      "thesis": "天气类市场依赖气象数据结算，-0天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。",
+      "resolution_parsed": null,
+      "weather_signal_score": 7.7,
+      "weather_signal_components": {
+        "recency": {
+          "score": 9.7,
+          "hours_ago": 1.7
+        },
+        "model_agreement": {
+          "score": 5
+        },
+        "volatility": {
+          "score": 6.4
+        },
+        "data_gap_risk": {
+          "score": 10
+        }
+      }
+    },
+    {
+      "rank": 24,
+      "market_id": "1434330",
+      "conditionId": "0xff3f6f5fgj3f6f2fff7f4ffff4f1f0fffff5f1f3f2f1e0d9c8c7bea6f5d4c3b2a1f0",
+      "slug": "highest-temperature-in-nyc-on-march-1-2026-40-41f",
+      "url": "https://polymarket.com/market/highest-temperature-in-nyc-on-march-1-2026-40-41f",
+      "question": "Will the highest temperature in New York City be between 40-41°F on March 1?",
+      "description": "",
+      "volume": 18765.432109,
+      "liquidity": 1876.5432109000003,
+      "clobTokenIds": [],
+      "startDate": null,
+      "endDate": "2026-03-01T12:00:00Z",
+      "acceptingOrders": true,
+      "negRisk": true,
+      "implied_probability": null,
+      "best_bid": null,
+      "best_ask": null,
+      "spread_abs": null,
+      "spread_pct": null,
+      "depth_proxy": 0,
+      "days_to_event": 1.7357398726851851,
+      "fee_rate": null,
+      "last_trade_price": null,
+      "last_trade_time": null,
+      "midpoint": null,
+      "volatility_level": "low",
+      "uma_resolution_status": "unknown",
+      "resolution_source": "unknown",
+      "risk": "high",
+      "scores": {
+        "liquidity_score": 4,
+        "spread_score": 1,
+        "volatility_score": 10,
+        "settlement_clarity_score": 5,
+        "event_calendar_score": 10,
+        "hedgeability_score": 1,
+        "risk_level_score": 2,
+        "total": 4.6
+      },
+      "reason": "2天后到期 | Neg Risk市场",
+      "category": "weather",
+      "action": "⚠️ 低优先级 - 建议跳过",
+      "entry_plan": "T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛。数据更新: 2026/2/28 00:36:41。流动性一般(<$10k)，建议观望 若预测区间收敛且 spread<3% 可考虑入场。",
+      "key_risks": [
+        "⚠️ 模型漂移：数值预报随时间剧烈调整",
+        "⚠️ 结算口径：部分市场按站点平均，部分按特定站点",
+        "⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用",
+        "⚠️ 黑天鹅：极端天气事件超出模型预测范围",
+        "⚠️ Neg Risk 市场 - 风险较高"
+      ],
+      "monitor_sources": [
+        "=== 实时数据源 (已接入 weather-aviation-sources) ===",
+        "• Central Park, NY (KNYC): https://api.weather.gov/gridpoints/OKX/34,38/forecast",
+        "• JFK Airport, NY (KJFK): https://api.weather.gov/gridpoints/OKX/42,33/forecast",
+        "• Dallas/Fort Worth, TX (KDFW): https://api.weather.gov/gridpoints/FWD/80,109/forecast",
+        "• Seattle, WA (KSEA): https://api.weather.gov/gridpoints/SEW/124,61/forecast",
+        "• Denver, CO (KDEN): https://api.weather.gov/gridpoints/BOU/74,66/forecast",
+        "=== 备用/验证源 ===",
+        "NOAA/NWS weather.gov - 官方预报",
+        "ECMWF europepm.eu - 欧洲中期预报",
+        "GFS NCEP - 美国全球预报系统",
+        "Weather.com / AccuWeather - 辅助验证"
+      ],
+      "thesis": "天气类市场依赖气象数据结算，2天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。",
+      "resolution_parsed": null,
+      "weather_signal_score": 7.7,
+      "weather_signal_components": {
+        "recency": {
+          "score": 9.7,
+          "hours_ago": 1.7
+        },
+        "model_agreement": {
+          "score": 5
+        },
+        "volatility": {
+          "score": 6.4
+        },
+        "data_gap_risk": {
+          "score": 10
+        }
+      }
+    },
+    {
+      "rank": 25,
+      "market_id": "1434182",
+      "conditionId": "0x7c5e8bf8c5c5d9aad9c0a6c8a9f7b3e8c4f7d6c8e9a7b4c5d6e7f8a9b0c1d2e3",
+      "slug": "highest-temperature-in-miami-on-february-27-2026-72-73f",
+      "url": "https://polymarket.com/market/highest-temperature-in-miami-on-february-27-2026-72-73f",
+      "question": "Will the highest temperature in Miami be between 72-73°F on February 27?",
+      "description": "",
+      "volume": 18547.391738,
+      "liquidity": 1854.7391738,
+      "clobTokenIds": [],
+      "startDate": null,
+      "endDate": "2026-02-27T12:00:00Z",
+      "acceptingOrders": true,
+      "negRisk": true,
+      "implied_probability": null,
+      "best_bid": null,
+      "best_ask": null,
+      "spread_abs": null,
+      "spread_pct": null,
+      "depth_proxy": 0,
+      "days_to_event": -0.26426011574074076,
+      "fee_rate": null,
+      "last_trade_price": null,
+      "last_trade_time": null,
+      "midpoint": null,
+      "volatility_level": "low",
+      "uma_resolution_status": "unknown",
+      "resolution_source": "unknown",
+      "risk": "high",
+      "scores": {
+        "liquidity_score": 4,
+        "spread_score": 1,
+        "volatility_score": 10,
+        "settlement_clarity_score": 5,
+        "event_calendar_score": 10,
+        "hedgeability_score": 1,
+        "risk_level_score": 2,
+        "total": 4.6
+      },
+      "reason": "-0天后到期 | Neg Risk市场",
+      "category": "weather",
+      "action": "⚠️ 低优先级 - 建议跳过",
+      "entry_plan": "T-6h: 检查最新预报更新；T-1h: 确认最终数据。数据更新: 2026/2/28 00:36:41。流动性一般(<$10k)，建议观望 若预测区间收敛且 spread<3% 可考虑入场。",
+      "key_risks": [
+        "⚠️ 模型漂移：数值预报随时间剧烈调整",
+        "⚠️ 结算口径：部分市场按站点平均，部分按特定站点",
+        "⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用",
+        "⚠️ 黑天鹅：极端天气事件超出模型预测范围",
+        "⚠️ Neg Risk 市场 - 风险较高"
+      ],
+      "monitor_sources": [
+        "=== 实时数据源 (已接入 weather-aviation-sources) ===",
+        "• Central Park, NY (KNYC): https://api.weather.gov/gridpoints/OKX/34,38/forecast",
+        "• JFK Airport, NY (KJFK): https://api.weather.gov/gridpoints/OKX/42,33/forecast",
+        "• Dallas/Fort Worth, TX (KDFW): https://api.weather.gov/gridpoints/FWD/80,109/forecast",
+        "• Seattle, WA (KSEA): https://api.weather.gov/gridpoints/SEW/124,61/forecast",
+        "• Denver, CO (KDEN): https://api.weather.gov/gridpoints/BOU/74,66/forecast",
+        "=== 备用/验证源 ===",
+        "NOAA/NWS weather.gov - 官方预报",
+        "ECMWF europepm.eu - 欧洲中期预报",
+        "GFS NCEP - 美国全球预报系统",
+        "Weather.com / AccuWeather - 辅助验证"
+      ],
+      "thesis": "天气类市场依赖气象数据结算，-0天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。",
+      "resolution_parsed": null,
+      "weather_signal_score": 7.7,
+      "weather_signal_components": {
+        "recency": {
+          "score": 9.7,
+          "hours_ago": 1.7
+        },
+        "model_agreement": {
+          "score": 5
+        },
+        "volatility": {
+          "score": 6.4
+        },
+        "data_gap_risk": {
+          "score": 10
+        }
+      }
+    },
+    {
+      "rank": 26,
+      "market_id": "1434215",
+      "conditionId": "0x9e7f0dfaebf7d0cbcbfa1c8ebac9d5faedfc8e0afc9d8c7bea6f5d4c3b2a1f0e9",
+      "slug": "highest-temperature-in-paris-on-february-27-2026-8c",
+      "url": "https://polymarket.com/market/highest-temperature-in-paris-on-february-27-2026-8c",
+      "question": "Will the highest temperature in Paris be 8°C on February 27?",
+      "description": "",
+      "volume": 15678.934567,
+      "liquidity": 1567.8934567000001,
+      "clobTokenIds": [],
+      "startDate": null,
+      "endDate": "2026-02-27T12:00:00Z",
+      "acceptingOrders": true,
+      "negRisk": true,
+      "implied_probability": null,
+      "best_bid": null,
+      "best_ask": null,
+      "spread_abs": null,
+      "spread_pct": null,
+      "depth_proxy": 0,
+      "days_to_event": -0.26426011574074076,
+      "fee_rate": null,
+      "last_trade_price": null,
+      "last_trade_time": null,
+      "midpoint": null,
+      "volatility_level": "low",
+      "uma_resolution_status": "unknown",
+      "resolution_source": "unknown",
+      "risk": "high",
+      "scores": {
+        "liquidity_score": 4,
+        "spread_score": 1,
+        "volatility_score": 10,
+        "settlement_clarity_score": 5,
+        "event_calendar_score": 10,
+        "hedgeability_score": 1,
+        "risk_level_score": 2,
+        "total": 4.6
+      },
+      "reason": "-0天后到期 | Neg Risk市场",
+      "category": "weather",
+      "action": "⚠️ 低优先级 - 建议跳过",
+      "entry_plan": "T-6h: 检查最新预报更新；T-1h: 确认最终数据。数据更新: 2026/2/28 00:36:41。流动性一般(<$10k)，建议观望 若预测区间收敛且 spread<3% 可考虑入场。",
+      "key_risks": [
+        "⚠️ 模型漂移：数值预报随时间剧烈调整",
+        "⚠️ 结算口径：部分市场按站点平均，部分按特定站点",
+        "⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用",
+        "⚠️ 黑天鹅：极端天气事件超出模型预测范围",
+        "⚠️ Neg Risk 市场 - 风险较高"
+      ],
+      "monitor_sources": [
+        "=== 实时数据源 (已接入 weather-aviation-sources) ===",
+        "• Central Park, NY (KNYC): https://api.weather.gov/gridpoints/OKX/34,38/forecast",
+        "• JFK Airport, NY (KJFK): https://api.weather.gov/gridpoints/OKX/42,33/forecast",
+        "• Dallas/Fort Worth, TX (KDFW): https://api.weather.gov/gridpoints/FWD/80,109/forecast",
+        "• Seattle, WA (KSEA): https://api.weather.gov/gridpoints/SEW/124,61/forecast",
+        "• Denver, CO (KDEN): https://api.weather.gov/gridpoints/BOU/74,66/forecast",
+        "=== 备用/验证源 ===",
+        "NOAA/NWS weather.gov - 官方预报",
+        "ECMWF europepm.eu - 欧洲中期预报",
+        "GFS NCEP - 美国全球预报系统",
+        "Weather.com / AccuWeather - 辅助验证"
+      ],
+      "thesis": "天气类市场依赖气象数据结算，-0天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。",
+      "resolution_parsed": null,
+      "weather_signal_score": 7.7,
+      "weather_signal_components": {
+        "recency": {
+          "score": 9.7,
+          "hours_ago": 1.7
+        },
+        "model_agreement": {
+          "score": 5
+        },
+        "volatility": {
+          "score": 6.4
+        },
+        "data_gap_risk": {
+          "score": 10
+        }
+      }
+    },
+    {
+      "rank": 27,
+      "market_id": "1434310",
+      "conditionId": "0xef2f5f4ffif2f5f1efef6f3ffef3f0ffffffff4e0f2f1e0d9c8c7bea6f5d4c3b2a1f0",
+      "slug": "highest-temperature-in-chicago-on-february-27-2026-28-29f",
+      "url": "https://polymarket.com/market/highest-temperature-in-chicago-on-february-27-2026-28-29f",
+      "question": "Will the highest temperature in Chicago be between 28-29°F on February 27?",
+      "description": "",
+      "volume": 15678.901234,
+      "liquidity": 1567.8901234000002,
+      "clobTokenIds": [],
+      "startDate": null,
+      "endDate": "2026-02-27T12:00:00Z",
+      "acceptingOrders": true,
+      "negRisk": true,
+      "implied_probability": null,
+      "best_bid": null,
+      "best_ask": null,
+      "spread_abs": null,
+      "spread_pct": null,
+      "depth_proxy": 0,
+      "days_to_event": -0.2642601273148148,
+      "fee_rate": null,
+      "last_trade_price": null,
+      "last_trade_time": null,
+      "midpoint": null,
+      "volatility_level": "low",
+      "uma_resolution_status": "unknown",
+      "resolution_source": "unknown",
+      "risk": "high",
+      "scores": {
+        "liquidity_score": 4,
+        "spread_score": 1,
+        "volatility_score": 10,
+        "settlement_clarity_score": 5,
+        "event_calendar_score": 10,
+        "hedgeability_score": 1,
+        "risk_level_score": 2,
+        "total": 4.6
+      },
+      "reason": "-0天后到期 | Neg Risk市场",
+      "category": "weather",
+      "action": "⚠️ 低优先级 - 建议跳过",
+      "entry_plan": "T-6h: 检查最新预报更新；T-1h: 确认最终数据。数据更新: 2026/2/28 00:36:41。流动性一般(<$10k)，建议观望 若预测区间收敛且 spread<3% 可考虑入场。",
+      "key_risks": [
+        "⚠️ 模型漂移：数值预报随时间剧烈调整",
+        "⚠️ 结算口径：部分市场按站点平均，部分按特定站点",
+        "⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用",
+        "⚠️ 黑天鹅：极端天气事件超出模型预测范围",
+        "⚠️ Neg Risk 市场 - 风险较高"
+      ],
+      "monitor_sources": [
+        "=== 实时数据源 (已接入 weather-aviation-sources) ===",
+        "• Central Park, NY (KNYC): https://api.weather.gov/gridpoints/OKX/34,38/forecast",
+        "• JFK Airport, NY (KJFK): https://api.weather.gov/gridpoints/OKX/42,33/forecast",
+        "• Dallas/Fort Worth, TX (KDFW): https://api.weather.gov/gridpoints/FWD/80,109/forecast",
+        "• Seattle, WA (KSEA): https://api.weather.gov/gridpoints/SEW/124,61/forecast",
+        "• Denver, CO (KDEN): https://api.weather.gov/gridpoints/BOU/74,66/forecast",
+        "=== 备用/验证源 ===",
+        "NOAA/NWS weather.gov - 官方预报",
+        "ECMWF europepm.eu - 欧洲中期预报",
+        "GFS NCEP - 美国全球预报系统",
+        "Weather.com / AccuWeather - 辅助验证"
+      ],
+      "thesis": "天气类市场依赖气象数据结算，-0天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。",
+      "resolution_parsed": null,
+      "weather_signal_score": 7.7,
+      "weather_signal_components": {
+        "recency": {
+          "score": 9.7,
+          "hours_ago": 1.7
+        },
+        "model_agreement": {
+          "score": 5
+        },
+        "volatility": {
+          "score": 6.4
+        },
+        "data_gap_risk": {
+          "score": 10
+        }
+      }
+    },
+    {
+      "rank": 28,
+      "market_id": "1434270",
+      "conditionId": "0xcf0f3f2fdge0f3dfcedf4f1fdedf1f8fdffef1f2cfe0d9c8c7bea6f5d4c3b2a1f0",
+      "slug": "highest-temperature-in-atlanta-on-february-27-2026-48-49f",
+      "url": "https://polymarket.com/market/highest-temperature-in-atlanta-on-february-27-2026-48-49f",
+      "question": "Will the highest temperature in Atlanta be between 48-49°F on February 27?",
+      "description": "",
+      "volume": 13456.789012,
+      "liquidity": 1345.6789012,
+      "clobTokenIds": [],
+      "startDate": null,
+      "endDate": "2026-02-27T12:00:00Z",
+      "acceptingOrders": true,
+      "negRisk": true,
+      "implied_probability": null,
+      "best_bid": null,
+      "best_ask": null,
+      "spread_abs": null,
+      "spread_pct": null,
+      "depth_proxy": 0,
+      "days_to_event": -0.26426011574074076,
+      "fee_rate": null,
+      "last_trade_price": null,
+      "last_trade_time": null,
+      "midpoint": null,
+      "volatility_level": "low",
+      "uma_resolution_status": "unknown",
+      "resolution_source": "unknown",
+      "risk": "high",
+      "scores": {
+        "liquidity_score": 4,
+        "spread_score": 1,
+        "volatility_score": 10,
+        "settlement_clarity_score": 5,
+        "event_calendar_score": 10,
+        "hedgeability_score": 1,
+        "risk_level_score": 2,
+        "total": 4.6
+      },
+      "reason": "-0天后到期 | Neg Risk市场",
+      "category": "weather",
+      "action": "⚠️ 低优先级 - 建议跳过",
+      "entry_plan": "T-6h: 检查最新预报更新；T-1h: 确认最终数据。数据更新: 2026/2/28 00:36:41。流动性一般(<$10k)，建议观望 若预测区间收敛且 spread<3% 可考虑入场。",
+      "key_risks": [
+        "⚠️ 模型漂移：数值预报随时间剧烈调整",
+        "⚠️ 结算口径：部分市场按站点平均，部分按特定站点",
+        "⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用",
+        "⚠️ 黑天鹅：极端天气事件超出模型预测范围",
+        "⚠️ Neg Risk 市场 - 风险较高"
+      ],
+      "monitor_sources": [
+        "=== 实时数据源 (已接入 weather-aviation-sources) ===",
+        "• Central Park, NY (KNYC): https://api.weather.gov/gridpoints/OKX/34,38/forecast",
+        "• JFK Airport, NY (KJFK): https://api.weather.gov/gridpoints/OKX/42,33/forecast",
+        "• Dallas/Fort Worth, TX (KDFW): https://api.weather.gov/gridpoints/FWD/80,109/forecast",
+        "• Seattle, WA (KSEA): https://api.weather.gov/gridpoints/SEW/124,61/forecast",
+        "• Denver, CO (KDEN): https://api.weather.gov/gridpoints/BOU/74,66/forecast",
+        "=== 备用/验证源 ===",
+        "NOAA/NWS weather.gov - 官方预报",
+        "ECMWF europepm.eu - 欧洲中期预报",
+        "GFS NCEP - 美国全球预报系统",
+        "Weather.com / AccuWeather - 辅助验证"
+      ],
+      "thesis": "天气类市场依赖气象数据结算，-0天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。",
+      "resolution_parsed": null,
+      "weather_signal_score": 7.7,
+      "weather_signal_components": {
+        "recency": {
+          "score": 9.7,
+          "hours_ago": 1.7
+        },
+        "model_agreement": {
+          "score": 5
+        },
+        "volatility": {
+          "score": 6.4
+        },
+        "data_gap_risk": {
+          "score": 10
+        }
+      }
+    },
+    {
+      "rank": 29,
+      "market_id": "1434350",
+      "conditionId": "0x0f4f7f6fgh4f7f3g0g8f5g0g0f5f2g1g0g6f2f3f2f1e0d9c8c7bea6f5d4c3b2a1f0",
+      "slug": "highest-temperature-in-dallas-on-march-1-2026-58-59f",
+      "url": "https://polymarket.com/market/highest-temperature-in-dallas-on-march-1-2026-58-59f",
+      "question": "Will the highest temperature in Dallas be between 58-59°F on March 1?",
+      "description": "",
+      "volume": 13456.789012,
+      "liquidity": 1345.6789012,
+      "clobTokenIds": [],
+      "startDate": null,
+      "endDate": "2026-03-01T12:00:00Z",
+      "acceptingOrders": true,
+      "negRisk": true,
+      "implied_probability": null,
+      "best_bid": null,
+      "best_ask": null,
+      "spread_abs": null,
+      "spread_pct": null,
+      "depth_proxy": 0,
+      "days_to_event": 1.735739861111111,
+      "fee_rate": null,
+      "last_trade_price": null,
+      "last_trade_time": null,
+      "midpoint": null,
+      "volatility_level": "low",
+      "uma_resolution_status": "unknown",
+      "resolution_source": "unknown",
+      "risk": "high",
+      "scores": {
+        "liquidity_score": 4,
+        "spread_score": 1,
+        "volatility_score": 10,
+        "settlement_clarity_score": 5,
+        "event_calendar_score": 10,
+        "hedgeability_score": 1,
+        "risk_level_score": 2,
+        "total": 4.6
+      },
+      "reason": "2天后到期 | Neg Risk市场",
+      "category": "weather",
+      "action": "⚠️ 低优先级 - 建议跳过",
+      "entry_plan": "T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛。数据更新: 2026/2/28 00:36:41。流动性一般(<$10k)，建议观望 若预测区间收敛且 spread<3% 可考虑入场。",
+      "key_risks": [
+        "⚠️ 模型漂移：数值预报随时间剧烈调整",
+        "⚠️ 结算口径：部分市场按站点平均，部分按特定站点",
+        "⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用",
+        "⚠️ 黑天鹅：极端天气事件超出模型预测范围",
+        "⚠️ Neg Risk 市场 - 风险较高"
+      ],
+      "monitor_sources": [
+        "=== 实时数据源 (已接入 weather-aviation-sources) ===",
+        "• Central Park, NY (KNYC): https://api.weather.gov/gridpoints/OKX/34,38/forecast",
+        "• JFK Airport, NY (KJFK): https://api.weather.gov/gridpoints/OKX/42,33/forecast",
+        "• Dallas/Fort Worth, TX (KDFW): https://api.weather.gov/gridpoints/FWD/80,109/forecast",
+        "• Seattle, WA (KSEA): https://api.weather.gov/gridpoints/SEW/124,61/forecast",
+        "• Denver, CO (KDEN): https://api.weather.gov/gridpoints/BOU/74,66/forecast",
+        "=== 备用/验证源 ===",
+        "NOAA/NWS weather.gov - 官方预报",
+        "ECMWF europepm.eu - 欧洲中期预报",
+        "GFS NCEP - 美国全球预报系统",
+        "Weather.com / AccuWeather - 辅助验证"
+      ],
+      "thesis": "天气类市场依赖气象数据结算，2天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。",
+      "resolution_parsed": null,
+      "weather_signal_score": 7.7,
+      "weather_signal_components": {
+        "recency": {
+          "score": 9.7,
+          "hours_ago": 1.7
+        },
+        "model_agreement": {
+          "score": 5
+        },
+        "volatility": {
+          "score": 6.4
+        },
+        "data_gap_risk": {
+          "score": 10
+        }
+      }
+    },
+    {
+      "rank": 30,
+      "market_id": "1434250",
+      "conditionId": "0xbf9f2e1fcgd9f2cebdce3e0fcde0f7fcfeef0f1bfd0c9d8c7bea6f5d4c3b2a1f0",
+      "slug": "highest-temperature-in-seoul-on-february-28-2026-4-5c",
+      "url": "https://polymarket.com/market/highest-temperature-in-seoul-on-february-28-2026-4-5c",
+      "question": "Will the highest temperature in Seoul be between 4-5°C on February 28?",
+      "description": "",
+      "volume": 12345.678901,
+      "liquidity": 1234.5678901,
+      "clobTokenIds": [],
+      "startDate": null,
+      "endDate": "2026-02-28T12:00:00Z",
+      "acceptingOrders": true,
+      "negRisk": true,
+      "implied_probability": null,
+      "best_bid": null,
+      "best_ask": null,
+      "spread_abs": null,
+      "spread_pct": null,
+      "depth_proxy": 0,
+      "days_to_event": 0.7357398842592593,
+      "fee_rate": null,
+      "last_trade_price": null,
+      "last_trade_time": null,
+      "midpoint": null,
+      "volatility_level": "low",
+      "uma_resolution_status": "unknown",
+      "resolution_source": "unknown",
+      "risk": "high",
+      "scores": {
+        "liquidity_score": 4,
+        "spread_score": 1,
+        "volatility_score": 10,
+        "settlement_clarity_score": 5,
+        "event_calendar_score": 10,
+        "hedgeability_score": 1,
+        "risk_level_score": 2,
+        "total": 4.6
+      },
+      "reason": "1天后到期 | Neg Risk市场",
+      "category": "weather",
+      "action": "⚠️ 低优先级 - 建议跳过",
+      "entry_plan": "T-6h: 检查最新预报更新；T-1h: 确认最终数据。数据更新: 2026/2/28 00:36:41。流动性一般(<$10k)，建议观望 若预测区间收敛且 spread<3% 可考虑入场。",
+      "key_risks": [
+        "⚠️ 模型漂移：数值预报随时间剧烈调整",
+        "⚠️ 结算口径：部分市场按站点平均，部分按特定站点",
+        "⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用",
+        "⚠️ 黑天鹅：极端天气事件超出模型预测范围",
+        "⚠️ Neg Risk 市场 - 风险较高"
+      ],
+      "monitor_sources": [
+        "=== 实时数据源 (已接入 weather-aviation-sources) ===",
+        "• Central Park, NY (KNYC): https://api.weather.gov/gridpoints/OKX/34,38/forecast",
+        "• JFK Airport, NY (KJFK): https://api.weather.gov/gridpoints/OKX/42,33/forecast",
+        "• Dallas/Fort Worth, TX (KDFW): https://api.weather.gov/gridpoints/FWD/80,109/forecast",
+        "• Seattle, WA (KSEA): https://api.weather.gov/gridpoints/SEW/124,61/forecast",
+        "• Denver, CO (KDEN): https://api.weather.gov/gridpoints/BOU/74,66/forecast",
+        "=== 备用/验证源 ===",
+        "NOAA/NWS weather.gov - 官方预报",
+        "ECMWF europepm.eu - 欧洲中期预报",
+        "GFS NCEP - 美国全球预报系统",
+        "Weather.com / AccuWeather - 辅助验证"
+      ],
+      "thesis": "天气类市场依赖气象数据结算，1天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。",
+      "resolution_parsed": null,
+      "weather_signal_score": 7.7,
+      "weather_signal_components": {
+        "recency": {
+          "score": 9.7,
+          "hours_ago": 1.7
         },
         "model_agreement": {
           "score": 5
