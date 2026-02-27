@@ -1,6 +1,6 @@
 # Daily Watchlist - 2026-02-27
 
-> Generated: 2026-02-27T21:59:45.948Z
+> Generated: 2026-02-27T22:10:49.408Z
 > Total candidates: 69
 > Scoring weights: liquidity=0.2, spread=0.15, ...
 > Sources integrated: 8 weather stations, 10 aviation airports
@@ -27,16 +27,16 @@
 | 16 | XRP Up or Down - Feb... | N/A | N/A | $13k | 1d | **5.8** | - | unknown | 观察 - 需进一步研究 |
 | 17 | Solana Up or Down - ... | N/A | N/A | $13k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 |
 | 18 | XRP Up or Down - Feb... | N/A | N/A | $13k | 1d | **5.8** | - | unknown | 观察 - 需进一步研究 |
-| 19 | Spread: FC København... | N/A | N/A | $13k | 2d | **5.8** | - | unknown | 观察 - 需进一步研究 |
-| 20 | Ethereum Up or Down ... | N/A | N/A | $12k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 |
+| 19 | Ethereum Up or Down ... | N/A | N/A | $12k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 |
+| 20 | Spread: FC København... | N/A | N/A | $12k | 2d | **5.8** | - | unknown | 观察 - 需进一步研究 |
 | 21 | XRP Up or Down - Feb... | N/A | N/A | $11k | 1d | **5.8** | - | unknown | 观察 - 需进一步研究 |
 | 22 | Solana Up or Down - ... | N/A | N/A | $11k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 |
 | 23 | South Dakota State J... | N/A | N/A | $7k | 1d | **5.2** | - | sports | 观察 - 等待比赛结果 |
-| 24 | Providence Friars vs... | N/A | N/A | $5k | 1d | **5.2** | - | sports | 观察 - 等待比赛结果 |
-| 25 | Ball State Cardinals... | N/A | N/A | $5k | 1d | **5.2** | - | sports | 观察 - 等待比赛结果 |
+| 24 | Ball State Cardinals... | N/A | N/A | $5k | 1d | **5.2** | - | sports | 观察 - 等待比赛结果 |
+| 25 | Providence Friars vs... | N/A | N/A | $5k | 1d | **5.2** | - | sports | 观察 - 等待比赛结果 |
 | 26 | William & Mary Tribe... | N/A | N/A | $5k | 1d | **5.2** | - | sports | 观察 - 等待比赛结果 |
-| 27 | Spread: West Ham Uni... | N/A | N/A | $3k | 5d | **5.2** | - | unknown | 观察 - 需进一步研究 |
-| 28 | Spread: Zamalek SC (... | N/A | N/A | $2k | 2d | **5.2** | - | unknown | 观察 - 需进一步研究 |
+| 27 | Spread: Zamalek SC (... | N/A | N/A | $4k | 2d | **5.2** | - | unknown | 观察 - 需进一步研究 |
+| 28 | Spread: West Ham Uni... | N/A | N/A | $3k | 5d | **5.2** | - | unknown | 观察 - 需进一步研究 |
 | 29 | KHL: Admiral Vladivo... | N/A | N/A | $2k | 1d | **5.2** | - | sports | 观察 - 等待比赛结果 |
 | 30 | US forces in Venezue... | N/A | N/A | $1k | -28d | **5.2** | - | unknown | 观察 - 需进一步研究 |
 
@@ -129,7 +129,7 @@
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $14,199 |
+| **流动性** | $14,202 |
 | **到期时间** | 0天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -332,23 +332,7 @@
 | **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/xrp-updown-5m-1772307300) |
 
-### #19 Spread: FC København (-2.5)
-
-| Field | Value |
-|-------|-------|
-| **概率** | N/A |
-| **流动性** | $12,582 |
-| **到期时间** | 2天 |
-| **类别** | unknown |
-| **评分** | 5.8/10 |
-| **行动** | 观察 - 需进一步研究 |
-| **入场计划** | 评分≥7.0且流动性允许时可小额测试，设定5%止损线 |
-| **理由** | 通用候选市场，2天后到期。需自行验证结算规则和监控源。 |
-| **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件 |
-| **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
-| **链接** | [Polymarket](https://polymarket.com/market/den-kob-ran-2026-03-01-spread-home-2pt5) |
-
-### #20 Ethereum Up or Down - February 28, 8:00AM-12:00PM ET
+### #19 Ethereum Up or Down - February 28, 8:00AM-12:00PM ET
 
 | Field | Value |
 |-------|-------|
@@ -364,12 +348,28 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/eth-updown-4h-1772283600) |
 
+### #20 Spread: FC København (-2.5)
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $11,684 |
+| **到期时间** | 2天 |
+| **类别** | unknown |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 需进一步研究 |
+| **入场计划** | 评分≥7.0且流动性允许时可小额测试，设定5%止损线 |
+| **理由** | 通用候选市场，2天后到期。需自行验证结算规则和监控源。 |
+| **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件 |
+| **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/den-kob-ran-2026-03-01-spread-home-2pt5) |
+
 ### #21 XRP Up or Down - February 28, 2:00PM-2:15PM ET
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $11,193 |
+| **流动性** | $11,174 |
 | **到期时间** | 1天 |
 | **类别** | unknown |
 | **评分** | 5.8/10 |
@@ -385,7 +385,7 @@
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $11,042 |
+| **流动性** | $11,023 |
 | **到期时间** | 1天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -401,7 +401,7 @@
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $6,597 |
+| **流动性** | $6,586 |
 | **到期时间** | 1天 |
 | **类别** | sports |
 | **评分** | 5.2/10 |
@@ -412,28 +412,12 @@
 | **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
 | **链接** | [Polymarket](https://polymarket.com/market/cbb-sdkst-sdak-2026-02-28) |
 
-### #24 Providence Friars vs. Creighton Bluejays
+### #24 Ball State Cardinals vs. Northern Illinois Huskies
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $5,123 |
-| **到期时间** | 1天 |
-| **类别** | sports |
-| **评分** | 5.2/10 |
-| **行动** | 观察 - 等待比赛结果 |
-| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
-| **理由** | 体育类市场结算清晰，1天后到期。需关注比赛实际结果和潜在中断。 |
-| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
-| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
-| **链接** | [Polymarket](https://polymarket.com/market/cbb-prov-creigh-2026-02-28) |
-
-### #25 Ball State Cardinals vs. Northern Illinois Huskies
-
-| Field | Value |
-|-------|-------|
-| **概率** | N/A |
-| **流动性** | $5,121 |
+| **流动性** | $5,306 |
 | **到期时间** | 1天 |
 | **类别** | sports |
 | **评分** | 5.2/10 |
@@ -444,12 +428,28 @@
 | **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
 | **链接** | [Polymarket](https://polymarket.com/market/cbb-ballst-nill-2026-02-28) |
 
+### #25 Providence Friars vs. Creighton Bluejays
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $5,002 |
+| **到期时间** | 1天 |
+| **类别** | sports |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 等待比赛结果 |
+| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
+| **理由** | 体育类市场结算清晰，1天后到期。需关注比赛实际结果和潜在中断。 |
+| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
+| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
+| **链接** | [Polymarket](https://polymarket.com/market/cbb-prov-creigh-2026-02-28) |
+
 ### #26 William & Mary Tribe vs. North Carolina A&T Aggies
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $4,560 |
+| **流动性** | $4,538 |
 | **到期时间** | 1天 |
 | **类别** | sports |
 | **评分** | 5.2/10 |
@@ -460,28 +460,12 @@
 | **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
 | **链接** | [Polymarket](https://polymarket.com/market/cbb-wm-ncat-2026-02-28) |
 
-### #27 Spread: West Ham United FC (-1.5)
+### #27 Spread: Zamalek SC (-2.5)
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $2,910 |
-| **到期时间** | 5天 |
-| **类别** | unknown |
-| **评分** | 5.2/10 |
-| **行动** | 观察 - 需进一步研究 |
-| **入场计划** | 评分≥7.0且流动性允许时可小额测试，设定5%止损线 |
-| **理由** | 通用候选市场，5天后到期。需自行验证结算规则和监控源。 |
-| **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件 |
-| **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
-| **链接** | [Polymarket](https://polymarket.com/market/epl-ful-wes-2026-03-04-spread-away-1pt5) |
-
-### #28 Spread: Zamalek SC (-2.5)
-
-| Field | Value |
-|-------|-------|
-| **概率** | N/A |
-| **流动性** | $1,840 |
+| **流动性** | $3,781 |
 | **到期时间** | 2天 |
 | **类别** | unknown |
 | **评分** | 5.2/10 |
@@ -491,6 +475,22 @@
 | **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件 |
 | **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/egy1-pyf-zas-2026-03-01-spread-away-2pt5) |
+
+### #28 Spread: West Ham United FC (-1.5)
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $2,908 |
+| **到期时间** | 5天 |
+| **类别** | unknown |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 需进一步研究 |
+| **入场计划** | 评分≥7.0且流动性允许时可小额测试，设定5%止损线 |
+| **理由** | 通用候选市场，5天后到期。需自行验证结算规则和监控源。 |
+| **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件 |
+| **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/epl-ful-wes-2026-03-04-spread-away-1pt5) |
 
 ### #29 KHL: Admiral Vladivostok vs. Salavat Yulaev Ufa
 
@@ -513,7 +513,7 @@
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $1,389 |
+| **流动性** | $1,396 |
 | **到期时间** | -28天 |
 | **类别** | unknown |
 | **评分** | 5.2/10 |
