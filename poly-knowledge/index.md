@@ -38,7 +38,7 @@ poly-knowledge/
 | **API 集成** | REST API、WebSocket、SDK使用 | 待补充 |
 | **策略研究** | 盈利方法论、案例分析、书籍文献 | 待开始 |
 | **风控框架** | 风险矩阵、资金管理、止损规则 | ✅ 已完成 | `risk-and-bankroll.md` |
-| **结算争议** | 结算规则、争议处理、极端情况 | 待获取 |
+| **结算争议** | 结算规则、争议处理、极端情况 | ✅ 已完成 | `notes/polymarket-settlement.md` |
 | **市场数据** | 热门市场、赔率解读、流动性分析 | ✅ 已完成 | `notes/polymarket-liquidity-analysis.md` |
 
 ---
@@ -73,6 +73,8 @@ poly-knowledge/
 | #4 | 盈利方法论与案例 | 待开始 | - |
 | #5 | 风险框架 + 资金管理 | ✅ 已完成 | `risk-and-bankroll.md` |
 
+| #14 | Polymarket 结算机制 | ✅ 已完成 | `notes/polymarket-settlement.md` |
+
 ---
 
 ## 建议新增条目
@@ -83,7 +85,7 @@ poly-knowledge/
 
 - [x] **Polymarket API Reference** - REST/WebSocket 端点详解
 - [x] **市场流动性分析** - 如何识别高流动性市场、点差分析、订单簿深度
-- [ ] **结算机制详解** - 争议处理、延迟结算场景
+- [x] **结算机制详解** - 争议处理、延迟结算场景 (Issue #14)
 
 ### 中优先级
 
