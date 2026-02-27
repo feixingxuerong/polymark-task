@@ -378,19 +378,30 @@ function generateReason(metrics, scores) {
 // === 可执行清单生成 ===
 // 基于市场类别生成模板化的 action, entry_plan, key_risks, monitor_sources, thesis
 
-// 类别关键词匹配
+// 类别关键词匹配 - 优先精确匹配 weather/aviation
 const CATEGORY_PATTERNS = {
-  weather: /天气|weather|温度|temperature|降雨|rain|雪|snow|风暴|storm|台风|hurricane|飓风|typhoon|地震|earthquake|洪水|flood|干旱|drought|aviation|航班|flight|航空/i,
+  // Weather: 天气相关
+  weather: /\b(weather|temperature|温度|降雨|rain|雪|snow|风暴|storm|台风|hurricane|飓风|typhoon|地震|earthquake|洪水|flood|干旱|drought|风|wind|能见度|visibility|气压|pressure|湿度|humidity|预警|warning|alert)\b/i,
+  // Aviation: 航空相关
+  aviation: /\b(flight|航班|airport|机场|airline|航空|delay|延误|cancel|取消|metar|taf|起降|landing|takeoff|飞行)\b/i,
+  // Politics
   politics: /选举|election|总统|president|首相|minister|国会|congress|parliament|公投|referendum|政策|policy|法案|bill|协议|treaty|战争|war|冲突|conflict|制裁|sanction|外交|diplomacy|官员|official|政府|government|民调|poll|候选人|candidate|投票|vote/i,
+  // Crypto
   crypto: /比特币|bitcoin|btc|以太坊|ethereum|eth|加密|crypto|币安|binance|coinbase|以太|ether|token|区块链|blockchain|sec|fda|批准|approval|etf|现货|spot|dogecoin|solana|bnb/i,
+  // Sports
   sports: /足球|football|soccer|篮球|basketball|nba|网球|tennis|棒球|baseball|高尔夫|golf|赛车|racing|f1|nfl|冰球|hockey|比赛|match|game|联赛|league|赛季|season|冠军|champion|ufc|mma|boxing|拳击|排球|volleyball|橄榄球|rugby|cricket|板球|khl|nhl|mlb|温网|djokovic|federer|nadal|选手|team|队|vs|对|得分|得分|进球|goal|进球/i,
+  // Entertainment
   entertainment: /电影|movie|奥斯卡|oscar|金球奖|grammy|艾美奖|emmys|音乐|music|奖项|award|综艺|show|剧集|series|netflix|票房|box office|演唱会|concert|Bruno Mars|明星|celebrity/i,
+  // Economy
   economy: /gdp|cpi|ppi|失业率|unemployment|利率|interest rate|美联储|fed|央行|central bank|通胀|inflation|非农|nonfarm|零售|sales|经济|economy|pce|房价|housing|消费者|consumer/i
 };
 
+// 优先识别 weather/aviation
 function detectCategory(question) {
+  if (CATEGORY_PATTERNS.aviation.test(question)) return 'aviation';
+  if (CATEGORY_PATTERNS.weather.test(question)) return 'weather';
   for (const [category, pattern] of Object.entries(CATEGORY_PATTERNS)) {
-    if (pattern.test(question)) {
+    if (category !== 'weather' && category !== 'aviation' && pattern.test(question)) {
       return category;
     }
   }
@@ -412,23 +423,57 @@ function generateExecutableCard(metrics, scores) {
   // 模板化内容
   let action, entry_plan, key_risks, monitor_sources, thesis;
   
+  // 基础变量
+  const daysToEvent = metrics.days_to_event;
+  const liquidity = metrics.liquidity || 0;
+  const hasLiquidity = liquidity >= 10000;
+  
   switch (category) {
+    // === WEATHER 专用模板 ===
     case 'weather':
-    case 'aviation':
-      action = '观察 - 等待数据源确认';
-      entry_plan = `临近结算前30分钟检查数据源（气象局/航空公司官网），流动性充足时可小额测试`;
+      const wTimeAction = (daysToEvent !== null && daysToEvent <= 1) ? '⚡ T-24h 内：密切监控' :
+                          (daysToEvent !== null && daysToEvent <= 3) ? '🔄 T-72h：开始跟踪' : '👀 T+3d：观察等待';
+      const wCheckTiming = (daysToEvent !== null && daysToEvent <= 1) ? 'T-6h: 检查最新预报更新；T-1h: 确认最终数据' :
+                           (daysToEvent !== null && daysToEvent <= 3) ? 'T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛' :
+                           '每周检查模型更新，关注预报趋势收敛情况';
+      action = wTimeAction;
+      entry_plan = `${wCheckTiming}。${hasLiquidity ? '流动性充足(>$10k)，可考虑小额测试' : '流动性一般(<$10k)，建议观望'} 若预测区间收敛且 spread<3% 可考虑入场。`;
       key_risks = [
-        '气象数据源延迟或不可用',
-        '航班取消/延误导致结算不确定性',
-        '极端天气黑天鹅事件'
+        '⚠️ 模型漂移：数值预报随时间剧烈调整',
+        '⚠️ 结算口径：部分市场按站点平均，部分按特定站点',
+        '⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用',
+        '⚠️ 黑天鹅：极端天气事件超出模型预测范围'
       ];
       monitor_sources = [
-        'NOAA weather.gov',
-        'FlightAware / Flightradar24',
-        '航空公司官方公告',
-        '当地气象局预警'
+        'NOAA/NWS weather.gov - 官方预报',
+        'ECMWF europepm.eu - 欧洲中期预报',
+        'GFS NCEP - 美国全球预报系统',
+        'Weather.com / AccuWeather - 辅助验证'
       ];
-      thesis = `天气/航空类事件依赖权威数据源结算，${settlementTime}到期。关注数据可验证性和结算时间窗口。`;
+      thesis = `天气类市场依赖气象数据结算，${settlementTime}到期。需跟踪 NOAA/NWS 预报更新，关注模型收敛情况。`;
+      break;
+    
+    // === AVIATION 专用模板 ===
+    case 'aviation':
+      const isFlight = /delay|cancel|延误|取消/i.test(question);
+      const aCheckTiming = (daysToEvent !== null && daysToEvent <= 1) ? 'T-6h: METAR/TAF 最新报；T-2h: 确认最终航班状态' :
+                           (daysToEvent !== null && daysToEvent <= 3) ? 'T-24h: 每日检查 METAR/TAF 趋势；T-6h: 确认预报稳定' :
+                           '每周检查天气趋势，关注预报调整';
+      action = isFlight ? '✈️ 航班关注' : '🛫 机场关注';
+      entry_plan = `${aCheckTiming}。${hasLiquidity ? '流动性充足，可考虑' : '流动性一般，建议观望'} 若 spread<3% 可入场。`;
+      key_risks = [
+        '⚠️ 结算口径：部分按实际起飞/到达，部分按预判',
+        '⚠️ 航司决策：航空公司临时换飞机/改航线影响结果',
+        '⚠️ 多变天气：机场天气波动大，预报不准',
+        '⚠️ 数据延迟：METAR/TAF 可能有 10-30min 延迟'
+      ];
+      monitor_sources = [
+        'FlightAware flightaware.com - 航班追踪',
+        'Flightradar24 fr24.com - 实时航班',
+        'AVWX / NOAA METAR/TAF - 机场天气报文',
+        '航司官网 (UA/AA/DL/Southwest) - 公告'
+      ];
+      thesis = `航空类市场依赖 METAR/TAF 结算，${settlementTime}到期。关注 ${isFlight ? '航班状态' : '机场天气'} 数据源和结算规则。`;
       break;
       
     case 'politics':
