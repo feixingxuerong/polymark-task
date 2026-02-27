@@ -458,20 +458,20 @@ function calculateWeatherSignalScore(item, sources) {
   }
   
   // 4. Data gap risk score
-  let dataGapRiskScore = 10;
   const stationsWithData = relevantStations.filter(s => 
     (s.observations && s.observations.length > 0) || 
     (s.forecast && s.forecast.length > 0)
   ).length;
   
   const coverageRatio = stationsWithData / relevantStations.length;
-  dataGapRiskScore = Math.round(coverageScore * 10) / 10;
   
-  function coverageScore(ratio) {
+  function calcCoverageScore(ratio) {
     if (ratio >= 1) return 10;
     if (ratio <= 0.5) return 5;
     return 5 + (ratio - 0.5) * 10;
   }
+  
+  let dataGapRiskScore = Math.round(calcCoverageScore(coverageRatio) * 10) / 10;
   
   // Calculate total
   const totalScore = 
