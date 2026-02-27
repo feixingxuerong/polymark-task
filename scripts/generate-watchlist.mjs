@@ -15,7 +15,7 @@
  * Constraints: Read-only, no trading, no signatures.
  */
 
-import { writeFileSync, mkdirSync, existsSync } from 'fs';
+import { writeFileSync, mkdirSync, existsSync, readdirSync, statSync, readFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -408,7 +408,7 @@ function detectCategory(question) {
   return 'unknown';
 }
 
-function generateExecutableCard(metrics, scores) {
+function generateExecutableCard(metrics, scores, sources = null) {
   const question = metrics.question || '';
   const category = detectCategory(question);
   
@@ -429,52 +429,156 @@ function generateExecutableCard(metrics, scores) {
   const hasLiquidity = liquidity >= 10000;
   
   switch (category) {
-    // === WEATHER 专用模板 ===
-    case 'weather':
+    // === WEATHER 专用模板 (使用 weather-aviation-sources) ===
+    case 'weather': {
       const wTimeAction = (daysToEvent !== null && daysToEvent <= 1) ? '⚡ T-24h 内：密切监控' :
                           (daysToEvent !== null && daysToEvent <= 3) ? '🔄 T-72h：开始跟踪' : '👀 T+3d：观察等待';
-      const wCheckTiming = (daysToEvent !== null && daysToEvent <= 1) ? 'T-6h: 检查最新预报更新；T-1h: 确认最终数据' :
-                           (daysToEvent !== null && daysToEvent <= 3) ? 'T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛' :
-                           '每周检查模型更新，关注预报趋势收敛情况';
+      
+      // Extract station info from sources if available
+      let stationList = [];
+      let weatherGeneratedAt = null;
+      let specificSources = [];
+      
+      if (sources?.data?.weather) {
+        weatherGeneratedAt = sources.data.weather.generatedAt;
+        if (sources.data.weather.stations) {
+          stationList = sources.data.weather.stations.map(s => ({
+            id: s.station?.id,
+            name: s.station?.name,
+            gridId: s.station?.grid?.gridId,
+            forecastUrl: s.station?.grid?.forecastUrl
+          })).filter(s => s.id);
+          
+          specificSources = stationList.map(s => 
+            `• ${s.name} (${s.id}): ${s.forecastUrl}`
+          );
+        }
+      }
+      
+      const dataRef = weatherGeneratedAt 
+        ? `数据更新: ${new Date(weatherGeneratedAt).toLocaleString('zh-CN', {timeZone: 'Asia/Shanghai'})}`
+        : '';
+      
+      const wCheckTiming = (daysToEvent !== null && daysToEvent <= 1) 
+        ? `T-6h: 检查最新预报更新；T-1h: 确认最终数据。${dataRef}`
+        : (daysToEvent !== null && daysToEvent <= 3) 
+          ? `T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛。${dataRef}`
+          : '每周检查模型更新，关注预报趋势收敛情况';
+      
       action = wTimeAction;
       entry_plan = `${wCheckTiming}。${hasLiquidity ? '流动性充足(>$10k)，可考虑小额测试' : '流动性一般(<$10k)，建议观望'} 若预测区间收敛且 spread<3% 可考虑入场。`;
+      
       key_risks = [
         '⚠️ 模型漂移：数值预报随时间剧烈调整',
         '⚠️ 结算口径：部分市场按站点平均，部分按特定站点',
         '⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用',
         '⚠️ 黑天鹅：极端天气事件超出模型预测范围'
       ];
-      monitor_sources = [
-        'NOAA/NWS weather.gov - 官方预报',
-        'ECMWF europepm.eu - 欧洲中期预报',
-        'GFS NCEP - 美国全球预报系统',
-        'Weather.com / AccuWeather - 辅助验证'
-      ];
-      thesis = `天气类市场依赖气象数据结算，${settlementTime}到期。需跟踪 NOAA/NWS 预报更新，关注模型收敛情况。`;
+      
+      // Enhanced monitor_sources with specific stations
+      if (specificSources.length > 0) {
+        monitor_sources = [
+          '=== 实时数据源 (已接入 weather-aviation-sources) ===',
+          ...specificSources.slice(0, 5),
+          '=== 备用/验证源 ===',
+          'NOAA/NWS weather.gov - 官方预报',
+          'ECMWF europepm.eu - 欧洲中期预报',
+          'GFS NCEP - 美国全球预报系统',
+          'Weather.com / AccuWeather - 辅助验证'
+        ];
+      } else {
+        monitor_sources = [
+          'NOAA/NWS weather.gov - 官方预报',
+          'ECMWF europepm.eu - 欧洲中期预报',
+          'GFS NCEP - 美国全球预报系统',
+          'Weather.com / AccuWeather - 辅助验证'
+        ];
+      }
+      
+      thesis = `天气类市场依赖气象数据结算，${settlementTime}到期。${stationList.length > 0 ? `已接入 ${stationList.length} 个气象站: ${stationList.map(s => s.id).join(', ')}` : '需跟踪 NOAA/NWS 预报更新'}，关注模型收敛情况。`;
       break;
+    }
     
-    // === AVIATION 专用模板 ===
-    case 'aviation':
+    // === AVIATION 专用模板 (使用 weather-aviation-sources) ===
+    case 'aviation': {
       const isFlight = /delay|cancel|延误|取消/i.test(question);
-      const aCheckTiming = (daysToEvent !== null && daysToEvent <= 1) ? 'T-6h: METAR/TAF 最新报；T-2h: 确认最终航班状态' :
-                           (daysToEvent !== null && daysToEvent <= 3) ? 'T-24h: 每日检查 METAR/TAF 趋势；T-6h: 确认预报稳定' :
-                           '每周检查天气趋势，关注预报调整';
+      
+      // Extract airport info from sources if available
+      let airportList = [];
+      let aviationGeneratedAt = null;
+      let specificSources = [];
+      
+      if (sources?.data?.aviation) {
+        aviationGeneratedAt = sources.data.aviation.generatedAt;
+        if (sources.data.aviation.airports) {
+          airportList = sources.data.aviation.airports.map(a => ({
+            icao: a.airport?.icao,
+            iata: a.airport?.iata,
+            name: a.airport?.name,
+            metarTime: a.metar?.observationTime,
+            metarUrl: a.metar?.rawProperties?.['@id'],
+            tafUrl: a.taf ? `https://api.weather.gov/stations/${a.airport?.icao}/tafs` : null,
+            flightAwareUrl: a.airport?.icao ? `https://flightaware.com/live/airport/${a.airport.icao}` : null,
+            fr24Url: a.airport?.iata ? `https://www.flightradar24.com/${a.airport.iata}` : null
+          })).filter(a => a.icao);
+          
+          specificSources = airportList.map(a => {
+            let src = `• ${a.name} (${a.icao}/${a.iata})`;
+            if (a.metarTime) {
+              src += ` | METAR: ${new Date(a.metarTime).toLocaleString('zh-CN', {timeZone: 'Asia/Shanghai'})}`;
+            }
+            return src;
+          });
+        }
+      }
+      
+      const dataRef = aviationGeneratedAt 
+        ? `METAR/TAF更新: ${new Date(aviationGeneratedAt).toLocaleString('zh-CN', {timeZone: 'Asia/Shanghai'})}`
+        : '';
+      
+      const aCheckTiming = (daysToEvent !== null && daysToEvent <= 1) 
+        ? `T-6h: METAR/TAF 最新报；T-2h: 确认最终航班状态。${dataRef}`
+        : (daysToEvent !== null && daysToEvent <= 3) 
+          ? `T-24h: 每日检查 METAR/TAF 趋势；T-6h: 确认预报稳定。${dataRef}`
+          : '每周检查天气趋势，关注预报调整';
+      
       action = isFlight ? '✈️ 航班关注' : '🛫 机场关注';
       entry_plan = `${aCheckTiming}。${hasLiquidity ? '流动性充足，可考虑' : '流动性一般，建议观望'} 若 spread<3% 可入场。`;
+      
       key_risks = [
         '⚠️ 结算口径：部分按实际起飞/到达，部分按预判',
         '⚠️ 航司决策：航空公司临时换飞机/改航线影响结果',
         '⚠️ 多变天气：机场天气波动大，预报不准',
         '⚠️ 数据延迟：METAR/TAF 可能有 10-30min 延迟'
       ];
-      monitor_sources = [
-        'FlightAware flightaware.com - 航班追踪',
-        'Flightradar24 fr24.com - 实时航班',
-        'AVWX / NOAA METAR/TAF - 机场天气报文',
-        '航司官网 (UA/AA/DL/Southwest) - 公告'
-      ];
-      thesis = `航空类市场依赖 METAR/TAF 结算，${settlementTime}到期。关注 ${isFlight ? '航班状态' : '机场天气'} 数据源和结算规则。`;
+      
+      // Enhanced monitor_sources with specific airports and tracking links
+      if (specificSources.length > 0 || airportList.length > 0) {
+        const trackingLinks = airportList.slice(0, 5).map(a => 
+          `• ${a.icao}: [FlightAware](${a.flightAwareUrl}) | [FR24](${a.fr24Url})`
+        );
+        
+        monitor_sources = [
+          '=== 实时数据源 (已接入 weather-aviation-sources) ===',
+          ...specificSources.slice(0, 5),
+          '=== 航班追踪 ===',
+          ...trackingLinks,
+          '=== 备用/验证源 ===',
+          'AVWX / NOAA METAR/TAF - 机场天气报文',
+          '航司官网 (UA/AA/DL/Southwest) - 公告'
+        ];
+      } else {
+        monitor_sources = [
+          'FlightAware flightaware.com - 航班追踪',
+          'Flightradar24 fr24.com - 实时航班',
+          'AVWX / NOAA METAR/TAF - 机场天气报文',
+          '航司官网 (UA/AA/DL/Southwest) - 公告'
+        ];
+      }
+      
+      thesis = `航空类市场依赖 METAR/TAF 结算，${settlementTime}到期。${airportList.length > 0 ? `已接入 ${airportList.length} 个机场: ${airportList.map(a => a.icao).join(', ')}` : '关注机场天气数据'}，${isFlight ? '航班状态' : '机场天气'}数据源和结算规则。`;
       break;
+    }
       
     case 'politics':
       action = '观察 - 等待新闻催化剂';
@@ -602,6 +706,40 @@ function generateExecutableCard(metrics, scores) {
   };
 }
 
+// === WEATHER-AVIATION SOURCES LOADING ===
+function getLatestSourcesFile() {
+  const outputDir = join(__dirname, '..', 'poly-knowledge', 'outputs');
+  
+  if (!existsSync(outputDir)) {
+    console.log('[WARN] Output directory not found, skipping sources');
+    return null;
+  }
+  
+  const files = readdirSync(outputDir)
+    .filter(f => f.startsWith('weather-aviation-sources-') && f.endsWith('.json'))
+    .map(f => {
+      const stats = statSync(join(outputDir, f));
+      return { name: f, mtime: stats.mtime };
+    })
+    .sort((a, b) => b.mtime - a.mtime);
+  
+  if (files.length === 0) {
+    console.log('[WARN] No weather-aviation-sources files found');
+    return null;
+  }
+  
+  const latestFile = files[0].name;
+  console.log(`[INFO] Using sources file: ${latestFile}`);
+  
+  try {
+    const content = readFileSync(join(outputDir, latestFile), 'utf-8');
+    return JSON.parse(content);
+  } catch (e) {
+    console.error(`[ERROR] Failed to load sources file: ${e.message}`);
+    return null;
+  }
+}
+
 // === MAIN ===
 async function main() {
   console.log('=== Daily Watchlist Generator ===');
@@ -622,6 +760,9 @@ async function main() {
   }
   
   console.log(`[CONFIG] limit=${limit}, minLiquidity=${minLiquidity}`);
+  
+  // Load weather-aviation sources (for weather/aviation category enhancement)
+  const sources = getLatestSourcesFile();
   
   // Fetch markets
   const markets = await getMarkets(minLiquidity, limit);
@@ -658,8 +799,8 @@ async function main() {
     // Generate reason
     const reason = generateReason(metrics, scores);
     
-    // Generate executable card (可执行清单)
-    const executable_card = generateExecutableCard(metrics, scores);
+    // Generate executable card (可执行清单) - pass sources for weather/aviation enhancement
+    const executable_card = generateExecutableCard(metrics, scores, sources);
     
     results.push({
       rank: 0, // will be assigned after sorting
@@ -696,6 +837,12 @@ async function main() {
     total_candidates: markets.length,
     top_n: TOP_N,
     scoring_weights: SCORING_WEIGHTS,
+    sources_integrated: sources ? {
+      weather_stations: sources.summary?.weather_stations || 0,
+      aviation_airports: sources.summary?.aviation_airports || 0,
+      generated_at: sources.generated_at,
+      date: sources.date
+    } : null,
     watchlist: topResults
   };
   writeFileSync(jsonPath, JSON.stringify(jsonOutput, null, 2));
@@ -706,7 +853,13 @@ async function main() {
   let md = `# Daily Watchlist - ${today}\n\n`;
   md += `> Generated: ${new Date().toISOString()}\n`;
   md += `> Total candidates: ${markets.length}\n`;
-  md += `> Scoring weights: liquidity=${SCORING_WEIGHTS.liquidity}, spread=${SCORING_WEIGHTS.spread}, ...\n\n`;
+  md += `> Scoring weights: liquidity=${SCORING_WEIGHTS.liquidity}, spread=${SCORING_WEIGHTS.spread}, ...\n`;
+  if (sources) {
+    md += `> Sources integrated: ${sources.summary?.weather_stations || 0} weather stations, ${sources.summary?.aviation_airports || 0} aviation airports\n`;
+  } else {
+    md += `> Sources integrated: none (fallback to templates)\n`;
+  }
+  md += `\n`;
   
   // 简表
   md += `## Top ${topResults.length} Candidates (Overview)\n\n`;
