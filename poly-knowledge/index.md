@@ -39,7 +39,7 @@ poly-knowledge/
 | **策略研究** | 盈利方法论、案例分析、书籍文献 | 待开始 |
 | **风控框架** | 风险矩阵、资金管理、止损规则 | ✅ 已完成 | `risk-and-bankroll.md` |
 | **结算争议** | 结算规则、争议处理、极端情况 | 待获取 |
-| **市场数据** | 热门市场、赔率解读、流动性分析 | 待获取 |
+| **市场数据** | 热门市场、赔率解读、流动性分析 | ✅ 已完成 | `notes/polymarket-liquidity-analysis.md` |
 
 ---
 
@@ -81,8 +81,8 @@ poly-knowledge/
 
 ### 高优先级
 
-- [ ] **Polymarket API Reference** - REST/WebSocket 端点详解
-- [ ] **市场流动性分析** - 如何识别高流动性市场
+- [x] **Polymarket API Reference** - REST/WebSocket 端点详解
+- [x] **市场流动性分析** - 如何识别高流动性市场、点差分析、订单簿深度
 - [ ] **结算机制详解** - 争议处理、延迟结算场景
 
 ### 中优先级
@@ -105,10 +105,6 @@ poly-knowledge/
 - 历史结算争议案例
 - 成功交易者的公开策略分享
 - 实时 odds API 流数据
-
----
-
-*Last updated: 2026-02-27 by Subagent-B (kb)*
 
 ---
 
@@ -137,3 +133,9 @@ poly-knowledge/
 - 来源: [URL]
 - 更新人: [署名]
 ```
+
+### 2026-02-27
+
+- [新增] 市场流动性分析 - 完整的流动性指标体系与API筛选方法
+- 来源: Polymarket Docs (API Reference)
+- 更新人: Subagent-Poly-Liquidity

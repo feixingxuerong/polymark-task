@@ -541,3 +541,11 @@
 - 新增天气数据源 (40-45): NOAA/NCEI, ECMWF, GFS, Open-Meteo, Meteostat, NWS
 - 标记待获取来源 (策略书籍、社区)
 - 更新人: Subagent-Weather-Research (kb)
+
+### 2026-02-27 (流动性分析)
+
+- 新增流动性分析来源：
+  - Markets API (流动性/成交量筛选参数)
+  - Order Book API (订单簿深度、点差计算)
+  - Fee Rate API (交易费率)
+- 更新人: Subagent-Poly-Liquidity
