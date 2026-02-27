@@ -559,6 +559,43 @@ function generateReason(metrics, scores) {
   return reasons.join(' | ');
 }
 
+// === RESEARCH PRIORITY & TRADE FEASIBILITY ===
+// Determine trade feasibility based on liquidity and spread
+function getTradeFeasibility(metrics) {
+  const liquidity = metrics.liquidity || 0;
+  const spread = metrics.spread_pct || 999;
+  
+  // Trade feasibility: good/ok/poor
+  if (liquidity >= 10000 && spread <= 3) {
+    return 'good';
+  } else if (liquidity >= 5000 || spread <= 5) {
+    return 'ok';
+  } else {
+    return 'poor';
+  }
+}
+
+// Determine research priority for weather/aviation
+function getResearchPriority(item, metrics, sources) {
+  if (item.category !== 'weather' && item.category !== 'aviation') {
+    return null;
+  }
+  
+  const weatherSignalScore = item.weather_signal_score || 0;
+  const daysToEvent = metrics.days_to_event;
+  
+  // Research priority levels based on weather signal score and time
+  if (weatherSignalScore >= 7 && daysToEvent !== null && daysToEvent <= 3) {
+    return '研究-重点';
+  } else if (weatherSignalScore >= 5 && daysToEvent !== null && daysToEvent <= 7) {
+    return '研究-跟踪';
+  } else if (weatherSignalScore >= 3) {
+    return '研究-观察';
+  } else {
+    return '避免';
+  }
+}
+
 // === 可执行清单生成 ===
 // 基于市场类别生成模板化的 action, entry_plan, key_risks, monitor_sources, thesis
 
@@ -612,6 +649,9 @@ function generateExecutableCard(metrics, scores, sources = null) {
   const daysToEvent = metrics.days_to_event;
   const liquidity = metrics.liquidity || 0;
   const hasLiquidity = liquidity >= 10000;
+  
+  // 计算 trade_feasibility
+  const trade_feasibility = getTradeFeasibility(metrics);
 
   // === 结算口径解析 ===
   // 尝试从 description 中解析结算规则
@@ -625,6 +665,16 @@ function generateExecutableCard(metrics, scores, sources = null) {
     } catch (e) {
       console.warn(`[WARN] Resolution parser failed: ${e.message}`);
     }
+  }
+  
+  // 先计算默认 action，后续 weather/aviation 会覆盖
+  let defaultAction;
+  if (scores.total >= 8.5) {
+    defaultAction = '⭐ 重点关注 - 可考虑入场';
+  } else if (scores.total < 5) {
+    defaultAction = '⚠️ 低优先级 - 建议跳过';
+  } else {
+    defaultAction = '观察 - 等待催化剂';
   }
   
   switch (category) {
@@ -664,8 +714,9 @@ function generateExecutableCard(metrics, scores, sources = null) {
           ? `T-24h: 每日检查 NOAA/NWS 更新；T-6h: 确认预报收敛。${dataRef}`
           : '每周检查模型更新，关注预报趋势收敛情况';
       
-      action = wTimeAction;
-      entry_plan = `${wCheckTiming}。${hasLiquidity ? '流动性充足(>$10k)，可考虑小额测试' : '流动性一般(<$10k)，建议观望'} 若预测区间收敛且 spread<3% 可考虑入场。`;
+      // Weather/aviation uses research-focused action labels (set later based on research_priority)
+      action = wTimeAction; // Will be overridden by research_priority later
+      entry_plan = `${wCheckTiming}。流动性 ${trade_feasibility === 'good' ? '充足(>$10k)' : trade_feasibility === 'ok' ? '一般($5-10k)' : '较低(<$5k)'}，建议先做研究，spread=${metrics.spread_pct?.toFixed(1) || 'N/A'}% 可接受时再入场。`;
       
       key_risks = [
         '⚠️ 模型漂移：数值预报随时间剧烈调整',
@@ -741,8 +792,9 @@ function generateExecutableCard(metrics, scores, sources = null) {
           ? `T-24h: 每日检查 METAR/TAF 趋势；T-6h: 确认预报稳定。${dataRef}`
           : '每周检查天气趋势，关注预报调整';
       
+      // Aviation uses research-focused action labels (set later based on research_priority)
       action = isFlight ? '✈️ 航班关注' : '🛫 机场关注';
-      entry_plan = `${aCheckTiming}。${hasLiquidity ? '流动性充足，可考虑' : '流动性一般，建议观望'} 若 spread<3% 可入场。`;
+      entry_plan = `${aCheckTiming}。流动性 ${trade_feasibility === 'good' ? '充足' : trade_feasibility === 'ok' ? '一般' : '较低'}，建议先做研究。`;
       
       key_risks = [
         '⚠️ 结算口径：部分按实际起飞/到达，部分按预判',
@@ -883,21 +935,28 @@ function generateExecutableCard(metrics, scores, sources = null) {
       thesis = `通用候选市场，${settlementTime}到期。需自行验证结算规则和监控源。`;
   }
   
-  // 根据评分调整建议
-  if (scores.total >= 8.5) {
-    action = '⭐ 重点关注 - 可考虑入场';
-  } else if (scores.total < 5) {
-    action = '⚠️ 低优先级 - 建议跳过';
-  }
-  
   // 如果风险高，提醒
   if (metrics.negRisk || metrics.risk === 'high') {
     key_risks.push('⚠️ Neg Risk 市场 - 风险较高');
   }
 
+  // 对于 weather/aviation，计算 research_priority 并覆盖 action
+  let research_priority = null;
+  if (category === 'weather' || category === 'aviation') {
+    const item = { category, question };
+    research_priority = getResearchPriority(item, metrics, sources);
+    
+    // 使用研究标签覆盖默认 action
+    if (research_priority) {
+      action = research_priority;
+    }
+  }
+
   return {
     category,
     action,
+    research_priority,  // 新增: 研究优先级 (仅 weather/aviation)
+    trade_feasibility, // 新增: 交易可行性
     entry_plan,
     key_risks,
     monitor_sources,
@@ -1104,8 +1163,8 @@ async function main() {
   
   // 简表
   md += `## Top ${topResults.length} Candidates (Overview)\n\n`;
-  md += `| # | Question | Prob | Spread | Liq | Days | Score | Weather Sig | Category | Action |\n`;
-  md += `|---|----------|------|--------|-----|------|-------|-------------|----------|--------|\n`;
+  md += `| # | Question | Prob | Spread | Liq | Days | Score | Weather Sig | Category | Action | Trade Fit |\n`;
+  md += `|---|----------|------|--------|-----|------|-------|-------------|----------|--------|----------|\n`;
   
   for (const item of topResults) {
     const prob = item.implied_probability ? `${(item.implied_probability * 100).toFixed(1)}%` : 'N/A';
@@ -1116,8 +1175,9 @@ async function main() {
     const category = item.category || 'unknown';
     const action = item.action ? item.action.replace(/⭐|⚠️/g, '').substring(0, 12) : 'N/A';
     const weatherSig = item.weather_signal_score !== undefined ? `${item.weather_signal_score}` : '-';
+    const tradeFeas = item.trade_feasibility || '-';
     
-    md += `| ${item.rank} | ${question}... | ${prob} | ${spread} | ${liq} | ${days} | **${item.scores.total.toFixed(1)}** | ${weatherSig} | ${category} | ${action} |\n`;
+    md += `| ${item.rank} | ${question}... | ${prob} | ${spread} | ${liq} | ${days} | **${item.scores.total.toFixed(1)}** | ${weatherSig} | ${category} | ${action} | ${tradeFeas} |\n`;
   }
   
   // 详细可执行清单
@@ -1146,6 +1206,15 @@ async function main() {
     }
     
     md += `| **行动** | ${item.action || 'N/A'} |\n`;
+    
+    // Add research_priority for weather/aviation
+    if (item.research_priority) {
+      md += `| **研究优先级** | ${item.research_priority} |\n`;
+    }
+    
+    // Add trade_feasibility
+    md += `| **交易可行性** | ${item.trade_feasibility || 'N/A'} |\n`;
+    
     md += `| **入场计划** | ${item.entry_plan || 'N/A'} |\n`;
     md += `| **理由** | ${item.thesis || item.reason || 'N/A'} |\n`;
     md += `| **Key Risks** | ${item.key_risks ? item.key_risks.join(', ') : 'N/A'} |\n`;
