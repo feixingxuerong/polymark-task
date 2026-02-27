@@ -1,6 +1,6 @@
 # Daily Watchlist - 2026-02-27
 
-> Generated: 2026-02-27T22:39:12.447Z
+> Generated: 2026-02-27T22:42:11.876Z
 > Total candidates: 69
 > Scoring weights: liquidity=0.2, spread=0.15, ...
 > Sources integrated: 8 weather stations, 10 aviation airports
