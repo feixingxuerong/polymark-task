@@ -78,6 +78,8 @@ poly-knowledge/
 | #22 | 数据源适配器: NOAA/NWS + METAR/TAF | ✅ 已完成 | `scripts/weather-adapters/` |
 | #23 | 天气/航空结算口径库 | ✅ 已完成 | `notes/weather-aviation-resolution-library.md` |
 
+| #31 | 复盘闭环：action=考虑 Top3 每日复盘 + 规则迭代入口 | 设计中 | `notes/issue-31-review-loop-design.md` |
+
 ---
 
 ## 建议新增条目
