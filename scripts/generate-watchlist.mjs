@@ -31,6 +31,7 @@ const CLOB_API = 'https://clob.polymarket.com';
 const DEFAULT_LIMIT = 50;
 const DEFAULT_MIN_LIQUIDITY = 1000;
 const TOP_N = 30;
+const WEATHER_QUOTA = 5; // 天气/航空席位数
 
 // === SCORING RULES (from watchlist-scoring.yaml) ===
 const SCORING_WEIGHTS = {
@@ -1093,8 +1094,50 @@ async function main() {
     });
   }
   
-  // Sort by total score descending, with weather_signal_score as tie-breaker for |Δscore|<0.3
-  results.sort((a, b) => {
+  // === RESEARCH PRIORITY ORDERING (for weather/aviation) ===
+  const RESEARCH_PRIORITY_ORDER = {
+    '研究-重点': 4,
+    '研究-跟踪': 3,
+    '研究-观察': 2,
+    '避免': 1
+  };
+  
+  // Helper: get research priority score (higher = more important)
+  function getResearchPriorityScore(item) {
+    if (item.category !== 'weather' && item.category !== 'aviation') {
+      return -1; // Non-weather/aviation items
+    }
+    const priority = item.research_priority || '避免';
+    return RESEARCH_PRIORITY_ORDER[priority] || 0;
+  }
+  
+  // Helper: get weather signal score (default 0)
+  function getWeatherSignalScore(item) {
+    return item.weather_signal_score || 0;
+  }
+  
+  // === SEPARATE AND SORT ===
+  // Separate weather/aviation from other categories
+  const weatherAviation = results.filter(r => r.category === 'weather' || r.category === 'aviation');
+  const otherMarkets = results.filter(r => r.category !== 'weather' && r.category !== 'aviation');
+  
+  // Sort weather/aviation: research_priority + weather_signal_score
+  weatherAviation.sort((a, b) => {
+    const priorityDiff = getResearchPriorityScore(b) - getResearchPriorityScore(a);
+    if (priorityDiff !== 0) return priorityDiff;
+    
+    const weatherScoreDiff = getWeatherSignalScore(b) - getWeatherSignalScore(a);
+    if (weatherScoreDiff !== 0) return weatherScoreDiff;
+    
+    // Fallback: total score, then liquidity
+    const totalScoreDiff = b.scores.total - a.scores.total;
+    if (Math.abs(totalScoreDiff) >= 0.3) return totalScoreDiff;
+    
+    return (b.liquidity || 0) - (a.liquidity || 0);
+  });
+  
+  // Sort other markets: total score + weather_signal_score as tie-breaker
+  otherMarkets.sort((a, b) => {
     const scoreDiff = b.scores.total - a.scores.total;
     
     // If score difference is significant (>0.3), use primary score
@@ -1110,15 +1153,40 @@ async function main() {
       return bWeatherScore - aWeatherScore; // Higher weather signal score wins
     }
     
-    // Fallback to original order or liquidity
+    // Fallback to liquidity
     return (b.liquidity || 0) - (a.liquidity || 0);
   });
   
-  // Assign ranks
-  results.forEach((r, i) => r.rank = i + 1);
+  // === MERGE WITH WEATHER QUOTA ===
+  // Take top (N - WEATHER_QUOTA) from others + top WEATHER_QUOTA from weather/aviation
+  const otherTop = otherMarkets.slice(0, TOP_N - WEATHER_QUOTA);
+  const weatherTop = weatherAviation.slice(0, WEATHER_QUOTA);
   
-  // Take top N
-  const topResults = results.slice(0, TOP_N);
+  // Merge and re-rank
+  const mergedResults = [...otherTop, ...weatherTop];
+  
+  // Re-rank by sorting: total score (primary), then weather_signal_score as tie-breaker
+  mergedResults.sort((a, b) => {
+    const scoreDiff = b.scores.total - a.scores.total;
+    if (Math.abs(scoreDiff) >= 0.3) return scoreDiff;
+    
+    // Tie-breaker: weather signal score
+    const aWeatherScore = a.weather_signal_score || 0;
+    const bWeatherScore = b.weather_signal_score || 0;
+    if (aWeatherScore !== bWeatherScore) return bWeatherScore - aWeatherScore;
+    
+    // For weather/aviation: also consider research priority
+    const aPriority = getResearchPriorityScore(a);
+    const bPriority = getResearchPriorityScore(b);
+    if (aPriority !== bPriority) return bPriority - aPriority;
+    
+    return (b.liquidity || 0) - (a.liquidity || 0);
+  });
+  
+  // Assign final ranks
+  mergedResults.forEach((r, i) => r.rank = i + 1);
+  
+  const topResults = mergedResults;
   console.log(`[INFO] Selected top ${topResults.length} candidates`);
   
   // Generate output files
@@ -1132,10 +1200,18 @@ async function main() {
   
   // JSON output
   const jsonPath = join(outputDir, `watchlist-${today}.json`);
+  
+  // Count weather/aviation in top results
+  const weatherCount = topResults.filter(r => r.category === 'weather' || r.category === 'aviation').length;
+  const aviationCount = topResults.filter(r => r.category === 'aviation').length;
+  
   const jsonOutput = {
     generated_at: new Date().toISOString(),
     total_candidates: markets.length,
     top_n: TOP_N,
+    weather_quota: WEATHER_QUOTA,
+    weather_in_topN: weatherCount,
+    aviation_in_topN: aviationCount,
     scoring_weights: SCORING_WEIGHTS,
     sources_integrated: sources ? {
       weather_stations: sources.summary?.weather_stations || 0,
@@ -1153,6 +1229,8 @@ async function main() {
   let md = `# Daily Watchlist - ${today}\n\n`;
   md += `> Generated: ${new Date().toISOString()}\n`;
   md += `> Total candidates: ${markets.length}\n`;
+  md += `> TopN: ${TOP_N} (weather quota: ${WEATHER_QUOTA})\n`;
+  md += `> Weather/Aviation in Top${TOP_N}: ${weatherCount} (aviation: ${aviationCount})\n`;
   md += `> Scoring weights: liquidity=${SCORING_WEIGHTS.liquidity}, spread=${SCORING_WEIGHTS.spread}, ...\n`;
   if (sources) {
     md += `> Sources integrated: ${sources.summary?.weather_stations || 0} weather stations, ${sources.summary?.aviation_airports || 0} aviation airports\n`;
