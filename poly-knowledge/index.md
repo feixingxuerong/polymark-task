@@ -75,7 +75,7 @@ poly-knowledge/
 
 | #14 | Polymarket 结算机制 | ✅ 已完成 | `notes/polymarket-settlement.md` |
 | #15 | Polymarket 赔率心理学 | ✅ 已完成 | `notes/polymarket-odds-psychology.md` |
-| #19 | Watchlist 可执行清单升级 | ✅ 已完成 | `scripts/generate-watchlist.mjs` + `watchlist-process.md` |
+| #23 | 天气/航空结算口径库 | ✅ 已完成 | `notes/weather-aviation-resolution-library.md` |
 
 ---
 
