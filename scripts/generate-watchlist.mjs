@@ -576,25 +576,74 @@ function getTradeFeasibility(metrics) {
   }
 }
 
-// Determine research priority for weather/aviation
-function getResearchPriority(item, metrics, sources) {
-  if (item.category !== 'weather' && item.category !== 'aviation') {
-    return null;
+// Determine whether the parsed station is covered by our integrated sources (stations.yaml + weather-aviation-sources)
+function hasStationMatch(resolutionParsed, sources) {
+  if (!resolutionParsed || !sources) return false;
+
+  const icao = resolutionParsed.station?.icao;
+  const stationName = resolutionParsed.station?.name;
+  if (!icao && !stationName) return false;
+
+  const weatherStations = sources?.data?.weather?.stations || [];
+  const aviationAirports = sources?.data?.aviation?.airports || [];
+
+  // Match ICAO against aviation airports
+  if (icao) {
+    const matchAviation = aviationAirports.some(a => (a.airport?.icao || '').toUpperCase() === icao.toUpperCase());
+    const matchWeather = weatherStations.some(s => (s.station?.id || '').toUpperCase() === icao.toUpperCase());
+    return matchAviation || matchWeather;
   }
-  
-  const weatherSignalScore = item.weather_signal_score || 0;
+
+  // Fallback: name match (weak)
+  const nameLower = String(stationName).toLowerCase();
+  const matchAviationByName = aviationAirports.some(a => String(a.airport?.name || '').toLowerCase().includes(nameLower));
+  const matchWeatherByName = weatherStations.some(s => String(s.station?.name || '').toLowerCase().includes(nameLower));
+  return matchAviationByName || matchWeatherByName;
+}
+
+function actionToResearchPriority(action) {
+  if (action === '研究-重点') return 'high';
+  if (action === '研究-跟踪') return 'medium';
+  if (action === '研究-观察') return 'low';
+  return null;
+}
+
+// Weather/aviation uses research-first action labels (not liquidity-gated)
+function getWeatherAviationAction({ metrics, resolutionParsed, stationMatched, weatherSignalScore }) {
   const daysToEvent = metrics.days_to_event;
-  
-  // Research priority levels based on weather signal score and time
-  if (weatherSignalScore >= 7 && daysToEvent !== null && daysToEvent <= 3) {
+
+  // Avoid: expired or clearly unworkable
+  if (daysToEvent !== null && daysToEvent < 0) return '避免';
+
+  const parseWeak = !resolutionParsed || (resolutionParsed.overall_confidence ?? 0) < 0.3;
+  const noIntegratedData = !stationMatched;
+
+  // "规则无法解析且无数据源" -> avoid
+  // Note: even without an exact station match, we still keep most weather markets as researchable
+  // (fallback sources exist). Only hard-avoid when signal is also effectively absent.
+  if (parseWeak && noIntegratedData && weatherSignalScore < 1) return '避免';
+
+  // Thresholds (can be tuned later)
+  const HIGH = 7;
+  const MID = 5;
+
+  const hasKeyFields = !!resolutionParsed && (
+    (resolutionParsed.overall_confidence ?? 0) >= 0.5 ||
+    ((resolutionParsed.station?.confidence || 0) > 0 && (resolutionParsed.metric?.confidence || 0) > 0)
+  );
+
+  // 研究-重点：关键字段 OR stations 匹配成功 且 weather_signal_score>=阈值 且 T-72h 内
+  if ((hasKeyFields || stationMatched) && weatherSignalScore >= HIGH && daysToEvent !== null && daysToEvent <= 3) {
     return '研究-重点';
-  } else if (weatherSignalScore >= 5 && daysToEvent !== null && daysToEvent <= 7) {
-    return '研究-跟踪';
-  } else if (weatherSignalScore >= 3) {
-    return '研究-观察';
-  } else {
-    return '避免';
   }
+
+  // 研究-跟踪：weather_signal_score 中等 或 T-7d 内
+  if (weatherSignalScore >= MID || (daysToEvent !== null && daysToEvent <= 7)) {
+    return '研究-跟踪';
+  }
+
+  // 研究-观察：其余仍可研究
+  return '研究-观察';
 }
 
 // === 可执行清单生成 ===
@@ -630,7 +679,7 @@ function detectCategory(question) {
   return 'unknown';
 }
 
-function generateExecutableCard(metrics, scores, sources = null) {
+async function generateExecutableCard(metrics, scores, sources = null, weatherSignal = null) {
   const question = metrics.question || '';
   const description = metrics.description || '';  // 结算规则文本
   const category = detectCategory(question);
@@ -659,12 +708,10 @@ function generateExecutableCard(metrics, scores, sources = null) {
   let resolution = null;
   if (description && (category === 'weather' || category === 'aviation')) {
     try {
-      resolution = parseResolutionRules(description);
-      if (resolution && resolution.success) {
-        console.log(`[RESOLUTION] Parsed: ${resolution.metric} @ ${resolution.station?.values?.[0] || resolution.geo?.values?.[0] || 'unknown'} = ${resolution.threshold}`);
-      }
+      resolution = await parseResolutionRules(description, question);
     } catch (e) {
       console.warn(`[WARN] Resolution parser failed: ${e.message}`);
+      resolution = null;
     }
   }
   
@@ -941,23 +988,28 @@ function generateExecutableCard(metrics, scores, sources = null) {
     key_risks.push('⚠️ Neg Risk 市场 - 风险较高');
   }
 
-  // 对于 weather/aviation，计算 research_priority 并覆盖 action
+  // 对于 weather/aviation：研究优先 action + 研究优先级字段 (high|medium|low)
   let research_priority = null;
   if (category === 'weather' || category === 'aviation') {
-    const item = { category, question };
-    research_priority = getResearchPriority(item, metrics, sources);
-    
-    // 使用研究标签覆盖默认 action
-    if (research_priority) {
-      action = research_priority;
-    }
+    const weatherSignalScore = weatherSignal?.weather_signal_score ?? 0;
+    const stationMatched = hasStationMatch(resolution, sources);
+
+    const researchAction = getWeatherAviationAction({
+      metrics,
+      resolutionParsed: resolution,
+      stationMatched,
+      weatherSignalScore
+    });
+
+    action = researchAction;
+    research_priority = actionToResearchPriority(researchAction);
   }
 
   return {
     category,
     action,
-    research_priority,  // 新增: 研究优先级 (仅 weather/aviation)
-    trade_feasibility, // 新增: 交易可行性
+    research_priority,  // 新增: high|medium|low (仅 weather/aviation)
+    trade_feasibility, // 新增: good|ok|poor
     entry_plan,
     key_risks,
     monitor_sources,
@@ -1075,16 +1127,22 @@ async function main() {
     // Generate reason
     const reason = generateReason(metrics, scores);
     
-    // Generate executable card (可执行清单) - pass sources for weather/aviation enhancement
-    const executable_card = generateExecutableCard(metrics, scores, sources);
-    
-    // Calculate weather signal score for weather/aviation categories
+    // Pre-calc category (needed for weather signal scoring)
+    const category = detectCategory(metrics.question || '');
+
+    // Calculate weather signal score for weather/aviation categories (before action tagging)
     const weatherSignalResult = calculateWeatherSignalScore(
-      { category: executable_card.category, question: metrics.question },
+      { category, question: metrics.question },
       sources
     );
+
+    // Generate executable card (可执行清单) - pass sources + weatherSignal
+    const executable_card = await generateExecutableCard(metrics, scores, sources, weatherSignalResult);
     
     results.push({
+      // Keep category consistent (detectCategory is the single source of truth)
+      category,
+
       rank: 0, // will be assigned after sorting
       ...metrics,
       scores,
@@ -1107,8 +1165,8 @@ async function main() {
     if (item.category !== 'weather' && item.category !== 'aviation') {
       return -1; // Non-weather/aviation items
     }
-    const priority = item.research_priority || '避免';
-    return RESEARCH_PRIORITY_ORDER[priority] || 0;
+    const label = item.action || '避免';
+    return RESEARCH_PRIORITY_ORDER[label] || 0;
   }
   
   // Helper: get weather signal score (default 0)
