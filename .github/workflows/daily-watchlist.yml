@@ -15,7 +15,9 @@ on:
   push:
     paths:
       - 'scripts/generate-watchlist.mjs'
+      - 'scripts/generate-watchlist-diff.mjs'
       - 'poly-knowledge/watchlist-*.md'
+      - 'poly-knowledge/watchlist-diff-*.md'
       - 'poly-knowledge/watchlist-scoring.yaml'
 
 permissions:
@@ -59,6 +61,30 @@ jobs:
           # Run the generator
           node scripts/generate-watchlist.mjs
       
+      - name: Generate watchlist diff
+        id: diff
+        run: |
+          # Run the diff generator
+          node scripts/generate-watchlist-diff.mjs
+          
+          # Get the date from previous step
+          TARGET_DATE=${{ steps.generate.outputs.target_date }}
+          if [ -z "$TARGET_DATE" ]; then
+            TARGET_DATE=$(date +%Y-%m-%d)
+          fi
+          
+          DIFF_JSON="poly-knowledge/outputs/watchlist-diff-${TARGET_DATE}.json"
+          DIFF_MD="poly-knowledge/outputs/watchlist-diff-${TARGET_DATE}.md"
+          
+          if [ -f "$DIFF_JSON" ] && [ -f "$DIFF_MD" ]; then
+            echo "diff_exists=true" >> $GITHUB_OUTPUT
+            echo "Diff files generated successfully"
+            cat $DIFF_MD
+          else
+            echo "diff_exists=false" >> $GITHUB_OUTPUT
+            echo "::warning::Diff output files not found"
+          fi
+      
       - name: Check outputs
         id: check
         run: |
@@ -99,6 +125,8 @@ jobs:
           # Stage the output files
           git add "poly-knowledge/outputs/watchlist-${TARGET_DATE}.json"
           git add "poly-knowledge/outputs/watchlist-${TARGET_DATE}.md"
+          git add "poly-knowledge/outputs/watchlist-diff-${TARGET_DATE}.json"
+          git add "poly-knowledge/outputs/watchlist-diff-${TARGET_DATE}.md"
           
           # Check if there are changes to commit
           if git diff --staged --quiet; then
@@ -108,7 +136,8 @@ jobs:
             git commit -m "docs: add watchlist outputs for ${TARGET_DATE}
             
             - Generated via GitHub Actions
-            - Auto-committed watchlist data for knowledge base sync"
+            - Auto-committed watchlist data
+            - Include for knowledge base sync watchlist diff (异动雷达)"
             
             # Push changes
             git push
@@ -123,6 +152,8 @@ jobs:
           path: |
             poly-knowledge/outputs/watchlist-*.json
             poly-knowledge/outputs/watchlist-*.md
+            poly-knowledge/outputs/watchlist-diff-*.json
+            poly-knowledge/outputs/watchlist-diff-*.md
           retention-days: 7
           if-no-files-found: ignore
 

@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-02-27T16:16:21.663Z",
+  "today_date": "2026-02-27",
+  "yesterday_date": null,
+  "first_run": true,
+  "summary": {
+    "today_count": 30,
+    "yesterday_count": 0,
+    "new_count": 0,
+    "dropped_count": 0,
+    "score_jumps_count": 0,
+    "spread_moves_count": 0,
+    "liquidity_moves_count": 0
+  },
+  "new_entries": [],
+  "dropped_entries": [],
+  "score_jumps": [],
+  "spread_moves": [],
+  "liquidity_moves": [],
+  "top_movers": []
+}
