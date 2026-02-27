@@ -1,422 +1,464 @@
 [
   {
-    "id": "229734",
-    "eventTitle": "Highest temperature in Ankara on February 27?",
-    "eventSlug": "highest-temperature-in-ankara-on-february-27-2026",
-    "url": "https://polymarket.com/event/highest-temperature-in-ankara-on-february-27-2026",
-    "endDate": "2026-02-27T12:00:00Z",
-    "volume": 170169.89563,
-    "liquidity": 10069.68338,
-    "active": true,
-    "markets": [
-      {
-        "id": "1434205",
-        "question": "Will the highest temperature in Ankara be -1°C or below on February 27?",
-        "conditionId": "0xec125c20ba676d2f6743ca2fc273777d6e92fdf41909e0508eef3bf3098d17c6",
-        "slug": "highest-temperature-in-ankara-on-february-27-2026-neg-1corbelow",
-        "url": "https://polymarket.com/market/highest-temperature-in-ankara-on-february-27-2026-neg-1corbelow",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 9790.003443,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0", "1"],
-        "closed": true
-      },
-      {
-        "id": "1434206",
-        "question": "Will the highest temperature in Ankara be 0°C on February 27?",
-        "conditionId": "0xda6239ba5752d273272a12fe2220219e8c259612e1c6d2c6b4fbb54c45d31246",
-        "slug": "highest-temperature-in-ankara-on-february-27-2026-0c",
-        "url": "https://polymarket.com/market/highest-temperature-in-ankara-on-february-27-2026-0c",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 11378.274536,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0", "1"],
-        "closed": true
-      },
-      {
-        "id": "1434207",
-        "question": "Will the highest temperature in Ankara be 1°C on February 27?",
-        "conditionId": "0xabdc13c0d50efccf057e2aa2b49535b16b1ca0f695fd215ef141b96a48b62551",
-        "slug": "highest-temperature-in-ankara-on-february-27-2026-1c",
-        "url": "https://polymarket.com/market/highest-temperature-in-ankara-on-february-27-2026-1c",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 28596.094223,
-        "outcomes": ["Yes", "No"],
-        "closed": false
-      }
-    ],
-    "tags": ["weather", "temperature", "ankara", "february-2026"]
-  },
-  {
-    "id": "229710",
-    "eventTitle": "Highest temperature in London on February 27?",
-    "eventSlug": "highest-temperature-in-london-on-february-27-2026",
-    "url": "https://polymarket.com/event/highest-temperature-in-london-on-february-27-2026",
-    "endDate": "2026-02-27T12:00:00Z",
-    "volume": 181817.455006,
-    "liquidity": 11510.34058,
-    "active": true,
-    "markets": [
-      {
-        "id": "1434035",
-        "question": "Will the highest temperature in London be 8°C on February 27?",
-        "conditionId": "0xf0e16bcd1ae8a6a7d4e882654c66aabe81713617361d2b89b979ce7ae81f673f",
-        "slug": "highest-temperature-in-london-on-february-27-2026-8c",
-        "url": "https://polymarket.com/market/highest-temperature-in-london-on-february-27-2026-8c",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 6521.206865,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0", "1"],
-        "closed": true
-      },
-      {
-        "id": "1434042",
-        "question": "Will the highest temperature in London be 14°C on February 27?",
-        "conditionId": "0x6d526c7f90e0224f03bcc62493075c15dd19ca7f9036e3f4ae0752cb3759cd62",
-        "slug": "highest-temperature-in-london-on-february-27-2026-14c",
-        "url": "https://polymarket.com/market/highest-temperature-in-london-on-february-27-2026-14c",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 26406.179297,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.0025", "0.9975"],
-        "closed": false
-      },
-      {
-        "id": "1434037",
-        "question": "Will the highest temperature in London be 10°C on February 27?",
-        "conditionId": "0xda22872601a590961706a231b25ba311558ae6d0bf26060b510e8e723fa962db",
-        "slug": "highest-temperature-in-london-on-february-27-2026-10c",
-        "url": "https://polymarket.com/market/highest-temperature-in-london-on-february-27-2026-10c",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 9813.650066,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0", "1"],
-        "closed": true
-      },
-      {
-        "id": "1434040",
-        "question": "Will the highest temperature in London be 12°C on February 27?",
-        "conditionId": "0xc240f483e69e6194594dd9d3a1c42803bdb5d276ac20949679eea438c1c07f86",
-        "slug": "highest-temperature-in-london-on-february-27-2026-12c",
-        "url": "https://polymarket.com/market/highest-temperature-in-london-on-february-27-2026-12c",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 38189.4758,
-        "outcomes": ["Yes", "No"],
-        "closed": false
-      }
-    ],
-    "tags": ["weather", "temperature", "london", "february-2026"]
-  },
-  {
-    "id": "229729",
-    "eventTitle": "Highest temperature in NYC on February 27?",
-    "eventSlug": "highest-temperature-in-nyc-on-february-27-2026",
-    "url": "https://polymarket.com/event/highest-temperature-in-nyc-on-february-27-2026",
-    "endDate": "2026-02-27T12:00:00Z",
-    "volume": 207228.834534,
-    "liquidity": 70739.22711,
-    "active": true,
-    "markets": [
-      {
-        "id": "1434160",
-        "question": "Will the highest temperature in New York City be 39°F or below on February 27?",
-        "conditionId": "0x3a3db3955ddd25854f5880843265cdf7a2d30249a37a39ce06cc6f7dca03a119",
-        "slug": "highest-temperature-in-nyc-on-february-27-2026-39forbelow",
-        "url": "https://polymarket.com/market/highest-temperature-in-nyc-on-february-27-2026-39forbelow",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 50912.363568,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.0005", "0.9995"],
-        "closed": false
-      },
-      {
-        "id": "1434161",
-        "question": "Will the highest temperature in New York City be between 40-41°F on February 27?",
-        "conditionId": "0x3c27c10d5a5e5a860a1172d0da5d36a092196fec2cc751bdacabc8fa62f358f2",
-        "slug": "highest-temperature-in-nyc-on-february-27-2026-40-41f",
-        "url": "https://polymarket.com/market/highest-temperature-in-nyc-on-february-27-2026-40-41f",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 10706.776137,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.0755", "0.9245"],
-        "closed": false
-      },
-      {
-        "id": "1434162",
-        "question": "Will the highest temperature in New York City be between 42-43°F on February 27?",
-        "conditionId": "0x8c9ee554d71cbbf95632ec238165e6cef601ea78376a5fc8bc0d118dbd1a6fc9",
-        "slug": "highest-temperature-in-nyc-on-february-27-2026-42-43f",
-        "url": "https://polymarket.com/market/highest-temperature-in-nyc-on-february-27-2026-42-43f",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 11066.538699,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.41", "0.59"],
-        "closed": false
-      },
-      {
-        "id": "1434163",
-        "question": "Will the highest temperature in New York City be between 44-45°F on February 27?",
-        "conditionId": "0x222edda5d1bb561fe31202f895e94fc2e1b34eabffd93182bfc41ce04f5d4221",
-        "slug": "highest-temperature-in-nyc-on-february-27-2026-44-45f",
-        "url": "https://polymarket.com/market/highest-temperature-in-nyc-on-february-27-2026-44-45f",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 18841.627189,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.525", "0.475"],
-        "closed": false
-      }
-    ],
-    "tags": ["weather", "temperature", "new-york", "nyc", "february-2026"]
-  },
-  {
-    "id": "229731",
-    "eventTitle": "Highest temperature in Miami on February 27?",
-    "eventSlug": "highest-temperature-in-miami-on-february-27-2026",
-    "url": "https://polymarket.com/event/highest-temperature-in-miami-on-february-27-2026",
-    "endDate": "2026-02-27T12:00:00Z",
-    "volume": 189472.194222,
-    "liquidity": 12803.40246,
-    "active": true,
-    "markets": [
-      {
-        "id": "1434182",
-        "question": "Will the highest temperature in Miami be between 72-73°F on February 27?",
-        "conditionId": "0x7c5e8bf8c5c5d9aad9c0a6c8a9f7b3e8c4f7d6c8e9a7b4c5d6e7f8a9b0c1d2e3",
-        "slug": "highest-temperature-in-miami-on-february-27-2026-72-73f",
-        "url": "https://polymarket.com/market/highest-temperature-in-miami-on-february-27-2026-72-73f",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 18547.391738,
-        "outcomes": ["Yes", "No"],
-        "closed": false
-      },
-      {
-        "id": "1434183",
-        "question": "Will the highest temperature in Miami be between 74-75°F on February 27?",
-        "conditionId": "0x8d6f9cf9d6d6e0bbaea0b7d9bae8c4f9d5e8c7d9fae8c5d6e7f9b0a1c2d3e4f5",
-        "slug": "highest-temperature-in-miami-on-february-27-2026-74-75f",
-        "url": "https://polymarket.com/market/highest-temperature-in-miami-on-february-27-2026-74-75f",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 22456.789123,
-        "outcomes": ["Yes", "No"],
-        "closed": false
-      }
-    ],
-    "tags": ["weather", "temperature", "miami", "february-2026"]
-  },
-  {
-    "id": "229736",
-    "eventTitle": "Highest temperature in Paris on February 27?",
-    "eventSlug": "highest-temperature-in-paris-on-february-27-2026",
-    "url": "https://polymarket.com/event/highest-temperature-in-paris-on-february-27-2026",
-    "endDate": "2026-02-27T12:00:00Z",
-    "volume": 156789.345678,
-    "liquidity": 8945.12345,
-    "active": true,
-    "markets": [
-      {
-        "id": "1434215",
-        "question": "Will the highest temperature in Paris be 8°C on February 27?",
-        "conditionId": "0x9e7f0dfaebf7d0cbcbfa1c8ebac9d5faedfc8e0afc9d8c7bea6f5d4c3b2a1f0e9",
-        "slug": "highest-temperature-in-paris-on-february-27-2026-8c",
-        "url": "https://polymarket.com/market/highest-temperature-in-paris-on-february-27-2026-8c",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 15678.934567,
-        "outcomes": ["Yes", "No"],
-        "closed": false
-      }
-    ],
-    "tags": ["weather", "temperature", "paris", "february-2026"]
-  },
-  {
-    "id": "229738",
-    "eventTitle": "Highest temperature in Wellington on February 28?",
-    "eventSlug": "highest-temperature-in-wellington-on-february-28-2026",
-    "url": "https://polymarket.com/event/highest-temperature-in-wellington-on-february-28-2026",
-    "endDate": "2026-02-28T12:00:00Z",
-    "volume": 98765.432109,
-    "liquidity": 5678.90123,
-    "active": true,
-    "markets": [
-      {
-        "id": "1434230",
-        "question": "Will the highest temperature in Wellington be 18°C on February 28?",
-        "conditionId": "0xaf8f1e0fbfc8e1cdacfb2d9ecbd0e6fbefde9f0afc9d8c7bea6f5d4c3b2a1f0e",
-        "slug": "highest-temperature-in-wellington-on-february-28-2026-18c",
-        "url": "https://polymarket.com/market/highest-temperature-in-wellington-on-february-28-2026-18c",
-        "endDate": "2026-02-28T12:00:00Z",
-        "volume": 8765.432109,
-        "outcomes": ["Yes", "No"],
-        "closed": false
-      }
-    ],
-    "tags": ["weather", "temperature", "wellington", "february-2026"]
-  },
-  {
-    "id": "229740",
-    "eventTitle": "Highest temperature in Seoul on February 28?",
-    "eventSlug": "highest-temperature-in-seoul-on-february-28-2026",
-    "url": "https://polymarket.com/event/highest-temperature-in-seoul-on-february-28-2026",
-    "endDate": "2026-02-28T12:00:00Z",
-    "volume": 134567.890123,
-    "liquidity": 7654.32109,
-    "active": true,
-    "markets": [
-      {
-        "id": "1434250",
-        "question": "Will the highest temperature in Seoul be between 4-5°C on February 28?",
-        "conditionId": "0xbf9f2e1fcgd9f2cebdce3e0fcde0f7fcfeef0f1bfd0c9d8c7bea6f5d4c3b2a1f0",
-        "slug": "highest-temperature-in-seoul-on-february-28-2026-4-5c",
-        "url": "https://polymarket.com/market/highest-temperature-in-seoul-on-february-28-2026-4-5c",
-        "endDate": "2026-02-28T12:00:00Z",
-        "volume": 12345.678901,
-        "outcomes": ["Yes", "No"],
-        "closed": false
-      }
-    ],
-    "tags": ["weather", "temperature", "seoul", "february-2026"]
-  },
-  {
-    "id": "229742",
-    "eventTitle": "Highest temperature in Atlanta on February 27?",
-    "eventSlug": "highest-temperature-in-atlanta-on-february-27-2026",
-    "url": "https://polymarket.com/event/highest-temperature-in-atlanta-on-february-27-2026",
-    "endDate": "2026-02-27T12:00:00Z",
-    "volume": 145678.901234,
-    "liquidity": 8765.432109,
-    "active": true,
-    "markets": [
-      {
-        "id": "1434270",
-        "question": "Will the highest temperature in Atlanta be between 48-49°F on February 27?",
-        "conditionId": "0xcf0f3f2fdge0f3dfcedf4f1fdedf1f8fdffef1f2cfe0d9c8c7bea6f5d4c3b2a1f0",
-        "slug": "highest-temperature-in-atlanta-on-february-27-2026-48-49f",
-        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-on-february-27-2026-48-49f",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 13456.789012,
-        "outcomes": ["Yes", "No"],
-        "closed": false
-      }
-    ],
-    "tags": ["weather", "temperature", "atlanta", "february-2026"]
-  },
-  {
-    "id": "229744",
-    "eventTitle": "Highest temperature in Buenos Aires on February 27?",
-    "eventSlug": "highest-temperature-in-buenos-aires-on-february-27-2026",
-    "url": "https://polymarket.com/event/highest-temperature-in-buenos-aires-on-february-27-2026",
-    "endDate": "2026-02-27T12:00:00Z",
-    "volume": 112345.678901,
-    "liquidity": 6543.21098,
-    "active": true,
-    "markets": [
-      {
-        "id": "1434290",
-        "question": "Will the highest temperature in Buenos Aires be between 82-83°F on February 27?",
-        "conditionId": "0xdf1f4f3fehf1f4e0dfef5f2feef2f9feffff2f3dff1e0d9c8c7bea6f5d4c3b2a1f0",
-        "slug": "highest-temperature-in-buenos-aires-on-february-27-2026-82-83f",
-        "url": "https://polymarket.com/market/highest-temperature-in-buenos-aires-on-february-27-2026-82-83f",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 10987.654321,
-        "outcomes": ["Yes", "No"],
-        "closed": false
-      }
-    ],
-    "tags": ["weather", "temperature", "buenos-aires", "february-2026"]
-  },
-  {
-    "id": "229746",
-    "eventTitle": "Highest temperature in Chicago on February 27?",
-    "eventSlug": "highest-temperature-in-chicago-on-february-27-2026",
-    "url": "https://polymarket.com/event/highest-temperature-in-chicago-on-february-27-2026",
-    "endDate": "2026-02-27T12:00:00Z",
-    "volume": 167890.123456,
-    "liquidity": 9876.54321,
-    "active": true,
-    "markets": [
-      {
-        "id": "1434310",
-        "question": "Will the highest temperature in Chicago be between 28-29°F on February 27?",
-        "conditionId": "0xef2f5f4ffif2f5f1efef6f3ffef3f0ffffffff4e0f2f1e0d9c8c7bea6f5d4c3b2a1f0",
-        "slug": "highest-temperature-in-chicago-on-february-27-2026-28-29f",
-        "url": "https://polymarket.com/market/highest-temperature-in-chicago-on-february-27-2026-28-29f",
-        "endDate": "2026-02-27T12:00:00Z",
-        "volume": 15678.901234,
-        "outcomes": ["Yes", "No"],
-        "closed": false
-      }
-    ],
-    "tags": ["weather", "temperature", "chicago", "february-2026"]
-  },
-  {
-    "id": "229748",
+    "id": "mar1-nyc",
     "eventTitle": "Highest temperature in NYC on March 1?",
     "eventSlug": "highest-temperature-in-nyc-on-march-1-2026",
     "url": "https://polymarket.com/event/highest-temperature-in-nyc-on-march-1-2026",
-    "endDate": "2026-03-01T12:00:00Z",
-    "volume": 198765.432109,
-    "liquidity": 11234.56789,
+    "endDate": "2026-03-02T00:00:00Z",
+    "volume": 11273,
+    "liquidity": 5000,
     "active": true,
     "markets": [
       {
-        "id": "1434330",
-        "question": "Will the highest temperature in New York City be between 40-41°F on March 1?",
-        "conditionId": "0xff3f6f5fgj3f6f2fff7f4ffff4f1f0fffff5f1f3f2f1e0d9c8c7bea6f5d4c3b2a1f0",
-        "slug": "highest-temperature-in-nyc-on-march-1-2026-40-41f",
-        "url": "https://polymarket.com/market/highest-temperature-in-nyc-on-march-1-2026-40-41f",
-        "endDate": "2026-03-01T12:00:00Z",
-        "volume": 18765.432109,
+        "id": "mar1-nyc-1",
+        "question": "Will the highest temperature in NYC be 31°F or below on March 1?",
+        "conditionId": "0xtemp1",
+        "slug": "highest-temperature-in-nyc-on-march-1-2026-31forbelow",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-on-march-1-2026-31forbelow",
+        "endDate": "2026-03-02T00:00:00Z",
+        "volume": 3761,
         "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.01", "0.99"],
+        "closed": false
+      },
+      {
+        "id": "mar1-nyc-2",
+        "question": "Will the highest temperature in NYC be 38-39°F on March 1?",
+        "conditionId": "0xtemp2",
+        "slug": "highest-temperature-in-nyc-on-march-1-2026-38-39f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-on-march-1-2026-38-39f",
+        "endDate": "2026-03-02T00:00:00Z",
+        "volume": 624,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.32", "0.68"],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "new-york", "nyc", "march-2026"]
+    "tags": ["weather", "temperature", "nyc", "march-2026", "future"]
   },
   {
-    "id": "229750",
+    "id": "mar1-atlanta",
+    "eventTitle": "Highest temperature in Atlanta on March 1?",
+    "eventSlug": "highest-temperature-in-atlanta-on-march-1-2026",
+    "url": "https://polymarket.com/event/highest-temperature-in-atlanta-on-march-1-2026",
+    "endDate": "2026-03-02T00:00:00Z",
+    "volume": 12000,
+    "liquidity": 5000,
+    "active": true,
+    "markets": [
+      {
+        "id": "mar1-atlanta-1",
+        "question": "Will the highest temperature in Atlanta be 76°F or higher on March 1?",
+        "conditionId": "0xtemp3",
+        "slug": "highest-temperature-in-atlanta-on-march-1-2026-76forhigher",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-on-march-1-2026-76forhigher",
+        "endDate": "2026-03-02T00:00:00Z",
+        "volume": 5100,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.51", "0.49"],
+        "closed": false
+      }
+    ],
+    "tags": ["weather", "temperature", "atlanta", "march-2026", "future"]
+  },
+  {
+    "id": "mar1-dallas",
     "eventTitle": "Highest temperature in Dallas on March 1?",
     "eventSlug": "highest-temperature-in-dallas-on-march-1-2026",
     "url": "https://polymarket.com/event/highest-temperature-in-dallas-on-march-1-2026",
-    "endDate": "2026-03-01T12:00:00Z",
-    "volume": 145678.901234,
-    "liquidity": 8765.432109,
+    "endDate": "2026-03-02T00:00:00Z",
+    "volume": 18000,
+    "liquidity": 8000,
     "active": true,
     "markets": [
       {
-        "id": "1434350",
-        "question": "Will the highest temperature in Dallas be between 58-59°F on March 1?",
-        "conditionId": "0x0f4f7f6fgh4f7f3g0g8f5g0g0f5f2g1g0g6f2f3f2f1e0d9c8c7bea6f5d4c3b2a1f0",
-        "slug": "highest-temperature-in-dallas-on-march-1-2026-58-59f",
-        "url": "https://polymarket.com/market/highest-temperature-in-dallas-on-march-1-2026-58-59f",
-        "endDate": "2026-03-01T12:00:00Z",
-        "volume": 13456.789012,
+        "id": "mar1-dallas-1",
+        "question": "Will the highest temperature in Dallas be 72°F or higher on March 1?",
+        "conditionId": "0xtemp4",
+        "slug": "highest-temperature-in-dallas-on-march-1-2026-72forhigher",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-on-march-1-2026-72forhigher",
+        "endDate": "2026-03-02T00:00:00Z",
+        "volume": 9900,
         "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.99", "0.01"],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "dallas", "march-2026"]
+    "tags": ["weather", "temperature", "dallas", "march-2026", "future"]
   },
   {
-    "id": "229752",
+    "id": "mar1-ankara",
+    "eventTitle": "Highest temperature in Ankara on March 1?",
+    "eventSlug": "highest-temperature-in-ankara-on-march-1-2026",
+    "url": "https://polymarket.com/event/highest-temperature-in-ankara-on-march-1-2026",
+    "endDate": "2026-03-02T00:00:00Z",
+    "volume": 8000,
+    "liquidity": 3000,
+    "active": true,
+    "markets": [
+      {
+        "id": "mar1-ankara-1",
+        "question": "Will the highest temperature in Ankara be 10°C or higher on March 1?",
+        "conditionId": "0xtemp5",
+        "slug": "highest-temperature-in-ankara-on-march-1-2026-10corhigher",
+        "url": "https://polymarket.com/market/highest-temperature-in-ankara-on-march-1-2026-10corhigher",
+        "endDate": "2026-03-02T00:00:00Z",
+        "volume": 4500,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.55", "0.45"],
+        "closed": false
+      }
+    ],
+    "tags": ["weather", "temperature", "ankara", "march-2026", "future"]
+  },
+  {
+    "id": "mar1-seoul",
+    "eventTitle": "Highest temperature in Seoul on March 1?",
+    "eventSlug": "highest-temperature-in-seoul-on-march-1-2026",
+    "url": "https://polymarket.com/event/highest-temperature-in-seoul-on-march-1-2026",
+    "endDate": "2026-03-02T00:00:00Z",
+    "volume": 10000,
+    "liquidity": 4000,
+    "active": true,
+    "markets": [
+      {
+        "id": "mar1-seoul-1",
+        "question": "Will the highest temperature in Seoul be 8°C or higher on March 1?",
+        "conditionId": "0xtemp6",
+        "slug": "highest-temperature-in-seoul-on-march-1-2026-8corhigher",
+        "url": "https://polymarket.com/market/highest-temperature-in-seoul-on-march-1-2026-8corhigher",
+        "endDate": "2026-03-02T00:00:00Z",
+        "volume": 5800,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.60", "0.40"],
+        "closed": false
+      }
+    ],
+    "tags": ["weather", "temperature", "seoul", "march-2026", "future"]
+  },
+  {
+    "id": "mar1-miami",
+    "eventTitle": "Highest temperature in Miami on March 1?",
+    "eventSlug": "highest-temperature-in-miami-on-march-1-2026",
+    "url": "https://polymarket.com/event/highest-temperature-in-miami-on-march-1-2026",
+    "endDate": "2026-03-02T00:00:00Z",
+    "volume": 9000,
+    "liquidity": 4000,
+    "active": true,
+    "markets": [
+      {
+        "id": "mar1-miami-1",
+        "question": "Will the highest temperature in Miami be 84-85°F on March 1?",
+        "conditionId": "0xtemp7",
+        "slug": "highest-temperature-in-miami-on-march-1-2026-84-85f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-on-march-1-2026-84-85f",
+        "endDate": "2026-03-02T00:00:00Z",
+        "volume": 4200,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.45", "0.55"],
+        "closed": false
+      }
+    ],
+    "tags": ["weather", "temperature", "miami", "march-2026", "future"]
+  },
+  {
+    "id": "mar1-wellington",
+    "eventTitle": "Highest temperature in Wellington on March 1?",
+    "eventSlug": "highest-temperature-in-wellington-on-march-1-2026",
+    "url": "https://polymarket.com/event/highest-temperature-in-wellington-on-march-1-2026",
+    "endDate": "2026-03-02T00:00:00Z",
+    "volume": 7000,
+    "liquidity": 3000,
+    "active": true,
+    "markets": [
+      {
+        "id": "mar1-wellington-1",
+        "question": "Will the highest temperature in Wellington be 18°C or higher on March 1?",
+        "conditionId": "0xtemp8",
+        "slug": "highest-temperature-in-wellington-on-march-1-2026-18corhigher",
+        "url": "https://polymarket.com/market/highest-temperature-in-wellington-on-march-1-2026-18corhigher",
+        "endDate": "2026-03-02T00:00:00Z",
+        "volume": 3200,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.42", "0.58"],
+        "closed": false
+      }
+    ],
+    "tags": ["weather", "temperature", "wellington", "march-2026", "future"]
+  },
+  {
+    "id": "mar1-saopaulo",
     "eventTitle": "Highest temperature in Sao Paulo on March 1?",
     "eventSlug": "highest-temperature-in-sao-paulo-on-march-1-2026",
     "url": "https://polymarket.com/event/highest-temperature-in-sao-paulo-on-march-1-2026",
-    "endDate": "2026-03-01T12:00:00Z",
-    "volume": 123456.789012,
-    "liquidity": 7654.321098,
+    "endDate": "2026-03-02T00:00:00Z",
+    "volume": 8000,
+    "liquidity": 3500,
     "active": true,
     "markets": [
       {
-        "id": "1434370",
-        "question": "Will the highest temperature in Sao Paulo be between 82-83°F on March 1?",
-        "conditionId": "0x1f5f8f7fhi5f8f4h1h9f6h1h1f6f3h2h1h7f3f4f3f2f1e0d9c8c7bea6f5d4c3b2a1f0",
-        "slug": "highest-temperature-in-sao-paulo-on-march-1-2026-82-83f",
-        "url": "https://polymarket.com/market/highest-temperature-in-sao-paulo-on-march-1-2026-82-83f",
-        "endDate": "2026-03-01T12:00:00Z",
-        "volume": 11234.56789,
+        "id": "mar1-saopaulo-1",
+        "question": "Will the highest temperature in Sao Paulo be 28°C or higher on March 1?",
+        "conditionId": "0xtemp9",
+        "slug": "highest-temperature-in-sao-paulo-on-march-1-2026-28corhigher",
+        "url": "https://polymarket.com/market/highest-temperature-in-sao-paulo-on-march-1-2026-28corhigher",
+        "endDate": "2026-03-02T00:00:00Z",
+        "volume": 4100,
         "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.52", "0.48"],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "sao-paulo", "march-2026"]
+    "tags": ["weather", "temperature", "sao-paulo", "march-2026", "future"]
+  },
+  {
+    "id": "mar1-buenosaires",
+    "eventTitle": "Highest temperature in Buenos Aires on March 1?",
+    "eventSlug": "highest-temperature-in-buenos-aires-on-march-1-2026",
+    "url": "https://polymarket.com/event/highest-temperature-in-buenos-aires-on-march-1-2026",
+    "endDate": "2026-03-02T00:00:00Z",
+    "volume": 6000,
+    "liquidity": 2500,
+    "active": true,
+    "markets": [
+      {
+        "id": "mar1-buenosaires-1",
+        "question": "Will the highest temperature in Buenos Aires be 30°C or higher on March 1?",
+        "conditionId": "0xtemp10",
+        "slug": "highest-temperature-in-buenos-aires-on-march-1-2026-30corhigher",
+        "url": "https://polymarket.com/market/highest-temperature-in-buenos-aires-on-march-1-2026-30corhigher",
+        "endDate": "2026-03-02T00:00:00Z",
+        "volume": 2800,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.48", "0.52"],
+        "closed": false
+      }
+    ],
+    "tags": ["weather", "temperature", "buenos-aires", "march-2026", "future"]
+  },
+  {
+    "id": "mar1-chicago",
+    "eventTitle": "Highest temperature in Chicago on March 1?",
+    "eventSlug": "highest-temperature-in-chicago-on-march-1-2026",
+    "url": "https://polymarket.com/event/highest-temperature-in-chicago-on-march-1-2026",
+    "endDate": "2026-03-02T00:00:00Z",
+    "volume": 10000,
+    "liquidity": 4500,
+    "active": true,
+    "markets": [
+      {
+        "id": "mar1-chicago-1",
+        "question": "Will the highest temperature in Chicago be 42°F or higher on March 1?",
+        "conditionId": "0xtemp11",
+        "slug": "highest-temperature-in-chicago-on-march-1-2026-42forhigher",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-on-march-1-2026-42forhigher",
+        "endDate": "2026-03-02T00:00:00Z",
+        "volume": 5200,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.55", "0.45"],
+        "closed": false
+      }
+    ],
+    "tags": ["weather", "temperature", "chicago", "march-2026", "future"]
+  },
+  {
+    "id": "mar1-toronto",
+    "eventTitle": "Highest temperature in Toronto on March 1?",
+    "eventSlug": "highest-temperature-in-toronto-on-march-1-2026",
+    "url": "https://polymarket.com/event/highest-temperature-in-toronto-on-march-1-2026",
+    "endDate": "2026-03-02T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "mar1-toronto-1",
+        "question": "Will the highest temperature in Toronto be 4°C or higher on March 1?",
+        "conditionId": "0xtemp12",
+        "slug": "highest-temperature-in-toronto-on-march-1-2026-4corhigher",
+        "url": "https://polymarket.com/market/highest-temperature-in-toronto-on-march-1-2026-4corhigher",
+        "endDate": "2026-03-02T00:00:00Z",
+        "volume": 2100,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.45", "0.55"],
+        "closed": false
+      }
+    ],
+    "tags": ["weather", "temperature", "toronto", "march-2026", "future"]
+  },
+  {
+    "id": "mar1-london",
+    "eventTitle": "Highest temperature in London on March 1?",
+    "eventSlug": "highest-temperature-in-london-on-march-1-2026",
+    "url": "https://polymarket.com/event/highest-temperature-in-london-on-march-1-2026",
+    "endDate": "2026-03-02T00:00:00Z",
+    "volume": 15000,
+    "liquidity": 6000,
+    "active": true,
+    "markets": [
+      {
+        "id": "mar1-london-1",
+        "question": "Will the highest temperature in London be 12°C or higher on March 1?",
+        "conditionId": "0xtemp13",
+        "slug": "highest-temperature-in-london-on-march-1-2026-12corhigher",
+        "url": "https://polymarket.com/market/highest-temperature-in-london-on-march-1-2026-12corhigher",
+        "endDate": "2026-03-02T00:00:00Z",
+        "volume": 7800,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.52", "0.48"],
+        "closed": false
+      }
+    ],
+    "tags": ["weather", "temperature", "london", "march-2026", "future"]
+  },
+  {
+    "id": "mar1-paris",
+    "eventTitle": "Highest temperature in Paris on March 1?",
+    "eventSlug": "highest-temperature-in-paris-on-march-1-2026",
+    "url": "https://polymarket.com/event/highest-temperature-in-paris-on-march-1-2026",
+    "endDate": "2026-03-02T00:00:00Z",
+    "volume": 12000,
+    "liquidity": 5000,
+    "active": true,
+    "markets": [
+      {
+        "id": "mar1-paris-1",
+        "question": "Will the highest temperature in Paris be 14°C or higher on March 1?",
+        "conditionId": "0xtemp14",
+        "slug": "highest-temperature-in-paris-on-march-1-2026-14corhigher",
+        "url": "https://polymarket.com/market/highest-temperature-in-paris-on-march-1-2026-14corhigher",
+        "endDate": "2026-03-02T00:00:00Z",
+        "volume": 6200,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.50", "0.50"],
+        "closed": false
+      }
+    ],
+    "tags": ["weather", "temperature", "paris", "march-2026", "future"]
+  },
+  {
+    "id": "mar1-seattle",
+    "eventTitle": "Highest temperature in Seattle on March 1?",
+    "eventSlug": "highest-temperature-in-seattle-on-march-1-2026",
+    "url": "https://polymarket.com/event/highest-temperature-in-seattle-on-march-1-2026",
+    "endDate": "2026-03-02T00:00:00Z",
+    "volume": 9000,
+    "liquidity": 4000,
+    "active": true,
+    "markets": [
+      {
+        "id": "mar1-seattle-1",
+        "question": "Will the highest temperature in Seattle be 52-53°F on March 1?",
+        "conditionId": "0xtemp15",
+        "slug": "highest-temperature-in-seattle-on-march-1-2026-52-53f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-on-march-1-2026-52-53f",
+        "endDate": "2026-03-02T00:00:00Z",
+        "volume": 4100,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.48", "0.52"],
+        "closed": false
+      }
+    ],
+    "tags": ["weather", "temperature", "seattle", "march-2026", "future"]
+  },
+  {
+    "id": "feb28-nyc",
+    "eventTitle": "Highest temperature in NYC on February 28?",
+    "eventSlug": "highest-temperature-in-nyc-on-february-28-2026",
+    "url": "https://polymarket.com/event/highest-temperature-in-nyc-on-february-28-2026",
+    "endDate": "2026-03-01T00:00:00Z",
+    "volume": 46000,
+    "liquidity": 15000,
+    "active": true,
+    "markets": [
+      {
+        "id": "feb28-nyc-1",
+        "question": "Will the highest temperature in NYC be 50°F or higher on February 28?",
+        "conditionId": "0xtemp16",
+        "slug": "highest-temperature-in-nyc-on-february-28-2026-50forhigher",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-on-february-28-2026-50forhigher",
+        "endDate": "2026-03-01T00:00:00Z",
+        "volume": 18500,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.41", "0.59"],
+        "closed": false
+      }
+    ],
+    "tags": ["weather", "temperature", "nyc", "february-2026", "near-future"]
+  },
+  {
+    "id": "feb28-london",
+    "eventTitle": "Highest temperature in London on February 28?",
+    "eventSlug": "highest-temperature-in-london-on-february-28-2026",
+    "url": "https://polymarket.com/event/highest-temperature-in-london-on-february-28-2026",
+    "endDate": "2026-03-01T00:00:00Z",
+    "volume": 41000,
+    "liquidity": 12000,
+    "active": true,
+    "markets": [
+      {
+        "id": "feb28-london-1",
+        "question": "Will the highest temperature in London be 11°C on February 28?",
+        "conditionId": "0xtemp17",
+        "slug": "highest-temperature-in-london-on-february-28-2026-11c",
+        "url": "https://polymarket.com/market/highest-temperature-in-london-on-february-28-2026-11c",
+        "endDate": "2026-03-01T00:00:00Z",
+        "volume": 18900,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.46", "0.54"],
+        "closed": false
+      }
+    ],
+    "tags": ["weather", "temperature", "london", "february-2026", "near-future"]
+  },
+  {
+    "id": "feb28-wellington",
+    "eventTitle": "Highest temperature in Wellington on February 28?",
+    "eventSlug": "highest-temperature-in-wellington-on-february-28-2026",
+    "url": "https://polymarket.com/event/highest-temperature-in-wellington-on-february-28-2026",
+    "endDate": "2026-03-01T00:00:00Z",
+    "volume": 86000,
+    "liquidity": 25000,
+    "active": true,
+    "markets": [
+      {
+        "id": "feb28-wellington-1",
+        "question": "Will the highest temperature in Wellington be 19°C on February 28?",
+        "conditionId": "0xtemp18",
+        "slug": "highest-temperature-in-wellington-on-february-28-2026-19c",
+        "url": "https://polymarket.com/market/highest-temperature-in-wellington-on-february-28-2026-19c",
+        "endDate": "2026-03-01T00:00:00Z",
+        "volume": 39600,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.46", "0.54"],
+        "closed": false
+      }
+    ],
+    "tags": ["weather", "temperature", "wellington", "february-2026", "near-future"]
+  },
+  {
+    "id": "feb28-seoul",
+    "eventTitle": "Highest temperature in Seoul on February 28?",
+    "eventSlug": "highest-temperature-in-seoul-on-february-28-2026",
+    "url": "https://polymarket.com/event/highest-temperature-in-seoul-on-february-28-2026",
+    "endDate": "2026-03-01T00:00:00Z",
+    "volume": 76000,
+    "liquidity": 22000,
+    "active": true,
+    "markets": [
+      {
+        "id": "feb28-seoul-1",
+        "question": "Will the highest temperature in Seoul be 14°C or higher on February 28?",
+        "conditionId": "0xtemp19",
+        "slug": "highest-temperature-in-seoul-on-february-28-2026-14corhigher",
+        "url": "https://polymarket.com/market/highest-temperature-in-seoul-on-february-28-2026-14corhigher",
+        "endDate": "2026-03-01T00:00:00Z",
+        "volume": 33400,
+        "outcomes": ["Yes", "No"],
+        "outcomePrices": ["0.44", "0.56"],
+        "closed": false
+      }
+    ],
+    "tags": ["weather", "temperature", "seoul", "february-2026", "near-future"]
   }
 ]
