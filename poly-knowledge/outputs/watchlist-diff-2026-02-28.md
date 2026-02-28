@@ -1,6 +1,6 @@
 # Watchlist Diff - 2026-02-28
 
-> Generated: 2026-02-28T10:32:33.625Z
+> Generated: 2026-02-28T12:05:28.488Z
 > Today: 2026-02-28
 > Yesterday: 2026-02-27
 > First Run: No
@@ -21,16 +21,16 @@
 
 | # | Question | Rank | Score | Liquidity | Reason |
 |---|----------|------|-------|-----------|--------|
-| 1 | Ethereum Up or Down - February... | #13 | 5.8 | $12k | 新上榜，排名 #13，评分 5.8 |
-| 2 | Portland State Vikings vs. Mon... | #14 | 5.2 | $9k | 新上榜，排名 #14，评分 5.2 |
-| 3 | Spread: Jaguares de Córdoba FC... | #15 | 5.2 | $6k | 新上榜，排名 #15，评分 5.2 |
-| 4 | Nevada Wolf Pack vs. UNLV Runn... | #16 | 5.2 | $5k | 新上榜，排名 #16，评分 5.2 |
-| 5 | Spread: West Ham United FC (-1... | #17 | 5.2 | $3k | 新上榜，排名 #17，评分 5.2 |
-| 6 | Will Kristoffer Reitan finish ... | #18 | 5.2 | $2k | 新上榜，排名 #18，评分 5.2 |
-| 7 | Spread: Wyoming Cowboys (-21.5... | #19 | 5.2 | $2k | 新上榜，排名 #19，评分 5.2 |
-| 8 | Spread: Pyramids FC (-2.5)... | #20 | 5.2 | $1k | 新上榜，排名 #20，评分 5.2 |
-| 9 | US forces in Venezuela again b... | #21 | 5.2 | $1k | 新上榜，排名 #21，评分 5.2 |
-| 10 | Spread: Boise State Broncos (-... | #22 | 5.2 | $1k | 新上榜，排名 #22，评分 5.2 |
+| 1 | Bitcoin Up or Down - February ... | #1 | 5.8 | $15k | 新上榜，排名 #1，评分 5.8 |
+| 2 | Ethereum Up or Down - February... | #13 | 5.8 | $12k | 新上榜，排名 #13，评分 5.8 |
+| 3 | Spread: Jaguares de Córdoba FC... | #14 | 5.8 | $10k | 新上榜，排名 #14，评分 5.8 |
+| 4 | Portland State Vikings vs. Mon... | #15 | 5.2 | $6k | 新上榜，排名 #15，评分 5.2 |
+| 5 | Nevada Wolf Pack vs. UNLV Runn... | #16 | 5.2 | $5k | 新上榜，排名 #16，评分 5.2 |
+| 6 | Spread: West Ham United FC (-1... | #17 | 5.2 | $3k | 新上榜，排名 #17，评分 5.2 |
+| 7 | US forces in Venezuela again b... | #19 | 5.2 | $2k | 新上榜，排名 #19，评分 5.2 |
+| 8 | Will Kristoffer Reitan finish ... | #20 | 5.2 | $2k | 新上榜，排名 #20，评分 5.2 |
+| 9 | Spread: Pyramids FC (-2.5)... | #21 | 5.2 | $2k | 新上榜，排名 #21，评分 5.2 |
+| 10 | Rockets vs. Heat: 1H Moneyline... | #22 | 5.2 | $2k | 新上榜，排名 #22，评分 5.2 |
 
 _... and 6 more_
 
@@ -63,22 +63,22 @@ _No significant spread moves_
 
 | # | Question | Change | Today | Yesterday | Reason |
 |---|----------|--------|-------|-----------|--------|
-| 1 | Spread: FC København (-2.... | +244% | $13k | $4k | 流动性增加 244% ($3,912 → $13,469) |
+| 1 | Spread: FC København (-2.... | -35% | $3k | $4k | 流动性减少 35% ($3,912 → $2,535) |
 
 ## Top Movers (综合异动)
 
 | # | Question | Change Score | Rank Change | Reason |
 |---|----------|--------------|-------------|--------|
-| 1 | Spread: FC København (-2.... | 25.0 | 24→4 (↑20) | 综合变化得分 25.0，排名 24 → 4 |
+| 1 | Spread: FC København (-2.... | 3.5 | 24→18 (↑6) | 综合变化得分 3.5，排名 24 → 18 |
 | 2 | Solana Up or Down - Febru... | 1.1 | 22→11 (↑11) | 综合变化得分 1.1，排名 22 → 11 |
 | 3 | XRP Up or Down - February... | 0.9 | 21→12 (↑9) | 综合变化得分 0.9，排名 21 → 12 |
-| 4 | Ethereum Up or Down - Feb... | 0.1 | 14→2 (↑12) | 综合变化得分 0.1，排名 14 → 2 |
-| 5 | XRP Up or Down - February... | 0.0 | 20→10 (↑10) | 综合变化得分 0.0，排名 20 → 10 |
-| 6 | XRP Up or Down - February... | 0.0 | 19→7 (↑12) | 综合变化得分 0.0，排名 19 → 7 |
-| 7 | Solana Up or Down - Febru... | 0.0 | 18→5 (↑13) | 综合变化得分 0.0，排名 18 → 5 |
-| 8 | Ethereum Up or Down - Feb... | 0.0 | 13→3 (↑10) | 综合变化得分 0.0，排名 13 → 3 |
-| 9 | Ethereum Up or Down - Feb... | 0.0 | 12→1 (↑11) | 综合变化得分 0.0，排名 12 → 1 |
-| 10 | Solana Up or Down - Febru... | 0.0 | 15→8 (↑7) | 综合变化得分 0.0，排名 15 → 8 |
+| 4 | Solana Up or Down - Febru... | 0.4 | 16→10 (↑6) | 综合变化得分 0.4，排名 16 → 10 |
+| 5 | Ethereum Up or Down - Feb... | 0.1 | 14→3 (↑11) | 综合变化得分 0.1，排名 14 → 3 |
+| 6 | Solana Up or Down - Febru... | 0.1 | 18→5 (↑13) | 综合变化得分 0.1，排名 18 → 5 |
+| 7 | XRP Up or Down - February... | 0.1 | 20→9 (↑11) | 综合变化得分 0.1，排名 20 → 9 |
+| 8 | XRP Up or Down - February... | 0.1 | 19→7 (↑12) | 综合变化得分 0.1，排名 19 → 7 |
+| 9 | Ethereum Up or Down - Feb... | 0.1 | 13→4 (↑9) | 综合变化得分 0.1，排名 13 → 4 |
+| 10 | Ethereum Up or Down - Feb... | 0.1 | 12→2 (↑10) | 综合变化得分 0.1，排名 12 → 2 |
 
 ---
 

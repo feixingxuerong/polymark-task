@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28T10:32:33.610Z",
+  "generated_at": "2026-02-28T12:05:28.473Z",
   "today_date": "2026-02-28",
   "yesterday_date": "2026-02-27",
   "first_run": false,
@@ -14,29 +14,38 @@
   },
   "new_entries": [
     {
+      "market_id": "1460106",
+      "question": "Bitcoin Up or Down - February 28, 4:50PM-4:55PM ET",
+      "rank": 1,
+      "score": 5.799999999999999,
+      "liquidity": 15207.3031,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #1，评分 5.8"
+    },
+    {
       "market_id": "1459812",
       "question": "Ethereum Up or Down - February 28, 4:00PM-8:00PM ET",
       "rank": 13,
       "score": 5.799999999999999,
-      "liquidity": 12105.688,
+      "liquidity": 11860.688,
       "implied_probability": null,
       "reason": "新上榜，排名 #13，评分 5.8"
     },
     {
-      "market_id": "1411069",
-      "question": "Portland State Vikings vs. Montana Grizzlies",
-      "rank": 14,
-      "score": 5.199999999999999,
-      "liquidity": 9411.4673,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #14，评分 5.2"
-    },
-    {
       "market_id": "1447006",
       "question": "Spread: Jaguares de Córdoba FC (-2.5)",
+      "rank": 14,
+      "score": 5.799999999999999,
+      "liquidity": 10368.8567,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #14，评分 5.8"
+    },
+    {
+      "market_id": "1411069",
+      "question": "Portland State Vikings vs. Montana Grizzlies",
       "rank": 15,
       "score": 5.199999999999999,
-      "liquidity": 6015.9002,
+      "liquidity": 6458.8573,
       "implied_probability": null,
       "reason": "新上榜，排名 #15，评分 5.2"
     },
@@ -45,7 +54,7 @@
       "question": "Nevada Wolf Pack vs. UNLV Runnin' Rebels",
       "rank": 16,
       "score": 5.199999999999999,
-      "liquidity": 5447.4082,
+      "liquidity": 5424.0488,
       "implied_probability": null,
       "reason": "新上榜，排名 #16，评分 5.2"
     },
@@ -54,79 +63,70 @@
       "question": "Spread: West Ham United FC (-1.5)",
       "rank": 17,
       "score": 5.199999999999999,
-      "liquidity": 2552.442,
+      "liquidity": 2554.7422,
       "implied_probability": null,
       "reason": "新上榜，排名 #17，评分 5.2"
     },
     {
-      "market_id": "1430239",
-      "question": "Will Kristoffer Reitan finish in the Top 5 at the 2026 Cognizant Classic in The Palm Beaches?",
-      "rank": 18,
-      "score": 5.199999999999999,
-      "liquidity": 2349.4798,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #18，评分 5.2"
-    },
-    {
-      "market_id": "1463593",
-      "question": "Spread: Wyoming Cowboys (-21.5)",
+      "market_id": "1399380",
+      "question": "US forces in Venezuela again by March 31, 2026?",
       "rank": 19,
       "score": 5.199999999999999,
-      "liquidity": 1508.4782,
+      "liquidity": 2404.3252,
       "implied_probability": null,
       "reason": "新上榜，排名 #19，评分 5.2"
     },
     {
-      "market_id": "1446391",
-      "question": "Spread: Pyramids FC (-2.5)",
+      "market_id": "1430239",
+      "question": "Will Kristoffer Reitan finish in the Top 5 at the 2026 Cognizant Classic in The Palm Beaches?",
       "rank": 20,
       "score": 5.199999999999999,
-      "liquidity": 1452.1764,
+      "liquidity": 2350.0798,
       "implied_probability": null,
       "reason": "新上榜，排名 #20，评分 5.2"
     },
     {
-      "market_id": "1399380",
-      "question": "US forces in Venezuela again by March 31, 2026?",
+      "market_id": "1446391",
+      "question": "Spread: Pyramids FC (-2.5)",
       "rank": 21,
       "score": 5.199999999999999,
-      "liquidity": 1399.135,
+      "liquidity": 1717.4452,
       "implied_probability": null,
       "reason": "新上榜，排名 #21，评分 5.2"
     },
     {
-      "market_id": "1463585",
-      "question": "Spread: Boise State Broncos (-7.5)",
+      "market_id": "1462553",
+      "question": "Rockets vs. Heat: 1H Moneyline",
       "rank": 22,
       "score": 5.199999999999999,
-      "liquidity": 1398.1296,
+      "liquidity": 1634.6493,
       "implied_probability": null,
       "reason": "新上榜，排名 #22，评分 5.2"
     },
     {
-      "market_id": "1463939",
-      "question": "Baylor Bears vs. UCF Knights: O/U 158.5",
+      "market_id": "1463585",
+      "question": "Spread: Boise State Broncos (-7.5)",
       "rank": 23,
       "score": 5.199999999999999,
-      "liquidity": 1333.9798,
+      "liquidity": 1398.1296,
       "implied_probability": null,
       "reason": "新上榜，排名 #23，评分 5.2"
     },
     {
-      "market_id": "1427844",
-      "question": "KHL: Admiral Vladivostok vs. Salavat Yulaev Ufa",
+      "market_id": "1463593",
+      "question": "Spread: Wyoming Cowboys (-21.5)",
       "rank": 24,
       "score": 5.199999999999999,
-      "liquidity": 1307.153,
+      "liquidity": 1377.1782,
       "implied_probability": null,
       "reason": "新上榜，排名 #24，评分 5.2"
     },
     {
-      "market_id": "1462553",
-      "question": "Rockets vs. Heat: 1H Moneyline",
+      "market_id": "1463939",
+      "question": "Baylor Bears vs. UCF Knights: O/U 158.5",
       "rank": 25,
       "score": 5.199999999999999,
-      "liquidity": 1185.7498,
+      "liquidity": 1333.9798,
       "implied_probability": null,
       "reason": "新上榜，排名 #25，评分 5.2"
     },
@@ -294,21 +294,21 @@
     {
       "market_id": "1382469",
       "question": "Spread: FC København (-2.5)",
-      "today_liquidity": 13468.9265,
+      "today_liquidity": 2535.1999,
       "yesterday_liquidity": 3911.895,
-      "liquidity_change_pct": 244.30695353530703,
-      "direction": "increased",
-      "reason": "流动性增加 244% ($3,912 → $13,469)"
+      "liquidity_change_pct": -35.19253712075605,
+      "direction": "decreased",
+      "reason": "流动性减少 35% ($3,912 → $2,535)"
     }
   ],
   "top_movers": [
     {
       "market_id": "1382469",
       "question": "Spread: FC København (-2.5)",
-      "today_rank": 4,
+      "today_rank": 18,
       "yesterday_rank": 24,
-      "change_score": 25.030695353530703,
-      "reason": "综合变化得分 25.0，排名 24 → 4"
+      "change_score": 3.519253712075605,
+      "reason": "综合变化得分 3.5，排名 24 → 18"
     },
     {
       "market_id": "1456313",
@@ -323,64 +323,64 @@
       "question": "XRP Up or Down - February 28, 2:00PM-2:15PM ET",
       "today_rank": 12,
       "yesterday_rank": 21,
-      "change_score": 0.8847057964365841,
+      "change_score": 0.9162621587308302,
       "reason": "综合变化得分 0.9，排名 21 → 12"
+    },
+    {
+      "market_id": "1453997",
+      "question": "Solana Up or Down - February 28, 7:25AM-7:30AM ET",
+      "today_rank": 10,
+      "yesterday_rank": 16,
+      "change_score": 0.41613734974694483,
+      "reason": "综合变化得分 0.4，排名 16 → 10"
     },
     {
       "market_id": "1456073",
       "question": "Ethereum Up or Down - February 28, 1:55PM-2:00PM ET",
-      "today_rank": 2,
+      "today_rank": 3,
       "yesterday_rank": 14,
-      "change_score": 0.08297417280729932,
-      "reason": "综合变化得分 0.1，排名 14 → 2"
-    },
-    {
-      "market_id": "1456466",
-      "question": "XRP Up or Down - February 28, 2:35PM-2:40PM ET",
-      "today_rank": 10,
-      "yesterday_rank": 20,
-      "change_score": 0.044538581209021766,
-      "reason": "综合变化得分 0.0，排名 20 → 10"
-    },
-    {
-      "market_id": "1456428",
-      "question": "XRP Up or Down - February 28, 2:25PM-2:30PM ET",
-      "today_rank": 7,
-      "yesterday_rank": 19,
-      "change_score": 0.04451553071221464,
-      "reason": "综合变化得分 0.0，排名 19 → 7"
+      "change_score": 0.1088394470117799,
+      "reason": "综合变化得分 0.1，排名 14 → 3"
     },
     {
       "market_id": "1456467",
       "question": "Solana Up or Down - February 28, 2:35PM-2:40PM ET",
       "today_rank": 5,
       "yesterday_rank": 18,
-      "change_score": 0.04427520224470283,
-      "reason": "综合变化得分 0.0，排名 18 → 5"
+      "change_score": 0.06890607045878955,
+      "reason": "综合变化得分 0.1，排名 18 → 5"
+    },
+    {
+      "market_id": "1456466",
+      "question": "XRP Up or Down - February 28, 2:35PM-2:40PM ET",
+      "today_rank": 9,
+      "yesterday_rank": 20,
+      "change_score": 0.0683446340290707,
+      "reason": "综合变化得分 0.1，排名 20 → 9"
+    },
+    {
+      "market_id": "1456428",
+      "question": "XRP Up or Down - February 28, 2:25PM-2:30PM ET",
+      "today_rank": 7,
+      "yesterday_rank": 19,
+      "change_score": 0.06830884225256384,
+      "reason": "综合变化得分 0.1，排名 19 → 7"
     },
     {
       "market_id": "1456430",
       "question": "Ethereum Up or Down - February 28, 2:25PM-2:30PM ET",
-      "today_rank": 3,
+      "today_rank": 4,
       "yesterday_rank": 13,
-      "change_score": 0.04122077506068685,
-      "reason": "综合变化得分 0.0，排名 13 → 3"
+      "change_score": 0.06698789477665784,
+      "reason": "综合变化得分 0.1，排名 13 → 4"
     },
     {
       "market_id": "1456469",
       "question": "Ethereum Up or Down - February 28, 2:35PM-2:40PM ET",
-      "today_rank": 1,
+      "today_rank": 2,
       "yesterday_rank": 12,
-      "change_score": 0.04120007806066185,
-      "reason": "综合变化得分 0.0，排名 12 → 1"
-    },
-    {
-      "market_id": "1454459",
-      "question": "Solana Up or Down - February 28, 9:35AM-9:40AM ET",
-      "today_rank": 8,
-      "yesterday_rank": 15,
-      "change_score": 0.02937525657412665,
-      "reason": "综合变化得分 0.0，排名 15 → 8"
+      "change_score": 0.06557174382359492,
+      "reason": "综合变化得分 0.1，排名 12 → 2"
     }
   ]
 }
