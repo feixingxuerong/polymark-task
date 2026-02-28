@@ -434,17 +434,12 @@ function processWeatherItem(item, weatherStations) {
     stationData = weatherStations.find(s => s.station.id === stationId);
   }
   
-  // 如果没找到，尝试找美国站点的默认
-  if (!stationData) {
-    // 尝试 KNYC (Central Park) 作为 NYC 默认
-    stationData = weatherStations.find(s => s.station.id === 'KNYC') || 
-                  weatherStations[0]; // fallback 到第一个
-  }
-  
+  // If we can't map the city to a covered station, do NOT fall back to a random US station.
+  // That would produce misleading probabilities for intl/unknown cities.
   if (!stationData) {
     return {
       success: false,
-      reason: 'no_station_data',
+      reason: 'station_not_covered',
       parsed
     };
   }

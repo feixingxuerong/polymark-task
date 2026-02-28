@@ -1175,8 +1175,22 @@ async function main() {
   const weatherOnly = results.filter(r => r.category === 'weather');
   const otherMarkets = results.filter(r => r.category !== 'weather');
   
-  // Sort weather: research action label + weather_signal_score
+  // Sort weather: prefer items that are likely "covered" by our current probability engine (US stations)
+  // Heuristic: question mentions a covered US city token. This is intentionally simple and can be replaced
+  // by resolution_parsed.station matching later.
+  const COVERED_CITY_TOKENS = [
+    'nyc', 'new york', 'central park', 'dallas', 'dfw', 'miami', 'chicago', 'seattle', 'denver', 'los angeles', 'la'
+  ];
+  function isCoveredWeatherItem(item) {
+    const q = String(item.question || '').toLowerCase();
+    return COVERED_CITY_TOKENS.some(t => q.includes(t));
+  }
+
+  // Sort weather: covered-first, then research action label + weather_signal_score
   weatherOnly.sort((a, b) => {
+    const coveredDiff = (isCoveredWeatherItem(b) ? 1 : 0) - (isCoveredWeatherItem(a) ? 1 : 0);
+    if (coveredDiff !== 0) return coveredDiff;
+
     const priorityDiff = getResearchPriorityScore(b) - getResearchPriorityScore(a);
     if (priorityDiff !== 0) return priorityDiff;
     
