@@ -214,6 +214,7 @@ async function getFeeRate(tokenId) {
   }
 }
 
+
 // === METRICS CALCULATION ===
 function calculateMetrics(market, orderbook, midpointData, lastTradeData, feeData) {
   const now = new Date();
@@ -231,7 +232,7 @@ function calculateMetrics(market, orderbook, midpointData, lastTradeData, feeDat
     // From Gamma API
     volume: parseFloat(market.volume) || 0,
     liquidity: parseFloat(market.liquidity) || 0,
-    clobTokenIds: normalizeClobTokenIds(market.clobTokenIds),
+    clobTokenIds: extractTokenIds(market).tokenIds,
     startDate: market.startDate || null,
     endDate: market.endDate || null,
     acceptingOrders: market.acceptingOrders || false,
