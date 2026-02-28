@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28T12:05:28.473Z",
+  "generated_at": "2026-02-28T12:08:25.398Z",
   "today_date": "2026-02-28",
   "yesterday_date": "2026-02-27",
   "first_run": false,
@@ -149,11 +149,11 @@
       "reason": "新上榜，排名 #29，评分 4.0"
     },
     {
-      "market_id": "mar1-miami-1",
-      "question": "Will the highest temperature in Miami be 84-85°F on March 1?",
+      "market_id": "2026-03-01-philadelphia-0",
+      "question": "Will the highest temperature in Philadelphia be 50°F or above on March 01?",
       "rank": 30,
       "score": 4,
-      "liquidity": 420,
+      "liquidity": 500,
       "implied_probability": null,
       "reason": "新上榜，排名 #30，评分 4.0"
     }

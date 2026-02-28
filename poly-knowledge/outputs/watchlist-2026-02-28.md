@@ -1,6 +1,6 @@
 # Daily Watchlist - 2026-02-28
 
-> Generated: 2026-02-28T12:05:28.414Z
+> Generated: 2026-02-28T12:08:25.339Z
 > Total candidates: 279
 > TopN: 30 (weather quota: 5)
 > Weather in Top30: 5 (aviation: 0)
@@ -40,7 +40,7 @@
 | 27 | Will the highest tem... | N/A | N/A | $1k | 1d | **4.0** | 6.3 | weather | 研究-跟踪 | poor |
 | 28 | Will the highest tem... | N/A | N/A | $1k | 1d | **4.0** | 6.3 | weather | 研究-跟踪 | poor |
 | 29 | Will the highest tem... | N/A | N/A | $1k | 1d | **4.0** | 6.3 | weather | 研究-跟踪 | poor |
-| 30 | Will the highest tem... | N/A | N/A | $0k | 1d | **4.0** | 6.3 | weather | 研究-跟踪 | poor |
+| 30 | Will the highest tem... | N/A | N/A | $1k | 1d | **4.0** | 6.3 | weather | 研究-跟踪 | poor |
 
 ---
 
@@ -553,12 +553,12 @@
 | **监控源** | === 实时数据源 (已接入 weather-aviation-sources) ===, • Central Park, NY (KNYC): https://api.weather.gov/gridpoints/OKX/34,38/forecast, • JFK Airport, NY (KJFK): https://api.weather.gov/gridpoints/OKX/42,33/forecast, • Dallas/Fort Worth, TX (KDFW): https://api.weather.gov/gridpoints/FWD/80,109/forecast, • Seattle, WA (KSEA): https://api.weather.gov/gridpoints/SEW/124,61/forecast, • Denver, CO (KDEN): https://api.weather.gov/gridpoints/BOU/74,66/forecast, === 备用/验证源 ===, NOAA/NWS weather.gov - 官方预报, ECMWF europepm.eu - 欧洲中期预报, GFS NCEP - 美国全球预报系统, Weather.com / AccuWeather - 辅助验证 |
 | **链接** | [Polymarket](https://polymarket.com/market/highest-temperature-in-atlanta-on-march-1-2026-76forhigher) |
 
-### #30 Will the highest temperature in Miami be 84-85°F on March 1?
+### #30 Will the highest temperature in Philadelphia be 50°F or above on March 01?
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $420 |
+| **流动性** | $500 |
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
@@ -570,7 +570,7 @@
 | **理由** | 天气类市场依赖气象数据结算，1天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。 |
 | **Key Risks** | ⚠️ 模型漂移：数值预报随时间剧烈调整, ⚠️ 结算口径：部分市场按站点平均，部分按特定站点, ⚠️ 数据中断：NOAA/ECMWF 数据接口临时不可用, ⚠️ 黑天鹅：极端天气事件超出模型预测范围, ⚠️ Neg Risk 市场 - 风险较高 |
 | **监控源** | === 实时数据源 (已接入 weather-aviation-sources) ===, • Central Park, NY (KNYC): https://api.weather.gov/gridpoints/OKX/34,38/forecast, • JFK Airport, NY (KJFK): https://api.weather.gov/gridpoints/OKX/42,33/forecast, • Dallas/Fort Worth, TX (KDFW): https://api.weather.gov/gridpoints/FWD/80,109/forecast, • Seattle, WA (KSEA): https://api.weather.gov/gridpoints/SEW/124,61/forecast, • Denver, CO (KDEN): https://api.weather.gov/gridpoints/BOU/74,66/forecast, === 备用/验证源 ===, NOAA/NWS weather.gov - 官方预报, ECMWF europepm.eu - 欧洲中期预报, GFS NCEP - 美国全球预报系统, Weather.com / AccuWeather - 辅助验证 |
-| **链接** | [Polymarket](https://polymarket.com/market/highest-temperature-in-miami-on-march-1-2026-84-85f) |
+| **链接** | [Polymarket](https://polymarket.com/market/highest-temperature-in-philadelphia-2026-03-01-50f) |
 
 ---
 
