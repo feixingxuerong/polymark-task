@@ -25,6 +25,9 @@ const __dirname = dirname(__filename);
 // 导入结算口径解析器
 import { parseRules as parseResolutionRules } from './parse-resolution-rules.mjs';
 
+// TokenId helpers (Gamma clobTokenIds can be array or JSON string)
+import { extractTokenIds } from './token-ids.mjs';
+
 // === CONFIG ===
 const GAMMA_API = 'https://gamma-api.polymarket.com';
 const CLOB_API = 'https://clob.polymarket.com';
@@ -95,28 +98,6 @@ async function fetchJSON(url, options = {}) {
     throw new Error(`HTTP ${response.status}: ${response.statusText}`);
   }
   return response.json();
-}
-
-// === TOKEN ID HELPERS ===
-function normalizeClobTokenIds(clobTokenIds) {
-  if (!clobTokenIds) return [];
-  if (Array.isArray(clobTokenIds)) return clobTokenIds;
-  if (typeof clobTokenIds === 'string') {
-    try {
-      const parsed = JSON.parse(clobTokenIds);
-      return Array.isArray(parsed) ? parsed : [];
-    } catch {
-      return [];
-    }
-  }
-  return [];
-}
-
-function extractTokenIds(market) {
-  const tokenIds = normalizeClobTokenIds(market?.clobTokenIds);
-  const yesTokenId = tokenIds[0] && typeof tokenIds[0] === 'string' && tokenIds[0].startsWith('0x') ? tokenIds[0] : null;
-  const noTokenId = tokenIds[1] && typeof tokenIds[1] === 'string' && tokenIds[1].startsWith('0x') ? tokenIds[1] : null;
-  return { tokenIds, yesTokenId, noTokenId };
 }
 
 // === API CALLS ===
