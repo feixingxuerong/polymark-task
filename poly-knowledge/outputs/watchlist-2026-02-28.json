@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28T00:54:27.837Z",
+  "generated_at": "2026-02-28T01:57:28.422Z",
   "total_candidates": 69,
   "top_n": 30,
   "weather_quota": 5,
@@ -24,20 +24,20 @@
     {
       "category": "crypto",
       "rank": 1,
-      "market_id": "1455717",
-      "conditionId": "0x963792f4df6b081ed5a17f336554479c75cc89e5fd8106b33e2c98b382d07c8d",
-      "slug": "btc-updown-5m-1772301600",
-      "url": "https://polymarket.com/market/btc-updown-5m-1772301600",
-      "question": "Bitcoin Up or Down - February 28, 1:00PM-1:05PM ET",
+      "market_id": "1456432",
+      "conditionId": "0x1b18e8a96a517f463edbd9265d14563579cea2d1815253d1f7eb2ca7e6859a58",
+      "slug": "btc-updown-5m-1772307000",
+      "url": "https://polymarket.com/market/btc-updown-5m-1772307000",
+      "question": "Bitcoin Up or Down - February 28, 2:30PM-2:35PM ET",
       "description": "This market will resolve to \"Up\" if the Bitcoin price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the BTC/USD data stream available at https://data.chain.link/streams/btc-usd.\nPlease note that this market is about the price according to Chainlink data stream BTC/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 16047.5684,
+      "liquidity": 16077.7939,
       "clobTokenIds": [
-        "25461646992820699671129191413985522049364005464791051867946038442119081209641",
-        "96831017436757967888035257669184192978971706759979977155854712819070306888098"
+        "35323534188649269133592242164781451683565068333526033794553705604309011599196",
+        "59906491724393757018022040635766302692911721721530651617645459732225412627315"
       ],
-      "startDate": "2026-02-27T18:08:38.48248Z",
-      "endDate": "2026-02-28T18:05:00Z",
+      "startDate": "2026-02-27T19:38:16.734419Z",
+      "endDate": "2026-02-28T19:35:00Z",
       "acceptingOrders": true,
       "negRisk": false,
       "implied_probability": null,
@@ -46,7 +46,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7156502893518518,
+      "days_to_event": 0.7343934375,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -65,7 +65,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $16,048 | 1天后到期 | 低风险",
+      "reason": "高流动性 $16,078 | 1天后到期 | 低风险",
       "action": "观察 - 等待价格信号",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -88,20 +88,20 @@
     {
       "category": "crypto",
       "rank": 2,
-      "market_id": "1455373",
-      "conditionId": "0x098d82c6c09f481f8818d35b9d1bea7e72904ddb7a151cf5a6be2f3b9e83bbab",
-      "slug": "btc-updown-5m-1772297700",
-      "url": "https://polymarket.com/market/btc-updown-5m-1772297700",
-      "question": "Bitcoin Up or Down - February 28, 11:55AM-12:00PM ET",
+      "market_id": "1455717",
+      "conditionId": "0x963792f4df6b081ed5a17f336554479c75cc89e5fd8106b33e2c98b382d07c8d",
+      "slug": "btc-updown-5m-1772301600",
+      "url": "https://polymarket.com/market/btc-updown-5m-1772301600",
+      "question": "Bitcoin Up or Down - February 28, 1:00PM-1:05PM ET",
       "description": "This market will resolve to \"Up\" if the Bitcoin price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the BTC/USD data stream available at https://data.chain.link/streams/btc-usd.\nPlease note that this market is about the price according to Chainlink data stream BTC/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 16046.307,
+      "liquidity": 16076.7684,
       "clobTokenIds": [
-        "6728423034136567673328697118610334714645372940911589859568173702469792143206",
-        "51185551424537072554274322134434034573333223832094871552170499221932864114374"
+        "25461646992820699671129191413985522049364005464791051867946038442119081209641",
+        "96831017436757967888035257669184192978971706759979977155854712819070306888098"
       ],
-      "startDate": "2026-02-27T17:03:17.011437Z",
-      "endDate": "2026-02-28T17:00:00Z",
+      "startDate": "2026-02-27T18:08:38.48248Z",
+      "endDate": "2026-02-28T18:05:00Z",
       "acceptingOrders": true,
       "negRisk": false,
       "implied_probability": null,
@@ -110,7 +110,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.6705115162037038,
+      "days_to_event": 0.6718935763888889,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -129,7 +129,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $16,046 | 1天后到期 | 低风险",
+      "reason": "高流动性 $16,077 | 1天后到期 | 低风险",
       "action": "观察 - 等待价格信号",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -159,7 +159,7 @@
       "question": "Bitcoin Up or Down - February 28, 2:40PM-2:45PM ET",
       "description": "This market will resolve to \"Up\" if the Bitcoin price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the BTC/USD data stream available at https://data.chain.link/streams/btc-usd.\nPlease note that this market is about the price according to Chainlink data stream BTC/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 16043.2693,
+      "liquidity": 16072.6693,
       "clobTokenIds": [
         "23425651138617226826235635245220086617038895694404958915865383556073645385772",
         "18608649393559759669626544940283668684561705693266299716469617121466347161848"
@@ -174,7 +174,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7850948263888888,
+      "days_to_event": 0.7413379976851852,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -193,7 +193,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $16,043 | 1天后到期 | 低风险",
+      "reason": "高流动性 $16,073 | 1天后到期 | 低风险",
       "action": "观察 - 等待价格信号",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -216,70 +216,6 @@
     {
       "category": "crypto",
       "rank": 4,
-      "market_id": "1453986",
-      "conditionId": "0x41b302e627f9ecf98340e29b1e6ed9de71ec23ad2c1fc7e1f36a25d46b673a17",
-      "slug": "btc-updown-5m-1772281200",
-      "url": "https://polymarket.com/market/btc-updown-5m-1772281200",
-      "question": "Bitcoin Up or Down - February 28, 7:20AM-7:25AM ET",
-      "description": "This market will resolve to \"Up\" if the Bitcoin price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the BTC/USD data stream available at https://data.chain.link/streams/btc-usd.\nPlease note that this market is about the price according to Chainlink data stream BTC/USD, not according to other sources or spot markets.",
-      "volume": 10,
-      "liquidity": 16014.1144,
-      "clobTokenIds": [
-        "27445640548623023953785953318742692898256771851527098486471069559687885751646",
-        "93265903249727492582786062711723772543051710654033752119570137137398439839046"
-      ],
-      "startDate": "2026-02-27T12:28:10.789056Z",
-      "endDate": "2026-02-28T12:25:00Z",
-      "acceptingOrders": true,
-      "negRisk": false,
-      "implied_probability": null,
-      "best_bid": null,
-      "best_ask": null,
-      "spread_abs": null,
-      "spread_pct": null,
-      "depth_proxy": 0,
-      "days_to_event": 0.4795392476851852,
-      "fee_rate": null,
-      "last_trade_price": null,
-      "last_trade_time": null,
-      "midpoint": null,
-      "volatility_level": "low",
-      "uma_resolution_status": "unknown",
-      "resolution_source": "unknown",
-      "risk": "medium",
-      "scores": {
-        "liquidity_score": 7,
-        "spread_score": 1,
-        "volatility_score": 10,
-        "settlement_clarity_score": 5,
-        "event_calendar_score": 10,
-        "hedgeability_score": 1,
-        "risk_level_score": 6,
-        "total": 5.799999999999999
-      },
-      "reason": "高流动性 $16,014 | 0天后到期 | 低风险",
-      "action": "观察 - 等待价格信号",
-      "research_priority": null,
-      "trade_feasibility": "ok",
-      "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
-      "key_risks": [
-        "SEC/FDA 等机构突发审批决定",
-        "巨鲸操作导致价格剧烈波动",
-        "交易所技术故障",
-        "波动性过高导致点差扩大"
-      ],
-      "monitor_sources": [
-        "CoinGecko / CoinMarketCap 实时价格",
-        "TradingView 技术分析",
-        "SEC/FDA 官方公告",
-        "Twitter/X 加密社区"
-      ],
-      "thesis": "加密市场波动性高，0天后到期。需关注价格源和时间窗口，防止极端波动。",
-      "resolution_parsed": null
-    },
-    {
-      "category": "crypto",
-      "rank": 5,
       "market_id": "1455625",
       "conditionId": "0x0c0e4a49660290f846b51a58773e949501727af18e158886fd3bf0b83666d7cb",
       "slug": "btc-updown-5m-1772300400",
@@ -287,7 +223,7 @@
       "question": "Bitcoin Up or Down - February 28, 12:40PM-12:45PM ET",
       "description": "This market will resolve to \"Up\" if the Bitcoin price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the BTC/USD data stream available at https://data.chain.link/streams/btc-usd.\nPlease note that this market is about the price according to Chainlink data stream BTC/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 15942.178,
+      "liquidity": 16067.678,
       "clobTokenIds": [
         "74662748108446265128036536183280395837397662382822834257010555623195535805173",
         "24726381282172357853430817160991702058025419329777681388938205407816171503381"
@@ -302,7 +238,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7017614351851852,
+      "days_to_event": 0.6580046412037037,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -321,7 +257,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $15,942 | 1天后到期 | 低风险",
+      "reason": "高流动性 $16,068 | 1天后到期 | 低风险",
       "action": "观察 - 等待价格信号",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -343,21 +279,21 @@
     },
     {
       "category": "crypto",
-      "rank": 6,
-      "market_id": "1444153",
-      "conditionId": "0x4f44ceae895de181e42ee839976907b881182ca0d45defef5147b64ef3ea90f0",
-      "slug": "bitcoin-up-or-down-february-28-6am-et",
-      "url": "https://polymarket.com/market/bitcoin-up-or-down-february-28-6am-et",
-      "question": "Bitcoin Up or Down - February 28, 6AM ET",
-      "description": "This market will resolve to \"Up\" if the close price is greater than or equal to the open price for the BTC/USDT 1 hour candle that begins on the time and date specified in the title. Otherwise, this market will resolve to \"Down\".\n\nThe resolution source for this market is information from Binance, specifically the BTC/USDT pair (https://www.binance.com/en/trade/BTC_USDT). The close « C » and open « O » displayed at the top of the graph for the relevant \"1H\" candle will be used once the data for that candle is finalized.\n\nPlease note that this market is about the price according to Binance BTC/USDT, not according to other sources or spot markets.",
+      "rank": 5,
+      "market_id": "1453986",
+      "conditionId": "0x41b302e627f9ecf98340e29b1e6ed9de71ec23ad2c1fc7e1f36a25d46b673a17",
+      "slug": "btc-updown-5m-1772281200",
+      "url": "https://polymarket.com/market/btc-updown-5m-1772281200",
+      "question": "Bitcoin Up or Down - February 28, 7:20AM-7:25AM ET",
+      "description": "This market will resolve to \"Up\" if the Bitcoin price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the BTC/USD data stream available at https://data.chain.link/streams/btc-usd.\nPlease note that this market is about the price according to Chainlink data stream BTC/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 15269.358,
+      "liquidity": 16043.6944,
       "clobTokenIds": [
-        "67409572213813835907158445115869849087629269716724455841271617486209276697216",
-        "50390426944296731726267961103194689930480553466088973667075258584963045569050"
+        "27445640548623023953785953318742692898256771851527098486471069559687885751646",
+        "93265903249727492582786062711723772543051710654033752119570137137398439839046"
       ],
-      "startDate": "2026-02-26T11:02:31.328602Z",
-      "endDate": "2026-02-28T12:00:00Z",
+      "startDate": "2026-02-27T12:28:10.789056Z",
+      "endDate": "2026-02-28T12:25:00Z",
       "acceptingOrders": true,
       "negRisk": false,
       "implied_probability": null,
@@ -366,7 +302,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.46217814814814817,
+      "days_to_event": 0.43578238425925925,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -385,7 +321,71 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $15,269 | 0天后到期 | 低风险",
+      "reason": "高流动性 $16,044 | 0天后到期 | 低风险",
+      "action": "观察 - 等待价格信号",
+      "research_priority": null,
+      "trade_feasibility": "ok",
+      "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
+      "key_risks": [
+        "SEC/FDA 等机构突发审批决定",
+        "巨鲸操作导致价格剧烈波动",
+        "交易所技术故障",
+        "波动性过高导致点差扩大"
+      ],
+      "monitor_sources": [
+        "CoinGecko / CoinMarketCap 实时价格",
+        "TradingView 技术分析",
+        "SEC/FDA 官方公告",
+        "Twitter/X 加密社区"
+      ],
+      "thesis": "加密市场波动性高，0天后到期。需关注价格源和时间窗口，防止极端波动。",
+      "resolution_parsed": null
+    },
+    {
+      "category": "crypto",
+      "rank": 6,
+      "market_id": "1444153",
+      "conditionId": "0x4f44ceae895de181e42ee839976907b881182ca0d45defef5147b64ef3ea90f0",
+      "slug": "bitcoin-up-or-down-february-28-6am-et",
+      "url": "https://polymarket.com/market/bitcoin-up-or-down-february-28-6am-et",
+      "question": "Bitcoin Up or Down - February 28, 6AM ET",
+      "description": "This market will resolve to \"Up\" if the close price is greater than or equal to the open price for the BTC/USDT 1 hour candle that begins on the time and date specified in the title. Otherwise, this market will resolve to \"Down\".\n\nThe resolution source for this market is information from Binance, specifically the BTC/USDT pair (https://www.binance.com/en/trade/BTC_USDT). The close « C » and open « O » displayed at the top of the graph for the relevant \"1H\" candle will be used once the data for that candle is finalized.\n\nPlease note that this market is about the price according to Binance BTC/USDT, not according to other sources or spot markets.",
+      "volume": 10,
+      "liquidity": 15261.258,
+      "clobTokenIds": [
+        "67409572213813835907158445115869849087629269716724455841271617486209276697216",
+        "50390426944296731726267961103194689930480553466088973667075258584963045569050"
+      ],
+      "startDate": "2026-02-26T11:02:31.328602Z",
+      "endDate": "2026-02-28T12:00:00Z",
+      "acceptingOrders": true,
+      "negRisk": false,
+      "implied_probability": null,
+      "best_bid": null,
+      "best_ask": null,
+      "spread_abs": null,
+      "spread_pct": null,
+      "depth_proxy": 0,
+      "days_to_event": 0.4184218518518519,
+      "fee_rate": null,
+      "last_trade_price": null,
+      "last_trade_time": null,
+      "midpoint": null,
+      "volatility_level": "low",
+      "uma_resolution_status": "unknown",
+      "resolution_source": "unknown",
+      "risk": "medium",
+      "scores": {
+        "liquidity_score": 7,
+        "spread_score": 1,
+        "volatility_score": 10,
+        "settlement_clarity_score": 5,
+        "event_calendar_score": 10,
+        "hedgeability_score": 1,
+        "risk_level_score": 6,
+        "total": 5.799999999999999
+      },
+      "reason": "高流动性 $15,261 | 0天后到期 | 低风险",
       "action": "观察 - 等待价格信号",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -430,7 +430,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.1600947800925926,
+      "days_to_event": 0.11633800925925926,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -479,7 +479,7 @@
       "question": "Ethereum Up or Down - February 28, 3:20AM-3:25AM ET",
       "description": "This market will resolve to \"Up\" if the Ethereum price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the ETH/USD data stream available at https://data.chain.link/streams/eth-usd.\nPlease note that this market is about the price according to Chainlink data stream ETH/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 14445.8419,
+      "liquidity": 14475.2416,
       "clobTokenIds": [
         "9212634963835869107442704624077863783013594131999183442929310529734808486180",
         "3461797687987959607308413477476830012762486634538275095677540887155754467591"
@@ -494,7 +494,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.3128725925925926,
+      "days_to_event": 0.26911574074074074,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -513,7 +513,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $14,446 | 0天后到期 | 低风险",
+      "reason": "高流动性 $14,475 | 0天后到期 | 低风险",
       "action": "观察 - 等待价格信号",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -543,7 +543,7 @@
       "question": "Ethereum Up or Down - February 28, 4:15AM-4:20AM ET",
       "description": "This market will resolve to \"Up\" if the Ethereum price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the ETH/USD data stream available at https://data.chain.link/streams/eth-usd.\nPlease note that this market is about the price according to Chainlink data stream ETH/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 14443.2512,
+      "liquidity": 14472.6512,
       "clobTokenIds": [
         "4250604421230616318705671864441889728317237533124298182428234048855300781903",
         "36753995332715943623361656620386072947242932251218765493312492872527379103987"
@@ -558,7 +558,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.351067037037037,
+      "days_to_event": 0.30731013888888886,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -577,7 +577,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $14,443 | 0天后到期 | 低风险",
+      "reason": "高流动性 $14,473 | 0天后到期 | 低风险",
       "action": "观察 - 等待价格信号",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -607,7 +607,7 @@
       "question": "Ethereum Up or Down - February 28, 3:35AM-3:40AM ET",
       "description": "This market will resolve to \"Up\" if the Ethereum price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the ETH/USD data stream available at https://data.chain.link/streams/eth-usd.\nPlease note that this market is about the price according to Chainlink data stream ETH/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 14436.7532,
+      "liquidity": 14466.1532,
       "clobTokenIds": [
         "179227609788937531097738445486158408932811081171687386138767380509302179814",
         "15956256821626723649738210123938414852478062564405354090620114211915733139676"
@@ -622,7 +622,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.3232892361111111,
+      "days_to_event": 0.2795323611111111,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -641,7 +641,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $14,437 | 0天后到期 | 低风险",
+      "reason": "高流动性 $14,466 | 0天后到期 | 低风险",
       "action": "观察 - 等待价格信号",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -671,7 +671,7 @@
       "question": "Ethereum Up or Down - February 28, 2:35PM-2:40PM ET",
       "description": "This market will resolve to \"Up\" if the Ethereum price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the ETH/USD data stream available at https://data.chain.link/streams/eth-usd.\nPlease note that this market is about the price according to Chainlink data stream ETH/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 14388.4132,
+      "liquidity": 14417.8132,
       "clobTokenIds": [
         "76451519721347732167922985451272433898770355665956102429440535465031814542512",
         "89579728021879700696678711970573023018363402370385136330004377824177368720173"
@@ -686,7 +686,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7816226157407408,
+      "days_to_event": 0.7378657870370371,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -705,7 +705,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $14,388 | 1天后到期 | 低风险",
+      "reason": "高流动性 $14,418 | 1天后到期 | 低风险",
       "action": "观察 - 等待价格信号",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -735,7 +735,7 @@
       "question": "Ethereum Up or Down - February 28, 2:25PM-2:30PM ET",
       "description": "This market will resolve to \"Up\" if the Ethereum price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the ETH/USD data stream available at https://data.chain.link/streams/eth-usd.\nPlease note that this market is about the price according to Chainlink data stream ETH/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 14383.4112,
+      "liquidity": 14412.8112,
       "clobTokenIds": [
         "52574806887856128431881816478825257345505117652439829557694942835802258485980",
         "102947460133490265599121520772817829290492474656583352590703723456862683107865"
@@ -750,7 +750,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7746781597222222,
+      "days_to_event": 0.7309213310185185,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -769,7 +769,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $14,383 | 1天后到期 | 低风险",
+      "reason": "高流动性 $14,413 | 1天后到期 | 低风险",
       "action": "观察 - 等待价格信号",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -799,7 +799,7 @@
       "question": "Ethereum Up or Down - February 28, 1:55PM-2:00PM ET",
       "description": "This market will resolve to \"Up\" if the Ethereum price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the ETH/USD data stream available at https://data.chain.link/streams/eth-usd.\nPlease note that this market is about the price according to Chainlink data stream ETH/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 14332.3659,
+      "liquidity": 14361.7659,
       "clobTokenIds": [
         "7580145346830083273775336005348183307194856315789050748324296984725842546439",
         "11915772040891134367619643919343267165751394561837031348465890122813988758705"
@@ -814,7 +814,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7538448032407408,
+      "days_to_event": 0.710087962962963,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -833,7 +833,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $14,332 | 1天后到期 | 低风险",
+      "reason": "高流动性 $14,362 | 1天后到期 | 低风险",
       "action": "观察 - 等待价格信号",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -863,7 +863,7 @@
       "question": "Solana Up or Down - February 28, 7:25AM-7:30AM ET",
       "description": "This market will resolve to \"Up\" if the Solana price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the SOL/USD data stream available at https://data.chain.link/streams/sol-usd.\nPlease note that this market is about the price according to Chainlink data stream SOL/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 13723.5312,
+      "liquidity": 13753.0515,
       "clobTokenIds": [
         "18970533794198660934894657195977160016527139990930250815460217620455049366826",
         "99179623189481255737409904294691408315726906204610753947132243336604666019416"
@@ -878,7 +878,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.4830114236111111,
+      "days_to_event": 0.43925462962962963,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -897,7 +897,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $13,724 | 0天后到期 | 低风险",
+      "reason": "高流动性 $13,753 | 0天后到期 | 低风险",
       "action": "观察 - 等待价格信号",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -927,7 +927,7 @@
       "question": "Solana Up or Down - February 28, 9:35AM-9:40AM ET",
       "description": "This market will resolve to \"Up\" if the Solana price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the SOL/USD data stream available at https://data.chain.link/streams/sol-usd.\nPlease note that this market is about the price according to Chainlink data stream SOL/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 13722.5912,
+      "liquidity": 13751.9912,
       "clobTokenIds": [
         "62761603651488531774284522774814943365049624891790141619426812151155505017084",
         "21177532598606315863321559055267447873724146169313605652355481652274353753264"
@@ -942,7 +942,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.5732892476851852,
+      "days_to_event": 0.5295324421296296,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -961,7 +961,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $13,723 | 1天后到期 | 低风险",
+      "reason": "高流动性 $13,752 | 1天后到期 | 低风险",
       "action": "观察 - 等待价格信号",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -991,7 +991,7 @@
       "question": "Solana Up or Down - February 28, 2:35PM-2:40PM ET",
       "description": "This market will resolve to \"Up\" if the Solana price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the SOL/USD data stream available at https://data.chain.link/streams/sol-usd.\nPlease note that this market is about the price according to Chainlink data stream SOL/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 13678.7112,
+      "liquidity": 13708.1112,
       "clobTokenIds": [
         "109175562941934027972443696239513967416118111016068385759576917934033518000598",
         "41796049792335745803935221725195885328817436590878887527760713365513707149098"
@@ -1006,7 +1006,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7816226041666666,
+      "days_to_event": 0.7378657407407407,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1025,7 +1025,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $13,679 | 1天后到期 | 低风险",
+      "reason": "高流动性 $13,708 | 1天后到期 | 低风险",
       "action": "观察 - 等待价格信号",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -1055,7 +1055,7 @@
       "question": "Solana Up or Down - February 28, 2:40PM-2:45PM ET",
       "description": "This market will resolve to \"Up\" if the Solana price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the SOL/USD data stream available at https://data.chain.link/streams/sol-usd.\nPlease note that this market is about the price according to Chainlink data stream SOL/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 13678.6712,
+      "liquidity": 13708.0712,
       "clobTokenIds": [
         "89920789383837480438700594658028107933886177419231083481260732063747631371491",
         "101748227359684211650119813010065127147130074273280157620099770962210159546323"
@@ -1070,7 +1070,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7850947916666666,
+      "days_to_event": 0.7413379513888889,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1089,7 +1089,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $13,679 | 1天后到期 | 低风险",
+      "reason": "高流动性 $13,708 | 1天后到期 | 低风险",
       "action": "观察 - 等待价格信号",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -1119,7 +1119,7 @@
       "question": "XRP Up or Down - February 28, 2:25PM-2:30PM ET",
       "description": "This market will resolve to \"Up\" if the XRP price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the XRP/USD data stream available at https://data.chain.link/streams/xrp-usd.\nPlease note that this market is about the price according to Chainlink data stream XRP/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 13643.8512,
+      "liquidity": 13673.2512,
       "clobTokenIds": [
         "41999477749914767577701995844386210856175732059340532700406621535324704121492",
         "105429928033746324274615108581428965064092652953835494004960047258892360357503"
@@ -1134,7 +1134,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7746780787037038,
+      "days_to_event": 0.7309212731481481,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1153,7 +1153,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $13,644 | 1天后到期 | 低风险",
+      "reason": "高流动性 $13,673 | 1天后到期 | 低风险",
       "action": "观察 - 需进一步研究",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -1181,7 +1181,7 @@
       "question": "XRP Up or Down - February 28, 2:35PM-2:40PM ET",
       "description": "This market will resolve to \"Up\" if the XRP price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the XRP/USD data stream available at https://data.chain.link/streams/xrp-usd.\nPlease note that this market is about the price according to Chainlink data stream XRP/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 13637.0512,
+      "liquidity": 13666.4512,
       "clobTokenIds": [
         "76014724023925464600938465161943604309679847189161680554676372995337361689830",
         "33188047816774454022817428671897059255715350416110209192736717290587059414673"
@@ -1196,7 +1196,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7816225347222222,
+      "days_to_event": 0.7378657523148148,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1215,7 +1215,7 @@
         "risk_level_score": 6,
         "total": 5.799999999999999
       },
-      "reason": "高流动性 $13,637 | 1天后到期 | 低风险",
+      "reason": "高流动性 $13,666 | 1天后到期 | 低风险",
       "action": "观察 - 需进一步研究",
       "research_priority": null,
       "trade_feasibility": "ok",
@@ -1258,7 +1258,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7642614467592592,
+      "days_to_event": 0.7205045949074074,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1305,7 +1305,7 @@
       "question": "Solana Up or Down - February 28, 2:15PM-2:30PM ET",
       "description": "This market will resolve to \"Up\" if the Solana price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the SOL/USD data stream available at https://data.chain.link/streams/sol-usd.\nPlease note that this market is about the price according to Chainlink data stream SOL/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 12006.9583,
+      "liquidity": 12006.958,
       "clobTokenIds": [
         "7392419390308608107636297744688295803253102381116666776704959297108310598082",
         "73485181949897161631822686283012685465983601570246015176203937511264451285549"
@@ -1320,7 +1320,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.774678136574074,
+      "days_to_event": 0.7309212731481481,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1360,8 +1360,70 @@
       "resolution_parsed": null
     },
     {
-      "category": "sports",
+      "category": "unknown",
       "rank": 22,
+      "market_id": "1455385",
+      "conditionId": "0x8f3394727b61d03b92904fae766fcb16fe592383dcbacf5a957cb4d4f8ee6f70",
+      "slug": "xrp-updown-4h-1772298000",
+      "url": "https://polymarket.com/market/xrp-updown-4h-1772298000",
+      "question": "XRP Up or Down - February 28, 12:00PM-4:00PM ET",
+      "description": "This market will resolve to \"Up\" if the XRP price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the XRP/USD data stream available at https://data.chain.link/streams/xrp-usd.\nPlease note that this market is about the price according to Chainlink data stream XRP/USD, not according to other sources or spot markets.",
+      "volume": 10,
+      "liquidity": 11731.608,
+      "clobTokenIds": [
+        "64342186044199443396341565027776082211340138825709502695089442460766698849508",
+        "23845413054719793234146425834588480117359503188498368246433066055199146746419"
+      ],
+      "startDate": "2026-02-27T17:08:12.089396Z",
+      "endDate": "2026-02-28T21:00:00Z",
+      "acceptingOrders": true,
+      "negRisk": false,
+      "implied_probability": null,
+      "best_bid": null,
+      "best_ask": null,
+      "spread_abs": null,
+      "spread_pct": null,
+      "depth_proxy": 0,
+      "days_to_event": 0.7934212268518519,
+      "fee_rate": null,
+      "last_trade_price": null,
+      "last_trade_time": null,
+      "midpoint": null,
+      "volatility_level": "low",
+      "uma_resolution_status": "unknown",
+      "resolution_source": "unknown",
+      "risk": "medium",
+      "scores": {
+        "liquidity_score": 7,
+        "spread_score": 1,
+        "volatility_score": 10,
+        "settlement_clarity_score": 5,
+        "event_calendar_score": 10,
+        "hedgeability_score": 1,
+        "risk_level_score": 6,
+        "total": 5.799999999999999
+      },
+      "reason": "高流动性 $11,732 | 1天后到期 | 低风险",
+      "action": "观察 - 需进一步研究",
+      "research_priority": null,
+      "trade_feasibility": "ok",
+      "entry_plan": "评分≥7.0且流动性允许时可小额测试，设定5%止损线",
+      "key_risks": [
+        "结算规则不明确",
+        "流动性枯竭",
+        "未知黑天鹅事件"
+      ],
+      "monitor_sources": [
+        "Polymarket 市场讨论",
+        "Google 新闻搜索",
+        "Reddit 相关社区"
+      ],
+      "thesis": "通用候选市场，1天后到期。需自行验证结算规则和监控源。",
+      "resolution_parsed": null
+    },
+    {
+      "category": "sports",
+      "rank": 23,
       "market_id": "1411303",
       "conditionId": "0x41629cc924a30aa7aae2ef59cf0c81bf210ed9c35a247cc3c7b6229692d283a4",
       "slug": "cbb-wm-ncat-2026-02-28",
@@ -1369,7 +1431,7 @@
       "question": "William & Mary Tribe vs. North Carolina A&T Aggies",
       "description": "In the upcoming CBB game, scheduled for February 28 at 2:00 PM ET:\n\nIf the William & Mary Tribe win, the market will resolve to \"William & Mary Tribe\".\n\nIf the North Carolina A&T Aggies win, the market will resolve to \"North Carolina A&T Aggies\".\n\nIf the game is postponed, this market will remain open until the game has been completed.\n\nIf the game is canceled entirely, with no make-up game, this market will resolve 50-50.\n\nThe result will be determined based on the final score including any overtime periods.",
       "volume": 10,
-      "liquidity": 5520.4794,
+      "liquidity": 3693.2594,
       "clobTokenIds": [
         "102280100120151703672886798931235395560110434532144117839285903514517582226963",
         "102093529644560853743593804740237879814238847158788262116196073577623386785929"
@@ -1384,7 +1446,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.7538448032407408,
+      "days_to_event": 0.7100878935185185,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1406,7 +1468,7 @@
       "reason": "1天后到期 | 低风险",
       "action": "观察 - 等待比赛结果",
       "research_priority": null,
-      "trade_feasibility": "ok",
+      "trade_feasibility": "poor",
       "entry_plan": "比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲",
       "key_risks": [
         "比赛推迟/取消",
@@ -1425,7 +1487,7 @@
     },
     {
       "category": "unknown",
-      "rank": 23,
+      "rank": 24,
       "market_id": "1396335",
       "conditionId": "0x943c005c5749da35884961249128c9e0a28e6b191c5c475cf050c99fad8689d2",
       "slug": "epl-ful-wes-2026-03-04-spread-away-1pt5",
@@ -1448,7 +1510,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 4.774678078703704,
+      "days_to_event": 4.73092125,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1487,68 +1549,6 @@
     },
     {
       "category": "unknown",
-      "rank": 24,
-      "market_id": "1451799",
-      "conditionId": "0xa86952f277230a22d47362b924b9499e5bb498f40840f6064ee39c97f7d71108",
-      "slug": "nba-mem-dal-2026-02-27-rebounds-cam-spencer-2pt5",
-      "url": "https://polymarket.com/market/nba-mem-dal-2026-02-27-rebounds-cam-spencer-2pt5",
-      "question": "Cam Spencer: Rebounds O/U 2.5",
-      "description": "In the upcoming NBA game, scheduled for February 27 at 8:30 PM ET:\n\nThis market will resolve to \"Yes\" if Cam Spencer records more than 2.5 total rebounds during the game.\n\nThis market will resolve to \"No\" if Cam Spencer records 2.5 rebounds or fewer during the game.\n\nThe entire game including all overtime periods will be considered.\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.\n\nIf the player is listed as inactive or otherwise does not take the court at any point, the market will resolve \"No\".\n\nThe resolution source will be the official NBA box score as published on NBA.com.",
-      "volume": 10,
-      "liquidity": 1548.3472,
-      "clobTokenIds": [
-        "25798120650201103300725597437173321675715210134812112506317047514018560896762",
-        "68653205909090957482714475037441579073394279584373548391799997342400266114084"
-      ],
-      "startDate": "2026-02-27T01:14:00.255509Z",
-      "endDate": "2026-02-28T01:30:00Z",
-      "acceptingOrders": true,
-      "negRisk": false,
-      "implied_probability": null,
-      "best_bid": null,
-      "best_ask": null,
-      "spread_abs": null,
-      "spread_pct": null,
-      "depth_proxy": 0,
-      "days_to_event": 0.024678067129629628,
-      "fee_rate": null,
-      "last_trade_price": null,
-      "last_trade_time": null,
-      "midpoint": null,
-      "volatility_level": "low",
-      "uma_resolution_status": "unknown",
-      "resolution_source": "unknown",
-      "risk": "medium",
-      "scores": {
-        "liquidity_score": 4,
-        "spread_score": 1,
-        "volatility_score": 10,
-        "settlement_clarity_score": 5,
-        "event_calendar_score": 10,
-        "hedgeability_score": 1,
-        "risk_level_score": 6,
-        "total": 5.199999999999999
-      },
-      "reason": "0天后到期 | 低风险",
-      "action": "观察 - 需进一步研究",
-      "research_priority": null,
-      "trade_feasibility": "poor",
-      "entry_plan": "评分≥7.0且流动性允许时可小额测试，设定5%止损线",
-      "key_risks": [
-        "结算规则不明确",
-        "流动性枯竭",
-        "未知黑天鹅事件"
-      ],
-      "monitor_sources": [
-        "Polymarket 市场讨论",
-        "Google 新闻搜索",
-        "Reddit 相关社区"
-      ],
-      "thesis": "通用候选市场，0天后到期。需自行验证结算规则和监控源。",
-      "resolution_parsed": null
-    },
-    {
-      "category": "unknown",
       "rank": 25,
       "market_id": "1399380",
       "conditionId": "0x921253bd4fd083913072aa7f206a0967d22817d647e38abf4199326796f7dcdd",
@@ -1557,7 +1557,7 @@
       "question": "US forces in Venezuela again by March 31, 2026?",
       "description": "This market will resolve to “Yes” if active US military personnel physically enter Venezuela at any point between market creation and the specified date, 11:59 PM ET.\n\nMilitary special operation forces will qualify; however, intelligence operatives will not count. \n\nUS military personnel must physically enter the terrestrial territory of Venezuela to qualify. Entering Venezuela's maritime or aerial territory will not count.\n\nMilitary contractors, military advisors, or high-ranking US service members entering Venezuela for diplomatic purposes (and their accompanying entourage) will not qualify.\n\nThe resolution source will be a consensus of credible reporting.",
       "volume": 10,
-      "liquidity": 1396.1384,
+      "liquidity": 1403.133,
       "clobTokenIds": [
         "58491838692079649863197940636030750292482018167147035057781759319429460577648",
         "16111011858405796513951464242186810866704008929510959310788812437999593086924"
@@ -1572,7 +1572,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": -28.037821921296295,
+      "days_to_event": -28.081578738425925,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1631,7 +1631,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.962177824074074,
+      "days_to_event": 0.9184210532407407,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1677,11 +1677,11 @@
       ],
       "thesis": "天气类市场依赖气象数据结算，1天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。",
       "resolution_parsed": null,
-      "weather_signal_score": 7.8,
+      "weather_signal_score": 7.7,
       "weather_signal_components": {
         "recency": {
-          "score": 9.6,
-          "hours_ago": 2
+          "score": 9.1,
+          "hours_ago": 3
         },
         "model_agreement": {
           "score": 5
@@ -1716,7 +1716,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.9621778125,
+      "days_to_event": 0.9184210532407407,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1762,11 +1762,11 @@
       ],
       "thesis": "天气类市场依赖气象数据结算，1天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。",
       "resolution_parsed": null,
-      "weather_signal_score": 7.8,
+      "weather_signal_score": 7.7,
       "weather_signal_components": {
         "recency": {
-          "score": 9.6,
-          "hours_ago": 2
+          "score": 9.1,
+          "hours_ago": 3
         },
         "model_agreement": {
           "score": 5
@@ -1801,7 +1801,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.962177824074074,
+      "days_to_event": 0.9184210648148148,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1847,11 +1847,11 @@
       ],
       "thesis": "天气类市场依赖气象数据结算，1天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。",
       "resolution_parsed": null,
-      "weather_signal_score": 7.8,
+      "weather_signal_score": 7.7,
       "weather_signal_components": {
         "recency": {
-          "score": 9.6,
-          "hours_ago": 2
+          "score": 9.1,
+          "hours_ago": 3
         },
         "model_agreement": {
           "score": 5
@@ -1886,7 +1886,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.962177824074074,
+      "days_to_event": 0.9184210648148148,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1932,11 +1932,11 @@
       ],
       "thesis": "天气类市场依赖气象数据结算，1天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。",
       "resolution_parsed": null,
-      "weather_signal_score": 7.8,
+      "weather_signal_score": 7.7,
       "weather_signal_components": {
         "recency": {
-          "score": 9.6,
-          "hours_ago": 2
+          "score": 9.1,
+          "hours_ago": 3
         },
         "model_agreement": {
           "score": 5
@@ -1971,7 +1971,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.9621778703703703,
+      "days_to_event": 1.9184211111111111,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -2017,11 +2017,11 @@
       ],
       "thesis": "天气类市场依赖气象数据结算，2天后到期。已接入 8 个气象站: KNYC, KJFK, KDFW, KSEA, KDEN, KMIA, KORD, KLAX，关注模型收敛情况。",
       "resolution_parsed": null,
-      "weather_signal_score": 7.8,
+      "weather_signal_score": 7.7,
       "weather_signal_components": {
         "recency": {
-          "score": 9.6,
-          "hours_ago": 2
+          "score": 9.1,
+          "hours_ago": 3
         },
         "model_agreement": {
           "score": 5
