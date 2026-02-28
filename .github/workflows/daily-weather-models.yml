@@ -1,0 +1,124 @@
+name: Daily Weather Models (NWS + GFS)
+
+on:
+  schedule:
+    # Run daily at 7:30 AM Asia/Shanghai (UTC 23:30 previous day)
+    - cron: '30 23 * * *'
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: 'Target date (YYYY-MM-DD), defaults to today'
+        required: false
+        type: string
+  push:
+    paths:
+      - 'scripts/weather-models.mjs'
+      - 'scripts/fetch-gfs-forecast.mjs'
+      - 'poly-knowledge/config/stations.yaml'
+
+permissions:
+  contents: write
+
+env:
+  NODE_VERSION: '20'
+
+jobs:
+  generate-weather-models:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Ensure outputs directory exists
+        run: mkdir -p poly-knowledge/outputs
+
+      - name: Generate weather models (NWS + GFS)
+        id: generate
+        env:
+          TARGET_DATE: ${{ github.event.inputs.target_date }}
+        run: |
+          if [ -z "$TARGET_DATE" ]; then
+            TARGET_DATE=$(date +%Y-%m-%d)
+          fi
+          echo "target_date=$TARGET_DATE" >> $GITHUB_OUTPUT
+          echo "Running weather-models for date: $TARGET_DATE"
+
+          node scripts/weather-models.mjs poly-knowledge/outputs "$TARGET_DATE"
+
+          JSON_FILE="poly-knowledge/outputs/weather-models-${TARGET_DATE}.json"
+          if [ -f "$JSON_FILE" ]; then
+            echo "json_exists=true" >> $GITHUB_OUTPUT
+            echo "json_size=$(wc -c < $JSON_FILE)" >> $GITHUB_OUTPUT
+          else
+            echo "json_exists=false" >> $GITHUB_OUTPUT
+            echo "::warning::Output file not found: $JSON_FILE"
+            exit 1
+          fi
+
+      - name: Create latest copy
+        run: |
+          TARGET_DATE=${{ steps.generate.outputs.target_date }}
+          if [ -z "$TARGET_DATE" ]; then
+            TARGET_DATE=$(date +%Y-%m-%d)
+          fi
+          cp "poly-knowledge/outputs/weather-models-${TARGET_DATE}.json" "poly-knowledge/outputs/weather-models-latest.json"
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Commit and push outputs
+        run: |
+          TARGET_DATE=${{ steps.generate.outputs.target_date }}
+          if [ -z "$TARGET_DATE" ]; then
+            TARGET_DATE=$(date +%Y-%m-%d)
+          fi
+
+          git add "poly-knowledge/outputs/weather-models-${TARGET_DATE}.json"
+          git add "poly-knowledge/outputs/weather-models-latest.json"
+
+          if git diff --staged --quiet; then
+            echo "No new outputs to commit"
+          else
+            git commit -m "docs: add weather-models for ${TARGET_DATE}
+
+            - Generated via GitHub Actions
+            - NWS + GFS summary + model_agreement_v2"
+            git push
+            echo "Committed and pushed weather-models for ${TARGET_DATE}"
+          fi
+
+      - name: Upload artifacts (backup)
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: weather-models-outputs
+          path: |
+            poly-knowledge/outputs/weather-models-*.json
+          retention-days: 7
+          if-no-files-found: ignore
+
+  summary:
+    needs: generate-weather-models
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate summary
+        run: |
+          if [ "${{ needs.generate-weather-models.result }}" == "success" ]; then
+            echo "✅ Weather models generation completed successfully"
+            echo "Date: ${{ needs.generate-weather-models.outputs.target_date }}"
+          else
+            echo "❌ Weather models generation failed"
+          fi
