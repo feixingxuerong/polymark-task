@@ -1,6 +1,6 @@
 # Weather & Aviation Data Sources
 
-**Generated:** 2026-02-27T16:37:16.110Z
+**Generated:** 2026-02-28T13:23:03.786Z
 **Version:** 1.0.0
 **Date:** 2026-02-28
 
@@ -34,9 +34,9 @@
 
 | Metric | Value |
 |--------|-------|
-| Weather Stations | 8 |
+| Weather Stations | 19 |
 | Weather Errors | 0 |
-| Aviation Airports | 10 |
+| Aviation Airports | 21 |
 | Aviation Errors | 3 |
 
 ---
@@ -45,14 +45,25 @@
 
 | Station | Name | Coordinates | Latest Temp |
 |--------|------|-------------|-------------|
-| KNYC | Central Park, NY | 40.7789, -73.9695 | 3.9F |
-| KJFK | JFK Airport, NY | 40.6413, -73.7781 | 3F |
-| KDFW | Dallas/Fort Worth, TX | 32.8998, -97.0403 | 21F |
-| KSEA | Seattle, WA | 47.4502, -122.3088 | 7F |
-| KDEN | Denver, CO | 39.8561, -104.6737 | 14F |
-| KMIA | Miami, FL | 25.7959, -80.287 | 27F |
-| KORD | Chicago, IL | 41.9742, -87.9073 | 9F |
-| KLAX | Los Angeles, CA | 33.9425, -118.4081 | 23F |
+| KNYC | Central Park, NY | 40.7789, -73.9695 | 1.1F |
+| KJFK | JFK Airport, NY | 40.6413, -73.7781 | 1F |
+| KDFW | Dallas/Fort Worth, TX | 32.8998, -97.0403 | 17F |
+| KSEA | Seattle, WA | 47.4502, -122.3088 | 6F |
+| KDEN | Denver, CO | 39.8561, -104.6737 | 5F |
+| KMIA | Miami, FL | 25.7959, -80.287 | 23F |
+| KORD | Chicago, IL | 41.9742, -87.9073 | 1F |
+| KLAX | Los Angeles, CA | 33.9425, -118.4081 | 17F |
+| KATL | Atlanta, GA | 33.6407, -84.4277 | 12F |
+| KBOS | Boston, MA | 42.3656, -71.0096 | 1F |
+| KPHL | Philadelphia, PA | 39.8729, -75.2437 | 2F |
+| KIAD | Washington Dulles, VA | 38.9531, -77.4565 | 3F |
+| KIAH | Houston, TX | 29.9902, -95.3368 | 12F |
+| KPHX | Phoenix, AZ | 33.4484, -112.074 | 18F |
+| KSFO | San Francisco, CA | 37.6213, -122.379 | 15F |
+| KLAS | Las Vegas, NV | 36.084, -115.1537 | 16F |
+| KPDX | Portland, OR | 45.5898, -122.5951 | 2F |
+| KMSP | Minneapolis, MN | 44.882, -93.2218 | -8F |
+| KDTW | Detroit, MI | 42.2162, -83.3554 | 4F |
 
 ## Aviation Airports
 
@@ -65,6 +76,17 @@
 | KDEN | Denver International | Denver | Yes | No | VFR |
 | KSEA | Seattle-Tacoma International | Seattle | Yes | No | VFR |
 | KMIA | Miami International | Miami | Yes | No | VFR |
+| KATL | Hartsfield-Jackson Atlanta International | Atlanta | Yes | No | IFR |
+| KBOS | Boston Logan International | Boston | Yes | No | VFR |
+| KPHL | Philadelphia International | Philadelphia | Yes | No | VFR |
+| KIAD | Washington Dulles International | Washington | Yes | No | VFR |
+| KIAH | George Bush Intercontinental Houston | Houston | Yes | No | VFR |
+| KPHX | Phoenix Sky Harbor International | Phoenix | Yes | No | VFR |
+| KSFO | San Francisco International | San Francisco | Yes | No | VFR |
+| KLAS | Harry Reid International | Las Vegas | Yes | No | VFR |
+| KPDX | Portland International | Portland | Yes | No | VFR |
+| KMSP | Minneapolis-St Paul International | Minneapolis | Yes | No | VFR |
+| KDTW | Detroit Metropolitan Wayne County | Detroit | Yes | No | VFR |
 | EGLL | London Heathrow | London | No | No | - |
 | LFPG | Paris Charles de Gaulle | Paris | No | No | - |
 | RJTT | Tokyo Narita International | Tokyo | No | No | - |
