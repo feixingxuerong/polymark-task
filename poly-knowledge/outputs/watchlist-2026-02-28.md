@@ -1,6 +1,6 @@
 # Daily Watchlist - 2026-02-28
 
-> Generated: 2026-02-28T13:25:45.470Z
+> Generated: 2026-02-28T13:25:52.735Z
 > Total candidates: 426
 > TopN: 30 (weather quota: 15)
 > Weather in Top30: 15 (aviation: 0)
