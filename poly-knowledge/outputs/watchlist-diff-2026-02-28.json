@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-02-28T13:06:07.466Z",
+  "generated_at": "2026-02-28T13:08:23.831Z",
   "today_date": "2026-02-28",
   "yesterday_date": "2026-02-27",
   "first_run": false,
   "summary": {
     "today_count": 30,
     "yesterday_count": 30,
-    "new_count": 19,
-    "dropped_count": 19,
+    "new_count": 18,
+    "dropped_count": 18,
     "score_jumps_count": 0,
     "spread_moves_count": 0,
-    "liquidity_moves_count": 0
+    "liquidity_moves_count": 1
   },
   "new_entries": [
     {
@@ -68,116 +68,107 @@
       "reason": "新上榜，排名 #15，评分 5.2"
     },
     {
+      "market_id": "1396335",
+      "question": "Spread: West Ham United FC (-1.5)",
+      "rank": 16,
+      "score": 5.199999999999999,
+      "liquidity": 2544.7444,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #16，评分 5.2"
+    },
+    {
+      "market_id": "1399380",
+      "question": "US forces in Venezuela again by March 31, 2026?",
+      "rank": 18,
+      "score": 5.199999999999999,
+      "liquidity": 2400.3256,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #18，评分 5.2"
+    },
+    {
+      "market_id": "1462551",
+      "question": "1H Spread: Rockets (-1.5)",
+      "rank": 19,
+      "score": 5.199999999999999,
+      "liquidity": 1942.8578,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #19，评分 5.2"
+    },
+    {
+      "market_id": "1463593",
+      "question": "Spread: Wyoming Cowboys (-21.5)",
+      "rank": 20,
+      "score": 5.199999999999999,
+      "liquidity": 1865.1729,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #20，评分 5.2"
+    },
+    {
+      "market_id": "1462552",
+      "question": "Rockets vs. Heat: 1H O/U 109.5",
+      "rank": 21,
+      "score": 5.199999999999999,
+      "liquidity": 1841.0874,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #21，评分 5.2"
+    },
+    {
+      "market_id": "1462553",
+      "question": "Rockets vs. Heat: 1H Moneyline",
+      "rank": 22,
+      "score": 5.199999999999999,
+      "liquidity": 1831.8519,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #22，评分 5.2"
+    },
+    {
+      "market_id": "1446391",
+      "question": "Spread: Pyramids FC (-2.5)",
+      "rank": 23,
+      "score": 5.199999999999999,
+      "liquidity": 1775.0844,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #23，评分 5.2"
+    },
+    {
+      "market_id": "1463585",
+      "question": "Spread: Boise State Broncos (-7.5)",
+      "rank": 24,
+      "score": 5.199999999999999,
+      "liquidity": 1398.1296,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #24，评分 5.2"
+    },
+    {
+      "market_id": "1463939",
+      "question": "Baylor Bears vs. UCF Knights: O/U 158.5",
+      "rank": 25,
+      "score": 5.199999999999999,
+      "liquidity": 1333.9798,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #25，评分 5.2"
+    },
+    {
       "market_id": "mar1-chicago-1",
       "question": "Will the highest temperature in Chicago be 42°F or higher on March 1?",
-      "rank": 18,
-      "score": 4,
-      "liquidity": 520,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #18，评分 4.0"
-    },
-    {
-      "market_id": "mar1-atlanta-1",
-      "question": "Will the highest temperature in Atlanta be 76°F or higher on March 1?",
-      "rank": 19,
-      "score": 4,
-      "liquidity": 510,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #19，评分 4.0"
-    },
-    {
-      "market_id": "2026-03-01-philadelphia-0",
-      "question": "Will the highest temperature in Philadelphia be 50°F or above on March 01?",
-      "rank": 20,
-      "score": 4,
-      "liquidity": 500,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #20，评分 4.0"
-    },
-    {
-      "market_id": "2026-03-01-philadelphia-1",
-      "question": "Will the highest temperature in Philadelphia be 55°F or above on March 01?",
-      "rank": 21,
-      "score": 4,
-      "liquidity": 500,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #21，评分 4.0"
-    },
-    {
-      "market_id": "2026-03-01-philadelphia-2",
-      "question": "Will the highest temperature in Philadelphia be 60°F or above on March 01?",
-      "rank": 22,
-      "score": 4,
-      "liquidity": 500,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #22，评分 4.0"
-    },
-    {
-      "market_id": "2026-03-02-philadelphia-0",
-      "question": "Will the highest temperature in Philadelphia be 50°F or above on March 02?",
-      "rank": 23,
-      "score": 4,
-      "liquidity": 500,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #23，评分 4.0"
-    },
-    {
-      "market_id": "2026-03-02-philadelphia-1",
-      "question": "Will the highest temperature in Philadelphia be 55°F or above on March 02?",
-      "rank": 24,
-      "score": 4,
-      "liquidity": 500,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #24，评分 4.0"
-    },
-    {
-      "market_id": "2026-03-02-philadelphia-2",
-      "question": "Will the highest temperature in Philadelphia be 60°F or above on March 02?",
-      "rank": 25,
-      "score": 4,
-      "liquidity": 500,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #25，评分 4.0"
-    },
-    {
-      "market_id": "2026-03-03-philadelphia-0",
-      "question": "Will the highest temperature in Philadelphia be 50°F or above on March 03?",
-      "rank": 26,
-      "score": 4,
-      "liquidity": 500,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #26，评分 4.0"
-    },
-    {
-      "market_id": "2026-03-03-philadelphia-1",
-      "question": "Will the highest temperature in Philadelphia be 55°F or above on March 03?",
-      "rank": 27,
-      "score": 4,
-      "liquidity": 500,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #27，评分 4.0"
-    },
-    {
-      "market_id": "2026-03-03-philadelphia-2",
-      "question": "Will the highest temperature in Philadelphia be 60°F or above on March 03?",
       "rank": 28,
       "score": 4,
-      "liquidity": 500,
+      "liquidity": 520,
       "implied_probability": null,
       "reason": "新上榜，排名 #28，评分 4.0"
     },
     {
-      "market_id": "2026-03-04-philadelphia-0",
-      "question": "Will the highest temperature in Philadelphia be 50°F or above on March 04?",
+      "market_id": "mar1-atlanta-1",
+      "question": "Will the highest temperature in Atlanta be 76°F or higher on March 1?",
       "rank": 29,
       "score": 4,
-      "liquidity": 500,
+      "liquidity": 510,
       "implied_probability": null,
       "reason": "新上榜，排名 #29，评分 4.0"
     },
     {
-      "market_id": "2026-03-04-philadelphia-1",
-      "question": "Will the highest temperature in Philadelphia be 55°F or above on March 04?",
+      "market_id": "2026-03-01-philadelphia-0",
+      "question": "Will the highest temperature in Philadelphia be 50°F or above on March 01?",
       "rank": 30,
       "score": 4,
       "liquidity": 500,
@@ -299,14 +290,6 @@
       "reason": "跌出榜单昨日排名 #23"
     },
     {
-      "market_id": "1382469",
-      "question": "Spread: FC København (-2.5)",
-      "yesterday_rank": 24,
-      "yesterday_score": 5.199999999999999,
-      "yesterday_liquidity": 3911.895,
-      "reason": "跌出榜单昨日排名 #24"
-    },
-    {
       "market_id": "1411334",
       "question": "Providence Friars vs. Creighton Bluejays",
       "yesterday_rank": 25,
@@ -341,8 +324,26 @@
   ],
   "score_jumps": [],
   "spread_moves": [],
-  "liquidity_moves": [],
+  "liquidity_moves": [
+    {
+      "market_id": "1382469",
+      "question": "Spread: FC København (-2.5)",
+      "today_liquidity": 2535.0999,
+      "yesterday_liquidity": 3911.895,
+      "liquidity_change_pct": -35.19509342658736,
+      "direction": "decreased",
+      "reason": "流动性减少 35% ($3,912 → $2,535)"
+    }
+  ],
   "top_movers": [
+    {
+      "market_id": "1382469",
+      "question": "Spread: FC København (-2.5)",
+      "today_rank": 17,
+      "yesterday_rank": 24,
+      "change_score": 3.5195093426587363,
+      "reason": "综合变化得分 3.5，排名 24 → 17"
+    },
     {
       "market_id": "1456313",
       "question": "Solana Up or Down - February 28, 2:15PM-2:30PM ET",
@@ -414,14 +415,6 @@
       "yesterday_rank": 13,
       "change_score": 0.442045941421419,
       "reason": "综合变化得分 0.4，排名 13 → 4"
-    },
-    {
-      "market_id": "feb28-nyc-1",
-      "question": "Will the highest temperature in NYC be 50°F or higher on February 28?",
-      "today_rank": 16,
-      "yesterday_rank": 29,
-      "change_score": 0,
-      "reason": "综合变化得分 0.0，排名 29 → 16"
     }
   ]
 }
