@@ -5679,5 +5679,3484 @@
       "temperature",
       "detroit"
     ]
+  },
+  {
+    "id": "2026-03-08-nyc",
+    "eventTitle": "Highest temperature in NYC on March 08?",
+    "eventSlug": "highest-temperature-in-nyc-2026-03-08",
+    "url": "https://polymarket.com/event/highest-temperature-in-nyc-2026-03-08",
+    "endDate": "2026-03-09T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-08-nyc-0",
+        "question": "Will the highest temperature in NYC be 45\u00b0F or above on March 08?",
+        "conditionId": "0xkjfk0",
+        "slug": "highest-temperature-in-nyc-2026-03-08-45f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-08-45f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-08-nyc-1",
+        "question": "Will the highest temperature in NYC be 50\u00b0F or above on March 08?",
+        "conditionId": "0xkjfk1",
+        "slug": "highest-temperature-in-nyc-2026-03-08-50f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-08-50f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-08-nyc-2",
+        "question": "Will the highest temperature in NYC be 55\u00b0F or above on March 08?",
+        "conditionId": "0xkjfk2",
+        "slug": "highest-temperature-in-nyc-2026-03-08-55f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-08-55f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "nyc"
+    ]
+  },
+  {
+    "id": "2026-03-09-nyc",
+    "eventTitle": "Highest temperature in NYC on March 09?",
+    "eventSlug": "highest-temperature-in-nyc-2026-03-09",
+    "url": "https://polymarket.com/event/highest-temperature-in-nyc-2026-03-09",
+    "endDate": "2026-03-10T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-09-nyc-0",
+        "question": "Will the highest temperature in NYC be 45\u00b0F or above on March 09?",
+        "conditionId": "0xkjfk0",
+        "slug": "highest-temperature-in-nyc-2026-03-09-45f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-09-45f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-09-nyc-1",
+        "question": "Will the highest temperature in NYC be 50\u00b0F or above on March 09?",
+        "conditionId": "0xkjfk1",
+        "slug": "highest-temperature-in-nyc-2026-03-09-50f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-09-50f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-09-nyc-2",
+        "question": "Will the highest temperature in NYC be 55\u00b0F or above on March 09?",
+        "conditionId": "0xkjfk2",
+        "slug": "highest-temperature-in-nyc-2026-03-09-55f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-09-55f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "nyc"
+    ]
+  },
+  {
+    "id": "2026-03-10-nyc",
+    "eventTitle": "Highest temperature in NYC on March 10?",
+    "eventSlug": "highest-temperature-in-nyc-2026-03-10",
+    "url": "https://polymarket.com/event/highest-temperature-in-nyc-2026-03-10",
+    "endDate": "2026-03-11T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-10-nyc-0",
+        "question": "Will the highest temperature in NYC be 45\u00b0F or above on March 10?",
+        "conditionId": "0xkjfk0",
+        "slug": "highest-temperature-in-nyc-2026-03-10-45f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-10-45f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-10-nyc-1",
+        "question": "Will the highest temperature in NYC be 50\u00b0F or above on March 10?",
+        "conditionId": "0xkjfk1",
+        "slug": "highest-temperature-in-nyc-2026-03-10-50f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-10-50f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-10-nyc-2",
+        "question": "Will the highest temperature in NYC be 55\u00b0F or above on March 10?",
+        "conditionId": "0xkjfk2",
+        "slug": "highest-temperature-in-nyc-2026-03-10-55f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-10-55f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "nyc"
+    ]
+  },
+  {
+    "id": "2026-03-11-nyc",
+    "eventTitle": "Highest temperature in NYC on March 11?",
+    "eventSlug": "highest-temperature-in-nyc-2026-03-11",
+    "url": "https://polymarket.com/event/highest-temperature-in-nyc-2026-03-11",
+    "endDate": "2026-03-12T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-11-nyc-0",
+        "question": "Will the highest temperature in NYC be 45\u00b0F or above on March 11?",
+        "conditionId": "0xkjfk0",
+        "slug": "highest-temperature-in-nyc-2026-03-11-45f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-11-45f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-11-nyc-1",
+        "question": "Will the highest temperature in NYC be 50\u00b0F or above on March 11?",
+        "conditionId": "0xkjfk1",
+        "slug": "highest-temperature-in-nyc-2026-03-11-50f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-11-50f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-11-nyc-2",
+        "question": "Will the highest temperature in NYC be 55\u00b0F or above on March 11?",
+        "conditionId": "0xkjfk2",
+        "slug": "highest-temperature-in-nyc-2026-03-11-55f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-11-55f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "nyc"
+    ]
+  },
+  {
+    "id": "2026-03-12-nyc",
+    "eventTitle": "Highest temperature in NYC on March 12?",
+    "eventSlug": "highest-temperature-in-nyc-2026-03-12",
+    "url": "https://polymarket.com/event/highest-temperature-in-nyc-2026-03-12",
+    "endDate": "2026-03-13T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-12-nyc-0",
+        "question": "Will the highest temperature in NYC be 45\u00b0F or above on March 12?",
+        "conditionId": "0xkjfk0",
+        "slug": "highest-temperature-in-nyc-2026-03-12-45f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-12-45f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-12-nyc-1",
+        "question": "Will the highest temperature in NYC be 50\u00b0F or above on March 12?",
+        "conditionId": "0xkjfk1",
+        "slug": "highest-temperature-in-nyc-2026-03-12-50f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-12-50f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-12-nyc-2",
+        "question": "Will the highest temperature in NYC be 55\u00b0F or above on March 12?",
+        "conditionId": "0xkjfk2",
+        "slug": "highest-temperature-in-nyc-2026-03-12-55f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-12-55f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "nyc"
+    ]
+  },
+  {
+    "id": "2026-03-13-nyc",
+    "eventTitle": "Highest temperature in NYC on March 13?",
+    "eventSlug": "highest-temperature-in-nyc-2026-03-13",
+    "url": "https://polymarket.com/event/highest-temperature-in-nyc-2026-03-13",
+    "endDate": "2026-03-14T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-13-nyc-0",
+        "question": "Will the highest temperature in NYC be 45\u00b0F or above on March 13?",
+        "conditionId": "0xkjfk0",
+        "slug": "highest-temperature-in-nyc-2026-03-13-45f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-13-45f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-13-nyc-1",
+        "question": "Will the highest temperature in NYC be 50\u00b0F or above on March 13?",
+        "conditionId": "0xkjfk1",
+        "slug": "highest-temperature-in-nyc-2026-03-13-50f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-13-50f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-13-nyc-2",
+        "question": "Will the highest temperature in NYC be 55\u00b0F or above on March 13?",
+        "conditionId": "0xkjfk2",
+        "slug": "highest-temperature-in-nyc-2026-03-13-55f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-13-55f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "nyc"
+    ]
+  },
+  {
+    "id": "2026-03-14-nyc",
+    "eventTitle": "Highest temperature in NYC on March 14?",
+    "eventSlug": "highest-temperature-in-nyc-2026-03-14",
+    "url": "https://polymarket.com/event/highest-temperature-in-nyc-2026-03-14",
+    "endDate": "2026-03-15T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-14-nyc-0",
+        "question": "Will the highest temperature in NYC be 45\u00b0F or above on March 14?",
+        "conditionId": "0xkjfk0",
+        "slug": "highest-temperature-in-nyc-2026-03-14-45f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-14-45f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-14-nyc-1",
+        "question": "Will the highest temperature in NYC be 50\u00b0F or above on March 14?",
+        "conditionId": "0xkjfk1",
+        "slug": "highest-temperature-in-nyc-2026-03-14-50f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-14-50f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-14-nyc-2",
+        "question": "Will the highest temperature in NYC be 55\u00b0F or above on March 14?",
+        "conditionId": "0xkjfk2",
+        "slug": "highest-temperature-in-nyc-2026-03-14-55f",
+        "url": "https://polymarket.com/market/highest-temperature-in-nyc-2026-03-14-55f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "nyc"
+    ]
+  },
+  {
+    "id": "2026-03-08-dallas",
+    "eventTitle": "Highest temperature in Dallas on March 08?",
+    "eventSlug": "highest-temperature-in-dallas-2026-03-08",
+    "url": "https://polymarket.com/event/highest-temperature-in-dallas-2026-03-08",
+    "endDate": "2026-03-09T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-08-dallas-0",
+        "question": "Will the highest temperature in Dallas be 67\u00b0F or above on March 08?",
+        "conditionId": "0xkdfw0",
+        "slug": "highest-temperature-in-dallas-2026-03-08-67f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-08-67f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-08-dallas-1",
+        "question": "Will the highest temperature in Dallas be 72\u00b0F or above on March 08?",
+        "conditionId": "0xkdfw1",
+        "slug": "highest-temperature-in-dallas-2026-03-08-72f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-08-72f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-08-dallas-2",
+        "question": "Will the highest temperature in Dallas be 77\u00b0F or above on March 08?",
+        "conditionId": "0xkdfw2",
+        "slug": "highest-temperature-in-dallas-2026-03-08-77f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-08-77f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "dallas"
+    ]
+  },
+  {
+    "id": "2026-03-09-dallas",
+    "eventTitle": "Highest temperature in Dallas on March 09?",
+    "eventSlug": "highest-temperature-in-dallas-2026-03-09",
+    "url": "https://polymarket.com/event/highest-temperature-in-dallas-2026-03-09",
+    "endDate": "2026-03-10T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-09-dallas-0",
+        "question": "Will the highest temperature in Dallas be 67\u00b0F or above on March 09?",
+        "conditionId": "0xkdfw0",
+        "slug": "highest-temperature-in-dallas-2026-03-09-67f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-09-67f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-09-dallas-1",
+        "question": "Will the highest temperature in Dallas be 72\u00b0F or above on March 09?",
+        "conditionId": "0xkdfw1",
+        "slug": "highest-temperature-in-dallas-2026-03-09-72f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-09-72f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-09-dallas-2",
+        "question": "Will the highest temperature in Dallas be 77\u00b0F or above on March 09?",
+        "conditionId": "0xkdfw2",
+        "slug": "highest-temperature-in-dallas-2026-03-09-77f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-09-77f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "dallas"
+    ]
+  },
+  {
+    "id": "2026-03-10-dallas",
+    "eventTitle": "Highest temperature in Dallas on March 10?",
+    "eventSlug": "highest-temperature-in-dallas-2026-03-10",
+    "url": "https://polymarket.com/event/highest-temperature-in-dallas-2026-03-10",
+    "endDate": "2026-03-11T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-10-dallas-0",
+        "question": "Will the highest temperature in Dallas be 67\u00b0F or above on March 10?",
+        "conditionId": "0xkdfw0",
+        "slug": "highest-temperature-in-dallas-2026-03-10-67f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-10-67f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-10-dallas-1",
+        "question": "Will the highest temperature in Dallas be 72\u00b0F or above on March 10?",
+        "conditionId": "0xkdfw1",
+        "slug": "highest-temperature-in-dallas-2026-03-10-72f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-10-72f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-10-dallas-2",
+        "question": "Will the highest temperature in Dallas be 77\u00b0F or above on March 10?",
+        "conditionId": "0xkdfw2",
+        "slug": "highest-temperature-in-dallas-2026-03-10-77f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-10-77f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "dallas"
+    ]
+  },
+  {
+    "id": "2026-03-11-dallas",
+    "eventTitle": "Highest temperature in Dallas on March 11?",
+    "eventSlug": "highest-temperature-in-dallas-2026-03-11",
+    "url": "https://polymarket.com/event/highest-temperature-in-dallas-2026-03-11",
+    "endDate": "2026-03-12T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-11-dallas-0",
+        "question": "Will the highest temperature in Dallas be 67\u00b0F or above on March 11?",
+        "conditionId": "0xkdfw0",
+        "slug": "highest-temperature-in-dallas-2026-03-11-67f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-11-67f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-11-dallas-1",
+        "question": "Will the highest temperature in Dallas be 72\u00b0F or above on March 11?",
+        "conditionId": "0xkdfw1",
+        "slug": "highest-temperature-in-dallas-2026-03-11-72f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-11-72f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-11-dallas-2",
+        "question": "Will the highest temperature in Dallas be 77\u00b0F or above on March 11?",
+        "conditionId": "0xkdfw2",
+        "slug": "highest-temperature-in-dallas-2026-03-11-77f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-11-77f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "dallas"
+    ]
+  },
+  {
+    "id": "2026-03-12-dallas",
+    "eventTitle": "Highest temperature in Dallas on March 12?",
+    "eventSlug": "highest-temperature-in-dallas-2026-03-12",
+    "url": "https://polymarket.com/event/highest-temperature-in-dallas-2026-03-12",
+    "endDate": "2026-03-13T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-12-dallas-0",
+        "question": "Will the highest temperature in Dallas be 67\u00b0F or above on March 12?",
+        "conditionId": "0xkdfw0",
+        "slug": "highest-temperature-in-dallas-2026-03-12-67f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-12-67f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-12-dallas-1",
+        "question": "Will the highest temperature in Dallas be 72\u00b0F or above on March 12?",
+        "conditionId": "0xkdfw1",
+        "slug": "highest-temperature-in-dallas-2026-03-12-72f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-12-72f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-12-dallas-2",
+        "question": "Will the highest temperature in Dallas be 77\u00b0F or above on March 12?",
+        "conditionId": "0xkdfw2",
+        "slug": "highest-temperature-in-dallas-2026-03-12-77f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-12-77f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "dallas"
+    ]
+  },
+  {
+    "id": "2026-03-13-dallas",
+    "eventTitle": "Highest temperature in Dallas on March 13?",
+    "eventSlug": "highest-temperature-in-dallas-2026-03-13",
+    "url": "https://polymarket.com/event/highest-temperature-in-dallas-2026-03-13",
+    "endDate": "2026-03-14T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-13-dallas-0",
+        "question": "Will the highest temperature in Dallas be 67\u00b0F or above on March 13?",
+        "conditionId": "0xkdfw0",
+        "slug": "highest-temperature-in-dallas-2026-03-13-67f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-13-67f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-13-dallas-1",
+        "question": "Will the highest temperature in Dallas be 72\u00b0F or above on March 13?",
+        "conditionId": "0xkdfw1",
+        "slug": "highest-temperature-in-dallas-2026-03-13-72f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-13-72f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-13-dallas-2",
+        "question": "Will the highest temperature in Dallas be 77\u00b0F or above on March 13?",
+        "conditionId": "0xkdfw2",
+        "slug": "highest-temperature-in-dallas-2026-03-13-77f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-13-77f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "dallas"
+    ]
+  },
+  {
+    "id": "2026-03-14-dallas",
+    "eventTitle": "Highest temperature in Dallas on March 14?",
+    "eventSlug": "highest-temperature-in-dallas-2026-03-14",
+    "url": "https://polymarket.com/event/highest-temperature-in-dallas-2026-03-14",
+    "endDate": "2026-03-15T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-14-dallas-0",
+        "question": "Will the highest temperature in Dallas be 67\u00b0F or above on March 14?",
+        "conditionId": "0xkdfw0",
+        "slug": "highest-temperature-in-dallas-2026-03-14-67f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-14-67f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-14-dallas-1",
+        "question": "Will the highest temperature in Dallas be 72\u00b0F or above on March 14?",
+        "conditionId": "0xkdfw1",
+        "slug": "highest-temperature-in-dallas-2026-03-14-72f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-14-72f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-14-dallas-2",
+        "question": "Will the highest temperature in Dallas be 77\u00b0F or above on March 14?",
+        "conditionId": "0xkdfw2",
+        "slug": "highest-temperature-in-dallas-2026-03-14-77f",
+        "url": "https://polymarket.com/market/highest-temperature-in-dallas-2026-03-14-77f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "dallas"
+    ]
+  },
+  {
+    "id": "2026-03-08-chicago",
+    "eventTitle": "Highest temperature in Chicago on March 08?",
+    "eventSlug": "highest-temperature-in-chicago-2026-03-08",
+    "url": "https://polymarket.com/event/highest-temperature-in-chicago-2026-03-08",
+    "endDate": "2026-03-09T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-08-chicago-0",
+        "question": "Will the highest temperature in Chicago be 37\u00b0F or above on March 08?",
+        "conditionId": "0xkord0",
+        "slug": "highest-temperature-in-chicago-2026-03-08-37f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-08-37f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-08-chicago-1",
+        "question": "Will the highest temperature in Chicago be 42\u00b0F or above on March 08?",
+        "conditionId": "0xkord1",
+        "slug": "highest-temperature-in-chicago-2026-03-08-42f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-08-42f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-08-chicago-2",
+        "question": "Will the highest temperature in Chicago be 47\u00b0F or above on March 08?",
+        "conditionId": "0xkord2",
+        "slug": "highest-temperature-in-chicago-2026-03-08-47f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-08-47f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "chicago"
+    ]
+  },
+  {
+    "id": "2026-03-09-chicago",
+    "eventTitle": "Highest temperature in Chicago on March 09?",
+    "eventSlug": "highest-temperature-in-chicago-2026-03-09",
+    "url": "https://polymarket.com/event/highest-temperature-in-chicago-2026-03-09",
+    "endDate": "2026-03-10T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-09-chicago-0",
+        "question": "Will the highest temperature in Chicago be 37\u00b0F or above on March 09?",
+        "conditionId": "0xkord0",
+        "slug": "highest-temperature-in-chicago-2026-03-09-37f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-09-37f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-09-chicago-1",
+        "question": "Will the highest temperature in Chicago be 42\u00b0F or above on March 09?",
+        "conditionId": "0xkord1",
+        "slug": "highest-temperature-in-chicago-2026-03-09-42f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-09-42f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-09-chicago-2",
+        "question": "Will the highest temperature in Chicago be 47\u00b0F or above on March 09?",
+        "conditionId": "0xkord2",
+        "slug": "highest-temperature-in-chicago-2026-03-09-47f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-09-47f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "chicago"
+    ]
+  },
+  {
+    "id": "2026-03-10-chicago",
+    "eventTitle": "Highest temperature in Chicago on March 10?",
+    "eventSlug": "highest-temperature-in-chicago-2026-03-10",
+    "url": "https://polymarket.com/event/highest-temperature-in-chicago-2026-03-10",
+    "endDate": "2026-03-11T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-10-chicago-0",
+        "question": "Will the highest temperature in Chicago be 37\u00b0F or above on March 10?",
+        "conditionId": "0xkord0",
+        "slug": "highest-temperature-in-chicago-2026-03-10-37f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-10-37f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-10-chicago-1",
+        "question": "Will the highest temperature in Chicago be 42\u00b0F or above on March 10?",
+        "conditionId": "0xkord1",
+        "slug": "highest-temperature-in-chicago-2026-03-10-42f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-10-42f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-10-chicago-2",
+        "question": "Will the highest temperature in Chicago be 47\u00b0F or above on March 10?",
+        "conditionId": "0xkord2",
+        "slug": "highest-temperature-in-chicago-2026-03-10-47f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-10-47f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "chicago"
+    ]
+  },
+  {
+    "id": "2026-03-11-chicago",
+    "eventTitle": "Highest temperature in Chicago on March 11?",
+    "eventSlug": "highest-temperature-in-chicago-2026-03-11",
+    "url": "https://polymarket.com/event/highest-temperature-in-chicago-2026-03-11",
+    "endDate": "2026-03-12T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-11-chicago-0",
+        "question": "Will the highest temperature in Chicago be 37\u00b0F or above on March 11?",
+        "conditionId": "0xkord0",
+        "slug": "highest-temperature-in-chicago-2026-03-11-37f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-11-37f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-11-chicago-1",
+        "question": "Will the highest temperature in Chicago be 42\u00b0F or above on March 11?",
+        "conditionId": "0xkord1",
+        "slug": "highest-temperature-in-chicago-2026-03-11-42f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-11-42f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-11-chicago-2",
+        "question": "Will the highest temperature in Chicago be 47\u00b0F or above on March 11?",
+        "conditionId": "0xkord2",
+        "slug": "highest-temperature-in-chicago-2026-03-11-47f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-11-47f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "chicago"
+    ]
+  },
+  {
+    "id": "2026-03-12-chicago",
+    "eventTitle": "Highest temperature in Chicago on March 12?",
+    "eventSlug": "highest-temperature-in-chicago-2026-03-12",
+    "url": "https://polymarket.com/event/highest-temperature-in-chicago-2026-03-12",
+    "endDate": "2026-03-13T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-12-chicago-0",
+        "question": "Will the highest temperature in Chicago be 37\u00b0F or above on March 12?",
+        "conditionId": "0xkord0",
+        "slug": "highest-temperature-in-chicago-2026-03-12-37f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-12-37f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-12-chicago-1",
+        "question": "Will the highest temperature in Chicago be 42\u00b0F or above on March 12?",
+        "conditionId": "0xkord1",
+        "slug": "highest-temperature-in-chicago-2026-03-12-42f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-12-42f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-12-chicago-2",
+        "question": "Will the highest temperature in Chicago be 47\u00b0F or above on March 12?",
+        "conditionId": "0xkord2",
+        "slug": "highest-temperature-in-chicago-2026-03-12-47f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-12-47f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "chicago"
+    ]
+  },
+  {
+    "id": "2026-03-13-chicago",
+    "eventTitle": "Highest temperature in Chicago on March 13?",
+    "eventSlug": "highest-temperature-in-chicago-2026-03-13",
+    "url": "https://polymarket.com/event/highest-temperature-in-chicago-2026-03-13",
+    "endDate": "2026-03-14T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-13-chicago-0",
+        "question": "Will the highest temperature in Chicago be 37\u00b0F or above on March 13?",
+        "conditionId": "0xkord0",
+        "slug": "highest-temperature-in-chicago-2026-03-13-37f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-13-37f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-13-chicago-1",
+        "question": "Will the highest temperature in Chicago be 42\u00b0F or above on March 13?",
+        "conditionId": "0xkord1",
+        "slug": "highest-temperature-in-chicago-2026-03-13-42f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-13-42f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-13-chicago-2",
+        "question": "Will the highest temperature in Chicago be 47\u00b0F or above on March 13?",
+        "conditionId": "0xkord2",
+        "slug": "highest-temperature-in-chicago-2026-03-13-47f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-13-47f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "chicago"
+    ]
+  },
+  {
+    "id": "2026-03-14-chicago",
+    "eventTitle": "Highest temperature in Chicago on March 14?",
+    "eventSlug": "highest-temperature-in-chicago-2026-03-14",
+    "url": "https://polymarket.com/event/highest-temperature-in-chicago-2026-03-14",
+    "endDate": "2026-03-15T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-14-chicago-0",
+        "question": "Will the highest temperature in Chicago be 37\u00b0F or above on March 14?",
+        "conditionId": "0xkord0",
+        "slug": "highest-temperature-in-chicago-2026-03-14-37f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-14-37f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-14-chicago-1",
+        "question": "Will the highest temperature in Chicago be 42\u00b0F or above on March 14?",
+        "conditionId": "0xkord1",
+        "slug": "highest-temperature-in-chicago-2026-03-14-42f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-14-42f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-14-chicago-2",
+        "question": "Will the highest temperature in Chicago be 47\u00b0F or above on March 14?",
+        "conditionId": "0xkord2",
+        "slug": "highest-temperature-in-chicago-2026-03-14-47f",
+        "url": "https://polymarket.com/market/highest-temperature-in-chicago-2026-03-14-47f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "chicago"
+    ]
+  },
+  {
+    "id": "2026-03-08-atlanta",
+    "eventTitle": "Highest temperature in Atlanta on March 08?",
+    "eventSlug": "highest-temperature-in-atlanta-2026-03-08",
+    "url": "https://polymarket.com/event/highest-temperature-in-atlanta-2026-03-08",
+    "endDate": "2026-03-09T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-08-atlanta-0",
+        "question": "Will the highest temperature in Atlanta be 71\u00b0F or above on March 08?",
+        "conditionId": "0xkatl0",
+        "slug": "highest-temperature-in-atlanta-2026-03-08-71f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-08-71f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-08-atlanta-1",
+        "question": "Will the highest temperature in Atlanta be 76\u00b0F or above on March 08?",
+        "conditionId": "0xkatl1",
+        "slug": "highest-temperature-in-atlanta-2026-03-08-76f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-08-76f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-08-atlanta-2",
+        "question": "Will the highest temperature in Atlanta be 81\u00b0F or above on March 08?",
+        "conditionId": "0xkatl2",
+        "slug": "highest-temperature-in-atlanta-2026-03-08-81f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-08-81f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "atlanta"
+    ]
+  },
+  {
+    "id": "2026-03-09-atlanta",
+    "eventTitle": "Highest temperature in Atlanta on March 09?",
+    "eventSlug": "highest-temperature-in-atlanta-2026-03-09",
+    "url": "https://polymarket.com/event/highest-temperature-in-atlanta-2026-03-09",
+    "endDate": "2026-03-10T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-09-atlanta-0",
+        "question": "Will the highest temperature in Atlanta be 71\u00b0F or above on March 09?",
+        "conditionId": "0xkatl0",
+        "slug": "highest-temperature-in-atlanta-2026-03-09-71f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-09-71f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-09-atlanta-1",
+        "question": "Will the highest temperature in Atlanta be 76\u00b0F or above on March 09?",
+        "conditionId": "0xkatl1",
+        "slug": "highest-temperature-in-atlanta-2026-03-09-76f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-09-76f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-09-atlanta-2",
+        "question": "Will the highest temperature in Atlanta be 81\u00b0F or above on March 09?",
+        "conditionId": "0xkatl2",
+        "slug": "highest-temperature-in-atlanta-2026-03-09-81f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-09-81f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "atlanta"
+    ]
+  },
+  {
+    "id": "2026-03-10-atlanta",
+    "eventTitle": "Highest temperature in Atlanta on March 10?",
+    "eventSlug": "highest-temperature-in-atlanta-2026-03-10",
+    "url": "https://polymarket.com/event/highest-temperature-in-atlanta-2026-03-10",
+    "endDate": "2026-03-11T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-10-atlanta-0",
+        "question": "Will the highest temperature in Atlanta be 71\u00b0F or above on March 10?",
+        "conditionId": "0xkatl0",
+        "slug": "highest-temperature-in-atlanta-2026-03-10-71f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-10-71f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-10-atlanta-1",
+        "question": "Will the highest temperature in Atlanta be 76\u00b0F or above on March 10?",
+        "conditionId": "0xkatl1",
+        "slug": "highest-temperature-in-atlanta-2026-03-10-76f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-10-76f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-10-atlanta-2",
+        "question": "Will the highest temperature in Atlanta be 81\u00b0F or above on March 10?",
+        "conditionId": "0xkatl2",
+        "slug": "highest-temperature-in-atlanta-2026-03-10-81f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-10-81f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "atlanta"
+    ]
+  },
+  {
+    "id": "2026-03-11-atlanta",
+    "eventTitle": "Highest temperature in Atlanta on March 11?",
+    "eventSlug": "highest-temperature-in-atlanta-2026-03-11",
+    "url": "https://polymarket.com/event/highest-temperature-in-atlanta-2026-03-11",
+    "endDate": "2026-03-12T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-11-atlanta-0",
+        "question": "Will the highest temperature in Atlanta be 71\u00b0F or above on March 11?",
+        "conditionId": "0xkatl0",
+        "slug": "highest-temperature-in-atlanta-2026-03-11-71f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-11-71f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-11-atlanta-1",
+        "question": "Will the highest temperature in Atlanta be 76\u00b0F or above on March 11?",
+        "conditionId": "0xkatl1",
+        "slug": "highest-temperature-in-atlanta-2026-03-11-76f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-11-76f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-11-atlanta-2",
+        "question": "Will the highest temperature in Atlanta be 81\u00b0F or above on March 11?",
+        "conditionId": "0xkatl2",
+        "slug": "highest-temperature-in-atlanta-2026-03-11-81f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-11-81f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "atlanta"
+    ]
+  },
+  {
+    "id": "2026-03-12-atlanta",
+    "eventTitle": "Highest temperature in Atlanta on March 12?",
+    "eventSlug": "highest-temperature-in-atlanta-2026-03-12",
+    "url": "https://polymarket.com/event/highest-temperature-in-atlanta-2026-03-12",
+    "endDate": "2026-03-13T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-12-atlanta-0",
+        "question": "Will the highest temperature in Atlanta be 71\u00b0F or above on March 12?",
+        "conditionId": "0xkatl0",
+        "slug": "highest-temperature-in-atlanta-2026-03-12-71f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-12-71f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-12-atlanta-1",
+        "question": "Will the highest temperature in Atlanta be 76\u00b0F or above on March 12?",
+        "conditionId": "0xkatl1",
+        "slug": "highest-temperature-in-atlanta-2026-03-12-76f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-12-76f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-12-atlanta-2",
+        "question": "Will the highest temperature in Atlanta be 81\u00b0F or above on March 12?",
+        "conditionId": "0xkatl2",
+        "slug": "highest-temperature-in-atlanta-2026-03-12-81f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-12-81f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "atlanta"
+    ]
+  },
+  {
+    "id": "2026-03-13-atlanta",
+    "eventTitle": "Highest temperature in Atlanta on March 13?",
+    "eventSlug": "highest-temperature-in-atlanta-2026-03-13",
+    "url": "https://polymarket.com/event/highest-temperature-in-atlanta-2026-03-13",
+    "endDate": "2026-03-14T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-13-atlanta-0",
+        "question": "Will the highest temperature in Atlanta be 71\u00b0F or above on March 13?",
+        "conditionId": "0xkatl0",
+        "slug": "highest-temperature-in-atlanta-2026-03-13-71f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-13-71f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-13-atlanta-1",
+        "question": "Will the highest temperature in Atlanta be 76\u00b0F or above on March 13?",
+        "conditionId": "0xkatl1",
+        "slug": "highest-temperature-in-atlanta-2026-03-13-76f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-13-76f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-13-atlanta-2",
+        "question": "Will the highest temperature in Atlanta be 81\u00b0F or above on March 13?",
+        "conditionId": "0xkatl2",
+        "slug": "highest-temperature-in-atlanta-2026-03-13-81f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-13-81f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "atlanta"
+    ]
+  },
+  {
+    "id": "2026-03-14-atlanta",
+    "eventTitle": "Highest temperature in Atlanta on March 14?",
+    "eventSlug": "highest-temperature-in-atlanta-2026-03-14",
+    "url": "https://polymarket.com/event/highest-temperature-in-atlanta-2026-03-14",
+    "endDate": "2026-03-15T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-14-atlanta-0",
+        "question": "Will the highest temperature in Atlanta be 71\u00b0F or above on March 14?",
+        "conditionId": "0xkatl0",
+        "slug": "highest-temperature-in-atlanta-2026-03-14-71f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-14-71f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-14-atlanta-1",
+        "question": "Will the highest temperature in Atlanta be 76\u00b0F or above on March 14?",
+        "conditionId": "0xkatl1",
+        "slug": "highest-temperature-in-atlanta-2026-03-14-76f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-14-76f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-14-atlanta-2",
+        "question": "Will the highest temperature in Atlanta be 81\u00b0F or above on March 14?",
+        "conditionId": "0xkatl2",
+        "slug": "highest-temperature-in-atlanta-2026-03-14-81f",
+        "url": "https://polymarket.com/market/highest-temperature-in-atlanta-2026-03-14-81f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "atlanta"
+    ]
+  },
+  {
+    "id": "2026-03-08-seattle",
+    "eventTitle": "Highest temperature in Seattle on March 08?",
+    "eventSlug": "highest-temperature-in-seattle-2026-03-08",
+    "url": "https://polymarket.com/event/highest-temperature-in-seattle-2026-03-08",
+    "endDate": "2026-03-09T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-08-seattle-0",
+        "question": "Will the highest temperature in Seattle be 47\u00b0F or above on March 08?",
+        "conditionId": "0xksea0",
+        "slug": "highest-temperature-in-seattle-2026-03-08-47f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-08-47f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-08-seattle-1",
+        "question": "Will the highest temperature in Seattle be 52\u00b0F or above on March 08?",
+        "conditionId": "0xksea1",
+        "slug": "highest-temperature-in-seattle-2026-03-08-52f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-08-52f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-08-seattle-2",
+        "question": "Will the highest temperature in Seattle be 57\u00b0F or above on March 08?",
+        "conditionId": "0xksea2",
+        "slug": "highest-temperature-in-seattle-2026-03-08-57f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-08-57f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "seattle"
+    ]
+  },
+  {
+    "id": "2026-03-09-seattle",
+    "eventTitle": "Highest temperature in Seattle on March 09?",
+    "eventSlug": "highest-temperature-in-seattle-2026-03-09",
+    "url": "https://polymarket.com/event/highest-temperature-in-seattle-2026-03-09",
+    "endDate": "2026-03-10T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-09-seattle-0",
+        "question": "Will the highest temperature in Seattle be 47\u00b0F or above on March 09?",
+        "conditionId": "0xksea0",
+        "slug": "highest-temperature-in-seattle-2026-03-09-47f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-09-47f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-09-seattle-1",
+        "question": "Will the highest temperature in Seattle be 52\u00b0F or above on March 09?",
+        "conditionId": "0xksea1",
+        "slug": "highest-temperature-in-seattle-2026-03-09-52f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-09-52f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-09-seattle-2",
+        "question": "Will the highest temperature in Seattle be 57\u00b0F or above on March 09?",
+        "conditionId": "0xksea2",
+        "slug": "highest-temperature-in-seattle-2026-03-09-57f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-09-57f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "seattle"
+    ]
+  },
+  {
+    "id": "2026-03-10-seattle",
+    "eventTitle": "Highest temperature in Seattle on March 10?",
+    "eventSlug": "highest-temperature-in-seattle-2026-03-10",
+    "url": "https://polymarket.com/event/highest-temperature-in-seattle-2026-03-10",
+    "endDate": "2026-03-11T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-10-seattle-0",
+        "question": "Will the highest temperature in Seattle be 47\u00b0F or above on March 10?",
+        "conditionId": "0xksea0",
+        "slug": "highest-temperature-in-seattle-2026-03-10-47f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-10-47f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-10-seattle-1",
+        "question": "Will the highest temperature in Seattle be 52\u00b0F or above on March 10?",
+        "conditionId": "0xksea1",
+        "slug": "highest-temperature-in-seattle-2026-03-10-52f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-10-52f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-10-seattle-2",
+        "question": "Will the highest temperature in Seattle be 57\u00b0F or above on March 10?",
+        "conditionId": "0xksea2",
+        "slug": "highest-temperature-in-seattle-2026-03-10-57f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-10-57f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "seattle"
+    ]
+  },
+  {
+    "id": "2026-03-11-seattle",
+    "eventTitle": "Highest temperature in Seattle on March 11?",
+    "eventSlug": "highest-temperature-in-seattle-2026-03-11",
+    "url": "https://polymarket.com/event/highest-temperature-in-seattle-2026-03-11",
+    "endDate": "2026-03-12T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-11-seattle-0",
+        "question": "Will the highest temperature in Seattle be 47\u00b0F or above on March 11?",
+        "conditionId": "0xksea0",
+        "slug": "highest-temperature-in-seattle-2026-03-11-47f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-11-47f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-11-seattle-1",
+        "question": "Will the highest temperature in Seattle be 52\u00b0F or above on March 11?",
+        "conditionId": "0xksea1",
+        "slug": "highest-temperature-in-seattle-2026-03-11-52f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-11-52f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-11-seattle-2",
+        "question": "Will the highest temperature in Seattle be 57\u00b0F or above on March 11?",
+        "conditionId": "0xksea2",
+        "slug": "highest-temperature-in-seattle-2026-03-11-57f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-11-57f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "seattle"
+    ]
+  },
+  {
+    "id": "2026-03-12-seattle",
+    "eventTitle": "Highest temperature in Seattle on March 12?",
+    "eventSlug": "highest-temperature-in-seattle-2026-03-12",
+    "url": "https://polymarket.com/event/highest-temperature-in-seattle-2026-03-12",
+    "endDate": "2026-03-13T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-12-seattle-0",
+        "question": "Will the highest temperature in Seattle be 47\u00b0F or above on March 12?",
+        "conditionId": "0xksea0",
+        "slug": "highest-temperature-in-seattle-2026-03-12-47f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-12-47f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-12-seattle-1",
+        "question": "Will the highest temperature in Seattle be 52\u00b0F or above on March 12?",
+        "conditionId": "0xksea1",
+        "slug": "highest-temperature-in-seattle-2026-03-12-52f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-12-52f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-12-seattle-2",
+        "question": "Will the highest temperature in Seattle be 57\u00b0F or above on March 12?",
+        "conditionId": "0xksea2",
+        "slug": "highest-temperature-in-seattle-2026-03-12-57f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-12-57f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "seattle"
+    ]
+  },
+  {
+    "id": "2026-03-13-seattle",
+    "eventTitle": "Highest temperature in Seattle on March 13?",
+    "eventSlug": "highest-temperature-in-seattle-2026-03-13",
+    "url": "https://polymarket.com/event/highest-temperature-in-seattle-2026-03-13",
+    "endDate": "2026-03-14T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-13-seattle-0",
+        "question": "Will the highest temperature in Seattle be 47\u00b0F or above on March 13?",
+        "conditionId": "0xksea0",
+        "slug": "highest-temperature-in-seattle-2026-03-13-47f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-13-47f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-13-seattle-1",
+        "question": "Will the highest temperature in Seattle be 52\u00b0F or above on March 13?",
+        "conditionId": "0xksea1",
+        "slug": "highest-temperature-in-seattle-2026-03-13-52f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-13-52f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-13-seattle-2",
+        "question": "Will the highest temperature in Seattle be 57\u00b0F or above on March 13?",
+        "conditionId": "0xksea2",
+        "slug": "highest-temperature-in-seattle-2026-03-13-57f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-13-57f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "seattle"
+    ]
+  },
+  {
+    "id": "2026-03-14-seattle",
+    "eventTitle": "Highest temperature in Seattle on March 14?",
+    "eventSlug": "highest-temperature-in-seattle-2026-03-14",
+    "url": "https://polymarket.com/event/highest-temperature-in-seattle-2026-03-14",
+    "endDate": "2026-03-15T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-14-seattle-0",
+        "question": "Will the highest temperature in Seattle be 47\u00b0F or above on March 14?",
+        "conditionId": "0xksea0",
+        "slug": "highest-temperature-in-seattle-2026-03-14-47f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-14-47f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-14-seattle-1",
+        "question": "Will the highest temperature in Seattle be 52\u00b0F or above on March 14?",
+        "conditionId": "0xksea1",
+        "slug": "highest-temperature-in-seattle-2026-03-14-52f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-14-52f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-14-seattle-2",
+        "question": "Will the highest temperature in Seattle be 57\u00b0F or above on March 14?",
+        "conditionId": "0xksea2",
+        "slug": "highest-temperature-in-seattle-2026-03-14-57f",
+        "url": "https://polymarket.com/market/highest-temperature-in-seattle-2026-03-14-57f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "seattle"
+    ]
+  },
+  {
+    "id": "2026-03-08-miami",
+    "eventTitle": "Highest temperature in Miami on March 08?",
+    "eventSlug": "highest-temperature-in-miami-2026-03-08",
+    "url": "https://polymarket.com/event/highest-temperature-in-miami-2026-03-08",
+    "endDate": "2026-03-09T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-08-miami-0",
+        "question": "Will the highest temperature in Miami be 79\u00b0F or above on March 08?",
+        "conditionId": "0xkmia0",
+        "slug": "highest-temperature-in-miami-2026-03-08-79f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-08-79f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-08-miami-1",
+        "question": "Will the highest temperature in Miami be 84\u00b0F or above on March 08?",
+        "conditionId": "0xkmia1",
+        "slug": "highest-temperature-in-miami-2026-03-08-84f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-08-84f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-08-miami-2",
+        "question": "Will the highest temperature in Miami be 89\u00b0F or above on March 08?",
+        "conditionId": "0xkmia2",
+        "slug": "highest-temperature-in-miami-2026-03-08-89f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-08-89f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "miami"
+    ]
+  },
+  {
+    "id": "2026-03-09-miami",
+    "eventTitle": "Highest temperature in Miami on March 09?",
+    "eventSlug": "highest-temperature-in-miami-2026-03-09",
+    "url": "https://polymarket.com/event/highest-temperature-in-miami-2026-03-09",
+    "endDate": "2026-03-10T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-09-miami-0",
+        "question": "Will the highest temperature in Miami be 79\u00b0F or above on March 09?",
+        "conditionId": "0xkmia0",
+        "slug": "highest-temperature-in-miami-2026-03-09-79f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-09-79f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-09-miami-1",
+        "question": "Will the highest temperature in Miami be 84\u00b0F or above on March 09?",
+        "conditionId": "0xkmia1",
+        "slug": "highest-temperature-in-miami-2026-03-09-84f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-09-84f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-09-miami-2",
+        "question": "Will the highest temperature in Miami be 89\u00b0F or above on March 09?",
+        "conditionId": "0xkmia2",
+        "slug": "highest-temperature-in-miami-2026-03-09-89f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-09-89f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "miami"
+    ]
+  },
+  {
+    "id": "2026-03-10-miami",
+    "eventTitle": "Highest temperature in Miami on March 10?",
+    "eventSlug": "highest-temperature-in-miami-2026-03-10",
+    "url": "https://polymarket.com/event/highest-temperature-in-miami-2026-03-10",
+    "endDate": "2026-03-11T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-10-miami-0",
+        "question": "Will the highest temperature in Miami be 79\u00b0F or above on March 10?",
+        "conditionId": "0xkmia0",
+        "slug": "highest-temperature-in-miami-2026-03-10-79f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-10-79f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-10-miami-1",
+        "question": "Will the highest temperature in Miami be 84\u00b0F or above on March 10?",
+        "conditionId": "0xkmia1",
+        "slug": "highest-temperature-in-miami-2026-03-10-84f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-10-84f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-10-miami-2",
+        "question": "Will the highest temperature in Miami be 89\u00b0F or above on March 10?",
+        "conditionId": "0xkmia2",
+        "slug": "highest-temperature-in-miami-2026-03-10-89f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-10-89f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "miami"
+    ]
+  },
+  {
+    "id": "2026-03-11-miami",
+    "eventTitle": "Highest temperature in Miami on March 11?",
+    "eventSlug": "highest-temperature-in-miami-2026-03-11",
+    "url": "https://polymarket.com/event/highest-temperature-in-miami-2026-03-11",
+    "endDate": "2026-03-12T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-11-miami-0",
+        "question": "Will the highest temperature in Miami be 79\u00b0F or above on March 11?",
+        "conditionId": "0xkmia0",
+        "slug": "highest-temperature-in-miami-2026-03-11-79f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-11-79f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-11-miami-1",
+        "question": "Will the highest temperature in Miami be 84\u00b0F or above on March 11?",
+        "conditionId": "0xkmia1",
+        "slug": "highest-temperature-in-miami-2026-03-11-84f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-11-84f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-11-miami-2",
+        "question": "Will the highest temperature in Miami be 89\u00b0F or above on March 11?",
+        "conditionId": "0xkmia2",
+        "slug": "highest-temperature-in-miami-2026-03-11-89f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-11-89f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "miami"
+    ]
+  },
+  {
+    "id": "2026-03-12-miami",
+    "eventTitle": "Highest temperature in Miami on March 12?",
+    "eventSlug": "highest-temperature-in-miami-2026-03-12",
+    "url": "https://polymarket.com/event/highest-temperature-in-miami-2026-03-12",
+    "endDate": "2026-03-13T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-12-miami-0",
+        "question": "Will the highest temperature in Miami be 79\u00b0F or above on March 12?",
+        "conditionId": "0xkmia0",
+        "slug": "highest-temperature-in-miami-2026-03-12-79f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-12-79f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-12-miami-1",
+        "question": "Will the highest temperature in Miami be 84\u00b0F or above on March 12?",
+        "conditionId": "0xkmia1",
+        "slug": "highest-temperature-in-miami-2026-03-12-84f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-12-84f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-12-miami-2",
+        "question": "Will the highest temperature in Miami be 89\u00b0F or above on March 12?",
+        "conditionId": "0xkmia2",
+        "slug": "highest-temperature-in-miami-2026-03-12-89f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-12-89f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "miami"
+    ]
+  },
+  {
+    "id": "2026-03-13-miami",
+    "eventTitle": "Highest temperature in Miami on March 13?",
+    "eventSlug": "highest-temperature-in-miami-2026-03-13",
+    "url": "https://polymarket.com/event/highest-temperature-in-miami-2026-03-13",
+    "endDate": "2026-03-14T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-13-miami-0",
+        "question": "Will the highest temperature in Miami be 79\u00b0F or above on March 13?",
+        "conditionId": "0xkmia0",
+        "slug": "highest-temperature-in-miami-2026-03-13-79f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-13-79f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-13-miami-1",
+        "question": "Will the highest temperature in Miami be 84\u00b0F or above on March 13?",
+        "conditionId": "0xkmia1",
+        "slug": "highest-temperature-in-miami-2026-03-13-84f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-13-84f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-13-miami-2",
+        "question": "Will the highest temperature in Miami be 89\u00b0F or above on March 13?",
+        "conditionId": "0xkmia2",
+        "slug": "highest-temperature-in-miami-2026-03-13-89f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-13-89f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "miami"
+    ]
+  },
+  {
+    "id": "2026-03-14-miami",
+    "eventTitle": "Highest temperature in Miami on March 14?",
+    "eventSlug": "highest-temperature-in-miami-2026-03-14",
+    "url": "https://polymarket.com/event/highest-temperature-in-miami-2026-03-14",
+    "endDate": "2026-03-15T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-14-miami-0",
+        "question": "Will the highest temperature in Miami be 79\u00b0F or above on March 14?",
+        "conditionId": "0xkmia0",
+        "slug": "highest-temperature-in-miami-2026-03-14-79f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-14-79f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-14-miami-1",
+        "question": "Will the highest temperature in Miami be 84\u00b0F or above on March 14?",
+        "conditionId": "0xkmia1",
+        "slug": "highest-temperature-in-miami-2026-03-14-84f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-14-84f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-14-miami-2",
+        "question": "Will the highest temperature in Miami be 89\u00b0F or above on March 14?",
+        "conditionId": "0xkmia2",
+        "slug": "highest-temperature-in-miami-2026-03-14-89f",
+        "url": "https://polymarket.com/market/highest-temperature-in-miami-2026-03-14-89f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "miami"
+    ]
+  },
+  {
+    "id": "2026-03-08-boston",
+    "eventTitle": "Highest temperature in Boston on March 08?",
+    "eventSlug": "highest-temperature-in-boston-2026-03-08",
+    "url": "https://polymarket.com/event/highest-temperature-in-boston-2026-03-08",
+    "endDate": "2026-03-09T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-08-boston-0",
+        "question": "Will the highest temperature in Boston be 40\u00b0F or above on March 08?",
+        "conditionId": "0xkbos0",
+        "slug": "highest-temperature-in-boston-2026-03-08-40f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-08-40f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-08-boston-1",
+        "question": "Will the highest temperature in Boston be 45\u00b0F or above on March 08?",
+        "conditionId": "0xkbos1",
+        "slug": "highest-temperature-in-boston-2026-03-08-45f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-08-45f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-08-boston-2",
+        "question": "Will the highest temperature in Boston be 50\u00b0F or above on March 08?",
+        "conditionId": "0xkbos2",
+        "slug": "highest-temperature-in-boston-2026-03-08-50f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-08-50f",
+        "endDate": "2026-03-09T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "boston"
+    ]
+  },
+  {
+    "id": "2026-03-09-boston",
+    "eventTitle": "Highest temperature in Boston on March 09?",
+    "eventSlug": "highest-temperature-in-boston-2026-03-09",
+    "url": "https://polymarket.com/event/highest-temperature-in-boston-2026-03-09",
+    "endDate": "2026-03-10T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-09-boston-0",
+        "question": "Will the highest temperature in Boston be 40\u00b0F or above on March 09?",
+        "conditionId": "0xkbos0",
+        "slug": "highest-temperature-in-boston-2026-03-09-40f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-09-40f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-09-boston-1",
+        "question": "Will the highest temperature in Boston be 45\u00b0F or above on March 09?",
+        "conditionId": "0xkbos1",
+        "slug": "highest-temperature-in-boston-2026-03-09-45f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-09-45f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-09-boston-2",
+        "question": "Will the highest temperature in Boston be 50\u00b0F or above on March 09?",
+        "conditionId": "0xkbos2",
+        "slug": "highest-temperature-in-boston-2026-03-09-50f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-09-50f",
+        "endDate": "2026-03-10T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "boston"
+    ]
+  },
+  {
+    "id": "2026-03-10-boston",
+    "eventTitle": "Highest temperature in Boston on March 10?",
+    "eventSlug": "highest-temperature-in-boston-2026-03-10",
+    "url": "https://polymarket.com/event/highest-temperature-in-boston-2026-03-10",
+    "endDate": "2026-03-11T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-10-boston-0",
+        "question": "Will the highest temperature in Boston be 40\u00b0F or above on March 10?",
+        "conditionId": "0xkbos0",
+        "slug": "highest-temperature-in-boston-2026-03-10-40f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-10-40f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-10-boston-1",
+        "question": "Will the highest temperature in Boston be 45\u00b0F or above on March 10?",
+        "conditionId": "0xkbos1",
+        "slug": "highest-temperature-in-boston-2026-03-10-45f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-10-45f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-10-boston-2",
+        "question": "Will the highest temperature in Boston be 50\u00b0F or above on March 10?",
+        "conditionId": "0xkbos2",
+        "slug": "highest-temperature-in-boston-2026-03-10-50f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-10-50f",
+        "endDate": "2026-03-11T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "boston"
+    ]
+  },
+  {
+    "id": "2026-03-11-boston",
+    "eventTitle": "Highest temperature in Boston on March 11?",
+    "eventSlug": "highest-temperature-in-boston-2026-03-11",
+    "url": "https://polymarket.com/event/highest-temperature-in-boston-2026-03-11",
+    "endDate": "2026-03-12T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-11-boston-0",
+        "question": "Will the highest temperature in Boston be 40\u00b0F or above on March 11?",
+        "conditionId": "0xkbos0",
+        "slug": "highest-temperature-in-boston-2026-03-11-40f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-11-40f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-11-boston-1",
+        "question": "Will the highest temperature in Boston be 45\u00b0F or above on March 11?",
+        "conditionId": "0xkbos1",
+        "slug": "highest-temperature-in-boston-2026-03-11-45f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-11-45f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-11-boston-2",
+        "question": "Will the highest temperature in Boston be 50\u00b0F or above on March 11?",
+        "conditionId": "0xkbos2",
+        "slug": "highest-temperature-in-boston-2026-03-11-50f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-11-50f",
+        "endDate": "2026-03-12T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "boston"
+    ]
+  },
+  {
+    "id": "2026-03-12-boston",
+    "eventTitle": "Highest temperature in Boston on March 12?",
+    "eventSlug": "highest-temperature-in-boston-2026-03-12",
+    "url": "https://polymarket.com/event/highest-temperature-in-boston-2026-03-12",
+    "endDate": "2026-03-13T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-12-boston-0",
+        "question": "Will the highest temperature in Boston be 40\u00b0F or above on March 12?",
+        "conditionId": "0xkbos0",
+        "slug": "highest-temperature-in-boston-2026-03-12-40f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-12-40f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-12-boston-1",
+        "question": "Will the highest temperature in Boston be 45\u00b0F or above on March 12?",
+        "conditionId": "0xkbos1",
+        "slug": "highest-temperature-in-boston-2026-03-12-45f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-12-45f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-12-boston-2",
+        "question": "Will the highest temperature in Boston be 50\u00b0F or above on March 12?",
+        "conditionId": "0xkbos2",
+        "slug": "highest-temperature-in-boston-2026-03-12-50f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-12-50f",
+        "endDate": "2026-03-13T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "boston"
+    ]
+  },
+  {
+    "id": "2026-03-13-boston",
+    "eventTitle": "Highest temperature in Boston on March 13?",
+    "eventSlug": "highest-temperature-in-boston-2026-03-13",
+    "url": "https://polymarket.com/event/highest-temperature-in-boston-2026-03-13",
+    "endDate": "2026-03-14T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-13-boston-0",
+        "question": "Will the highest temperature in Boston be 40\u00b0F or above on March 13?",
+        "conditionId": "0xkbos0",
+        "slug": "highest-temperature-in-boston-2026-03-13-40f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-13-40f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-13-boston-1",
+        "question": "Will the highest temperature in Boston be 45\u00b0F or above on March 13?",
+        "conditionId": "0xkbos1",
+        "slug": "highest-temperature-in-boston-2026-03-13-45f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-13-45f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-13-boston-2",
+        "question": "Will the highest temperature in Boston be 50\u00b0F or above on March 13?",
+        "conditionId": "0xkbos2",
+        "slug": "highest-temperature-in-boston-2026-03-13-50f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-13-50f",
+        "endDate": "2026-03-14T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "boston"
+    ]
+  },
+  {
+    "id": "2026-03-14-boston",
+    "eventTitle": "Highest temperature in Boston on March 14?",
+    "eventSlug": "highest-temperature-in-boston-2026-03-14",
+    "url": "https://polymarket.com/event/highest-temperature-in-boston-2026-03-14",
+    "endDate": "2026-03-15T00:00:00Z",
+    "volume": 5000,
+    "liquidity": 2000,
+    "active": true,
+    "markets": [
+      {
+        "id": "2026-03-14-boston-0",
+        "question": "Will the highest temperature in Boston be 40\u00b0F or above on March 14?",
+        "conditionId": "0xkbos0",
+        "slug": "highest-temperature-in-boston-2026-03-14-40f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-14-40f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-14-boston-1",
+        "question": "Will the highest temperature in Boston be 45\u00b0F or above on March 14?",
+        "conditionId": "0xkbos1",
+        "slug": "highest-temperature-in-boston-2026-03-14-45f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-14-45f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      },
+      {
+        "id": "2026-03-14-boston-2",
+        "question": "Will the highest temperature in Boston be 50\u00b0F or above on March 14?",
+        "conditionId": "0xkbos2",
+        "slug": "highest-temperature-in-boston-2026-03-14-50f",
+        "url": "https://polymarket.com/market/highest-temperature-in-boston-2026-03-14-50f",
+        "endDate": "2026-03-15T00:00:00Z",
+        "volume": 5000,
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.5",
+          "0.5"
+        ],
+        "closed": false
+      }
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "boston"
+    ]
   }
 ]
