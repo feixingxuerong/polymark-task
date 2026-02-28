@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-02-28T12:08:25.398Z",
+  "generated_at": "2026-02-28T12:09:34.955Z",
   "today_date": "2026-02-28",
   "yesterday_date": "2026-02-27",
   "first_run": false,
   "summary": {
     "today_count": 30,
     "yesterday_count": 30,
-    "new_count": 16,
-    "dropped_count": 16,
+    "new_count": 17,
+    "dropped_count": 17,
     "score_jumps_count": 0,
     "spread_moves_count": 0,
-    "liquidity_moves_count": 1
+    "liquidity_moves_count": 0
   },
   "new_entries": [
     {
-      "market_id": "1460106",
-      "question": "Bitcoin Up or Down - February 28, 4:50PM-4:55PM ET",
-      "rank": 1,
+      "market_id": "1462129",
+      "question": "Bitcoin Up or Down - February 28, 9:45PM-9:50PM ET",
+      "rank": 2,
       "score": 5.799999999999999,
-      "liquidity": 15207.3031,
+      "liquidity": 15294.0772,
       "implied_probability": null,
-      "reason": "新上榜，排名 #1，评分 5.8"
-    },
-    {
-      "market_id": "1459812",
-      "question": "Ethereum Up or Down - February 28, 4:00PM-8:00PM ET",
-      "rank": 13,
-      "score": 5.799999999999999,
-      "liquidity": 11860.688,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #13，评分 5.8"
+      "reason": "新上榜，排名 #2，评分 5.8"
     },
     {
       "market_id": "1447006",
       "question": "Spread: Jaguares de Córdoba FC (-2.5)",
+      "rank": 13,
+      "score": 5.799999999999999,
+      "liquidity": 12107.0167,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #13，评分 5.8"
+    },
+    {
+      "market_id": "1459812",
+      "question": "Ethereum Up or Down - February 28, 4:00PM-8:00PM ET",
       "rank": 14,
       "score": 5.799999999999999,
-      "liquidity": 10368.8567,
+      "liquidity": 11860.688,
       "implied_probability": null,
       "reason": "新上榜，排名 #14，评分 5.8"
     },
@@ -45,112 +45,121 @@
       "question": "Portland State Vikings vs. Montana Grizzlies",
       "rank": 15,
       "score": 5.199999999999999,
-      "liquidity": 6458.8573,
+      "liquidity": 6578.0173,
       "implied_probability": null,
       "reason": "新上榜，排名 #15，评分 5.2"
     },
     {
-      "market_id": "1422290",
-      "question": "Nevada Wolf Pack vs. UNLV Runnin' Rebels",
-      "rank": 16,
-      "score": 5.199999999999999,
-      "liquidity": 5424.0488,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #16，评分 5.2"
-    },
-    {
-      "market_id": "1396335",
-      "question": "Spread: West Ham United FC (-1.5)",
-      "rank": 17,
-      "score": 5.199999999999999,
-      "liquidity": 2554.7422,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #17，评分 5.2"
-    },
-    {
-      "market_id": "1399380",
-      "question": "US forces in Venezuela again by March 31, 2026?",
-      "rank": 19,
-      "score": 5.199999999999999,
-      "liquidity": 2404.3252,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #19，评分 5.2"
-    },
-    {
-      "market_id": "1430239",
-      "question": "Will Kristoffer Reitan finish in the Top 5 at the 2026 Cognizant Classic in The Palm Beaches?",
-      "rank": 20,
-      "score": 5.199999999999999,
-      "liquidity": 2350.0798,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #20，评分 5.2"
-    },
-    {
-      "market_id": "1446391",
-      "question": "Spread: Pyramids FC (-2.5)",
-      "rank": 21,
-      "score": 5.199999999999999,
-      "liquidity": 1717.4452,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #21，评分 5.2"
-    },
-    {
-      "market_id": "1462553",
-      "question": "Rockets vs. Heat: 1H Moneyline",
-      "rank": 22,
-      "score": 5.199999999999999,
-      "liquidity": 1634.6493,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #22，评分 5.2"
-    },
-    {
-      "market_id": "1463585",
-      "question": "Spread: Boise State Broncos (-7.5)",
-      "rank": 23,
-      "score": 5.199999999999999,
-      "liquidity": 1398.1296,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #23，评分 5.2"
-    },
-    {
-      "market_id": "1463593",
-      "question": "Spread: Wyoming Cowboys (-21.5)",
-      "rank": 24,
-      "score": 5.199999999999999,
-      "liquidity": 1377.1782,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #24，评分 5.2"
-    },
-    {
-      "market_id": "1463939",
-      "question": "Baylor Bears vs. UCF Knights: O/U 158.5",
-      "rank": 25,
-      "score": 5.199999999999999,
-      "liquidity": 1333.9798,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #25，评分 5.2"
-    },
-    {
       "market_id": "mar1-chicago-1",
       "question": "Will the highest temperature in Chicago be 42°F or higher on March 1?",
-      "rank": 28,
+      "rank": 18,
       "score": 4,
       "liquidity": 520,
       "implied_probability": null,
-      "reason": "新上榜，排名 #28，评分 4.0"
+      "reason": "新上榜，排名 #18，评分 4.0"
     },
     {
       "market_id": "mar1-atlanta-1",
       "question": "Will the highest temperature in Atlanta be 76°F or higher on March 1?",
-      "rank": 29,
+      "rank": 19,
       "score": 4,
       "liquidity": 510,
       "implied_probability": null,
-      "reason": "新上榜，排名 #29，评分 4.0"
+      "reason": "新上榜，排名 #19，评分 4.0"
     },
     {
       "market_id": "2026-03-01-philadelphia-0",
       "question": "Will the highest temperature in Philadelphia be 50°F or above on March 01?",
+      "rank": 20,
+      "score": 4,
+      "liquidity": 500,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #20，评分 4.0"
+    },
+    {
+      "market_id": "2026-03-01-philadelphia-1",
+      "question": "Will the highest temperature in Philadelphia be 55°F or above on March 01?",
+      "rank": 21,
+      "score": 4,
+      "liquidity": 500,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #21，评分 4.0"
+    },
+    {
+      "market_id": "2026-03-01-philadelphia-2",
+      "question": "Will the highest temperature in Philadelphia be 60°F or above on March 01?",
+      "rank": 22,
+      "score": 4,
+      "liquidity": 500,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #22，评分 4.0"
+    },
+    {
+      "market_id": "2026-03-02-philadelphia-0",
+      "question": "Will the highest temperature in Philadelphia be 50°F or above on March 02?",
+      "rank": 23,
+      "score": 4,
+      "liquidity": 500,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #23，评分 4.0"
+    },
+    {
+      "market_id": "2026-03-02-philadelphia-1",
+      "question": "Will the highest temperature in Philadelphia be 55°F or above on March 02?",
+      "rank": 24,
+      "score": 4,
+      "liquidity": 500,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #24，评分 4.0"
+    },
+    {
+      "market_id": "2026-03-02-philadelphia-2",
+      "question": "Will the highest temperature in Philadelphia be 60°F or above on March 02?",
+      "rank": 25,
+      "score": 4,
+      "liquidity": 500,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #25，评分 4.0"
+    },
+    {
+      "market_id": "2026-03-03-philadelphia-0",
+      "question": "Will the highest temperature in Philadelphia be 50°F or above on March 03?",
+      "rank": 26,
+      "score": 4,
+      "liquidity": 500,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #26，评分 4.0"
+    },
+    {
+      "market_id": "2026-03-03-philadelphia-1",
+      "question": "Will the highest temperature in Philadelphia be 55°F or above on March 03?",
+      "rank": 27,
+      "score": 4,
+      "liquidity": 500,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #27，评分 4.0"
+    },
+    {
+      "market_id": "2026-03-03-philadelphia-2",
+      "question": "Will the highest temperature in Philadelphia be 60°F or above on March 03?",
+      "rank": 28,
+      "score": 4,
+      "liquidity": 500,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #28，评分 4.0"
+    },
+    {
+      "market_id": "2026-03-04-philadelphia-0",
+      "question": "Will the highest temperature in Philadelphia be 50°F or above on March 04?",
+      "rank": 29,
+      "score": 4,
+      "liquidity": 500,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #29，评分 4.0"
+    },
+    {
+      "market_id": "2026-03-04-philadelphia-1",
+      "question": "Will the highest temperature in Philadelphia be 55°F or above on March 04?",
       "rank": 30,
       "score": 4,
       "liquidity": 500,
@@ -208,14 +217,6 @@
       "reason": "跌出榜单昨日排名 #6"
     },
     {
-      "market_id": "1455625",
-      "question": "Bitcoin Up or Down - February 28, 12:40PM-12:45PM ET",
-      "yesterday_rank": 7,
-      "yesterday_score": 5.799999999999999,
-      "yesterday_liquidity": 15044.058,
-      "reason": "跌出榜单昨日排名 #7"
-    },
-    {
       "market_id": "1452445",
       "question": "Ethereum Up or Down - February 27, 11:30PM-11:45PM ET",
       "yesterday_rank": 8,
@@ -248,12 +249,28 @@
       "reason": "跌出榜单昨日排名 #11"
     },
     {
+      "market_id": "1453997",
+      "question": "Solana Up or Down - February 28, 7:25AM-7:30AM ET",
+      "yesterday_rank": 16,
+      "yesterday_score": 5.799999999999999,
+      "yesterday_liquidity": 12785.0312,
+      "reason": "跌出榜单昨日排名 #16"
+    },
+    {
       "market_id": "1448021",
       "question": "XRP Up or Down - February 28, 11AM ET",
       "yesterday_rank": 23,
       "yesterday_score": 5.799999999999999,
       "yesterday_liquidity": 10803.258,
       "reason": "跌出榜单昨日排名 #23"
+    },
+    {
+      "market_id": "1382469",
+      "question": "Spread: FC København (-2.5)",
+      "yesterday_rank": 24,
+      "yesterday_score": 5.199999999999999,
+      "yesterday_liquidity": 3911.895,
+      "reason": "跌出榜单昨日排名 #24"
     },
     {
       "market_id": "1411334",
@@ -290,26 +307,8 @@
   ],
   "score_jumps": [],
   "spread_moves": [],
-  "liquidity_moves": [
-    {
-      "market_id": "1382469",
-      "question": "Spread: FC København (-2.5)",
-      "today_liquidity": 2535.1999,
-      "yesterday_liquidity": 3911.895,
-      "liquidity_change_pct": -35.19253712075605,
-      "direction": "decreased",
-      "reason": "流动性减少 35% ($3,912 → $2,535)"
-    }
-  ],
+  "liquidity_moves": [],
   "top_movers": [
-    {
-      "market_id": "1382469",
-      "question": "Spread: FC København (-2.5)",
-      "today_rank": 18,
-      "yesterday_rank": 24,
-      "change_score": 3.519253712075605,
-      "reason": "综合变化得分 3.5，排名 24 → 18"
-    },
     {
       "market_id": "1456313",
       "question": "Solana Up or Down - February 28, 2:15PM-2:30PM ET",
@@ -327,60 +326,68 @@
       "reason": "综合变化得分 0.9，排名 21 → 12"
     },
     {
-      "market_id": "1453997",
-      "question": "Solana Up or Down - February 28, 7:25AM-7:30AM ET",
-      "today_rank": 10,
-      "yesterday_rank": 16,
-      "change_score": 0.41613734974694483,
-      "reason": "综合变化得分 0.4，排名 16 → 10"
+      "market_id": "1455625",
+      "question": "Bitcoin Up or Down - February 28, 12:40PM-12:45PM ET",
+      "today_rank": 1,
+      "yesterday_rank": 7,
+      "change_score": 0.233352463809963,
+      "reason": "综合变化得分 0.2，排名 7 → 1"
     },
     {
       "market_id": "1456073",
       "question": "Ethereum Up or Down - February 28, 1:55PM-2:00PM ET",
-      "today_rank": 3,
+      "today_rank": 4,
       "yesterday_rank": 14,
       "change_score": 0.1088394470117799,
-      "reason": "综合变化得分 0.1，排名 14 → 3"
-    },
-    {
-      "market_id": "1456467",
-      "question": "Solana Up or Down - February 28, 2:35PM-2:40PM ET",
-      "today_rank": 5,
-      "yesterday_rank": 18,
-      "change_score": 0.06890607045878955,
-      "reason": "综合变化得分 0.1，排名 18 → 5"
+      "reason": "综合变化得分 0.1，排名 14 → 4"
     },
     {
       "market_id": "1456466",
       "question": "XRP Up or Down - February 28, 2:35PM-2:40PM ET",
-      "today_rank": 9,
+      "today_rank": 10,
       "yesterday_rank": 20,
-      "change_score": 0.0683446340290707,
-      "reason": "综合变化得分 0.1，排名 20 → 9"
+      "change_score": 0.06913213164137795,
+      "reason": "综合变化得分 0.1，排名 20 → 10"
     },
     {
       "market_id": "1456428",
       "question": "XRP Up or Down - February 28, 2:25PM-2:30PM ET",
-      "today_rank": 7,
+      "today_rank": 8,
       "yesterday_rank": 19,
-      "change_score": 0.06830884225256384,
-      "reason": "综合变化得分 0.1，排名 19 → 7"
+      "change_score": 0.06909591838687909,
+      "reason": "综合变化得分 0.1，排名 19 → 8"
+    },
+    {
+      "market_id": "1456467",
+      "question": "Solana Up or Down - February 28, 2:35PM-2:40PM ET",
+      "today_rank": 6,
+      "yesterday_rank": 18,
+      "change_score": 0.06890607045878955,
+      "reason": "综合变化得分 0.1，排名 18 → 6"
     },
     {
       "market_id": "1456430",
       "question": "Ethereum Up or Down - February 28, 2:25PM-2:30PM ET",
-      "today_rank": 4,
+      "today_rank": 5,
       "yesterday_rank": 13,
       "change_score": 0.06698789477665784,
-      "reason": "综合变化得分 0.1，排名 13 → 4"
+      "reason": "综合变化得分 0.1，排名 13 → 5"
     },
     {
       "market_id": "1456469",
       "question": "Ethereum Up or Down - February 28, 2:35PM-2:40PM ET",
-      "today_rank": 2,
+      "today_rank": 3,
       "yesterday_rank": 12,
       "change_score": 0.06557174382359492,
-      "reason": "综合变化得分 0.1，排名 12 → 2"
+      "reason": "综合变化得分 0.1，排名 12 → 3"
+    },
+    {
+      "market_id": "1456816",
+      "question": "Solana Up or Down - February 28, 2:40PM-2:45PM ET",
+      "today_rank": 7,
+      "yesterday_rank": 17,
+      "change_score": 0.05343954317568872,
+      "reason": "综合变化得分 0.1，排名 17 → 7"
     }
   ]
 }
