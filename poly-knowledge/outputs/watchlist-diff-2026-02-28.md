@@ -1,6 +1,6 @@
 # Watchlist Diff - 2026-02-28
 
-> Generated: 2026-02-28T12:11:38.681Z
+> Generated: 2026-02-28T12:18:04.989Z
 > Today: 2026-02-28
 > Yesterday: 2026-02-27
 > First Run: No
@@ -22,9 +22,9 @@
 | # | Question | Rank | Score | Liquidity | Reason |
 |---|----------|------|-------|-----------|--------|
 | 1 | Bitcoin Up or Down - February ... | #2 | 5.8 | $15k | 新上榜，排名 #2，评分 5.8 |
-| 2 | Spread: Jaguares de Córdoba FC... | #13 | 5.8 | $12k | 新上榜，排名 #13，评分 5.8 |
-| 3 | Ethereum Up or Down - February... | #14 | 5.8 | $12k | 新上榜，排名 #14，评分 5.8 |
-| 4 | Portland State Vikings vs. Mon... | #15 | 5.2 | $7k | 新上榜，排名 #15，评分 5.2 |
+| 2 | Ethereum Up or Down - February... | #13 | 5.8 | $12k | 新上榜，排名 #13，评分 5.8 |
+| 3 | Portland State Vikings vs. Mon... | #14 | 5.2 | $7k | 新上榜，排名 #14，评分 5.2 |
+| 4 | Nevada Wolf Pack vs. UNLV Runn... | #15 | 5.2 | $5k | 新上榜，排名 #15，评分 5.2 |
 | 5 | Will the highest temperature i... | #18 | 4.0 | $1k | 新上榜，排名 #18，评分 4.0 |
 | 6 | Will the highest temperature i... | #19 | 4.0 | $1k | 新上榜，排名 #19，评分 4.0 |
 | 7 | Will the highest temperature i... | #20 | 4.0 | $1k | 新上榜，排名 #20，评分 4.0 |
@@ -71,9 +71,9 @@ _No significant liquidity moves_
 | 2 | XRP Up or Down - February... | 0.9 | 21→12 (↑9) | 综合变化得分 0.9，排名 21 → 12 |
 | 3 | Bitcoin Up or Down - Febr... | 0.2 | 7→1 (↑6) | 综合变化得分 0.2，排名 7 → 1 |
 | 4 | Ethereum Up or Down - Feb... | 0.1 | 14→4 (↑10) | 综合变化得分 0.1，排名 14 → 4 |
-| 5 | XRP Up or Down - February... | 0.1 | 20→10 (↑10) | 综合变化得分 0.1，排名 20 → 10 |
-| 6 | XRP Up or Down - February... | 0.1 | 19→8 (↑11) | 综合变化得分 0.1，排名 19 → 8 |
-| 7 | Solana Up or Down - Febru... | 0.1 | 18→6 (↑12) | 综合变化得分 0.1，排名 18 → 6 |
+| 5 | Solana Up or Down - Febru... | 0.1 | 18→6 (↑12) | 综合变化得分 0.1，排名 18 → 6 |
+| 6 | XRP Up or Down - February... | 0.1 | 20→10 (↑10) | 综合变化得分 0.1，排名 20 → 10 |
+| 7 | XRP Up or Down - February... | 0.1 | 19→8 (↑11) | 综合变化得分 0.1，排名 19 → 8 |
 | 8 | Ethereum Up or Down - Feb... | 0.1 | 13→5 (↑8) | 综合变化得分 0.1，排名 13 → 5 |
 | 9 | Ethereum Up or Down - Feb... | 0.1 | 12→3 (↑9) | 综合变化得分 0.1，排名 12 → 3 |
 | 10 | Solana Up or Down - Febru... | 0.1 | 17→7 (↑10) | 综合变化得分 0.1，排名 17 → 7 |

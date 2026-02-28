@@ -1,7 +1,7 @@
 # Daily Watchlist - 2026-02-28
 
-> Generated: 2026-02-28T12:11:38.631Z
-> Total candidates: 279
+> Generated: 2026-02-28T12:18:04.923Z
+> Total candidates: 426
 > TopN: 30 (weather quota: 15)
 > Weather in Top30: 15 (aviation: 0)
 > Scoring weights: liquidity=0.2, spread=0.15, ...
@@ -23,9 +23,9 @@
 | 10 | XRP Up or Down - Feb... | N/A | N/A | $13k | 0d | **5.8** | - | unknown | 观察 - 需进一步研究 | ok |
 | 11 | Solana Up or Down - ... | N/A | N/A | $12k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
 | 12 | XRP Up or Down - Feb... | N/A | N/A | $12k | 0d | **5.8** | - | unknown | 观察 - 需进一步研究 | ok |
-| 13 | Spread: Jaguares de ... | N/A | N/A | $12k | 0d | **5.8** | - | unknown | 观察 - 需进一步研究 | ok |
-| 14 | Ethereum Up or Down ... | N/A | N/A | $12k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 15 | Portland State Vikin... | N/A | N/A | $7k | 0d | **5.2** | - | sports | 观察 - 等待比赛结果 | ok |
+| 13 | Ethereum Up or Down ... | N/A | N/A | $12k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
+| 14 | Portland State Vikin... | N/A | N/A | $7k | 0d | **5.2** | - | sports | 观察 - 等待比赛结果 | ok |
+| 15 | Nevada Wolf Pack vs.... | N/A | N/A | $5k | 1d | **5.2** | - | sports | 观察 - 等待比赛结果 | ok |
 | 16 | Will the highest tem... | N/A | N/A | $2k | 0d | **4.6** | 6.3 | weather | 研究-跟踪 | poor |
 | 17 | Will the highest tem... | N/A | N/A | $1k | 1d | **4.0** | 6.3 | weather | 研究-跟踪 | poor |
 | 18 | Will the highest tem... | N/A | N/A | $1k | 1d | **4.0** | 6.3 | weather | 研究-跟踪 | poor |
@@ -51,7 +51,7 @@
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $15,395 |
+| **流动性** | $15,396 |
 | **到期时间** | 0天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -68,7 +68,7 @@
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $15,294 |
+| **流动性** | $15,323 |
 | **到期时间** | 1天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -85,7 +85,7 @@
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $13,546 |
+| **流动性** | $13,547 |
 | **到期时间** | 0天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -102,7 +102,7 @@
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $13,546 |
+| **流动性** | $13,547 |
 | **到期时间** | 0天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -119,7 +119,7 @@
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $13,541 |
+| **流动性** | $13,542 |
 | **到期时间** | 0天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -136,7 +136,7 @@
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $12,828 |
+| **流动性** | $12,830 |
 | **到期时间** | 0天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -153,7 +153,7 @@
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $12,828 |
+| **流动性** | $12,830 |
 | **到期时间** | 0天 |
 | **类别** | crypto |
 | **评分** | 5.8/10 |
@@ -250,24 +250,7 @@
 | **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/xrp-updown-15m-1772305200) |
 
-### #13 Spread: Jaguares de Córdoba FC (-2.5)
-
-| Field | Value |
-|-------|-------|
-| **概率** | N/A |
-| **流动性** | $12,107 |
-| **到期时间** | 0天 |
-| **类别** | unknown |
-| **评分** | 5.8/10 |
-| **行动** | 观察 - 需进一步研究 |
-| **交易可行性** | ok |
-| **入场计划** | 评分≥7.0且流动性允许时可小额测试，设定5%止损线 |
-| **理由** | 通用候选市场，0天后到期。需自行验证结算规则和监控源。 |
-| **Key Risks** | 结算规则不明确, 流动性枯竭, 未知黑天鹅事件 |
-| **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
-| **链接** | [Polymarket](https://polymarket.com/market/col1-jdc-cjf-2026-02-28-spread-home-2pt5) |
-
-### #14 Ethereum Up or Down - February 28, 4:00PM-8:00PM ET
+### #13 Ethereum Up or Down - February 28, 4:00PM-8:00PM ET
 
 | Field | Value |
 |-------|-------|
@@ -284,12 +267,12 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/eth-updown-4h-1772312400) |
 
-### #15 Portland State Vikings vs. Montana Grizzlies
+### #14 Portland State Vikings vs. Montana Grizzlies
 
 | Field | Value |
 |-------|-------|
 | **概率** | N/A |
-| **流动性** | $6,578 |
+| **流动性** | $6,613 |
 | **到期时间** | 0天 |
 | **类别** | sports |
 | **评分** | 5.2/10 |
@@ -301,6 +284,23 @@
 | **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
 | **链接** | [Polymarket](https://polymarket.com/market/cbb-portst-mont-2026-02-28) |
 
+### #15 Nevada Wolf Pack vs. UNLV Runnin' Rebels
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $5,391 |
+| **到期时间** | 1天 |
+| **类别** | sports |
+| **评分** | 5.2/10 |
+| **行动** | 观察 - 等待比赛结果 |
+| **交易可行性** | ok |
+| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
+| **理由** | 体育类市场结算清晰，1天后到期。需关注比赛实际结果和潜在中断。 |
+| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
+| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
+| **链接** | [Polymarket](https://polymarket.com/market/cbb-nevada-unlv-2026-02-28) |
+
 ### #16 Will the highest temperature in NYC be 50°F or higher on February 28?
 
 | Field | Value |
@@ -311,7 +311,7 @@
 | **到期时间** | 0天 |
 | **类别** | weather |
 | **评分** | 4.6/10 |
-| **天气信号评分** | 6.3/10 (recency:4.7, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
 | **气象证据** | maxTemp: 43F, threshold: 50°F, sigma: 1.1°C/2°F, station: KJFK |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
@@ -332,7 +332,7 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.7, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
 | **气象证据** | maxTemp: 82F, threshold: 72°F, sigma: 1.1°C/2°F, station: KDFW |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
@@ -353,7 +353,7 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.7, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
 | **气象证据** | maxTemp: 31F, threshold: 42°F, sigma: 1.1°C/2°F, station: KORD |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
@@ -373,7 +373,7 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.7, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -392,7 +392,7 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.7, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -411,7 +411,7 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.7, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -430,7 +430,7 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.7, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -449,7 +449,7 @@
 | **到期时间** | 2天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.7, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -468,7 +468,7 @@
 | **到期时间** | 2天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.7, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -487,7 +487,7 @@
 | **到期时间** | 2天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.7, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -506,7 +506,7 @@
 | **到期时间** | 3天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.7, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -525,7 +525,7 @@
 | **到期时间** | 3天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.7, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -544,7 +544,7 @@
 | **到期时间** | 3天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.7, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -563,7 +563,7 @@
 | **到期时间** | 4天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.7, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -582,7 +582,7 @@
 | **到期时间** | 4天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.7, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
