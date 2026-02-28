@@ -1,6 +1,6 @@
 # Watchlist Diff - 2026-02-28
 
-> Generated: 2026-02-28T04:36:50.510Z
+> Generated: 2026-02-28T05:56:57.980Z
 > Today: 2026-02-28
 > Yesterday: 2026-02-27
 > First Run: No
@@ -21,9 +21,9 @@
 
 | # | Question | Rank | Score | Liquidity | Reason |
 |---|----------|------|-------|-----------|--------|
-| 1 | Bitcoin Up or Down - February ... | #2 | 5.8 | $15k | 新上榜，排名 #2，评分 5.8 |
-| 2 | Bitcoin Up or Down - February ... | #7 | 5.8 | $15k | 新上榜，排名 #7，评分 5.8 |
-| 3 | Spread: West Ham United FC (-1... | #25 | 5.2 | $3k | 新上榜，排名 #25，评分 5.2 |
+| 1 | Bitcoin Up or Down - February ... | #1 | 5.8 | $16k | 新上榜，排名 #1，评分 5.8 |
+| 2 | Bitcoin Up or Down - February ... | #8 | 5.8 | $15k | 新上榜，排名 #8，评分 5.8 |
+| 3 | XRP Up or Down - February 28, ... | #22 | 5.8 | $12k | 新上榜，排名 #22，评分 5.8 |
 
 ## Dropped Entries (移除)
 
@@ -45,22 +45,22 @@ _No significant spread moves_
 
 | # | Question | Change | Today | Yesterday | Reason |
 |---|----------|--------|-------|-----------|--------|
-| 1 | Spread: FC København (-2.... | +207% | $12k | $4k | 流动性增加 207% ($3,912 → $12,007) |
+| 1 | Spread: FC København (-2.... | +206% | $12k | $4k | 流动性增加 206% ($3,912 → $11,982) |
 
 ## Top Movers (综合异动)
 
 | # | Question | Change Score | Rank Change | Reason |
 |---|----------|--------------|-------------|--------|
-| 1 | Spread: FC København (-2.... | 21.3 | 24→22 (↑2) | 综合变化得分 21.3，排名 24 → 22 |
-| 2 | Bitcoin Up or Down - Febr... | 0.2 | 6→1 (↑5) | 综合变化得分 0.2，排名 6 → 1 |
-| 3 | XRP Up or Down - February... | 0.1 | 20→19 (↑1) | 综合变化得分 0.1，排名 20 → 19 |
-| 4 | XRP Up or Down - February... | 0.1 | 19→18 (↑1) | 综合变化得分 0.1，排名 19 → 18 |
-| 5 | Solana Up or Down - Febru... | 0.1 | 18→16 (↑2) | 综合变化得分 0.1，排名 18 → 16 |
-| 6 | Solana Up or Down - Febru... | 0.1 | 22→24 (↓2) | 综合变化得分 0.1，排名 22 → 24 |
-| 7 | XRP Up or Down - February... | 0.1 | 21→23 (↓2) | 综合变化得分 0.1，排名 21 → 23 |
-| 8 | Ethereum Up or Down - Feb... | 0.1 | 14→15 (↓1) | 综合变化得分 0.1，排名 14 → 15 |
-| 9 | Ethereum Up or Down - Feb... | 0.1 | 13→11 (↑2) | 综合变化得分 0.1，排名 13 → 11 |
-| 10 | Ethereum Up or Down - Feb... | 0.1 | 12→10 (↑2) | 综合变化得分 0.1，排名 12 → 10 |
+| 1 | Spread: FC København (-2.... | 21.2 | 24→23 (↑1) | 综合变化得分 21.2，排名 24 → 23 |
+| 2 | Bitcoin Up or Down - Febr... | 0.1 | 6→2 (↑4) | 综合变化得分 0.1，排名 6 → 2 |
+| 3 | Ethereum Up or Down - Feb... | 0.1 | 9→10 (↓1) | 综合变化得分 0.1，排名 9 → 10 |
+| 4 | Ethereum Up or Down - Feb... | 0.1 | 11→12 (↓1) | 综合变化得分 0.1，排名 11 → 12 |
+| 5 | Ethereum Up or Down - Feb... | 0.1 | 10→11 (↓1) | 综合变化得分 0.1，排名 10 → 11 |
+| 6 | Ethereum Up or Down - Feb... | 0.1 | 14→14 (-) | 综合变化得分 0.1，排名 14 → 14 |
+| 7 | Solana Up or Down - Febru... | 0.1 | 22→25 (↓3) | 综合变化得分 0.1，排名 22 → 25 |
+| 8 | XRP Up or Down - February... | 0.1 | 21→24 (↓3) | 综合变化得分 0.1，排名 21 → 24 |
+| 9 | XRP Up or Down - February... | 0.1 | 20→21 (↓1) | 综合变化得分 0.1，排名 20 → 21 |
+| 10 | XRP Up or Down - February... | 0.1 | 19→18 (↑1) | 综合变化得分 0.1，排名 19 → 18 |
 
 ---
 
