@@ -97,6 +97,28 @@ async function fetchJSON(url, options = {}) {
   return response.json();
 }
 
+// === TOKEN ID HELPERS ===
+function normalizeClobTokenIds(clobTokenIds) {
+  if (!clobTokenIds) return [];
+  if (Array.isArray(clobTokenIds)) return clobTokenIds;
+  if (typeof clobTokenIds === 'string') {
+    try {
+      const parsed = JSON.parse(clobTokenIds);
+      return Array.isArray(parsed) ? parsed : [];
+    } catch {
+      return [];
+    }
+  }
+  return [];
+}
+
+function extractTokenIds(market) {
+  const tokenIds = normalizeClobTokenIds(market?.clobTokenIds);
+  const yesTokenId = tokenIds[0] && typeof tokenIds[0] === 'string' && tokenIds[0].startsWith('0x') ? tokenIds[0] : null;
+  const noTokenId = tokenIds[1] && typeof tokenIds[1] === 'string' && tokenIds[1].startsWith('0x') ? tokenIds[1] : null;
+  return { tokenIds, yesTokenId, noTokenId };
+}
+
 // === API CALLS ===
 async function getMarkets(minLiquidity = DEFAULT_MIN_LIQUIDITY, limit = DEFAULT_LIMIT) {
   const url = `${GAMMA_API}/markets?closed=false&liquidity_num_min=${minLiquidity}&order=volume&limit=${limit}`;
@@ -209,7 +231,7 @@ function calculateMetrics(market, orderbook, midpointData, lastTradeData, feeDat
     // From Gamma API
     volume: parseFloat(market.volume) || 0,
     liquidity: parseFloat(market.liquidity) || 0,
-    clobTokenIds: market.clobTokenIds || [],
+    clobTokenIds: normalizeClobTokenIds(market.clobTokenIds),
     startDate: market.startDate || null,
     endDate: market.endDate || null,
     acceptingOrders: market.acceptingOrders || false,
@@ -252,17 +274,7 @@ function calculateMetrics(market, orderbook, midpointData, lastTradeData, feeDat
   };
   
   // Extract and validate token IDs (must start with 0x)
-  // Note: clobTokenIds may come as JSON string or array
-  let tokenIds = market.clobTokenIds || [];
-  if (typeof tokenIds === 'string') {
-    try {
-      tokenIds = JSON.parse(tokenIds);
-    } catch (e) {
-      tokenIds = [];
-    }
-  }
-  const yesTokenId = tokenIds[0] && typeof tokenIds[0] === 'string' && tokenIds[0].startsWith('0x') ? tokenIds[0] : null;
-  const noTokenId = tokenIds[1] && typeof tokenIds[1] === 'string' && tokenIds[1].startsWith('0x') ? tokenIds[1] : null;
+  const { yesTokenId, noTokenId } = extractTokenIds(market);
   
   // Implied probability from last trade or midpoint
   if (lastTradeData?.price) {
@@ -1107,8 +1119,7 @@ async function main() {
     const market = markets[i];
     console.log(`[${i + 1}/${markets.length}] Processing: ${market.question?.substring(0, 50)}...`);
     
-    const yesTokenId = market.clobTokenIds?.[0];
-    const noTokenId = market.clobTokenIds?.[1];
+    const { yesTokenId, noTokenId } = extractTokenIds(market);
     
     // Fetch additional data in parallel
     const [orderbook, midpointData, lastTradeData, feeData] = await Promise.all([
