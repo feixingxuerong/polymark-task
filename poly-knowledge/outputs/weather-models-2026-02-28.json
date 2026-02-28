@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-28T09:58:38.507Z",
+  "generatedAt": "2026-02-28T23:53:41.347Z",
   "targetDate": "2026-02-28",
   "nws": {
     "source": "NOAA/NWS API (api.weather.gov)",
@@ -61,26 +61,14 @@
       },
       "periods": [
         {
-          "name": "Overnight",
-          "temperature": 26,
-          "temperatureUnit": "F",
-          "startTime": "2026-02-28T02:00:00-05:00"
-        },
-        {
-          "name": "Saturday",
-          "temperature": 45,
-          "temperatureUnit": "F",
-          "startTime": "2026-02-28T06:00:00-05:00"
-        },
-        {
-          "name": "Saturday Night",
+          "name": "Tonight",
           "temperature": 30,
           "temperatureUnit": "F",
           "startTime": "2026-02-28T18:00:00-05:00"
         },
         {
           "name": "Sunday",
-          "temperature": 38,
+          "temperature": 36,
           "temperatureUnit": "F",
           "startTime": "2026-03-01T06:00:00-05:00"
         },
@@ -98,19 +86,19 @@
         },
         {
           "name": "Monday Night",
-          "temperature": 21,
+          "temperature": 22,
           "temperatureUnit": "F",
           "startTime": "2026-03-02T18:00:00-05:00"
         },
         {
           "name": "Tuesday",
-          "temperature": 40,
+          "temperature": 41,
           "temperatureUnit": "F",
           "startTime": "2026-03-03T06:00:00-05:00"
         },
         {
           "name": "Tuesday Night",
-          "temperature": 37,
+          "temperature": 38,
           "temperatureUnit": "F",
           "startTime": "2026-03-03T18:00:00-05:00"
         },
@@ -122,13 +110,13 @@
         },
         {
           "name": "Wednesday Night",
-          "temperature": 36,
+          "temperature": 38,
           "temperatureUnit": "F",
           "startTime": "2026-03-04T18:00:00-05:00"
         },
         {
           "name": "Thursday",
-          "temperature": 48,
+          "temperature": 49,
           "temperatureUnit": "F",
           "startTime": "2026-03-05T06:00:00-05:00"
         },
@@ -143,6 +131,18 @@
           "temperature": 49,
           "temperatureUnit": "F",
           "startTime": "2026-03-06T06:00:00-05:00"
+        },
+        {
+          "name": "Friday Night",
+          "temperature": 39,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-06T18:00:00-05:00"
+        },
+        {
+          "name": "Saturday",
+          "temperature": 53,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-07T06:00:00-05:00"
         }
       ]
     },
@@ -155,56 +155,50 @@
       },
       "periods": [
         {
-          "name": "Overnight",
-          "temperature": 30,
+          "name": "This Afternoon",
+          "temperature": 36,
           "temperatureUnit": "F",
-          "startTime": "2026-02-28T03:00:00-06:00"
+          "startTime": "2026-02-28T17:00:00-06:00"
         },
         {
-          "name": "Saturday",
-          "temperature": 35,
-          "temperatureUnit": "F",
-          "startTime": "2026-02-28T06:00:00-06:00"
-        },
-        {
-          "name": "Saturday Night",
-          "temperature": 25,
+          "name": "Tonight",
+          "temperature": 26,
           "temperatureUnit": "F",
           "startTime": "2026-02-28T18:00:00-06:00"
         },
         {
           "name": "Sunday",
-          "temperature": 31,
+          "temperature": 32,
           "temperatureUnit": "F",
           "startTime": "2026-03-01T06:00:00-06:00"
         },
         {
           "name": "Sunday Night",
-          "temperature": 23,
+          "temperature": 24,
           "temperatureUnit": "F",
           "startTime": "2026-03-01T18:00:00-06:00"
         },
         {
           "name": "Monday",
-          "temperature": 41,
+          "temperature": 42,
           "temperatureUnit": "F",
           "startTime": "2026-03-02T06:00:00-06:00"
         },
         {
           "name": "Monday Night",
-          "temperature": 33,
+          "temperature": 34,
           "temperatureUnit": "F",
           "startTime": "2026-03-02T18:00:00-06:00"
         },
         {
           "name": "Tuesday",
-          "temperature": 42,
+          "temperature": 44,
           "temperatureUnit": "F",
           "startTime": "2026-03-03T06:00:00-06:00"
         },
         {
           "name": "Tuesday Night",
-          "temperature": 33,
+          "temperature": 35,
           "temperatureUnit": "F",
           "startTime": "2026-03-03T18:00:00-06:00"
         },
@@ -228,15 +222,21 @@
         },
         {
           "name": "Thursday Night",
-          "temperature": 44,
+          "temperature": 46,
           "temperatureUnit": "F",
           "startTime": "2026-03-05T18:00:00-06:00"
         },
         {
           "name": "Friday",
-          "temperature": 60,
+          "temperature": 63,
           "temperatureUnit": "F",
           "startTime": "2026-03-06T06:00:00-06:00"
+        },
+        {
+          "name": "Friday Night",
+          "temperature": 46,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-06T18:00:00-06:00"
         }
       ]
     },
@@ -249,20 +249,14 @@
       },
       "periods": [
         {
+          "name": "This Afternoon",
+          "temperature": 78,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-28T14:00:00-08:00"
+        },
+        {
           "name": "Tonight",
-          "temperature": 64,
-          "temperatureUnit": "F",
-          "startTime": "2026-02-27T23:00:00-08:00"
-        },
-        {
-          "name": "Saturday",
-          "temperature": 77,
-          "temperatureUnit": "F",
-          "startTime": "2026-02-28T06:00:00-08:00"
-        },
-        {
-          "name": "Saturday Night",
-          "temperature": 56,
+          "temperature": 55,
           "temperatureUnit": "F",
           "startTime": "2026-02-28T18:00:00-08:00"
         },
@@ -274,7 +268,7 @@
         },
         {
           "name": "Sunday Night",
-          "temperature": 55,
+          "temperature": 54,
           "temperatureUnit": "F",
           "startTime": "2026-03-01T18:00:00-08:00"
         },
@@ -286,7 +280,7 @@
         },
         {
           "name": "Monday Night",
-          "temperature": 53,
+          "temperature": 52,
           "temperatureUnit": "F",
           "startTime": "2026-03-02T18:00:00-08:00"
         },
@@ -298,7 +292,7 @@
         },
         {
           "name": "Tuesday Night",
-          "temperature": 53,
+          "temperature": 54,
           "temperatureUnit": "F",
           "startTime": "2026-03-03T18:00:00-08:00"
         },
@@ -310,7 +304,7 @@
         },
         {
           "name": "Wednesday Night",
-          "temperature": 53,
+          "temperature": 55,
           "temperatureUnit": "F",
           "startTime": "2026-03-04T18:00:00-08:00"
         },
@@ -322,15 +316,21 @@
         },
         {
           "name": "Thursday Night",
-          "temperature": 55,
+          "temperature": 54,
           "temperatureUnit": "F",
           "startTime": "2026-03-05T18:00:00-08:00"
         },
         {
           "name": "Friday",
-          "temperature": 74,
+          "temperature": 73,
           "temperatureUnit": "F",
           "startTime": "2026-03-06T06:00:00-08:00"
+        },
+        {
+          "name": "Friday Night",
+          "temperature": 56,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-06T18:00:00-08:00"
         }
       ]
     },
@@ -343,20 +343,8 @@
       },
       "periods": [
         {
-          "name": "Overnight",
-          "temperature": 69,
-          "temperatureUnit": "F",
-          "startTime": "2026-02-28T03:00:00-05:00"
-        },
-        {
-          "name": "Saturday",
-          "temperature": 84,
-          "temperatureUnit": "F",
-          "startTime": "2026-02-28T06:00:00-05:00"
-        },
-        {
-          "name": "Saturday Night",
-          "temperature": 67,
+          "name": "Tonight",
+          "temperature": 68,
           "temperatureUnit": "F",
           "startTime": "2026-02-28T18:00:00-05:00"
         },
@@ -380,7 +368,7 @@
         },
         {
           "name": "Monday Night",
-          "temperature": 68,
+          "temperature": 69,
           "temperatureUnit": "F",
           "startTime": "2026-03-02T18:00:00-05:00"
         },
@@ -404,7 +392,7 @@
         },
         {
           "name": "Wednesday Night",
-          "temperature": 70,
+          "temperature": 71,
           "temperatureUnit": "F",
           "startTime": "2026-03-04T18:00:00-05:00"
         },
@@ -416,7 +404,7 @@
         },
         {
           "name": "Thursday Night",
-          "temperature": 70,
+          "temperature": 71,
           "temperatureUnit": "F",
           "startTime": "2026-03-05T18:00:00-05:00"
         },
@@ -425,6 +413,18 @@
           "temperature": 81,
           "temperatureUnit": "F",
           "startTime": "2026-03-06T06:00:00-05:00"
+        },
+        {
+          "name": "Friday Night",
+          "temperature": 70,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-06T18:00:00-05:00"
+        },
+        {
+          "name": "Saturday",
+          "temperature": 81,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-07T06:00:00-05:00"
         }
       ]
     },
@@ -437,26 +437,20 @@
       },
       "periods": [
         {
-          "name": "Overnight",
-          "temperature": 36,
+          "name": "This Afternoon",
+          "temperature": 67,
           "temperatureUnit": "F",
-          "startTime": "2026-02-28T00:00:00-07:00"
+          "startTime": "2026-02-28T12:00:00-07:00"
         },
         {
-          "name": "Saturday",
-          "temperature": 69,
-          "temperatureUnit": "F",
-          "startTime": "2026-02-28T06:00:00-07:00"
-        },
-        {
-          "name": "Saturday Night",
-          "temperature": 38,
+          "name": "Tonight",
+          "temperature": 37,
           "temperatureUnit": "F",
           "startTime": "2026-02-28T18:00:00-07:00"
         },
         {
           "name": "Sunday",
-          "temperature": 63,
+          "temperature": 60,
           "temperatureUnit": "F",
           "startTime": "2026-03-01T06:00:00-07:00"
         },
@@ -468,31 +462,31 @@
         },
         {
           "name": "Monday",
-          "temperature": 69,
+          "temperature": 72,
           "temperatureUnit": "F",
           "startTime": "2026-03-02T06:00:00-07:00"
         },
         {
           "name": "Monday Night",
-          "temperature": 36,
+          "temperature": 37,
           "temperatureUnit": "F",
           "startTime": "2026-03-02T18:00:00-07:00"
         },
         {
           "name": "Tuesday",
-          "temperature": 52,
+          "temperature": 51,
           "temperatureUnit": "F",
           "startTime": "2026-03-03T06:00:00-07:00"
         },
         {
           "name": "Tuesday Night",
-          "temperature": 33,
+          "temperature": 34,
           "temperatureUnit": "F",
           "startTime": "2026-03-03T18:00:00-07:00"
         },
         {
           "name": "Wednesday",
-          "temperature": 63,
+          "temperature": 64,
           "temperatureUnit": "F",
           "startTime": "2026-03-04T06:00:00-07:00"
         },
@@ -504,7 +498,7 @@
         },
         {
           "name": "Thursday",
-          "temperature": 62,
+          "temperature": 63,
           "temperatureUnit": "F",
           "startTime": "2026-03-05T06:00:00-07:00"
         },
@@ -516,9 +510,15 @@
         },
         {
           "name": "Friday",
-          "temperature": 48,
+          "temperature": 52,
           "temperatureUnit": "F",
           "startTime": "2026-03-06T06:00:00-07:00"
+        },
+        {
+          "name": "Friday Night",
+          "temperature": 29,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-06T18:00:00-07:00"
         }
       ]
     }
@@ -529,45 +529,45 @@
       "daily": [
         {
           "date": "2026-02-28",
-          "temperatureMax": 8.7,
+          "temperatureMax": 10.4,
           "temperatureMin": -1,
           "weatherCode": 45
         },
         {
           "date": "2026-03-01",
-          "temperatureMax": 4,
-          "temperatureMin": -3.4,
+          "temperatureMax": 2.9,
+          "temperatureMin": -5,
           "weatherCode": 73
         },
         {
           "date": "2026-03-02",
-          "temperatureMax": -0.5,
-          "temperatureMin": -5.6,
+          "temperatureMax": -1.4,
+          "temperatureMin": -9.5,
           "weatherCode": 3
         },
         {
           "date": "2026-03-03",
-          "temperatureMax": 4.6,
-          "temperatureMin": -1.5,
-          "weatherCode": 71
+          "temperatureMax": 2.3,
+          "temperatureMin": -1.8,
+          "weatherCode": 55
         },
         {
           "date": "2026-03-04",
-          "temperatureMax": 12.3,
-          "temperatureMin": 5.1,
+          "temperatureMax": 4.4,
+          "temperatureMin": 0.8,
           "weatherCode": 61
         },
         {
           "date": "2026-03-05",
-          "temperatureMax": 19.5,
-          "temperatureMin": 5.3,
-          "weatherCode": 51
+          "temperatureMax": 15.8,
+          "temperatureMin": 4.7,
+          "weatherCode": 45
         },
         {
           "date": "2026-03-06",
-          "temperatureMax": 12.7,
-          "temperatureMin": 4.2,
-          "weatherCode": 51
+          "temperatureMax": 8.8,
+          "temperatureMin": 3.1,
+          "weatherCode": 3
         }
       ]
     },
@@ -577,43 +577,43 @@
         {
           "date": "2026-02-28",
           "temperatureMax": 8,
-          "temperatureMin": -1.4,
+          "temperatureMin": -3.1,
           "weatherCode": 3
         },
         {
           "date": "2026-03-01",
-          "temperatureMax": -1.4,
-          "temperatureMin": -4.7,
+          "temperatureMax": 0,
+          "temperatureMin": -4.1,
           "weatherCode": 3
         },
         {
           "date": "2026-03-02",
-          "temperatureMax": 4.7,
-          "temperatureMin": -3,
+          "temperatureMax": 6.1,
+          "temperatureMin": -4,
           "weatherCode": 3
         },
         {
           "date": "2026-03-03",
-          "temperatureMax": 3.2,
-          "temperatureMin": 1.3,
-          "weatherCode": 53
+          "temperatureMax": 5.6,
+          "temperatureMin": 1.5,
+          "weatherCode": 81
         },
         {
           "date": "2026-03-04",
-          "temperatureMax": 3.5,
-          "temperatureMin": 2.1,
-          "weatherCode": 61
+          "temperatureMax": 9.8,
+          "temperatureMin": 4.8,
+          "weatherCode": 81
         },
         {
           "date": "2026-03-05",
-          "temperatureMax": 5.4,
-          "temperatureMin": 2.9,
+          "temperatureMax": 6,
+          "temperatureMin": 4.1,
           "weatherCode": 51
         },
         {
           "date": "2026-03-06",
-          "temperatureMax": 18.4,
-          "temperatureMin": 3.3,
+          "temperatureMax": 17.4,
+          "temperatureMin": 5.1,
           "weatherCode": 51
         }
       ]
@@ -623,45 +623,45 @@
       "daily": [
         {
           "date": "2026-02-28",
-          "temperatureMax": 23.8,
-          "temperatureMin": 12.5,
+          "temperatureMax": 26.8,
+          "temperatureMin": 13.4,
           "weatherCode": 45
         },
         {
           "date": "2026-03-01",
-          "temperatureMax": 19.7,
-          "temperatureMin": 11.8,
+          "temperatureMax": 21.8,
+          "temperatureMin": 12.5,
           "weatherCode": 45
         },
         {
           "date": "2026-03-02",
-          "temperatureMax": 19,
-          "temperatureMin": 15,
+          "temperatureMax": 18.8,
+          "temperatureMin": 10.1,
           "weatherCode": 3
         },
         {
           "date": "2026-03-03",
-          "temperatureMax": 18.7,
-          "temperatureMin": 14.9,
+          "temperatureMax": 19.2,
+          "temperatureMin": 15,
           "weatherCode": 3
         },
         {
           "date": "2026-03-04",
-          "temperatureMax": 21.3,
-          "temperatureMin": 15.9,
-          "weatherCode": 3
+          "temperatureMax": 21.2,
+          "temperatureMin": 15.5,
+          "weatherCode": 2
         },
         {
           "date": "2026-03-05",
-          "temperatureMax": 23.2,
-          "temperatureMin": 15.8,
+          "temperatureMax": 21.5,
+          "temperatureMin": 16,
           "weatherCode": 0
         },
         {
           "date": "2026-03-06",
-          "temperatureMax": 21.1,
-          "temperatureMin": 16.6,
-          "weatherCode": 2
+          "temperatureMax": 20.4,
+          "temperatureMin": 16,
+          "weatherCode": 3
         }
       ]
     },
@@ -670,44 +670,44 @@
       "daily": [
         {
           "date": "2026-02-28",
-          "temperatureMax": 31.5,
-          "temperatureMin": 21.2,
-          "weatherCode": 3
+          "temperatureMax": 28.4,
+          "temperatureMin": 21.1,
+          "weatherCode": 95
         },
         {
           "date": "2026-03-01",
-          "temperatureMax": 25.3,
-          "temperatureMin": 19.4,
+          "temperatureMax": 26.7,
+          "temperatureMin": 20.8,
           "weatherCode": 51
         },
         {
           "date": "2026-03-02",
-          "temperatureMax": 27.4,
-          "temperatureMin": 21.5,
-          "weatherCode": 81
+          "temperatureMax": 26.4,
+          "temperatureMin": 20.4,
+          "weatherCode": 51
         },
         {
           "date": "2026-03-03",
-          "temperatureMax": 26.4,
+          "temperatureMax": 26.2,
           "temperatureMin": 22.2,
-          "weatherCode": 55
+          "weatherCode": 53
         },
         {
           "date": "2026-03-04",
-          "temperatureMax": 27.2,
+          "temperatureMax": 27.1,
           "temperatureMin": 22.9,
           "weatherCode": 51
         },
         {
           "date": "2026-03-05",
-          "temperatureMax": 27.5,
-          "temperatureMin": 22.9,
-          "weatherCode": 0
+          "temperatureMax": 27.6,
+          "temperatureMin": 23,
+          "weatherCode": 1
         },
         {
           "date": "2026-03-06",
           "temperatureMax": 27.4,
-          "temperatureMin": 23,
+          "temperatureMin": 23.2,
           "weatherCode": 3
         }
       ]
@@ -718,44 +718,44 @@
         {
           "date": "2026-02-28",
           "temperatureMax": 19.4,
-          "temperatureMin": 4.3,
+          "temperatureMin": 4.6,
           "weatherCode": 3
         },
         {
           "date": "2026-03-01",
-          "temperatureMax": 16,
-          "temperatureMin": 2.9,
-          "weatherCode": 3
-        },
-        {
-          "date": "2026-03-02",
-          "temperatureMax": 19.9,
+          "temperatureMax": 17.7,
           "temperatureMin": 4.9,
           "weatherCode": 3
         },
         {
+          "date": "2026-03-02",
+          "temperatureMax": 19.3,
+          "temperatureMin": 3.1,
+          "weatherCode": 3
+        },
+        {
           "date": "2026-03-03",
-          "temperatureMax": 8.5,
-          "temperatureMin": 1.5,
-          "weatherCode": 61
+          "temperatureMax": 12.6,
+          "temperatureMin": 4.1,
+          "weatherCode": 53
         },
         {
           "date": "2026-03-04",
-          "temperatureMax": 17.9,
-          "temperatureMin": 1.4,
-          "weatherCode": 0
+          "temperatureMax": 18.1,
+          "temperatureMin": 3.7,
+          "weatherCode": 3
         },
         {
           "date": "2026-03-05",
-          "temperatureMax": 14.7,
-          "temperatureMin": 3.5,
+          "temperatureMax": 15.8,
+          "temperatureMin": 4.6,
           "weatherCode": 3
         },
         {
           "date": "2026-03-06",
-          "temperatureMax": 10.6,
+          "temperatureMax": 12.5,
           "temperatureMin": 0.6,
-          "weatherCode": 51
+          "weatherCode": 3
         }
       ]
     }
@@ -768,35 +768,31 @@
       {
         "station": "KJFK",
         "targetDate": "2026-02-28",
-        "nwsMaxTemp": 45,
-        "nwsMaxTempUnit": "F",
-        "gfsMaxTemp": 8.7,
-        "gfsMaxTempUnit": "C",
-        "gfsMaxTempConverted": 48,
-        "difference": 2.7,
-        "differenceUnit": "F",
-        "agreement": "high"
+        "nwsMaxTemp": null,
+        "gfsMaxTemp": 10.4,
+        "difference": null,
+        "agreement": "insufficient_data"
       },
       {
         "station": "KORD",
         "targetDate": "2026-02-28",
-        "nwsMaxTemp": 35,
+        "nwsMaxTemp": 36,
         "nwsMaxTempUnit": "F",
         "gfsMaxTemp": 8,
         "gfsMaxTempUnit": "C",
         "gfsMaxTempConverted": 46,
-        "difference": 11.4,
+        "difference": 10.4,
         "differenceUnit": "F",
         "agreement": "low"
       },
       {
         "station": "KLAX",
         "targetDate": "2026-02-28",
-        "nwsMaxTemp": 77,
+        "nwsMaxTemp": 78,
         "nwsMaxTempUnit": "F",
-        "gfsMaxTemp": 23.8,
+        "gfsMaxTemp": 26.8,
         "gfsMaxTempUnit": "C",
-        "gfsMaxTempConverted": 75,
+        "gfsMaxTempConverted": 80,
         "difference": 2.2,
         "differenceUnit": "F",
         "agreement": "high"
@@ -804,24 +800,20 @@
       {
         "station": "KMIA",
         "targetDate": "2026-02-28",
-        "nwsMaxTemp": 84,
-        "nwsMaxTempUnit": "F",
-        "gfsMaxTemp": 31.5,
-        "gfsMaxTempUnit": "C",
-        "gfsMaxTempConverted": 89,
-        "difference": 4.7,
-        "differenceUnit": "F",
-        "agreement": "medium"
+        "nwsMaxTemp": null,
+        "gfsMaxTemp": 28.4,
+        "difference": null,
+        "agreement": "insufficient_data"
       },
       {
         "station": "KDEN",
         "targetDate": "2026-02-28",
-        "nwsMaxTemp": 69,
+        "nwsMaxTemp": 67,
         "nwsMaxTempUnit": "F",
         "gfsMaxTemp": 19.4,
         "gfsMaxTempUnit": "C",
         "gfsMaxTempConverted": 67,
-        "difference": 2.1,
+        "difference": 0.1,
         "differenceUnit": "F",
         "agreement": "high"
       }
