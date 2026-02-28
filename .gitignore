@@ -1,0 +1,15 @@
+# Scratch / local artifacts
+.temp/
+
+# Local ad-hoc output files
+/temp_weather.json
+/tmp-issue-*.md
+
+# Local temp folder content (keep folder itself if committed elsewhere)
+/temp/**
+!/temp/.gitkeep
+
+# Node / OS
+node_modules/
+.DS_Store
+Thumbs.db
