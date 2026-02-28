@@ -1,0 +1,830 @@
+{
+  "generatedAt": "2026-02-28T09:12:42.923Z",
+  "targetDate": "2026-02-28",
+  "nws": {
+    "source": "NOAA/NWS API (api.weather.gov)",
+    "description": "National Weather Service forecast"
+  },
+  "gfs": {
+    "source": "Open-Meteo GFS API",
+    "description": "Global Forecast System (GFS) model data"
+  },
+  "stations": [
+    {
+      "icao": "KJFK",
+      "name": "John F. Kennedy International Airport",
+      "coordinates": {
+        "lat": 40.6413,
+        "lon": -73.7781
+      }
+    },
+    {
+      "icao": "KORD",
+      "name": "Chicago OHare International Airport",
+      "coordinates": {
+        "lat": 41.9742,
+        "lon": -87.9073
+      }
+    },
+    {
+      "icao": "KLAX",
+      "name": "Los Angeles International Airport",
+      "coordinates": {
+        "lat": 33.9425,
+        "lon": -118.4081
+      }
+    },
+    {
+      "icao": "KMIA",
+      "name": "Miami International Airport",
+      "coordinates": {
+        "lat": 25.7959,
+        "lon": -80.287
+      }
+    },
+    {
+      "icao": "KDEN",
+      "name": "Denver International Airport",
+      "coordinates": {
+        "lat": 39.8561,
+        "lon": -104.6737
+      }
+    }
+  ],
+  "nwsSummaries": [
+    {
+      "station": "KJFK",
+      "grid": {
+        "id": "OKX",
+        "x": 42,
+        "y": 33
+      },
+      "periods": [
+        {
+          "name": "Overnight",
+          "temperature": 26,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-28T03:00:00-05:00"
+        },
+        {
+          "name": "Saturday",
+          "temperature": 45,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-28T06:00:00-05:00"
+        },
+        {
+          "name": "Saturday Night",
+          "temperature": 30,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-28T18:00:00-05:00"
+        },
+        {
+          "name": "Sunday",
+          "temperature": 38,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-01T06:00:00-05:00"
+        },
+        {
+          "name": "Sunday Night",
+          "temperature": 17,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-01T18:00:00-05:00"
+        },
+        {
+          "name": "Monday",
+          "temperature": 29,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-02T06:00:00-05:00"
+        },
+        {
+          "name": "Monday Night",
+          "temperature": 21,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-02T18:00:00-05:00"
+        },
+        {
+          "name": "Tuesday",
+          "temperature": 40,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-03T06:00:00-05:00"
+        },
+        {
+          "name": "Tuesday Night",
+          "temperature": 37,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-03T18:00:00-05:00"
+        },
+        {
+          "name": "Wednesday",
+          "temperature": 47,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-04T06:00:00-05:00"
+        },
+        {
+          "name": "Wednesday Night",
+          "temperature": 36,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-04T18:00:00-05:00"
+        },
+        {
+          "name": "Thursday",
+          "temperature": 48,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-05T06:00:00-05:00"
+        },
+        {
+          "name": "Thursday Night",
+          "temperature": 40,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-05T18:00:00-05:00"
+        },
+        {
+          "name": "Friday",
+          "temperature": 49,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-06T06:00:00-05:00"
+        }
+      ]
+    },
+    {
+      "station": "KORD",
+      "grid": {
+        "id": "LOT",
+        "x": 66,
+        "y": 77
+      },
+      "periods": [
+        {
+          "name": "Overnight",
+          "temperature": 30,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-28T03:00:00-06:00"
+        },
+        {
+          "name": "Saturday",
+          "temperature": 35,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-28T06:00:00-06:00"
+        },
+        {
+          "name": "Saturday Night",
+          "temperature": 25,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-28T18:00:00-06:00"
+        },
+        {
+          "name": "Sunday",
+          "temperature": 31,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-01T06:00:00-06:00"
+        },
+        {
+          "name": "Sunday Night",
+          "temperature": 23,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-01T18:00:00-06:00"
+        },
+        {
+          "name": "Monday",
+          "temperature": 41,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-02T06:00:00-06:00"
+        },
+        {
+          "name": "Monday Night",
+          "temperature": 33,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-02T18:00:00-06:00"
+        },
+        {
+          "name": "Tuesday",
+          "temperature": 42,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-03T06:00:00-06:00"
+        },
+        {
+          "name": "Tuesday Night",
+          "temperature": 33,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-03T18:00:00-06:00"
+        },
+        {
+          "name": "Wednesday",
+          "temperature": 51,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-04T06:00:00-06:00"
+        },
+        {
+          "name": "Wednesday Night",
+          "temperature": 41,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-04T18:00:00-06:00"
+        },
+        {
+          "name": "Thursday",
+          "temperature": 57,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-05T06:00:00-06:00"
+        },
+        {
+          "name": "Thursday Night",
+          "temperature": 44,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-05T18:00:00-06:00"
+        },
+        {
+          "name": "Friday",
+          "temperature": 60,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-06T06:00:00-06:00"
+        }
+      ]
+    },
+    {
+      "station": "KLAX",
+      "grid": {
+        "id": "LOX",
+        "x": 148,
+        "y": 41
+      },
+      "periods": [
+        {
+          "name": "Tonight",
+          "temperature": 64,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-27T22:00:00-08:00"
+        },
+        {
+          "name": "Saturday",
+          "temperature": 77,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-28T06:00:00-08:00"
+        },
+        {
+          "name": "Saturday Night",
+          "temperature": 56,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-28T18:00:00-08:00"
+        },
+        {
+          "name": "Sunday",
+          "temperature": 73,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-01T06:00:00-08:00"
+        },
+        {
+          "name": "Sunday Night",
+          "temperature": 55,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-01T18:00:00-08:00"
+        },
+        {
+          "name": "Monday",
+          "temperature": 68,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-02T06:00:00-08:00"
+        },
+        {
+          "name": "Monday Night",
+          "temperature": 53,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-02T18:00:00-08:00"
+        },
+        {
+          "name": "Tuesday",
+          "temperature": 69,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-03T06:00:00-08:00"
+        },
+        {
+          "name": "Tuesday Night",
+          "temperature": 53,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-03T18:00:00-08:00"
+        },
+        {
+          "name": "Wednesday",
+          "temperature": 70,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-04T06:00:00-08:00"
+        },
+        {
+          "name": "Wednesday Night",
+          "temperature": 53,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-04T18:00:00-08:00"
+        },
+        {
+          "name": "Thursday",
+          "temperature": 73,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-05T06:00:00-08:00"
+        },
+        {
+          "name": "Thursday Night",
+          "temperature": 55,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-05T18:00:00-08:00"
+        },
+        {
+          "name": "Friday",
+          "temperature": 74,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-06T06:00:00-08:00"
+        }
+      ]
+    },
+    {
+      "station": "KMIA",
+      "grid": {
+        "id": "MFL",
+        "x": 106,
+        "y": 51
+      },
+      "periods": [
+        {
+          "name": "Overnight",
+          "temperature": 69,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-28T03:00:00-05:00"
+        },
+        {
+          "name": "Saturday",
+          "temperature": 84,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-28T06:00:00-05:00"
+        },
+        {
+          "name": "Saturday Night",
+          "temperature": 67,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-28T18:00:00-05:00"
+        },
+        {
+          "name": "Sunday",
+          "temperature": 81,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-01T06:00:00-05:00"
+        },
+        {
+          "name": "Sunday Night",
+          "temperature": 68,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-01T18:00:00-05:00"
+        },
+        {
+          "name": "Monday",
+          "temperature": 79,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-02T06:00:00-05:00"
+        },
+        {
+          "name": "Monday Night",
+          "temperature": 68,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-02T18:00:00-05:00"
+        },
+        {
+          "name": "Tuesday",
+          "temperature": 79,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-03T06:00:00-05:00"
+        },
+        {
+          "name": "Tuesday Night",
+          "temperature": 70,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-03T18:00:00-05:00"
+        },
+        {
+          "name": "Wednesday",
+          "temperature": 80,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-04T06:00:00-05:00"
+        },
+        {
+          "name": "Wednesday Night",
+          "temperature": 70,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-04T18:00:00-05:00"
+        },
+        {
+          "name": "Thursday",
+          "temperature": 81,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-05T06:00:00-05:00"
+        },
+        {
+          "name": "Thursday Night",
+          "temperature": 70,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-05T18:00:00-05:00"
+        },
+        {
+          "name": "Friday",
+          "temperature": 81,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-06T06:00:00-05:00"
+        }
+      ]
+    },
+    {
+      "station": "KDEN",
+      "grid": {
+        "id": "BOU",
+        "x": 74,
+        "y": 66
+      },
+      "periods": [
+        {
+          "name": "Overnight",
+          "temperature": 36,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-28T00:00:00-07:00"
+        },
+        {
+          "name": "Saturday",
+          "temperature": 69,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-28T06:00:00-07:00"
+        },
+        {
+          "name": "Saturday Night",
+          "temperature": 38,
+          "temperatureUnit": "F",
+          "startTime": "2026-02-28T18:00:00-07:00"
+        },
+        {
+          "name": "Sunday",
+          "temperature": 63,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-01T06:00:00-07:00"
+        },
+        {
+          "name": "Sunday Night",
+          "temperature": 38,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-01T18:00:00-07:00"
+        },
+        {
+          "name": "Monday",
+          "temperature": 69,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-02T06:00:00-07:00"
+        },
+        {
+          "name": "Monday Night",
+          "temperature": 36,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-02T18:00:00-07:00"
+        },
+        {
+          "name": "Tuesday",
+          "temperature": 52,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-03T06:00:00-07:00"
+        },
+        {
+          "name": "Tuesday Night",
+          "temperature": 33,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-03T18:00:00-07:00"
+        },
+        {
+          "name": "Wednesday",
+          "temperature": 63,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-04T06:00:00-07:00"
+        },
+        {
+          "name": "Wednesday Night",
+          "temperature": 35,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-04T18:00:00-07:00"
+        },
+        {
+          "name": "Thursday",
+          "temperature": 62,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-05T06:00:00-07:00"
+        },
+        {
+          "name": "Thursday Night",
+          "temperature": 32,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-05T18:00:00-07:00"
+        },
+        {
+          "name": "Friday",
+          "temperature": 48,
+          "temperatureUnit": "F",
+          "startTime": "2026-03-06T06:00:00-07:00"
+        }
+      ]
+    }
+  ],
+  "gfsSummaries": [
+    {
+      "station": "KJFK",
+      "daily": [
+        {
+          "date": "2026-02-28",
+          "temperatureMax": 8,
+          "temperatureMin": -1,
+          "weatherCode": 45
+        },
+        {
+          "date": "2026-03-01",
+          "temperatureMax": 4,
+          "temperatureMin": -3.4,
+          "weatherCode": 73
+        },
+        {
+          "date": "2026-03-02",
+          "temperatureMax": -0.5,
+          "temperatureMin": -5.6,
+          "weatherCode": 3
+        },
+        {
+          "date": "2026-03-03",
+          "temperatureMax": 4.6,
+          "temperatureMin": -1.5,
+          "weatherCode": 71
+        },
+        {
+          "date": "2026-03-04",
+          "temperatureMax": 12.3,
+          "temperatureMin": 5.1,
+          "weatherCode": 61
+        },
+        {
+          "date": "2026-03-05",
+          "temperatureMax": 19.5,
+          "temperatureMin": 5.3,
+          "weatherCode": 51
+        },
+        {
+          "date": "2026-03-06",
+          "temperatureMax": 12.7,
+          "temperatureMin": 4.2,
+          "weatherCode": 51
+        }
+      ]
+    },
+    {
+      "station": "KORD",
+      "daily": [
+        {
+          "date": "2026-02-28",
+          "temperatureMax": 8,
+          "temperatureMin": -1.5,
+          "weatherCode": 3
+        },
+        {
+          "date": "2026-03-01",
+          "temperatureMax": -1.4,
+          "temperatureMin": -4.7,
+          "weatherCode": 3
+        },
+        {
+          "date": "2026-03-02",
+          "temperatureMax": 4.7,
+          "temperatureMin": -3,
+          "weatherCode": 3
+        },
+        {
+          "date": "2026-03-03",
+          "temperatureMax": 3.2,
+          "temperatureMin": 1.3,
+          "weatherCode": 53
+        },
+        {
+          "date": "2026-03-04",
+          "temperatureMax": 3.5,
+          "temperatureMin": 2.1,
+          "weatherCode": 61
+        },
+        {
+          "date": "2026-03-05",
+          "temperatureMax": 5.4,
+          "temperatureMin": 2.9,
+          "weatherCode": 51
+        },
+        {
+          "date": "2026-03-06",
+          "temperatureMax": 18.4,
+          "temperatureMin": 3.3,
+          "weatherCode": 51
+        }
+      ]
+    },
+    {
+      "station": "KLAX",
+      "daily": [
+        {
+          "date": "2026-02-28",
+          "temperatureMax": 24.2,
+          "temperatureMin": 12.5,
+          "weatherCode": 45
+        },
+        {
+          "date": "2026-03-01",
+          "temperatureMax": 19.7,
+          "temperatureMin": 11.8,
+          "weatherCode": 45
+        },
+        {
+          "date": "2026-03-02",
+          "temperatureMax": 19,
+          "temperatureMin": 15,
+          "weatherCode": 3
+        },
+        {
+          "date": "2026-03-03",
+          "temperatureMax": 18.7,
+          "temperatureMin": 14.9,
+          "weatherCode": 3
+        },
+        {
+          "date": "2026-03-04",
+          "temperatureMax": 21.3,
+          "temperatureMin": 15.9,
+          "weatherCode": 3
+        },
+        {
+          "date": "2026-03-05",
+          "temperatureMax": 23.2,
+          "temperatureMin": 15.8,
+          "weatherCode": 0
+        },
+        {
+          "date": "2026-03-06",
+          "temperatureMax": 21.1,
+          "temperatureMin": 16.6,
+          "weatherCode": 2
+        }
+      ]
+    },
+    {
+      "station": "KMIA",
+      "daily": [
+        {
+          "date": "2026-02-28",
+          "temperatureMax": 30.8,
+          "temperatureMin": 21.2,
+          "weatherCode": 3
+        },
+        {
+          "date": "2026-03-01",
+          "temperatureMax": 25.3,
+          "temperatureMin": 19.4,
+          "weatherCode": 51
+        },
+        {
+          "date": "2026-03-02",
+          "temperatureMax": 27.4,
+          "temperatureMin": 21.5,
+          "weatherCode": 81
+        },
+        {
+          "date": "2026-03-03",
+          "temperatureMax": 26.4,
+          "temperatureMin": 22.2,
+          "weatherCode": 55
+        },
+        {
+          "date": "2026-03-04",
+          "temperatureMax": 27.2,
+          "temperatureMin": 22.9,
+          "weatherCode": 51
+        },
+        {
+          "date": "2026-03-05",
+          "temperatureMax": 27.5,
+          "temperatureMin": 22.9,
+          "weatherCode": 0
+        },
+        {
+          "date": "2026-03-06",
+          "temperatureMax": 27.4,
+          "temperatureMin": 23,
+          "weatherCode": 3
+        }
+      ]
+    },
+    {
+      "station": "KDEN",
+      "daily": [
+        {
+          "date": "2026-02-28",
+          "temperatureMax": 19.3,
+          "temperatureMin": 4,
+          "weatherCode": 3
+        },
+        {
+          "date": "2026-03-01",
+          "temperatureMax": 16,
+          "temperatureMin": 2.9,
+          "weatherCode": 3
+        },
+        {
+          "date": "2026-03-02",
+          "temperatureMax": 19.9,
+          "temperatureMin": 4.9,
+          "weatherCode": 3
+        },
+        {
+          "date": "2026-03-03",
+          "temperatureMax": 8.5,
+          "temperatureMin": 1.5,
+          "weatherCode": 61
+        },
+        {
+          "date": "2026-03-04",
+          "temperatureMax": 17.9,
+          "temperatureMin": 1.4,
+          "weatherCode": 0
+        },
+        {
+          "date": "2026-03-05",
+          "temperatureMax": 14.7,
+          "temperatureMin": 3.5,
+          "weatherCode": 3
+        },
+        {
+          "date": "2026-03-06",
+          "temperatureMax": 10.6,
+          "temperatureMin": 0.6,
+          "weatherCode": 51
+        }
+      ]
+    }
+  ],
+  "modelAgreement": {
+    "metric": "model_agreement_v2",
+    "description": "Difference between NWS and GFS max temperature for target date",
+    "version": "2.0",
+    "agreements": [
+      {
+        "station": "KJFK",
+        "targetDate": "2026-02-28",
+        "nwsMaxTemp": 45,
+        "nwsMaxTempUnit": "F",
+        "gfsMaxTemp": 8,
+        "gfsMaxTempUnit": "C",
+        "gfsMaxTempConverted": 46,
+        "difference": 1.4,
+        "differenceUnit": "F",
+        "agreement": "high"
+      },
+      {
+        "station": "KORD",
+        "targetDate": "2026-02-28",
+        "nwsMaxTemp": 35,
+        "nwsMaxTempUnit": "F",
+        "gfsMaxTemp": 8,
+        "gfsMaxTempUnit": "C",
+        "gfsMaxTempConverted": 46,
+        "difference": 11.4,
+        "differenceUnit": "F",
+        "agreement": "low"
+      },
+      {
+        "station": "KLAX",
+        "targetDate": "2026-02-28",
+        "nwsMaxTemp": 77,
+        "nwsMaxTempUnit": "F",
+        "gfsMaxTemp": 24.2,
+        "gfsMaxTempUnit": "C",
+        "gfsMaxTempConverted": 76,
+        "difference": 1.4,
+        "differenceUnit": "F",
+        "agreement": "high"
+      },
+      {
+        "station": "KMIA",
+        "targetDate": "2026-02-28",
+        "nwsMaxTemp": 84,
+        "nwsMaxTempUnit": "F",
+        "gfsMaxTemp": 30.8,
+        "gfsMaxTempUnit": "C",
+        "gfsMaxTempConverted": 87,
+        "difference": 3.4,
+        "differenceUnit": "F",
+        "agreement": "medium"
+      },
+      {
+        "station": "KDEN",
+        "targetDate": "2026-02-28",
+        "nwsMaxTemp": 69,
+        "nwsMaxTempUnit": "F",
+        "gfsMaxTemp": 19.3,
+        "gfsMaxTempUnit": "C",
+        "gfsMaxTempConverted": 67,
+        "difference": 2.3,
+        "differenceUnit": "F",
+        "agreement": "high"
+      }
+    ]
+  }
+}
