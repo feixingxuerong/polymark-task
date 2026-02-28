@@ -1,6 +1,6 @@
 # Daily Watchlist - 2026-02-28
 
-> Generated: 2026-02-28T12:18:04.923Z
+> Generated: 2026-02-28T12:27:24.349Z
 > Total candidates: 426
 > TopN: 30 (weather quota: 15)
 > Weather in Top30: 15 (aviation: 0)
@@ -12,20 +12,20 @@
 | # | Question | Prob | Spread | Liq | Days | Score | Weather Sig | Category | Action | Trade Fit |
 |---|----------|------|--------|-----|------|-------|-------------|----------|--------|----------|
 | 1 | Bitcoin Up or Down -... | N/A | N/A | $15k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 2 | Bitcoin Up or Down -... | N/A | N/A | $15k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 3 | Ethereum Up or Down ... | N/A | N/A | $14k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 4 | Ethereum Up or Down ... | N/A | N/A | $14k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 5 | Ethereum Up or Down ... | N/A | N/A | $14k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 6 | Solana Up or Down - ... | N/A | N/A | $13k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 7 | Solana Up or Down - ... | N/A | N/A | $13k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 8 | XRP Up or Down - Feb... | N/A | N/A | $13k | 0d | **5.8** | - | unknown | 观察 - 需进一步研究 | ok |
+| 2 | Bitcoin Up or Down -... | N/A | N/A | $15k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
+| 3 | Bitcoin Up or Down -... | N/A | N/A | $15k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
+| 4 | Bitcoin Up or Down -... | N/A | N/A | $15k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
+| 5 | Bitcoin Up or Down -... | N/A | N/A | $15k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
+| 6 | Ethereum Up or Down ... | N/A | N/A | $14k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
+| 7 | Ethereum Up or Down ... | N/A | N/A | $14k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
+| 8 | Ethereum Up or Down ... | N/A | N/A | $14k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
 | 9 | Solana Up or Down - ... | N/A | N/A | $13k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 10 | XRP Up or Down - Feb... | N/A | N/A | $13k | 0d | **5.8** | - | unknown | 观察 - 需进一步研究 | ok |
-| 11 | Solana Up or Down - ... | N/A | N/A | $12k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 12 | XRP Up or Down - Feb... | N/A | N/A | $12k | 0d | **5.8** | - | unknown | 观察 - 需进一步研究 | ok |
-| 13 | Ethereum Up or Down ... | N/A | N/A | $12k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
-| 14 | Portland State Vikin... | N/A | N/A | $7k | 0d | **5.2** | - | sports | 观察 - 等待比赛结果 | ok |
-| 15 | Nevada Wolf Pack vs.... | N/A | N/A | $5k | 1d | **5.2** | - | sports | 观察 - 等待比赛结果 | ok |
+| 10 | Solana Up or Down - ... | N/A | N/A | $13k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
+| 11 | XRP Up or Down - Feb... | N/A | N/A | $13k | 0d | **5.8** | - | unknown | 观察 - 需进一步研究 | ok |
+| 12 | XRP Up or Down - Feb... | N/A | N/A | $13k | 0d | **5.8** | - | unknown | 观察 - 需进一步研究 | ok |
+| 13 | Solana Up or Down - ... | N/A | N/A | $12k | 0d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
+| 14 | XRP Up or Down - Feb... | N/A | N/A | $12k | 0d | **5.8** | - | unknown | 观察 - 需进一步研究 | ok |
+| 15 | Ethereum Up or Down ... | N/A | N/A | $12k | 1d | **5.8** | - | crypto | 观察 - 等待价格信号 | ok |
 | 16 | Will the highest tem... | N/A | N/A | $2k | 0d | **4.6** | 6.3 | weather | 研究-跟踪 | poor |
 | 17 | Will the highest tem... | N/A | N/A | $1k | 1d | **4.0** | 6.3 | weather | 研究-跟踪 | poor |
 | 18 | Will the highest tem... | N/A | N/A | $1k | 1d | **4.0** | 6.3 | weather | 研究-跟踪 | poor |
@@ -46,7 +46,58 @@
 
 ## 可执行清单 (Executable Checklist)
 
-### #1 Bitcoin Up or Down - February 28, 12:40PM-12:45PM ET
+### #1 Bitcoin Up or Down - February 28, 2:40PM-2:45PM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $15,490 |
+| **到期时间** | 0天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **交易可行性** | ok |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，0天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772307600) |
+
+### #2 Bitcoin Up or Down - February 28, 3:35PM-3:40PM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $15,483 |
+| **到期时间** | 0天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **交易可行性** | ok |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，0天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772310900) |
+
+### #3 Bitcoin Up or Down - February 28, 4:50PM-4:55PM ET
+
+| Field | Value |
+|-------|-------|
+| **概率** | N/A |
+| **流动性** | $15,469 |
+| **到期时间** | 0天 |
+| **类别** | crypto |
+| **评分** | 5.8/10 |
+| **行动** | 观察 - 等待价格信号 |
+| **交易可行性** | ok |
+| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
+| **理由** | 加密市场波动性高，0天后到期。需关注价格源和时间窗口，防止极端波动。 |
+| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
+| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
+| **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772315400) |
+
+### #4 Bitcoin Up or Down - February 28, 12:40PM-12:45PM ET
 
 | Field | Value |
 |-------|-------|
@@ -63,7 +114,7 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772300400) |
 
-### #2 Bitcoin Up or Down - February 28, 9:45PM-9:50PM ET
+### #5 Bitcoin Up or Down - February 28, 9:45PM-9:50PM ET
 
 | Field | Value |
 |-------|-------|
@@ -80,7 +131,7 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/btc-updown-5m-1772333100) |
 
-### #3 Ethereum Up or Down - February 28, 2:35PM-2:40PM ET
+### #6 Ethereum Up or Down - February 28, 2:35PM-2:40PM ET
 
 | Field | Value |
 |-------|-------|
@@ -97,7 +148,7 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/eth-updown-5m-1772307300) |
 
-### #4 Ethereum Up or Down - February 28, 1:55PM-2:00PM ET
+### #7 Ethereum Up or Down - February 28, 1:55PM-2:00PM ET
 
 | Field | Value |
 |-------|-------|
@@ -114,7 +165,7 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/eth-updown-5m-1772304900) |
 
-### #5 Ethereum Up or Down - February 28, 2:25PM-2:30PM ET
+### #8 Ethereum Up or Down - February 28, 2:25PM-2:30PM ET
 
 | Field | Value |
 |-------|-------|
@@ -131,7 +182,7 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/eth-updown-5m-1772306700) |
 
-### #6 Solana Up or Down - February 28, 2:35PM-2:40PM ET
+### #9 Solana Up or Down - February 28, 2:35PM-2:40PM ET
 
 | Field | Value |
 |-------|-------|
@@ -148,7 +199,7 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/sol-updown-5m-1772307300) |
 
-### #7 Solana Up or Down - February 28, 2:40PM-2:45PM ET
+### #10 Solana Up or Down - February 28, 2:40PM-2:45PM ET
 
 | Field | Value |
 |-------|-------|
@@ -165,7 +216,7 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/sol-updown-5m-1772307600) |
 
-### #8 XRP Up or Down - February 28, 2:25PM-2:30PM ET
+### #11 XRP Up or Down - February 28, 2:25PM-2:30PM ET
 
 | Field | Value |
 |-------|-------|
@@ -182,24 +233,7 @@
 | **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/xrp-updown-5m-1772306700) |
 
-### #9 Solana Up or Down - February 28, 9:35AM-9:40AM ET
-
-| Field | Value |
-|-------|-------|
-| **概率** | N/A |
-| **流动性** | $12,791 |
-| **到期时间** | 0天 |
-| **类别** | crypto |
-| **评分** | 5.8/10 |
-| **行动** | 观察 - 等待价格信号 |
-| **交易可行性** | ok |
-| **入场计划** | 设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时 |
-| **理由** | 加密市场波动性高，0天后到期。需关注价格源和时间窗口，防止极端波动。 |
-| **Key Risks** | SEC/FDA 等机构突发审批决定, 巨鲸操作导致价格剧烈波动, 交易所技术故障, 波动性过高导致点差扩大 |
-| **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
-| **链接** | [Polymarket](https://polymarket.com/market/sol-updown-5m-1772289300) |
-
-### #10 XRP Up or Down - February 28, 2:35PM-2:40PM ET
+### #12 XRP Up or Down - February 28, 2:35PM-2:40PM ET
 
 | Field | Value |
 |-------|-------|
@@ -216,7 +250,7 @@
 | **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/xrp-updown-5m-1772307300) |
 
-### #11 Solana Up or Down - February 28, 2:15PM-2:30PM ET
+### #13 Solana Up or Down - February 28, 2:15PM-2:30PM ET
 
 | Field | Value |
 |-------|-------|
@@ -233,7 +267,7 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/sol-updown-15m-1772306100) |
 
-### #12 XRP Up or Down - February 28, 2:00PM-2:15PM ET
+### #14 XRP Up or Down - February 28, 2:00PM-2:15PM ET
 
 | Field | Value |
 |-------|-------|
@@ -250,7 +284,7 @@
 | **监控源** | Polymarket 市场讨论, Google 新闻搜索, Reddit 相关社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/xrp-updown-15m-1772305200) |
 
-### #13 Ethereum Up or Down - February 28, 4:00PM-8:00PM ET
+### #15 Ethereum Up or Down - February 28, 4:00PM-8:00PM ET
 
 | Field | Value |
 |-------|-------|
@@ -267,40 +301,6 @@
 | **监控源** | CoinGecko / CoinMarketCap 实时价格, TradingView 技术分析, SEC/FDA 官方公告, Twitter/X 加密社区 |
 | **链接** | [Polymarket](https://polymarket.com/market/eth-updown-4h-1772312400) |
 
-### #14 Portland State Vikings vs. Montana Grizzlies
-
-| Field | Value |
-|-------|-------|
-| **概率** | N/A |
-| **流动性** | $6,613 |
-| **到期时间** | 0天 |
-| **类别** | sports |
-| **评分** | 5.2/10 |
-| **行动** | 观察 - 等待比赛结果 |
-| **交易可行性** | ok |
-| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
-| **理由** | 体育类市场结算清晰，0天后到期。需关注比赛实际结果和潜在中断。 |
-| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
-| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
-| **链接** | [Polymarket](https://polymarket.com/market/cbb-portst-mont-2026-02-28) |
-
-### #15 Nevada Wolf Pack vs. UNLV Runnin' Rebels
-
-| Field | Value |
-|-------|-------|
-| **概率** | N/A |
-| **流动性** | $5,391 |
-| **到期时间** | 1天 |
-| **类别** | sports |
-| **评分** | 5.2/10 |
-| **行动** | 观察 - 等待比赛结果 |
-| **交易可行性** | ok |
-| **入场计划** | 比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲 |
-| **理由** | 体育类市场结算清晰，1天后到期。需关注比赛实际结果和潜在中断。 |
-| **Key Risks** | 比赛推迟/取消, 球员伤病突发, 裁判判罚争议, 加时赛/点球决胜 |
-| **监控源** | ESPN / 官方联赛网站, Flashscore 实时比分, Twitter 体育记者, 赔率对比（Oddschecker） |
-| **链接** | [Polymarket](https://polymarket.com/market/cbb-nevada-unlv-2026-02-28) |
-
 ### #16 Will the highest temperature in NYC be 50°F or higher on February 28?
 
 | Field | Value |
@@ -311,7 +311,7 @@
 | **到期时间** | 0天 |
 | **类别** | weather |
 | **评分** | 4.6/10 |
-| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.5, agree:5, vol:7.1, gap:10) |
 | **气象证据** | maxTemp: 43F, threshold: 50°F, sigma: 1.1°C/2°F, station: KJFK |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
@@ -332,7 +332,7 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.5, agree:5, vol:7.1, gap:10) |
 | **气象证据** | maxTemp: 82F, threshold: 72°F, sigma: 1.1°C/2°F, station: KDFW |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
@@ -353,7 +353,7 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.5, agree:5, vol:7.1, gap:10) |
 | **气象证据** | maxTemp: 31F, threshold: 42°F, sigma: 1.1°C/2°F, station: KORD |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
@@ -373,7 +373,7 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.5, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -392,7 +392,7 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.5, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -411,7 +411,7 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.5, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -430,7 +430,7 @@
 | **到期时间** | 1天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.5, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -449,7 +449,7 @@
 | **到期时间** | 2天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.5, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -468,7 +468,7 @@
 | **到期时间** | 2天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.5, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -487,7 +487,7 @@
 | **到期时间** | 2天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.5, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -506,7 +506,7 @@
 | **到期时间** | 3天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.5, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -525,7 +525,7 @@
 | **到期时间** | 3天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.5, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -544,7 +544,7 @@
 | **到期时间** | 3天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.5, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -563,7 +563,7 @@
 | **到期时间** | 4天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.5, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |
@@ -582,7 +582,7 @@
 | **到期时间** | 4天 |
 | **类别** | weather |
 | **评分** | 4.0/10 |
-| **天气信号评分** | 6.3/10 (recency:4.6, agree:5, vol:7.1, gap:10) |
+| **天气信号评分** | 6.3/10 (recency:4.5, agree:5, vol:7.1, gap:10) |
 | **行动** | 研究-跟踪 |
 | **研究优先级** | medium |
 | **交易可行性** | poor |

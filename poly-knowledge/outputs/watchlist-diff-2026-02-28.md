@@ -1,6 +1,6 @@
 # Watchlist Diff - 2026-02-28
 
-> Generated: 2026-02-28T12:18:04.989Z
+> Generated: 2026-02-28T12:27:24.425Z
 > Today: 2026-02-28
 > Yesterday: 2026-02-27
 > First Run: No
@@ -9,8 +9,8 @@
 
 - Today's count: 30
 - Yesterday's count: 30
-- New entries: 17
-- Dropped: 17
+- New entries: 16
+- Dropped: 16
 - Score jumps (>=1): 0
 - Spread moves (>1%): 0
 - Liquidity moves (>20%): 0
@@ -21,18 +21,18 @@
 
 | # | Question | Rank | Score | Liquidity | Reason |
 |---|----------|------|-------|-----------|--------|
-| 1 | Bitcoin Up or Down - February ... | #2 | 5.8 | $15k | 新上榜，排名 #2，评分 5.8 |
-| 2 | Ethereum Up or Down - February... | #13 | 5.8 | $12k | 新上榜，排名 #13，评分 5.8 |
-| 3 | Portland State Vikings vs. Mon... | #14 | 5.2 | $7k | 新上榜，排名 #14，评分 5.2 |
-| 4 | Nevada Wolf Pack vs. UNLV Runn... | #15 | 5.2 | $5k | 新上榜，排名 #15，评分 5.2 |
-| 5 | Will the highest temperature i... | #18 | 4.0 | $1k | 新上榜，排名 #18，评分 4.0 |
-| 6 | Will the highest temperature i... | #19 | 4.0 | $1k | 新上榜，排名 #19，评分 4.0 |
-| 7 | Will the highest temperature i... | #20 | 4.0 | $1k | 新上榜，排名 #20，评分 4.0 |
-| 8 | Will the highest temperature i... | #21 | 4.0 | $1k | 新上榜，排名 #21，评分 4.0 |
-| 9 | Will the highest temperature i... | #22 | 4.0 | $1k | 新上榜，排名 #22，评分 4.0 |
-| 10 | Will the highest temperature i... | #23 | 4.0 | $1k | 新上榜，排名 #23，评分 4.0 |
+| 1 | Bitcoin Up or Down - February ... | #3 | 5.8 | $15k | 新上榜，排名 #3，评分 5.8 |
+| 2 | Bitcoin Up or Down - February ... | #5 | 5.8 | $15k | 新上榜，排名 #5，评分 5.8 |
+| 3 | Ethereum Up or Down - February... | #15 | 5.8 | $12k | 新上榜，排名 #15，评分 5.8 |
+| 4 | Will the highest temperature i... | #18 | 4.0 | $1k | 新上榜，排名 #18，评分 4.0 |
+| 5 | Will the highest temperature i... | #19 | 4.0 | $1k | 新上榜，排名 #19，评分 4.0 |
+| 6 | Will the highest temperature i... | #20 | 4.0 | $1k | 新上榜，排名 #20，评分 4.0 |
+| 7 | Will the highest temperature i... | #21 | 4.0 | $1k | 新上榜，排名 #21，评分 4.0 |
+| 8 | Will the highest temperature i... | #22 | 4.0 | $1k | 新上榜，排名 #22，评分 4.0 |
+| 9 | Will the highest temperature i... | #23 | 4.0 | $1k | 新上榜，排名 #23，评分 4.0 |
+| 10 | Will the highest temperature i... | #24 | 4.0 | $1k | 新上榜，排名 #24，评分 4.0 |
 
-_... and 7 more_
+_... and 6 more_
 
 ## Dropped Entries (移除)
 
@@ -40,16 +40,16 @@ _... and 7 more_
 |---|----------|----------------|--------|
 | 1 | Bitcoin Up or Down - February ... | #1 | 跌出榜单昨日排名 #1 |
 | 2 | Bitcoin Up or Down - February ... | #2 | 跌出榜单昨日排名 #2 |
-| 3 | Bitcoin Up or Down - February ... | #3 | 跌出榜单昨日排名 #3 |
-| 4 | Bitcoin Up or Down - February ... | #4 | 跌出榜单昨日排名 #4 |
-| 5 | Bitcoin Up or Down - February ... | #5 | 跌出榜单昨日排名 #5 |
-| 6 | Bitcoin Up or Down - February ... | #6 | 跌出榜单昨日排名 #6 |
-| 7 | Ethereum Up or Down - February... | #8 | 跌出榜单昨日排名 #8 |
-| 8 | Ethereum Up or Down - February... | #9 | 跌出榜单昨日排名 #9 |
-| 9 | Ethereum Up or Down - February... | #10 | 跌出榜单昨日排名 #10 |
-| 10 | Ethereum Up or Down - February... | #11 | 跌出榜单昨日排名 #11 |
+| 3 | Bitcoin Up or Down - February ... | #4 | 跌出榜单昨日排名 #4 |
+| 4 | Bitcoin Up or Down - February ... | #6 | 跌出榜单昨日排名 #6 |
+| 5 | Ethereum Up or Down - February... | #8 | 跌出榜单昨日排名 #8 |
+| 6 | Ethereum Up or Down - February... | #9 | 跌出榜单昨日排名 #9 |
+| 7 | Ethereum Up or Down - February... | #10 | 跌出榜单昨日排名 #10 |
+| 8 | Ethereum Up or Down - February... | #11 | 跌出榜单昨日排名 #11 |
+| 9 | Solana Up or Down - February 2... | #15 | 跌出榜单昨日排名 #15 |
+| 10 | Solana Up or Down - February 2... | #16 | 跌出榜单昨日排名 #16 |
 
-_... and 7 more_
+_... and 6 more_
 
 ## Score Jumps (分数跳变)
 
@@ -67,16 +67,16 @@ _No significant liquidity moves_
 
 | # | Question | Change Score | Rank Change | Reason |
 |---|----------|--------------|-------------|--------|
-| 1 | Solana Up or Down - Febru... | 1.1 | 22→11 (↑11) | 综合变化得分 1.1，排名 22 → 11 |
-| 2 | XRP Up or Down - February... | 0.9 | 21→12 (↑9) | 综合变化得分 0.9，排名 21 → 12 |
-| 3 | Bitcoin Up or Down - Febr... | 0.2 | 7→1 (↑6) | 综合变化得分 0.2，排名 7 → 1 |
-| 4 | Ethereum Up or Down - Feb... | 0.1 | 14→4 (↑10) | 综合变化得分 0.1，排名 14 → 4 |
-| 5 | Solana Up or Down - Febru... | 0.1 | 18→6 (↑12) | 综合变化得分 0.1，排名 18 → 6 |
-| 6 | XRP Up or Down - February... | 0.1 | 20→10 (↑10) | 综合变化得分 0.1，排名 20 → 10 |
-| 7 | XRP Up or Down - February... | 0.1 | 19→8 (↑11) | 综合变化得分 0.1，排名 19 → 8 |
-| 8 | Ethereum Up or Down - Feb... | 0.1 | 13→5 (↑8) | 综合变化得分 0.1，排名 13 → 5 |
-| 9 | Ethereum Up or Down - Feb... | 0.1 | 12→3 (↑9) | 综合变化得分 0.1，排名 12 → 3 |
-| 10 | Solana Up or Down - Febru... | 0.1 | 17→7 (↑10) | 综合变化得分 0.1，排名 17 → 7 |
+| 1 | Solana Up or Down - Febru... | 1.1 | 22→13 (↑9) | 综合变化得分 1.1，排名 22 → 13 |
+| 2 | XRP Up or Down - February... | 0.9 | 21→14 (↑7) | 综合变化得分 0.9，排名 21 → 14 |
+| 3 | Bitcoin Up or Down - Febr... | 0.2 | 7→4 (↑3) | 综合变化得分 0.2，排名 7 → 4 |
+| 4 | Bitcoin Up or Down - Febr... | 0.2 | 5→2 (↑3) | 综合变化得分 0.2，排名 5 → 2 |
+| 5 | Bitcoin Up or Down - Febr... | 0.2 | 3→1 (↑2) | 综合变化得分 0.2，排名 3 → 1 |
+| 6 | Ethereum Up or Down - Feb... | 0.1 | 14→7 (↑7) | 综合变化得分 0.1，排名 14 → 7 |
+| 7 | Solana Up or Down - Febru... | 0.1 | 18→9 (↑9) | 综合变化得分 0.1，排名 18 → 9 |
+| 8 | XRP Up or Down - February... | 0.1 | 20→12 (↑8) | 综合变化得分 0.1，排名 20 → 12 |
+| 9 | XRP Up or Down - February... | 0.1 | 19→11 (↑8) | 综合变化得分 0.1，排名 19 → 11 |
+| 10 | Ethereum Up or Down - Feb... | 0.1 | 13→8 (↑5) | 综合变化得分 0.1，排名 13 → 8 |
 
 ---
 

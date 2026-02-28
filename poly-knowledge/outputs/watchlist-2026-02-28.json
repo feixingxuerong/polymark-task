@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28T12:18:04.921Z",
+  "generated_at": "2026-02-28T12:27:24.348Z",
   "total_candidates": 426,
   "top_n": 30,
   "weather_quota": 15,
@@ -24,6 +24,198 @@
     {
       "category": "crypto",
       "rank": 1,
+      "market_id": "1456809",
+      "conditionId": "0x6ef74c5f04992eecd43a19a24ed6a7771550ba8e55b7677b6d0fbe7c11b6c5d9",
+      "slug": "btc-updown-5m-1772307600",
+      "url": "https://polymarket.com/market/btc-updown-5m-1772307600",
+      "question": "Bitcoin Up or Down - February 28, 2:40PM-2:45PM ET",
+      "description": "This market will resolve to \"Up\" if the Bitcoin price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the BTC/USD data stream available at https://data.chain.link/streams/btc-usd.\nPlease note that this market is about the price according to Chainlink data stream BTC/USD, not according to other sources or spot markets.",
+      "volume": 10,
+      "liquidity": 15489.5161,
+      "clobTokenIds": [
+        "23425651138617226826235635245220086617038895694404958915865383556073645385772",
+        "18608649393559759669626544940283668684561705693266299716469617121466347161848"
+      ],
+      "startDate": "2026-02-27T19:48:30.90993Z",
+      "endDate": "2026-02-28T19:45:00Z",
+      "acceptingOrders": true,
+      "negRisk": false,
+      "implied_probability": null,
+      "best_bid": null,
+      "best_ask": null,
+      "spread_abs": null,
+      "spread_pct": null,
+      "depth_proxy": 0,
+      "days_to_event": 0.3038863888888889,
+      "fee_rate": null,
+      "last_trade_price": null,
+      "last_trade_time": null,
+      "midpoint": null,
+      "volatility_level": "low",
+      "uma_resolution_status": "unknown",
+      "resolution_source": "unknown",
+      "risk": "medium",
+      "scores": {
+        "liquidity_score": 7,
+        "spread_score": 1,
+        "volatility_score": 10,
+        "settlement_clarity_score": 5,
+        "event_calendar_score": 10,
+        "hedgeability_score": 1,
+        "risk_level_score": 6,
+        "total": 5.799999999999999
+      },
+      "reason": "高流动性 $15,490 | 0天后到期 | 低风险",
+      "action": "观察 - 等待价格信号",
+      "research_priority": null,
+      "trade_feasibility": "ok",
+      "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
+      "key_risks": [
+        "SEC/FDA 等机构突发审批决定",
+        "巨鲸操作导致价格剧烈波动",
+        "交易所技术故障",
+        "波动性过高导致点差扩大"
+      ],
+      "monitor_sources": [
+        "CoinGecko / CoinMarketCap 实时价格",
+        "TradingView 技术分析",
+        "SEC/FDA 官方公告",
+        "Twitter/X 加密社区"
+      ],
+      "thesis": "加密市场波动性高，0天后到期。需关注价格源和时间窗口，防止极端波动。",
+      "resolution_parsed": null
+    },
+    {
+      "category": "crypto",
+      "rank": 2,
+      "market_id": "1459683",
+      "conditionId": "0xc356bb1ab21c0100ccad1d2e5c573e2e515fc4235202fd37e19e1ec6b4d542ad",
+      "slug": "btc-updown-5m-1772310900",
+      "url": "https://polymarket.com/market/btc-updown-5m-1772310900",
+      "question": "Bitcoin Up or Down - February 28, 3:35PM-3:40PM ET",
+      "description": "This market will resolve to \"Up\" if the Bitcoin price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the BTC/USD data stream available at https://data.chain.link/streams/btc-usd.\nPlease note that this market is about the price according to Chainlink data stream BTC/USD, not according to other sources or spot markets.",
+      "volume": 10,
+      "liquidity": 15483.2895,
+      "clobTokenIds": [
+        "9910563331807175336167951327770910073567958140806072394125796816775436749213",
+        "46078503340816499852335122194360395551998698779883904580114208060509318875157"
+      ],
+      "startDate": "2026-02-27T20:44:56.418589Z",
+      "endDate": "2026-02-28T20:40:00Z",
+      "acceptingOrders": true,
+      "negRisk": false,
+      "implied_probability": null,
+      "best_bid": null,
+      "best_ask": null,
+      "spread_abs": null,
+      "spread_pct": null,
+      "depth_proxy": 0,
+      "days_to_event": 0.3420809375,
+      "fee_rate": null,
+      "last_trade_price": null,
+      "last_trade_time": null,
+      "midpoint": null,
+      "volatility_level": "low",
+      "uma_resolution_status": "unknown",
+      "resolution_source": "unknown",
+      "risk": "medium",
+      "scores": {
+        "liquidity_score": 7,
+        "spread_score": 1,
+        "volatility_score": 10,
+        "settlement_clarity_score": 5,
+        "event_calendar_score": 10,
+        "hedgeability_score": 1,
+        "risk_level_score": 6,
+        "total": 5.799999999999999
+      },
+      "reason": "高流动性 $15,483 | 0天后到期 | 低风险",
+      "action": "观察 - 等待价格信号",
+      "research_priority": null,
+      "trade_feasibility": "ok",
+      "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
+      "key_risks": [
+        "SEC/FDA 等机构突发审批决定",
+        "巨鲸操作导致价格剧烈波动",
+        "交易所技术故障",
+        "波动性过高导致点差扩大"
+      ],
+      "monitor_sources": [
+        "CoinGecko / CoinMarketCap 实时价格",
+        "TradingView 技术分析",
+        "SEC/FDA 官方公告",
+        "Twitter/X 加密社区"
+      ],
+      "thesis": "加密市场波动性高，0天后到期。需关注价格源和时间窗口，防止极端波动。",
+      "resolution_parsed": null
+    },
+    {
+      "category": "crypto",
+      "rank": 3,
+      "market_id": "1460106",
+      "conditionId": "0x83caf8973f9a4bb60139680886e2b493595aacd7355b334d04ee0db01babe2be",
+      "slug": "btc-updown-5m-1772315400",
+      "url": "https://polymarket.com/market/btc-updown-5m-1772315400",
+      "question": "Bitcoin Up or Down - February 28, 4:50PM-4:55PM ET",
+      "description": "This market will resolve to \"Up\" if the Bitcoin price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the BTC/USD data stream available at https://data.chain.link/streams/btc-usd.\nPlease note that this market is about the price according to Chainlink data stream BTC/USD, not according to other sources or spot markets.",
+      "volume": 10,
+      "liquidity": 15468.6031,
+      "clobTokenIds": [
+        "41844595100197201411704216546438745435703104563921325356036072881708528911387",
+        "65604118249810512642487133136714933368849180363487413218755007349344127859451"
+      ],
+      "startDate": "2026-02-27T21:59:16.287095Z",
+      "endDate": "2026-02-28T21:55:00Z",
+      "acceptingOrders": true,
+      "negRisk": false,
+      "implied_probability": null,
+      "best_bid": null,
+      "best_ask": null,
+      "spread_abs": null,
+      "spread_pct": null,
+      "depth_proxy": 0,
+      "days_to_event": 0.39416425925925924,
+      "fee_rate": null,
+      "last_trade_price": null,
+      "last_trade_time": null,
+      "midpoint": null,
+      "volatility_level": "low",
+      "uma_resolution_status": "unknown",
+      "resolution_source": "unknown",
+      "risk": "medium",
+      "scores": {
+        "liquidity_score": 7,
+        "spread_score": 1,
+        "volatility_score": 10,
+        "settlement_clarity_score": 5,
+        "event_calendar_score": 10,
+        "hedgeability_score": 1,
+        "risk_level_score": 6,
+        "total": 5.799999999999999
+      },
+      "reason": "高流动性 $15,469 | 0天后到期 | 低风险",
+      "action": "观察 - 等待价格信号",
+      "research_priority": null,
+      "trade_feasibility": "ok",
+      "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
+      "key_risks": [
+        "SEC/FDA 等机构突发审批决定",
+        "巨鲸操作导致价格剧烈波动",
+        "交易所技术故障",
+        "波动性过高导致点差扩大"
+      ],
+      "monitor_sources": [
+        "CoinGecko / CoinMarketCap 实时价格",
+        "TradingView 技术分析",
+        "SEC/FDA 官方公告",
+        "Twitter/X 加密社区"
+      ],
+      "thesis": "加密市场波动性高，0天后到期。需关注价格源和时间窗口，防止极端波动。",
+      "resolution_parsed": null
+    },
+    {
+      "category": "crypto",
+      "rank": 4,
       "market_id": "1455625",
       "conditionId": "0x0c0e4a49660290f846b51a58773e949501727af18e158886fd3bf0b83666d7cb",
       "slug": "btc-updown-5m-1772300400",
@@ -46,7 +238,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.2270280324074074,
+      "days_to_event": 0.220553125,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -87,7 +279,7 @@
     },
     {
       "category": "crypto",
-      "rank": 2,
+      "rank": 5,
       "market_id": "1462129",
       "conditionId": "0x60ef7a58ee6c5cd469facf9cf158e05841ff73cd0f3bbee1210a0d626b73bdc0",
       "slug": "btc-updown-5m-1772333100",
@@ -110,7 +302,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.6055002430555556,
+      "days_to_event": 0.5990253703703704,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -151,7 +343,7 @@
     },
     {
       "category": "crypto",
-      "rank": 3,
+      "rank": 6,
       "market_id": "1456469",
       "conditionId": "0xa0fa85ec5d82ac56705390826d65620caf9371634c48d7d53db68a43cce90ddc",
       "slug": "eth-updown-5m-1772307300",
@@ -174,7 +366,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.30688909722222224,
+      "days_to_event": 0.30041417824074074,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -215,7 +407,7 @@
     },
     {
       "category": "crypto",
-      "rank": 4,
+      "rank": 7,
       "market_id": "1456073",
       "conditionId": "0x2e39dac63a1bb74a2416d593cc2d42aeb50e24fd687eeb65c0907796e3717fff",
       "slug": "eth-updown-5m-1772304900",
@@ -238,7 +430,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.27911134259259257,
+      "days_to_event": 0.2726364699074074,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -279,7 +471,7 @@
     },
     {
       "category": "crypto",
-      "rank": 5,
+      "rank": 8,
       "market_id": "1456430",
       "conditionId": "0x4874ebafbd2fe04685265f070d624ce496a7bd38ddd638a8d31f4a45f95f4b25",
       "slug": "eth-updown-5m-1772306700",
@@ -302,7 +494,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.29994465277777776,
+      "days_to_event": 0.2934697800925926,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -343,7 +535,7 @@
     },
     {
       "category": "crypto",
-      "rank": 6,
+      "rank": 9,
       "market_id": "1456467",
       "conditionId": "0xbdc2a021ac4545dd12e5015859b249f1db8395bc2bf5d71492cb973b4094ee83",
       "slug": "sol-updown-5m-1772307300",
@@ -366,7 +558,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.3068890625,
+      "days_to_event": 0.3004142476851852,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -407,7 +599,7 @@
     },
     {
       "category": "crypto",
-      "rank": 7,
+      "rank": 10,
       "market_id": "1456816",
       "conditionId": "0x42f5a8aebd8ed67216ad6eb5381284ffa26fc4e2dc63d257891e5531103f3016",
       "slug": "sol-updown-5m-1772307600",
@@ -430,7 +622,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.31036136574074075,
+      "days_to_event": 0.30388644675925924,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -471,7 +663,7 @@
     },
     {
       "category": "unknown",
-      "rank": 8,
+      "rank": 11,
       "market_id": "1456428",
       "conditionId": "0x25e06477a3ff4edb07e75841fede1eac842899fb6df7a89acbb3b767a2a69b00",
       "slug": "xrp-updown-5m-1772306700",
@@ -479,7 +671,7 @@
       "question": "XRP Up or Down - February 28, 2:25PM-2:30PM ET",
       "description": "This market will resolve to \"Up\" if the XRP price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the XRP/USD data stream available at https://data.chain.link/streams/xrp-usd.\nPlease note that this market is about the price according to Chainlink data stream XRP/USD, not according to other sources or spot markets.",
       "volume": 10,
-      "liquidity": 12793.0393,
+      "liquidity": 12793.0383,
       "clobTokenIds": [
         "41999477749914767577701995844386210856175732059340532700406621535324704121492",
         "105429928033746324274615108581428965064092652953835494004960047258892360357503"
@@ -494,7 +686,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.2999446875,
+      "days_to_event": 0.29346980324074073,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -532,72 +724,8 @@
       "resolution_parsed": null
     },
     {
-      "category": "crypto",
-      "rank": 9,
-      "market_id": "1454459",
-      "conditionId": "0x422083023a296d05159321fc2aa6f7781b0f2e70399dfdda544dfed467c2605b",
-      "slug": "sol-updown-5m-1772289300",
-      "url": "https://polymarket.com/market/sol-updown-5m-1772289300",
-      "question": "Solana Up or Down - February 28, 9:35AM-9:40AM ET",
-      "description": "This market will resolve to \"Up\" if the Solana price at the end of the time range specified in the title is greater than or equal to the price at the beginning of that range. Otherwise, it will resolve to \"Down\".\nThe resolution source for this market is information from Chainlink, specifically the SOL/USD data stream available at https://data.chain.link/streams/sol-usd.\nPlease note that this market is about the price according to Chainlink data stream SOL/USD, not according to other sources or spot markets.",
-      "volume": 10,
-      "liquidity": 12791.2583,
-      "clobTokenIds": [
-        "62761603651488531774284522774814943365049624891790141619426812151155505017084",
-        "21177532598606315863321559055267447873724146169313605652355481652274353753264"
-      ],
-      "startDate": "2026-02-27T14:43:11.803506Z",
-      "endDate": "2026-02-28T14:40:00Z",
-      "acceptingOrders": true,
-      "negRisk": false,
-      "implied_probability": null,
-      "best_bid": null,
-      "best_ask": null,
-      "spread_abs": null,
-      "spread_pct": null,
-      "depth_proxy": 0,
-      "days_to_event": 0.0985557986111111,
-      "fee_rate": null,
-      "last_trade_price": null,
-      "last_trade_time": null,
-      "midpoint": null,
-      "volatility_level": "low",
-      "uma_resolution_status": "unknown",
-      "resolution_source": "unknown",
-      "risk": "medium",
-      "scores": {
-        "liquidity_score": 7,
-        "spread_score": 1,
-        "volatility_score": 10,
-        "settlement_clarity_score": 5,
-        "event_calendar_score": 10,
-        "hedgeability_score": 1,
-        "risk_level_score": 6,
-        "total": 5.799999999999999
-      },
-      "reason": "高流动性 $12,791 | 0天后到期 | 低风险",
-      "action": "观察 - 等待价格信号",
-      "research_priority": null,
-      "trade_feasibility": "ok",
-      "entry_plan": "设置价格警报，突破关键阻力位且流动性充足时快速入场，持有期≤24小时",
-      "key_risks": [
-        "SEC/FDA 等机构突发审批决定",
-        "巨鲸操作导致价格剧烈波动",
-        "交易所技术故障",
-        "波动性过高导致点差扩大"
-      ],
-      "monitor_sources": [
-        "CoinGecko / CoinMarketCap 实时价格",
-        "TradingView 技术分析",
-        "SEC/FDA 官方公告",
-        "Twitter/X 加密社区"
-      ],
-      "thesis": "加密市场波动性高，0天后到期。需关注价格源和时间窗口，防止极端波动。",
-      "resolution_parsed": null
-    },
-    {
       "category": "unknown",
-      "rank": 10,
+      "rank": 12,
       "market_id": "1456466",
       "conditionId": "0x94b3e98db7ae36798bf1f907f9d18de64d63fe6e3c11cbee049d504439ab4073",
       "slug": "xrp-updown-5m-1772307300",
@@ -620,7 +748,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.30688909722222224,
+      "days_to_event": 0.3004142013888889,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -659,7 +787,7 @@
     },
     {
       "category": "crypto",
-      "rank": 11,
+      "rank": 13,
       "market_id": "1456313",
       "conditionId": "0xf5166c370de3b6d59c514abb7d46b77d58ea1aff413e175ec28cef3512269dde",
       "slug": "sol-updown-15m-1772306100",
@@ -682,7 +810,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.29994462962962964,
+      "days_to_event": 0.29346974537037035,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -723,7 +851,7 @@
     },
     {
       "category": "unknown",
-      "rank": 12,
+      "rank": 14,
       "market_id": "1456099",
       "conditionId": "0xb904fb9cc9271c71dfb5ca2f44ce46082ea78fc36f262cc54df8e2dbabd8c6c1",
       "slug": "xrp-updown-15m-1772305200",
@@ -746,7 +874,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.28952796296296296,
+      "days_to_event": 0.28305310185185184,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -785,7 +913,7 @@
     },
     {
       "category": "crypto",
-      "rank": 13,
+      "rank": 15,
       "market_id": "1459812",
       "conditionId": "0xec872583a252a162f35a1aa8aee6ecd37aae3500f7d6c7331b84bb6bae9b0b04",
       "slug": "eth-updown-4h-1772312400",
@@ -808,7 +936,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.5291113310185185,
+      "days_to_event": 0.5226364236111111,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -848,134 +976,6 @@
       "resolution_parsed": null
     },
     {
-      "category": "sports",
-      "rank": 14,
-      "market_id": "1411069",
-      "conditionId": "0xefd718a590d8d5cbab006aeeaf38da27542d217bb1316f1f877b7ee0a810b1ba",
-      "slug": "cbb-portst-mont-2026-02-28",
-      "url": "https://polymarket.com/market/cbb-portst-mont-2026-02-28",
-      "question": "Portland State Vikings vs. Montana Grizzlies",
-      "description": "In the upcoming CBB game, scheduled for February 28 at 4:00 PM ET:\n\nIf the Portland State Vikings win, the market will resolve to \"Portland State Vikings\".\n\nIf the Montana Grizzlies win, the market will resolve to \"Montana Grizzlies\".\n\nIf the game is postponed, this market will remain open until the game has been completed.\n\nIf the game is canceled entirely, with no make-up game, this market will resolve 50-50.\n\nThe result will be determined based on the final score including any overtime periods.",
-      "volume": 10,
-      "liquidity": 6612.7473,
-      "clobTokenIds": [
-        "29590703664224149431242065852821832646796744890290980536532806875146021516201",
-        "69124730157440080299904436885187483597080645287753009330240504436622793678813"
-      ],
-      "startDate": "2026-02-22T00:11:42.432916Z",
-      "endDate": "2026-02-28T21:00:00Z",
-      "acceptingOrders": true,
-      "negRisk": false,
-      "implied_probability": null,
-      "best_bid": null,
-      "best_ask": null,
-      "spread_abs": null,
-      "spread_pct": null,
-      "depth_proxy": 0,
-      "days_to_event": 0.36244462962962964,
-      "fee_rate": null,
-      "last_trade_price": null,
-      "last_trade_time": null,
-      "midpoint": null,
-      "volatility_level": "low",
-      "uma_resolution_status": "unknown",
-      "resolution_source": "unknown",
-      "risk": "medium",
-      "scores": {
-        "liquidity_score": 4,
-        "spread_score": 1,
-        "volatility_score": 10,
-        "settlement_clarity_score": 5,
-        "event_calendar_score": 10,
-        "hedgeability_score": 1,
-        "risk_level_score": 6,
-        "total": 5.199999999999999
-      },
-      "reason": "0天后到期 | 低风险",
-      "action": "观察 - 等待比赛结果",
-      "research_priority": null,
-      "trade_feasibility": "ok",
-      "entry_plan": "比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲",
-      "key_risks": [
-        "比赛推迟/取消",
-        "球员伤病突发",
-        "裁判判罚争议",
-        "加时赛/点球决胜"
-      ],
-      "monitor_sources": [
-        "ESPN / 官方联赛网站",
-        "Flashscore 实时比分",
-        "Twitter 体育记者",
-        "赔率对比（Oddschecker）"
-      ],
-      "thesis": "体育类市场结算清晰，0天后到期。需关注比赛实际结果和潜在中断。",
-      "resolution_parsed": null
-    },
-    {
-      "category": "sports",
-      "rank": 15,
-      "market_id": "1422290",
-      "conditionId": "0x756b08963fa410aff06feb240ae4d6e0bb56fbe1f5a2f283b204aebe5268b546",
-      "slug": "cbb-nevada-unlv-2026-02-28",
-      "url": "https://polymarket.com/market/cbb-nevada-unlv-2026-02-28",
-      "question": "Nevada Wolf Pack vs. UNLV Runnin' Rebels",
-      "description": "In the upcoming CBB game, scheduled for February 28 at 10:00 PM ET:\n\nIf the Nevada Wolf Pack win, the market will resolve to \"Nevada Wolf Pack\".\n\nIf the UNLV Runnin' Rebels win, the market will resolve to \"UNLV Runnin' Rebels\".\n\nIf the game is postponed, this market will remain open until the game has been completed.\n\nIf the game is canceled entirely, with no make-up game, this market will resolve 50-50.\n\nThe result will be determined based on the final score including any overtime periods.",
-      "volume": 10,
-      "liquidity": 5390.5388,
-      "clobTokenIds": [
-        "100498043712789005387963755345322020036158885337094519786756753566948412792253",
-        "89771051288363906873223456026286535507059222107298205155872759246919552743021"
-      ],
-      "startDate": "2026-02-24T00:05:34.904064Z",
-      "endDate": "2026-03-01T03:00:00Z",
-      "acceptingOrders": true,
-      "negRisk": false,
-      "implied_probability": null,
-      "best_bid": null,
-      "best_ask": null,
-      "spread_abs": null,
-      "spread_pct": null,
-      "depth_proxy": 0,
-      "days_to_event": 0.6124446412037037,
-      "fee_rate": null,
-      "last_trade_price": null,
-      "last_trade_time": null,
-      "midpoint": null,
-      "volatility_level": "low",
-      "uma_resolution_status": "unknown",
-      "resolution_source": "unknown",
-      "risk": "medium",
-      "scores": {
-        "liquidity_score": 4,
-        "spread_score": 1,
-        "volatility_score": 10,
-        "settlement_clarity_score": 5,
-        "event_calendar_score": 10,
-        "hedgeability_score": 1,
-        "risk_level_score": 6,
-        "total": 5.199999999999999
-      },
-      "reason": "1天后到期 | 低风险",
-      "action": "观察 - 等待比赛结果",
-      "research_priority": null,
-      "trade_feasibility": "ok",
-      "entry_plan": "比赛开始前1小时检查赔率变化，流动性充足时可赛前对冲",
-      "key_risks": [
-        "比赛推迟/取消",
-        "球员伤病突发",
-        "裁判判罚争议",
-        "加时赛/点球决胜"
-      ],
-      "monitor_sources": [
-        "ESPN / 官方联赛网站",
-        "Flashscore 实时比分",
-        "Twitter 体育记者",
-        "赔率对比（Oddschecker）"
-      ],
-      "thesis": "体育类市场结算清晰，1天后到期。需关注比赛实际结果和潜在中断。",
-      "resolution_parsed": null
-    },
-    {
       "category": "weather",
       "rank": 16,
       "market_id": "feb28-nyc-1",
@@ -997,7 +997,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 0.48744430555555557,
+      "days_to_event": 0.48096944444444445,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1046,8 +1046,8 @@
       "weather_signal_score": 6.3,
       "weather_signal_components": {
         "recency": {
-          "score": 4.6,
-          "hours_ago": 13.4
+          "score": 4.5,
+          "hours_ago": 13.5
         },
         "model_agreement": {
           "score": 5
@@ -1099,7 +1099,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.4874443402777777,
+      "days_to_event": 1.4809694791666668,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1148,8 +1148,8 @@
       "weather_signal_score": 6.3,
       "weather_signal_components": {
         "recency": {
-          "score": 4.6,
-          "hours_ago": 13.4
+          "score": 4.5,
+          "hours_ago": 13.5
         },
         "model_agreement": {
           "score": 5
@@ -1201,7 +1201,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.4874443171296297,
+      "days_to_event": 1.4809694560185185,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1250,8 +1250,8 @@
       "weather_signal_score": 6.3,
       "weather_signal_components": {
         "recency": {
-          "score": 4.6,
-          "hours_ago": 13.4
+          "score": 4.5,
+          "hours_ago": 13.5
         },
         "model_agreement": {
           "score": 5
@@ -1303,7 +1303,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.4874443518518519,
+      "days_to_event": 1.4809694907407407,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1352,8 +1352,8 @@
       "weather_signal_score": 6.3,
       "weather_signal_components": {
         "recency": {
-          "score": 4.6,
-          "hours_ago": 13.4
+          "score": 4.5,
+          "hours_ago": 13.5
         },
         "model_agreement": {
           "score": 5
@@ -1388,7 +1388,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.487444236111111,
+      "days_to_event": 1.480969363425926,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1437,8 +1437,8 @@
       "weather_signal_score": 6.3,
       "weather_signal_components": {
         "recency": {
-          "score": 4.6,
-          "hours_ago": 13.4
+          "score": 4.5,
+          "hours_ago": 13.5
         },
         "model_agreement": {
           "score": 5
@@ -1473,7 +1473,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.487444236111111,
+      "days_to_event": 1.480969363425926,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1522,8 +1522,8 @@
       "weather_signal_score": 6.3,
       "weather_signal_components": {
         "recency": {
-          "score": 4.6,
-          "hours_ago": 13.4
+          "score": 4.5,
+          "hours_ago": 13.5
         },
         "model_agreement": {
           "score": 5
@@ -1558,7 +1558,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 1.487444224537037,
+      "days_to_event": 1.480969363425926,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1607,8 +1607,8 @@
       "weather_signal_score": 6.3,
       "weather_signal_components": {
         "recency": {
-          "score": 4.6,
-          "hours_ago": 13.4
+          "score": 4.5,
+          "hours_ago": 13.5
         },
         "model_agreement": {
           "score": 5
@@ -1643,7 +1643,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 2.487444224537037,
+      "days_to_event": 2.4809693634259258,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1692,8 +1692,8 @@
       "weather_signal_score": 6.3,
       "weather_signal_components": {
         "recency": {
-          "score": 4.6,
-          "hours_ago": 13.4
+          "score": 4.5,
+          "hours_ago": 13.5
         },
         "model_agreement": {
           "score": 5
@@ -1728,7 +1728,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 2.487444224537037,
+      "days_to_event": 2.4809693518518516,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1777,8 +1777,8 @@
       "weather_signal_score": 6.3,
       "weather_signal_components": {
         "recency": {
-          "score": 4.6,
-          "hours_ago": 13.4
+          "score": 4.5,
+          "hours_ago": 13.5
         },
         "model_agreement": {
           "score": 5
@@ -1813,7 +1813,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 2.487444212962963,
+      "days_to_event": 2.4809693518518516,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1862,8 +1862,8 @@
       "weather_signal_score": 6.3,
       "weather_signal_components": {
         "recency": {
-          "score": 4.6,
-          "hours_ago": 13.4
+          "score": 4.5,
+          "hours_ago": 13.5
         },
         "model_agreement": {
           "score": 5
@@ -1898,7 +1898,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 3.487444212962963,
+      "days_to_event": 3.4809693518518516,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -1947,8 +1947,8 @@
       "weather_signal_score": 6.3,
       "weather_signal_components": {
         "recency": {
-          "score": 4.6,
-          "hours_ago": 13.4
+          "score": 4.5,
+          "hours_ago": 13.5
         },
         "model_agreement": {
           "score": 5
@@ -1983,7 +1983,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 3.487444212962963,
+      "days_to_event": 3.4809693518518516,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -2032,8 +2032,8 @@
       "weather_signal_score": 6.3,
       "weather_signal_components": {
         "recency": {
-          "score": 4.6,
-          "hours_ago": 13.4
+          "score": 4.5,
+          "hours_ago": 13.5
         },
         "model_agreement": {
           "score": 5
@@ -2068,7 +2068,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 3.487444201388889,
+      "days_to_event": 3.480969340277778,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -2117,8 +2117,8 @@
       "weather_signal_score": 6.3,
       "weather_signal_components": {
         "recency": {
-          "score": 4.6,
-          "hours_ago": 13.4
+          "score": 4.5,
+          "hours_ago": 13.5
         },
         "model_agreement": {
           "score": 5
@@ -2153,7 +2153,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 4.487444201388889,
+      "days_to_event": 4.4809693402777775,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -2202,8 +2202,8 @@
       "weather_signal_score": 6.3,
       "weather_signal_components": {
         "recency": {
-          "score": 4.6,
-          "hours_ago": 13.4
+          "score": 4.5,
+          "hours_ago": 13.5
         },
         "model_agreement": {
           "score": 5
@@ -2238,7 +2238,7 @@
       "spread_abs": null,
       "spread_pct": null,
       "depth_proxy": 0,
-      "days_to_event": 4.487444201388889,
+      "days_to_event": 4.4809693402777775,
       "fee_rate": null,
       "last_trade_price": null,
       "last_trade_time": null,
@@ -2287,8 +2287,8 @@
       "weather_signal_score": 6.3,
       "weather_signal_components": {
         "recency": {
-          "score": 4.6,
-          "hours_ago": 13.4
+          "score": 4.5,
+          "hours_ago": 13.5
         },
         "model_agreement": {
           "score": 5
