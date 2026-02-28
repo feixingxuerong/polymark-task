@@ -17,8 +17,14 @@
         "url": "https://polymarket.com/market/highest-temperature-in-nyc-on-march-1-2026-31forbelow",
         "endDate": "2026-03-02T00:00:00Z",
         "volume": 3761,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.01", "0.99"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.01",
+          "0.99"
+        ],
         "closed": false
       },
       {
@@ -29,12 +35,26 @@
         "url": "https://polymarket.com/market/highest-temperature-in-nyc-on-march-1-2026-38-39f",
         "endDate": "2026-03-02T00:00:00Z",
         "volume": 624,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.32", "0.68"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.32",
+          "0.68"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "nyc", "march-2026", "future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "nyc",
+      "march-2026",
+      "future",
+      "us"
+    ],
+    "intl": false
   },
   {
     "id": "mar1-atlanta",
@@ -54,12 +74,26 @@
         "url": "https://polymarket.com/market/highest-temperature-in-atlanta-on-march-1-2026-76forhigher",
         "endDate": "2026-03-02T00:00:00Z",
         "volume": 5100,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.51", "0.49"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.51",
+          "0.49"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "atlanta", "march-2026", "future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "atlanta",
+      "march-2026",
+      "future",
+      "us"
+    ],
+    "intl": false
   },
   {
     "id": "mar1-dallas",
@@ -79,12 +113,26 @@
         "url": "https://polymarket.com/market/highest-temperature-in-dallas-on-march-1-2026-72forhigher",
         "endDate": "2026-03-02T00:00:00Z",
         "volume": 9900,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.99", "0.01"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.99",
+          "0.01"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "dallas", "march-2026", "future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "dallas",
+      "march-2026",
+      "future",
+      "us"
+    ],
+    "intl": false
   },
   {
     "id": "mar1-ankara",
@@ -104,12 +152,25 @@
         "url": "https://polymarket.com/market/highest-temperature-in-ankara-on-march-1-2026-10corhigher",
         "endDate": "2026-03-02T00:00:00Z",
         "volume": 4500,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.55", "0.45"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.55",
+          "0.45"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "ankara", "march-2026", "future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "ankara",
+      "march-2026",
+      "future"
+    ],
+    "intl": true
   },
   {
     "id": "mar1-seoul",
@@ -129,12 +190,25 @@
         "url": "https://polymarket.com/market/highest-temperature-in-seoul-on-march-1-2026-8corhigher",
         "endDate": "2026-03-02T00:00:00Z",
         "volume": 5800,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.60", "0.40"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.60",
+          "0.40"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "seoul", "march-2026", "future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "seoul",
+      "march-2026",
+      "future"
+    ],
+    "intl": true
   },
   {
     "id": "mar1-miami",
@@ -154,12 +228,26 @@
         "url": "https://polymarket.com/market/highest-temperature-in-miami-on-march-1-2026-84-85f",
         "endDate": "2026-03-02T00:00:00Z",
         "volume": 4200,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.45", "0.55"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.45",
+          "0.55"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "miami", "march-2026", "future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "miami",
+      "march-2026",
+      "future",
+      "us"
+    ],
+    "intl": false
   },
   {
     "id": "mar1-wellington",
@@ -179,12 +267,25 @@
         "url": "https://polymarket.com/market/highest-temperature-in-wellington-on-march-1-2026-18corhigher",
         "endDate": "2026-03-02T00:00:00Z",
         "volume": 3200,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.42", "0.58"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.42",
+          "0.58"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "wellington", "march-2026", "future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "wellington",
+      "march-2026",
+      "future"
+    ],
+    "intl": true
   },
   {
     "id": "mar1-saopaulo",
@@ -204,12 +305,26 @@
         "url": "https://polymarket.com/market/highest-temperature-in-sao-paulo-on-march-1-2026-28corhigher",
         "endDate": "2026-03-02T00:00:00Z",
         "volume": 4100,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.52", "0.48"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.52",
+          "0.48"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "sao-paulo", "march-2026", "future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "sao-paulo",
+      "march-2026",
+      "future",
+      "us"
+    ],
+    "intl": false
   },
   {
     "id": "mar1-buenosaires",
@@ -229,12 +344,26 @@
         "url": "https://polymarket.com/market/highest-temperature-in-buenos-aires-on-march-1-2026-30corhigher",
         "endDate": "2026-03-02T00:00:00Z",
         "volume": 2800,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.48", "0.52"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.48",
+          "0.52"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "buenos-aires", "march-2026", "future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "buenos-aires",
+      "march-2026",
+      "future",
+      "us"
+    ],
+    "intl": false
   },
   {
     "id": "mar1-chicago",
@@ -254,12 +383,26 @@
         "url": "https://polymarket.com/market/highest-temperature-in-chicago-on-march-1-2026-42forhigher",
         "endDate": "2026-03-02T00:00:00Z",
         "volume": 5200,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.55", "0.45"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.55",
+          "0.45"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "chicago", "march-2026", "future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "chicago",
+      "march-2026",
+      "future",
+      "us"
+    ],
+    "intl": false
   },
   {
     "id": "mar1-toronto",
@@ -279,12 +422,25 @@
         "url": "https://polymarket.com/market/highest-temperature-in-toronto-on-march-1-2026-4corhigher",
         "endDate": "2026-03-02T00:00:00Z",
         "volume": 2100,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.45", "0.55"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.45",
+          "0.55"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "toronto", "march-2026", "future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "toronto",
+      "march-2026",
+      "future"
+    ],
+    "intl": true
   },
   {
     "id": "mar1-london",
@@ -304,12 +460,25 @@
         "url": "https://polymarket.com/market/highest-temperature-in-london-on-march-1-2026-12corhigher",
         "endDate": "2026-03-02T00:00:00Z",
         "volume": 7800,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.52", "0.48"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.52",
+          "0.48"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "london", "march-2026", "future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "london",
+      "march-2026",
+      "future"
+    ],
+    "intl": true
   },
   {
     "id": "mar1-paris",
@@ -329,12 +498,25 @@
         "url": "https://polymarket.com/market/highest-temperature-in-paris-on-march-1-2026-14corhigher",
         "endDate": "2026-03-02T00:00:00Z",
         "volume": 6200,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.50", "0.50"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.50",
+          "0.50"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "paris", "march-2026", "future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "paris",
+      "march-2026",
+      "future"
+    ],
+    "intl": true
   },
   {
     "id": "mar1-seattle",
@@ -354,12 +536,26 @@
         "url": "https://polymarket.com/market/highest-temperature-in-seattle-on-march-1-2026-52-53f",
         "endDate": "2026-03-02T00:00:00Z",
         "volume": 4100,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.48", "0.52"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.48",
+          "0.52"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "seattle", "march-2026", "future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "seattle",
+      "march-2026",
+      "future",
+      "us"
+    ],
+    "intl": false
   },
   {
     "id": "feb28-nyc",
@@ -379,12 +575,26 @@
         "url": "https://polymarket.com/market/highest-temperature-in-nyc-on-february-28-2026-50forhigher",
         "endDate": "2026-03-01T00:00:00Z",
         "volume": 18500,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.41", "0.59"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.41",
+          "0.59"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "nyc", "february-2026", "near-future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "nyc",
+      "february-2026",
+      "near-future",
+      "us"
+    ],
+    "intl": false
   },
   {
     "id": "feb28-london",
@@ -404,12 +614,25 @@
         "url": "https://polymarket.com/market/highest-temperature-in-london-on-february-28-2026-11c",
         "endDate": "2026-03-01T00:00:00Z",
         "volume": 18900,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.46", "0.54"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.46",
+          "0.54"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "london", "february-2026", "near-future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "london",
+      "february-2026",
+      "near-future"
+    ],
+    "intl": true
   },
   {
     "id": "feb28-wellington",
@@ -429,12 +652,25 @@
         "url": "https://polymarket.com/market/highest-temperature-in-wellington-on-february-28-2026-19c",
         "endDate": "2026-03-01T00:00:00Z",
         "volume": 39600,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.46", "0.54"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.46",
+          "0.54"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "wellington", "february-2026", "near-future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "wellington",
+      "february-2026",
+      "near-future"
+    ],
+    "intl": true
   },
   {
     "id": "feb28-seoul",
@@ -454,11 +690,24 @@
         "url": "https://polymarket.com/market/highest-temperature-in-seoul-on-february-28-2026-14corhigher",
         "endDate": "2026-03-01T00:00:00Z",
         "volume": 33400,
-        "outcomes": ["Yes", "No"],
-        "outcomePrices": ["0.44", "0.56"],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "outcomePrices": [
+          "0.44",
+          "0.56"
+        ],
         "closed": false
       }
     ],
-    "tags": ["weather", "temperature", "seoul", "february-2026", "near-future"]
+    "tags": [
+      "weather",
+      "temperature",
+      "seoul",
+      "february-2026",
+      "near-future"
+    ],
+    "intl": true
   }
 ]
