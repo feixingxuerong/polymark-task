@@ -37,7 +37,7 @@ const CLOB_API = 'https://clob.polymarket.com';
 const DEFAULT_LIMIT = 50;
 const DEFAULT_MIN_LIQUIDITY = 1000;
 const TOP_N = 30;
-const WEATHER_QUOTA = 5; // 主 watchlist 中保留的天气席位数（仅 weather，不含 aviation）
+const WEATHER_QUOTA = 15; // 主 watchlist 中保留的天气席位数（仅 weather，不含 aviation）
 
 // === SCORING RULES (from watchlist-scoring.yaml) ===
 const SCORING_WEIGHTS = {
