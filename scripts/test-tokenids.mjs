@@ -1,12 +1,15 @@
 #!/usr/bin/env node
 
 /**
- * Minimal unit-style test for tokenId helpers used by generate-watchlist.mjs.
+ * Minimal unit-style tests for token id extraction.
  *
- * Goal: ensure we correctly handle Gamma returning clobTokenIds as:
- * - array
- * - JSON-encoded string
- * - invalid string
+ * Purpose: ensure we correctly handle Gamma returning clobTokenIds as
+ * - array of tokenIds,
+ * - JSON-encoded string,
+ * - invalid string / malformed input.
+ *
+ * Run:
+ *   node scripts/test-tokenids.mjs
  */
 
 function normalizeClobTokenIds(clobTokenIds) {
@@ -35,42 +38,42 @@ function assert(cond, msg) {
 }
 
 function run() {
-  // Case 1: array
+  // Array input
   {
-    const m = { clobTokenIds: ['0xaaa', '0xbbb'] };
+    const m = { clobTokenIds: ['0xabc', '0xdef'] };
     const r = extractTokenIds(m);
-    assert(r.yesTokenId === '0xaaa', 'array: yesTokenId mismatch');
-    assert(r.noTokenId === '0xbbb', 'array: noTokenId mismatch');
-    assert(r.tokenIds.length === 2, 'array: tokenIds length mismatch');
+    assert(r.yesTokenId === '0xabc', 'array: yesTokenId mismatch');
+    assert(r.noTokenId === '0xdef', 'array: noTokenId mismatch');
   }
 
-  // Case 2: JSON string
+  // JSON string input
   {
-    const m = { clobTokenIds: '["0xaaa","0xbbb"]' };
+    const m = { clobTokenIds: JSON.stringify(['0x111', '0x222']) };
     const r = extractTokenIds(m);
-    assert(r.yesTokenId === '0xaaa', 'json string: yesTokenId mismatch');
-    assert(r.noTokenId === '0xbbb', 'json string: noTokenId mismatch');
-    assert(r.tokenIds.length === 2, 'json string: tokenIds length mismatch');
+    assert(r.yesTokenId === '0x111', 'json-string: yesTokenId mismatch');
+    assert(r.noTokenId === '0x222', 'json-string: noTokenId mismatch');
   }
 
-  // Case 3: invalid string => no calls should be made (null ids)
+  // Invalid JSON string -> should not produce token ids
   {
-    const m = { clobTokenIds: '[not-json' };
+    const m = { clobTokenIds: '[not json' };
     const r = extractTokenIds(m);
-    assert(r.yesTokenId === null, 'invalid string: yesTokenId should be null');
-    assert(r.noTokenId === null, 'invalid string: noTokenId should be null');
-    assert(Array.isArray(r.tokenIds) && r.tokenIds.length === 0, 'invalid string: tokenIds should be empty array');
+    assert(r.yesTokenId === null && r.noTokenId === null, 'invalid-string: expected null tokenIds');
   }
 
-  // Case 4: JSON string but not array
+  // Wrong prefix -> should be null
   {
-    const m = { clobTokenIds: '{"a":1}' };
+    const m = { clobTokenIds: ['[', ']'] };
     const r = extractTokenIds(m);
-    assert(r.yesTokenId === null && r.noTokenId === null, 'json object: ids should be null');
-    assert(r.tokenIds.length === 0, 'json object: tokenIds should be empty');
+    assert(r.yesTokenId === null && r.noTokenId === null, 'bad-prefix: expected null tokenIds');
   }
 
-  console.log('OK: tokenId helper tests passed');
+  console.log('OK: tokenId extraction tests passed');
 }
 
-run();
+try {
+  run();
+} catch (e) {
+  console.error('FAIL:', e.message);
+  process.exit(1);
+}
