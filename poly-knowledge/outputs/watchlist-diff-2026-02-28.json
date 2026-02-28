@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28T09:19:19.472Z",
+  "generated_at": "2026-02-28T09:29:10.713Z",
   "today_date": "2026-02-28",
   "yesterday_date": "2026-02-27",
   "first_run": false,
@@ -23,22 +23,22 @@
       "reason": "新上榜，排名 #1，评分 5.8"
     },
     {
+      "market_id": "1459812",
+      "question": "Ethereum Up or Down - February 28, 4:00PM-8:00PM ET",
+      "rank": 16,
+      "score": 5.799999999999999,
+      "liquidity": 12105.688,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #16，评分 5.8"
+    },
+    {
       "market_id": "1411069",
       "question": "Portland State Vikings vs. Montana Grizzlies",
       "rank": 17,
       "score": 5.199999999999999,
-      "liquidity": 5356.4371,
+      "liquidity": 8033.1165,
       "implied_probability": null,
       "reason": "新上榜，排名 #17，评分 5.2"
-    },
-    {
-      "market_id": "1446604",
-      "question": "Spread: Ismaily SC (-2.5)",
-      "rank": 18,
-      "score": 5.199999999999999,
-      "liquidity": 4800.0886,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #18，评分 5.2"
     },
     {
       "market_id": "1447006",
@@ -63,7 +63,7 @@
       "question": "Will Kristoffer Reitan finish in the Top 5 at the 2026 Cognizant Classic in The Palm Beaches?",
       "rank": 21,
       "score": 5.199999999999999,
-      "liquidity": 2343.1995,
+      "liquidity": 2342.0996,
       "implied_probability": null,
       "reason": "新上榜，排名 #21，评分 5.2"
     },
@@ -72,7 +72,7 @@
       "question": "DEL: Eisbaeren Berlin vs. Bremerhaven",
       "rank": 22,
       "score": 5.199999999999999,
-      "liquidity": 1950.8659,
+      "liquidity": 1956.9159,
       "implied_probability": null,
       "reason": "新上榜，排名 #22，评分 5.2"
     },
@@ -81,7 +81,7 @@
       "question": "Spread: Pyramids FC (-2.5)",
       "rank": 23,
       "score": 5.199999999999999,
-      "liquidity": 1737.3831,
+      "liquidity": 1517.1314,
       "implied_probability": null,
       "reason": "新上榜，排名 #23，评分 5.2"
     },
@@ -99,7 +99,7 @@
       "question": "KHL: Admiral Vladivostok vs. Salavat Yulaev Ufa",
       "rank": 25,
       "score": 5.199999999999999,
-      "liquidity": 1291.1567,
+      "liquidity": 1284.4567,
       "implied_probability": null,
       "reason": "新上榜，排名 #25，评分 5.2"
     }
@@ -192,21 +192,29 @@
     {
       "market_id": "1382469",
       "question": "Spread: FC København (-2.5)",
-      "today_liquidity": 14641.1619,
+      "today_liquidity": 4910.4513,
       "yesterday_liquidity": 3911.895,
-      "liquidity_change_pct": 274.27287542226975,
+      "liquidity_change_pct": 25.52615292588374,
       "direction": "increased",
-      "reason": "流动性增加 274% ($3,912 → $14,641)"
+      "reason": "流动性增加 26% ($3,912 → $4,910)"
     }
   ],
   "top_movers": [
     {
       "market_id": "1382469",
       "question": "Spread: FC København (-2.5)",
-      "today_rank": 5,
+      "today_rank": 18,
       "yesterday_rank": 24,
-      "change_score": 28.027287542226972,
-      "reason": "综合变化得分 28.0，排名 24 → 5"
+      "change_score": 2.552615292588374,
+      "reason": "综合变化得分 2.6，排名 24 → 18"
+    },
+    {
+      "market_id": "1456313",
+      "question": "Solana Up or Down - February 28, 2:15PM-2:30PM ET",
+      "today_rank": 14,
+      "yesterday_rank": 22,
+      "change_score": 1.0568575769718729,
+      "reason": "综合变化得分 1.1，排名 22 → 14"
     },
     {
       "market_id": "1456099",
@@ -217,52 +225,28 @@
       "reason": "综合变化得分 0.9，排名 21 → 15"
     },
     {
-      "market_id": "1456313",
-      "question": "Solana Up or Down - February 28, 2:15PM-2:30PM ET",
-      "today_rank": 16,
-      "yesterday_rank": 22,
-      "change_score": 0.08447795724673954,
-      "reason": "综合变化得分 0.1，排名 22 → 16"
-    },
-    {
       "market_id": "1454459",
       "question": "Solana Up or Down - February 28, 9:35AM-9:40AM ET",
-      "today_rank": 13,
+      "today_rank": 12,
       "yesterday_rank": 15,
       "change_score": 0.06844570980554295,
-      "reason": "综合变化得分 0.1，排名 15 → 13"
+      "reason": "综合变化得分 0.1，排名 15 → 12"
     },
     {
       "market_id": "1456073",
       "question": "Ethereum Up or Down - February 28, 1:55PM-2:00PM ET",
-      "today_rank": 7,
+      "today_rank": 6,
       "yesterday_rank": 14,
       "change_score": 0.04715382768857245,
-      "reason": "综合变化得分 0.0，排名 14 → 7"
-    },
-    {
-      "market_id": "1456809",
-      "question": "Bitcoin Up or Down - February 28, 2:40PM-2:45PM ET",
-      "today_rank": 3,
-      "yesterday_rank": 3,
-      "change_score": 0.030962272236654972,
-      "reason": "综合变化得分 0.0，排名 3 → 3"
-    },
-    {
-      "market_id": "1459683",
-      "question": "Bitcoin Up or Down - February 28, 3:35PM-3:40PM ET",
-      "today_rank": 4,
-      "yesterday_rank": 5,
-      "change_score": 0.0226550197895354,
-      "reason": "综合变化得分 0.0，排名 5 → 4"
+      "reason": "综合变化得分 0.0，排名 14 → 6"
     },
     {
       "market_id": "1453997",
       "question": "Solana Up or Down - February 28, 7:25AM-7:30AM ET",
-      "today_rank": 9,
+      "today_rank": 8,
       "yesterday_rank": 16,
       "change_score": 0.02110835677898094,
-      "reason": "综合变化得分 0.0，排名 16 → 9"
+      "reason": "综合变化得分 0.0，排名 16 → 8"
     },
     {
       "market_id": "1456432",
@@ -273,12 +257,28 @@
       "reason": "综合变化得分 0.0，排名 4 → 2"
     },
     {
+      "market_id": "1459683",
+      "question": "Bitcoin Up or Down - February 28, 3:35PM-3:40PM ET",
+      "today_rank": 4,
+      "yesterday_rank": 5,
+      "change_score": 0.009036971242898817,
+      "reason": "综合变化得分 0.0，排名 5 → 4"
+    },
+    {
       "market_id": "1456816",
       "question": "Solana Up or Down - February 28, 2:40PM-2:45PM ET",
-      "today_rank": 11,
+      "today_rank": 10,
       "yesterday_rank": 17,
       "change_score": 0.008772091243228907,
-      "reason": "综合变化得分 0.0，排名 17 → 11"
+      "reason": "综合变化得分 0.0，排名 17 → 10"
+    },
+    {
+      "market_id": "1456466",
+      "question": "XRP Up or Down - February 28, 2:35PM-2:40PM ET",
+      "today_rank": 13,
+      "yesterday_rank": 20,
+      "change_score": 0.006738695818274272,
+      "reason": "综合变化得分 0.0，排名 20 → 13"
     }
   ]
 }
