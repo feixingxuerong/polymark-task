@@ -1,114 +1,78 @@
 {
-  "generated_at": "2026-02-28T13:08:23.831Z",
+  "generated_at": "2026-02-28T13:24:21.151Z",
   "today_date": "2026-02-28",
   "yesterday_date": "2026-02-27",
   "first_run": false,
   "summary": {
     "today_count": 30,
     "yesterday_count": 30,
-    "new_count": 18,
-    "dropped_count": 18,
+    "new_count": 14,
+    "dropped_count": 14,
     "score_jumps_count": 0,
     "spread_moves_count": 0,
     "liquidity_moves_count": 1
   },
   "new_entries": [
     {
+      "market_id": "1460106",
+      "question": "Bitcoin Up or Down - February 28, 4:50PM-4:55PM ET",
+      "rank": 4,
+      "score": 5.799999999999999,
+      "liquidity": 15475.6031,
+      "implied_probability": null,
+      "reason": "新上榜，排名 #4，评分 5.8"
+    },
+    {
       "market_id": "1462129",
       "question": "Bitcoin Up or Down - February 28, 9:45PM-9:50PM ET",
-      "rank": 1,
+      "rank": 6,
       "score": 5.799999999999999,
-      "liquidity": 15810.9972,
+      "liquidity": 15317.0972,
       "implied_probability": null,
-      "reason": "新上榜，排名 #1，评分 5.8"
+      "reason": "新上榜，排名 #6，评分 5.8"
     },
     {
-      "market_id": "1459812",
-      "question": "Ethereum Up or Down - February 28, 4:00PM-8:00PM ET",
-      "rank": 11,
+      "market_id": "1446604",
+      "question": "Spread: Ismaily SC (-2.5)",
+      "rank": 16,
       "score": 5.799999999999999,
-      "liquidity": 12281.288,
+      "liquidity": 10361.2091,
       "implied_probability": null,
-      "reason": "新上榜，排名 #11，评分 5.8"
-    },
-    {
-      "market_id": "1447006",
-      "question": "Spread: Jaguares de Córdoba FC (-2.5)",
-      "rank": 12,
-      "score": 5.199999999999999,
-      "liquidity": 7624.7219,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #12，评分 5.2"
+      "reason": "新上榜，排名 #16，评分 5.8"
     },
     {
       "market_id": "1411069",
       "question": "Portland State Vikings vs. Montana Grizzlies",
-      "rank": 13,
+      "rank": 17,
       "score": 5.199999999999999,
-      "liquidity": 6811.1978,
+      "liquidity": 5100.3478,
       "implied_probability": null,
-      "reason": "新上榜，排名 #13，评分 5.2"
+      "reason": "新上榜，排名 #17，评分 5.2"
     },
     {
       "market_id": "1422290",
       "question": "Nevada Wolf Pack vs. UNLV Runnin' Rebels",
-      "rank": 14,
-      "score": 5.199999999999999,
-      "liquidity": 4668.9697,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #14，评分 5.2"
-    },
-    {
-      "market_id": "1455654",
-      "question": "Diego Dedura-Palomero vs. Miguel Damas: Total Sets O/U 2.5",
-      "rank": 15,
-      "score": 5.199999999999999,
-      "liquidity": 4453.427,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #15，评分 5.2"
-    },
-    {
-      "market_id": "1396335",
-      "question": "Spread: West Ham United FC (-1.5)",
-      "rank": 16,
-      "score": 5.199999999999999,
-      "liquidity": 2544.7444,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #16，评分 5.2"
-    },
-    {
-      "market_id": "1399380",
-      "question": "US forces in Venezuela again by March 31, 2026?",
       "rank": 18,
       "score": 5.199999999999999,
-      "liquidity": 2400.3256,
+      "liquidity": 4730.1797,
       "implied_probability": null,
       "reason": "新上榜，排名 #18，评分 5.2"
     },
     {
-      "market_id": "1462551",
-      "question": "1H Spread: Rockets (-1.5)",
+      "market_id": "1396335",
+      "question": "Spread: West Ham United FC (-1.5)",
       "rank": 19,
       "score": 5.199999999999999,
-      "liquidity": 1942.8578,
+      "liquidity": 2544.7444,
       "implied_probability": null,
       "reason": "新上榜，排名 #19，评分 5.2"
     },
     {
-      "market_id": "1463593",
-      "question": "Spread: Wyoming Cowboys (-21.5)",
-      "rank": 20,
-      "score": 5.199999999999999,
-      "liquidity": 1865.1729,
-      "implied_probability": null,
-      "reason": "新上榜，排名 #20，评分 5.2"
-    },
-    {
-      "market_id": "1462552",
-      "question": "Rockets vs. Heat: 1H O/U 109.5",
+      "market_id": "1399380",
+      "question": "US forces in Venezuela again by March 31, 2026?",
       "rank": 21,
       "score": 5.199999999999999,
-      "liquidity": 1841.0874,
+      "liquidity": 2400.3256,
       "implied_probability": null,
       "reason": "新上榜，排名 #21，评分 5.2"
     },
@@ -117,7 +81,7 @@
       "question": "Rockets vs. Heat: 1H Moneyline",
       "rank": 22,
       "score": 5.199999999999999,
-      "liquidity": 1831.8519,
+      "liquidity": 1831.9059,
       "implied_probability": null,
       "reason": "新上榜，排名 #22，评分 5.2"
     },
@@ -126,7 +90,7 @@
       "question": "Spread: Pyramids FC (-2.5)",
       "rank": 23,
       "score": 5.199999999999999,
-      "liquidity": 1775.0844,
+      "liquidity": 1676.1038,
       "implied_probability": null,
       "reason": "新上榜，排名 #23，评分 5.2"
     },
@@ -194,44 +158,12 @@
       "reason": "跌出榜单昨日排名 #2"
     },
     {
-      "market_id": "1456809",
-      "question": "Bitcoin Up or Down - February 28, 2:40PM-2:45PM ET",
-      "yesterday_rank": 3,
-      "yesterday_score": 5.799999999999999,
-      "yesterday_liquidity": 15164.6493,
-      "reason": "跌出榜单昨日排名 #3"
-    },
-    {
-      "market_id": "1456432",
-      "question": "Bitcoin Up or Down - February 28, 2:30PM-2:35PM ET",
-      "yesterday_rank": 4,
-      "yesterday_score": 5.799999999999999,
-      "yesterday_liquidity": 15150.3739,
-      "reason": "跌出榜单昨日排名 #4"
-    },
-    {
-      "market_id": "1459683",
-      "question": "Bitcoin Up or Down - February 28, 3:35PM-3:40PM ET",
-      "yesterday_rank": 5,
-      "yesterday_score": 5.799999999999999,
-      "yesterday_liquidity": 15145.7824,
-      "reason": "跌出榜单昨日排名 #5"
-    },
-    {
       "market_id": "1453986",
       "question": "Bitcoin Up or Down - February 28, 7:20AM-7:25AM ET",
       "yesterday_rank": 6,
       "yesterday_score": 5.799999999999999,
       "yesterday_liquidity": 15116.1961,
       "reason": "跌出榜单昨日排名 #6"
-    },
-    {
-      "market_id": "1455625",
-      "question": "Bitcoin Up or Down - February 28, 12:40PM-12:45PM ET",
-      "yesterday_rank": 7,
-      "yesterday_score": 5.799999999999999,
-      "yesterday_liquidity": 15044.058,
-      "reason": "跌出榜单昨日排名 #7"
     },
     {
       "market_id": "1452445",
@@ -339,82 +271,82 @@
     {
       "market_id": "1382469",
       "question": "Spread: FC København (-2.5)",
-      "today_rank": 17,
+      "today_rank": 20,
       "yesterday_rank": 24,
       "change_score": 3.5195093426587363,
-      "reason": "综合变化得分 3.5，排名 24 → 17"
-    },
-    {
-      "market_id": "1456313",
-      "question": "Solana Up or Down - February 28, 2:15PM-2:30PM ET",
-      "today_rank": 9,
-      "yesterday_rank": 22,
-      "change_score": 1.5487400510260485,
-      "reason": "综合变化得分 1.5，排名 22 → 9"
+      "reason": "综合变化得分 3.5，排名 24 → 20"
     },
     {
       "market_id": "1456099",
       "question": "XRP Up or Down - February 28, 2:00PM-2:15PM ET",
-      "today_rank": 10,
+      "today_rank": 14,
       "yesterday_rank": 21,
-      "change_score": 1.3691129619324318,
-      "reason": "综合变化得分 1.4，排名 21 → 10"
+      "change_score": 1.1426875603316309,
+      "reason": "综合变化得分 1.1，排名 21 → 14"
+    },
+    {
+      "market_id": "1456313",
+      "question": "Solana Up or Down - February 28, 2:15PM-2:30PM ET",
+      "today_rank": 15,
+      "yesterday_rank": 22,
+      "change_score": 1.0896981257744578,
+      "reason": "综合变化得分 1.1，排名 22 → 15"
+    },
+    {
+      "market_id": "1455625",
+      "question": "Bitcoin Up or Down - February 28, 12:40PM-12:45PM ET",
+      "today_rank": 5,
+      "yesterday_rank": 7,
+      "change_score": 0.23434953521184143,
+      "reason": "综合变化得分 0.2，排名 7 → 5"
+    },
+    {
+      "market_id": "1456432",
+      "question": "Bitcoin Up or Down - February 28, 2:30PM-2:35PM ET",
+      "today_rank": 1,
+      "yesterday_rank": 4,
+      "change_score": 0.22723320379571585,
+      "reason": "综合变化得分 0.2，排名 4 → 1"
+    },
+    {
+      "market_id": "1459683",
+      "question": "Bitcoin Up or Down - February 28, 3:35PM-3:40PM ET",
+      "today_rank": 3,
+      "yesterday_rank": 5,
+      "change_score": 0.22349924953365283,
+      "reason": "综合变化得分 0.2，排名 5 → 3"
+    },
+    {
+      "market_id": "1456809",
+      "question": "Bitcoin Up or Down - February 28, 2:40PM-2:45PM ET",
+      "today_rank": 2,
+      "yesterday_rank": 3,
+      "change_score": 0.21488581341607527,
+      "reason": "综合变化得分 0.2，排名 3 → 2"
     },
     {
       "market_id": "1456073",
       "question": "Ethereum Up or Down - February 28, 1:55PM-2:00PM ET",
-      "today_rank": 3,
+      "today_rank": 8,
       "yesterday_rank": 14,
-      "change_score": 0.4853261993533987,
-      "reason": "综合变化得分 0.5，排名 14 → 3"
+      "change_score": 0.11167522433367856,
+      "reason": "综合变化得分 0.1，排名 14 → 8"
     },
     {
       "market_id": "1456467",
       "question": "Solana Up or Down - February 28, 2:35PM-2:40PM ET",
-      "today_rank": 5,
+      "today_rank": 10,
       "yesterday_rank": 18,
-      "change_score": 0.4676467031151199,
-      "reason": "综合变化得分 0.5，排名 18 → 5"
-    },
-    {
-      "market_id": "1456428",
-      "question": "XRP Up or Down - February 28, 2:25PM-2:30PM ET",
-      "today_rank": 7,
-      "yesterday_rank": 19,
-      "change_score": 0.4673556552742535,
-      "reason": "综合变化得分 0.5，排名 19 → 7"
+      "change_score": 0.07314441651027451,
+      "reason": "综合变化得分 0.1，排名 18 → 10"
     },
     {
       "market_id": "1456466",
       "question": "XRP Up or Down - February 28, 2:35PM-2:40PM ET",
-      "today_rank": 8,
+      "today_rank": 13,
       "yesterday_rank": 20,
-      "change_score": 0.4656371794380731,
-      "reason": "综合变化得分 0.5，排名 20 → 8"
-    },
-    {
-      "market_id": "1456816",
-      "question": "Solana Up or Down - February 28, 2:40PM-2:45PM ET",
-      "today_rank": 6,
-      "yesterday_rank": 17,
-      "change_score": 0.44960962630447654,
-      "reason": "综合变化得分 0.4，排名 17 → 6"
-    },
-    {
-      "market_id": "1456469",
-      "question": "Ethereum Up or Down - February 28, 2:35PM-2:40PM ET",
-      "today_rank": 2,
-      "yesterday_rank": 12,
-      "change_score": 0.44229149178015004,
-      "reason": "综合变化得分 0.4，排名 12 → 2"
-    },
-    {
-      "market_id": "1456430",
-      "question": "Ethereum Up or Down - February 28, 2:25PM-2:30PM ET",
-      "today_rank": 4,
-      "yesterday_rank": 13,
-      "change_score": 0.442045941421419,
-      "reason": "综合变化得分 0.4，排名 13 → 4"
+      "change_score": 0.07180962352322227,
+      "reason": "综合变化得分 0.1，排名 20 → 13"
     }
   ]
 }
