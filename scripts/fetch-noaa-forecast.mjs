@@ -37,7 +37,18 @@ const CONFIG = {
     { id: 'KDEN', name: 'Denver, CO', lat: 39.8561, lon: -104.6737 },
     { id: 'KMIA', name: 'Miami, FL', lat: 25.7959, lon: -80.2870 },
     { id: 'KORD', name: 'Chicago, IL', lat: 41.9742, lon: -87.9073 },
-    { id: 'KLAX', name: 'Los Angeles, CA', lat: 33.9425, lon: -118.4081 }
+    { id: 'KLAX', name: 'Los Angeles, CA', lat: 33.9425, lon: -118.4081 },
+    { id: 'KATL', name: 'Atlanta, GA', lat: 33.6407, lon: -84.4277 },
+    { id: 'KBOS', name: 'Boston, MA', lat: 42.3656, lon: -71.0096 },
+    { id: 'KPHL', name: 'Philadelphia, PA', lat: 39.8729, lon: -75.2437 },
+    { id: 'KIAD', name: 'Washington Dulles, VA', lat: 38.9531, lon: -77.4565 },
+    { id: 'KIAH', name: 'Houston, TX', lat: 29.9902, lon: -95.3368 },
+    { id: 'KPHX', name: 'Phoenix, AZ', lat: 33.4484, lon: -112.0740 },
+    { id: 'KSFO', name: 'San Francisco, CA', lat: 37.6213, lon: -122.3790 },
+    { id: 'KLAS', name: 'Las Vegas, NV', lat: 36.0840, lon: -115.1537 },
+    { id: 'KPDX', name: 'Portland, OR', lat: 45.5898, lon: -122.5951 },
+    { id: 'KMSP', name: 'Minneapolis, MN', lat: 44.8820, lon: -93.2218 },
+    { id: 'KDTW', name: 'Detroit, MI', lat: 42.2162, lon: -83.3554 }
   ]
 };
 
