@@ -28,6 +28,9 @@ import { parseRules as parseResolutionRules } from './parse-resolution-rules.mjs
 // TokenId helpers (Gamma clobTokenIds can be array or JSON string)
 import { extractTokenIds } from './token-ids.mjs';
 
+// 导入天气概率引擎
+import { generateWeatherProbabilities } from './generate-weather-probability-engine.mjs';
+
 // === CONFIG ===
 const GAMMA_API = 'https://gamma-api.polymarket.com';
 const CLOB_API = 'https://clob.polymarket.com';
@@ -1240,6 +1243,23 @@ async function main() {
   const topResults = mergedResults;
   console.log(`[INFO] Selected top ${topResults.length} candidates`);
   
+  // 生成天气概率估计
+  console.log(`[INFO] Generating weather probability estimates...`);
+  const resultsWithProbabilities = generateWeatherProbabilities(topResults);
+  
+  // 合并概率结果 - 更新有概率的项
+  const finalResults = resultsWithProbabilities.map(item => {
+    if (item.assistant_prob !== undefined) {
+      return {
+        ...item,
+        assistant_prob: item.assistant_prob,
+        assistant_evidence: item.assistant_evidence,
+        assistant_edge: item.assistant_edge
+      };
+    }
+    return item;
+  });
+  
   // Generate output files
   const today = new Date().toISOString().split('T')[0];
   const outputDir = join(__dirname, '..', 'poly-knowledge', 'outputs');
@@ -1253,8 +1273,8 @@ async function main() {
   const jsonPath = join(outputDir, `watchlist-${today}.json`);
   
   // Count weather in top results
-  const weatherCount = topResults.filter(r => r.category === 'weather').length;
-  const aviationCount = topResults.filter(r => r.category === 'aviation').length;
+  const weatherCount = finalResults.filter(r => r.category === 'weather').length;
+  const aviationCount = finalResults.filter(r => r.category === 'aviation').length;
   
   const jsonOutput = {
     generated_at: new Date().toISOString(),
@@ -1270,7 +1290,7 @@ async function main() {
       generated_at: sources.generated_at,
       date: sources.date
     } : null,
-    watchlist: topResults
+    watchlist: finalResults
   };
   writeFileSync(jsonPath, JSON.stringify(jsonOutput, null, 2));
   console.log(`[OUTPUT] JSON: ${jsonPath}`);
@@ -1291,11 +1311,11 @@ async function main() {
   md += `\n`;
   
   // 简表
-  md += `## Top ${topResults.length} Candidates (Overview)\n\n`;
+  md += `## Top ${finalResults.length} Candidates (Overview)\n\n`;
   md += `| # | Question | Prob | Spread | Liq | Days | Score | Weather Sig | Category | Action | Trade Fit |\n`;
   md += `|---|----------|------|--------|-----|------|-------|-------------|----------|--------|----------|\n`;
   
-  for (const item of topResults) {
+  for (const item of finalResults) {
     const prob = item.implied_probability ? `${(item.implied_probability * 100).toFixed(1)}%` : 'N/A';
     const spread = item.spread_pct !== null ? `${item.spread_pct.toFixed(1)}%` : 'N/A';
     const liq = item.liquidity ? `$${Math.round(item.liquidity / 1000).toFixed(0)}k` : 'N/A';
@@ -1305,6 +1325,7 @@ async function main() {
     const action = item.action ? item.action.replace(/⭐|⚠️/g, '').substring(0, 12) : 'N/A';
     const weatherSig = item.weather_signal_score !== undefined ? `${item.weather_signal_score}` : '-';
     const tradeFeas = item.trade_feasibility || '-';
+    const assistantProb = item.assistant_prob !== undefined ? `${item.assistant_prob}%` : '-';
     
     md += `| ${item.rank} | ${question}... | ${prob} | ${spread} | ${liq} | ${days} | **${item.scores.total.toFixed(1)}** | ${weatherSig} | ${category} | ${action} | ${tradeFeas} |\n`;
   }
@@ -1312,17 +1333,22 @@ async function main() {
   // 详细可执行清单
   md += `\n---\n\n## 可执行清单 (Executable Checklist)\n\n`;
   
-  for (const item of topResults) {
+  for (const item of finalResults) {
     const question = item.question || 'N/A';
     const prob = item.implied_probability ? `${(item.implied_probability * 100).toFixed(1)}%` : 'N/A';
     const liq = item.liquidity ? `$${Math.round(item.liquidity).toLocaleString()}` : 'N/A';
     const days = item.days_to_event !== null ? `${item.days_to_event.toFixed(0)}天` : '未知';
     const category = item.category || 'unknown';
+    const assistantProb = item.assistant_prob !== undefined ? `${item.assistant_prob}%` : null;
+    const evidence = item.assistant_evidence || null;
     
     md += `### #${item.rank} ${question}\n\n`;
     md += `| Field | Value |\n`;
     md += `|-------|-------|\n`;
     md += `| **概率** | ${prob} |\n`;
+    if (assistantProb) {
+      md += `| **估计概率** | ${assistantProb} |\n`;
+    }
     md += `| **流动性** | ${liq} |\n`;
     md += `| **到期时间** | ${days} |\n`;
     md += `| **类别** | ${category} |\n`;
@@ -1332,6 +1358,11 @@ async function main() {
     if (item.weather_signal_score !== undefined) {
       const comp = item.weather_signal_components;
       md += `| **天气信号评分** | ${item.weather_signal_score}/10 (recency:${comp?.recency?.score || '-'}, agree:${comp?.model_agreement?.score || '-'}, vol:${comp?.volatility?.score || '-'}, gap:${comp?.data_gap_risk?.score || '-'}) |\n`;
+    }
+    
+    // Add assistant_evidence for weather
+    if (evidence) {
+      md += `| **气象证据** | maxTemp: ${evidence.maxTemp}${evidence.maxTempUnit}, threshold: ${evidence.threshold}${evidence.thresholdUnit}, sigma: ${evidence.sigmaC}°C/${evidence.sigmaF}°F, station: ${evidence.station} |\n`;
     }
     
     md += `| **行动** | ${item.action || 'N/A'} |\n`;
