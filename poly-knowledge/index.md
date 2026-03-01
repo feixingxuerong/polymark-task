@@ -2,6 +2,83 @@
 
 > 知识库索引 - Polymarket 预测市场研究的中心枢纽
 
+---
+
+## 市场追踪 (Markets Tracked)
+
+当前重点关注的市场类别：
+
+| 类别 | 描述 | 关注度 |
+|------|------|--------|
+| **天气/航空** | 温度、降水、极端天气、航班延误 | ⭐⭐⭐ 高 |
+| **宏观/政治** | 经济数据、地缘政治、选举 | ⭐⭐ 中 |
+| **加密货币** | BTC/ETH 价格预测、监管决策 | ⭐⭐ 中 |
+| **体育/娱乐** | 赛事结果、奖项归属 | ⭐ 低 |
+
+*详见 `notes/weather-probability-template.md`, `notes/weather-data-sources.md`*
+
+---
+
+## 研究模板 (Research Templates)
+
+### 市场研究模板
+
+```markdown
+## [市场名称]
+
+- **URL**: [Polymarket 市场链接]
+- **当前赔率**: X%
+- **结算日期**: YYYY-MM-DD
+- **Thesis**: [核心论点 - 1-2句话]
+
+### 信息来源
+- [来源1]: [关键信息]
+- [来源2]: [关键信息]
+
+### 风险因素
+- [风险1]
+- [风险2]
+
+### 结论
+- **建议**: [买入/卖出/观望]
+- **置信度**: [高/中/低]
+```
+
+*模板文件: `notes/weather-probability-template.md`*
+
+---
+
+## 风险提示 (Risk Notes)
+
+- **不涉及真实资金交易**: 本知识库仅用于研究与学习
+- **赔率不等于概率**: 市场赔率受流动性、情绪影响
+- **信息时效性**: 定期检查市场最新动态
+- **杠杆风险**: 避免过度杠杆
+
+*详见 `risk-and-bankroll.md`, `risk-bankroll.md`*
+
+---
+
+## 术语表 (Glossary)
+
+| 术语 | 英文 | 解释 |
+|------|------|------|
+| 负风险 | Negative Risk | 保险机制，赔率低于50%时保护 |
+| 流动性 | Liquidity | 市场深度，点差越小流动性越好 |
+| 结算 | Resolution | 事件结果判定与赔付 |
+| 赔率 | Odds | 隐含概率 = 1/赔率 |
+
+---
+
+## 常用链接 (Links)
+
+- [Polymarket 官网](https://polymarket.com)
+- [Polymarket Docs](https://docs.polymarket.com)
+- [API Endpoint](https://clob.polymarket.com)
+- [GitHub Repo](https://github.com/feixingxuerong/polymark-task)
+
+---
+
 ## 知识库定位
 
 本知识库服务于 Poly 项目的预测市场研究，目标是在 Polymarket 上实现净盈利 $1000。所有学习成果、策略分析、风控规则都集中管理，避免重复劳动。
@@ -161,3 +238,41 @@ poly-knowledge/
 - 类别模板: weather/aviation, macro/politics, crypto, sports, entertainment, economy
 - 来源: scripts/generate-watchlist.mjs
 - 更新人: Subagent-Watchlist-Executable
+
+### 2026-03-02
+
+- [新增] Issue #45 Bootstrap - 知识库索引增强：市场追踪、研究模板、风险提示、术语表、常用链接
+- 新增文件: `notes/research-template.md` 市场研究笔记模板
+- 更新人: Subagent-KB-Bootstrap
+
+---
+
+## 如何贡献研究 (Contributing Research)
+
+### 添加新研究笔记
+
+1. **Index-First**: 先在 `index.md` 创建条目大纲（章节状态标记为"进行中"）
+2. **记录来源**: 先在 `sources.md` 添加来源信息
+3. **撰写笔记**: 在 `notes/` 目录创建 `issue-{编号}-{主题}.md` 文件
+4. **更新状态**: 完成后在 `index.md` 更新状态为"✅ 已完成"
+
+### 避免重复工作
+
+- 搜索 `sources.md` 确认来源是否已记录
+- 检查 `notes/` 目录是否有相关主题笔记
+- 在 GitHub Issue 中标注正在进行的研究，避免重复
+
+### 研究笔记命名规范
+
+| 类型 | 命名规则 | 示例 |
+|------|----------|------|
+| Issue 笔记 | `issue-{编号}-{描述}.md` | `issue-45-kb-bootstrap.md` |
+| 主题笔记 | `{主题}-{子主题}.md` | `weather-probability-template.md` |
+
+### 注意事项
+
+- `poly-knowledge/` 下文档默认使用中文
+- 每个结论需包含：来源链接、关键假设、可验证方式
+- 避免大段"观点堆砌"，优先写成可执行 checklist
+
+*详见仓库根目录 `CONTRIBUTING.md`*
